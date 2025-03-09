@@ -89,7 +89,7 @@
 <li>Para buscar plugins, vamos a: <a href="https://github.com/qbittorrent/search-plugins/wiki/Unofficial-search-plugins#plugins-for-public-sites" target="_blank" rel="noopener noreferrer">https://github.com/qbittorrent/search-plugins/wiki/Unofficial-search-plugins#plugins-for-public-sites</a></li>
 <li>Buscamos algún plugin que queramos y copiamos el enlace que aparece en la columna "Download link"
 <img decoding="async" loading="lazy" alt="plugin-link" src="https://linternita.com/assets/images/plugin-link-ccedebf664f5f3679a7ee940a2953171.png" width="933" height="362" class="img_ev3q"></li>
-<li>Volvemos a qBitorrent, hacemos click en el botón "Instalar uno nuevo", seleccionamos la opción "Enlace Web", y pegamos el enlace del punto anterior
+<li>Volvemos a qBittorrent, hacemos click en el botón "Instalar uno nuevo", seleccionamos la opción "Enlace Web", y pegamos el enlace del punto anterior
 <img decoding="async" loading="lazy" alt="plugin-install" src="https://linternita.com/assets/images/plugin-install-e47b4e1bbfa41c3130020c6b30d85fda.png" width="512" height="281" class="img_ev3q"></li>
 <li>Le damos a aceptar y listo, instalamos un plugin de búsqueda. Ahora las búsquedas que hagamos van a hacer uso del mismo para buscar torrents</li>
 </ol>
