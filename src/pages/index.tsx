@@ -30,7 +30,7 @@ export default function Home(): ReactNode {
   return (
     <Layout
       title={`Una página sobre linternas`}
-      description="Description will go into a meta tag in <head />"
+      description="Una linterna o lámpara de mano es un aparato portátil de iluminación que funciona por medio de pilas o baterías eléctricas."
     >
       <HomepageHeader />
     </Layout>
