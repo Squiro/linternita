@@ -1,9 +1,0 @@
-torrents:
-  label: torrents
-  permalink: /torrents
-  description: Posts relacionados al protocolo BitTorrent
-
-qbittorrent:
-  label: qbittorrent
-  permalink: /qbittorrent
-  description: Posts relacionados a qBittorrent

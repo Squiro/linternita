@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunklinternita=self.webpackChunklinternita||[]).push([[121],{8070:t=>{t.exports=JSON.parse('{"tags":[{"label":"torrents","permalink":"/blog/tags/torrents","description":"Posts relacionados al protocolo BitTorrent","count":1},{"label":"qbittorrent","permalink":"/blog/tags/qbittorrent","description":"Posts relacionados a qBittorrent","count":1}]}')}}]);

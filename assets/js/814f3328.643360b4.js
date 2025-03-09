@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunklinternita=self.webpackChunklinternita||[]).push([[472],{5513:t=>{t.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"current technology sucks - qBittorrent","permalink":"/blog/tecnologia-torrents","unlisted":false,"date":"2025-03-09T00:00:00.000Z"}]}')}}]);
