@@ -18,10 +18,10 @@
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="el-estado-actual-de-la-tecnología-es-">El estado actual de la tecnología es :(<a href="https://linternita.com/blog/tecnologia-torrents#el-estado-actual-de-la-tecnolog%C3%ADa-es-" class="hash-link" aria-label="Direct link to El estado actual de la tecnología es :(" title="Direct link to El estado actual de la tecnología es :(">​</a></h2>
 <p>Me permití robar esta frase de una <a href="https://www.youtube.com/watch?v=ZSRHeXYDLko" target="_blank" rel="noopener noreferrer">charla dada por Jonathan Blow</a> para usarla como apertura de este blog. En su charla, Blow la utiliza bajo el contexto de que, si no somos considerados y hacemos un esfuerzo consciente, es muy fácil perder el conocimiento tecnológico que poseemos.</p>
 <p>Yo la voy a usar bajo otro contexto: desde el punto de vista de un consumidor, la tecnología actual es cada vez peor y hay una notable falta de innovación.</p>
-<p>Cada vez se hace más complicado ver esa película que querés ver. Tenés que buscar en qué servicio de streaming está. Tenés que suscribirte mensualmente. Tenés que usar su aplicación que probablemente sea una mierda para verla. Si la querés volver a ver, tenés que tener cuidado porque quizás el servicio cerró u otro servicio compró los derechos de la película y ahora está en ese.</p>
+<p>Cada vez se hace más complicado ver esa película que querés ver. Tenés que buscar en qué servicio de streaming está. Tenés que suscribirte mensualmente. Tenés que usar su aplicación (que probablemente sea una mierda) para verla. Si la querés volver a ver, tenés que tener cuidado porque quizás el servicio cerró u <em>otro</em> servicio compró los derechos de la película y ahora está en ese.</p>
 <p>Cada vez se hace más difícil conseguir un celular que tenga <em>cosas</em> que tenían los celulares hace 10 años atrás. Hoy en día podés pagar alrededor de 1400 doláres para tener un celular que:</p>
 <ul>
-<li>❌ No tiene jack de auriculares.</li>
+<li>❌ No tiene jack/conector para auriculares.</li>
 <li>❌ No podés agregarle una memoria SD.</li>
 <li>❌ No podés removerle la batería y cambiársela por otra.</li>
 <li>❌ No venga con cargador.</li>
@@ -51,7 +51,7 @@
 <p>Hoy en día descargar cosas via torrent no puede ser más fácil. Ni siquiera hace falta que entres a una página para buscarlos. Podés hacer todo desde un solo programa: qBittorrent.</p>
 <p>Esto es lo mucho que tardo para descargar algo que me interesa:</p>
 <ol>
-<li>Abro el programa</li>
+<li>Abro el programa.</li>
 <li>Voy al buscador y tipeo lo que quiero:
 <img decoding="async" loading="lazy" alt="busqueda" src="https://linternita.com/assets/images/busqueda-b1ecd29b7b83eb1d9e46af313b9f2fd7.png" width="629" height="227" class="img_ev3q"></li>
 <li>Selecciono el resultado que me gusta y lo descargo:
