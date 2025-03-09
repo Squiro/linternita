@@ -7,7 +7,7 @@
     "start": "docusaurus start",
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
-    "deploy": "set GIT_USER=Squiro && docusaurus deploy",
+    "deploy": "cross-env GIT_USER=Squiro docusaurus deploy",
     "clear": "docusaurus clear",
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
@@ -27,6 +27,7 @@
     "@docusaurus/module-type-aliases": "3.7.0",
     "@docusaurus/tsconfig": "3.7.0",
     "@docusaurus/types": "3.7.0",
+    "cross-env": "^7.0.3",
     "typescript": "~5.6.2"
   },
   "browserslist": {
