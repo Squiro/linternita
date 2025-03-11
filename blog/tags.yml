@@ -7,3 +7,18 @@ qbittorrent:
   label: qbittorrent
   permalink: /qbittorrent
   description: Posts relacionados a qBittorrent
+
+plex:
+  label: Plex
+  permalink: /plex
+  description: Posts relacionados a Plex
+
+techtakes:
+  label: techtakes
+  permalink: /techtakes
+  description: Posts donde comparto mis opiniones (totalmente erradas) sobre tecnología
+
+AI:
+  label: AI
+  permalink: /ai
+  description: Posts relacionados a inteligencia artificial
