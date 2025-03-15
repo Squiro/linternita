@@ -59,42 +59,54 @@ definía una clase en JavaScript ES5 (2009):
 ```javascript
 "use strict";
 
-/\*\*
+/**
+ * Person class.
+ *
+ * @constructor
+ * @param {String} name - name of a person.
+ * @param {Number} age  - age of a person.
+ * @param {String} gender  - gender of a person.
+ */
 
-- Person class.
--
-- @constructor
-- @param {String} name - name of a person.
-- @param {Number} age - age of a person.
-- @param {String} gender - gender of a person. \*/
+function Person(name, age, gender) {
+  this.name = name;
+  this.age = age;
+  this.gender = gender;
+}
 
-function Person(name, age, gender) { this.name = name; this.age = age;
-this.gender = gender; }
+Person.prototype.getName = function () {
+  return this.name;
+};
 
-Person.prototype.getName = function () { return this.name; };
+Person.prototype.getAge = function () {
+  return this.age;
+};
 
-Person.prototype.getAge = function () { return this.age; };
+Person.prototype.getGender = function () {
+  return this.gender;
+};
 
-Person.prototype.getGender = function () { return this.gender; };
+/**
+ * Teacher class.
+ *
+ * @constructor
+ * @param {String} name - name of a teacher.
+ * @param {Number} age  - age of a teacher.
+ * @param {String} gender  - gender of a teacher.
+ * @param {String} subject - subject of a teacher.
+ */
 
-/\*\*
-
-- Teacher class.
--
-- @constructor
-- @param {String} name - name of a teacher.
-- @param {Number} age - age of a teacher.
-- @param {String} gender - gender of a teacher.
-- @param {String} subject - subject of a teacher. \*/
-
-function Teacher(name, age, gender, subject) { Person.call(this, name, age,
-gender); this.subject = subject; }
+function Teacher(name, age, gender, subject) {
+  Person.call(this, name, age, gender);
+  this.subject = subject;
+}
 
 Teacher.prototype = Object.create(Person.prototype);
 Teacher.prototype.constructor = Teacher;
 
-Teacher.prototype.getSubject = function () { return this.subject; };
-
+Teacher.prototype.getSubject = function () {
+  return this.subject;
+};
 ```
 
 </details>
