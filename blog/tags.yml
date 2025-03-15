@@ -13,10 +13,16 @@ plex:
   permalink: /plex
   description: Posts relacionados a Plex
 
+musica:
+  label: musica
+  permalink: /musica
+  description: Posts relacionados a musica
+
 techtakes:
   label: techtakes
   permalink: /techtakes
-  description: Posts donde comparto mis opiniones (totalmente erradas) sobre tecnología
+  description:
+    Posts donde comparto mis opiniones (totalmente erradas) sobre tecnología
 
 AI:
   label: AI
