@@ -28,3 +28,8 @@ AI:
   label: AI
   permalink: /ai
   description: Posts relacionados a inteligencia artificial
+
+random:
+  label: random
+  permalink: /random
+  description: Posts de cualquier cosa
