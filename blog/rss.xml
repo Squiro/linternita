@@ -4,10 +4,224 @@
         <title>Linternita Blog</title>
         <link>https://linternita.com/blog</link>
         <description>Linternita Blog</description>
-        <lastBuildDate>Fri, 14 Mar 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 20 Mar 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Internet antes de la triple W]]></title>
+            <link>https://linternita.com/blog/internet-antes-de-la-triple-w</link>
+            <guid>https://linternita.com/blog/internet-antes-de-la-triple-w</guid>
+            <pubDate>Thu, 20 Mar 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Un vistazo a lo que existía antes del internet que conocemos hoy en día.]]></description>
+            <content:encoded><![CDATA[<p>Un vistazo a lo que existía antes del internet que conocemos hoy en día.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="introducción">Introducción<a href="https://linternita.com/blog/internet-antes-de-la-triple-w#introducci%C3%B3n" class="hash-link" aria-label="Direct link to Introducción" title="Direct link to Introducción">​</a></h2>
+<p>Estás en la década de los 80 y tenés una computadora y una conexión dial-up que
+te da acceso a internet. Te aburrís y querés ver qué anda pasando en la
+<a href="https://en.wikipedia.org/wiki/Information_superhighway" target="_blank" rel="noopener noreferrer">autopista de la información</a>.
+Abrís tu navegador de confianza, escribís la siguiente URL <em>hache te te pe
+dospuntos triple doble v punto miforofavoritodeinternet punto com</em> y apretás
+enter.</p>
+<p>De golpe te das cuenta que cometiste un grave error: los navegadores web no van
+a ser inventados hasta 1990. Las páginas web son un concepto inexistente. El
+protocolo HTTP no va a ser lanzado hasta 1996. Si todo esto no existe... ¿Qué
+corno hay en el internet entonces? ¿Dónde puedo leer una publicación, noticia, o
+comentar algo como si estuviera en un foro?</p>
+<p>Seguramente existían más formas, pero las principales eran bien usando un
+<a href="https://en.wikipedia.org/wiki/Bulletin_board_system" target="_blank" rel="noopener noreferrer">BBS</a> o...
+<a href="https://en.wikipedia.org/wiki/Usenet" target="_blank" rel="noopener noreferrer">Usenet</a>.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="usenet">Usenet<a href="https://linternita.com/blog/internet-antes-de-la-triple-w#usenet" class="hash-link" aria-label="Direct link to Usenet" title="Direct link to Usenet">​</a></h2>
+<p>En los anteriores párrafos hice referencia a foros de internet porque quizás sea
+la forma más simple de entender (para gente moderna como nosotros) qué era
+Usenet.</p>
+<p>Los foros son páginas donde los usuarios pueden crear publicaciones y comentar
+en las mismas, formando un hilo de discusión. Usenet es básicamente lo mismo,
+solo que utiliza otros términos: en vez de foro, se llama newsgroup. En vez de
+publicaciones, se llaman "news articles". Y tiene un pequeño detalle: está
+totalmente basado en texto.</p>
+<p><img decoding="async" loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/0/02/Slrn.png" alt="usenet" class="img_ev3q"></p>
+<p><em>Figura 1: literalmente la primera imagen que sale en Wikipedia sobre Usenet</em></p>
+<p>Si bien estaría bueno explicar cómo funciona este sistema y la tecnología que
+maneja por detrás, la verdad es que:</p>
+<ul>
+<li>Nunca lo usé</li>
+<li>No sé cómo funciona porque nunca lo usé</li>
+<li>Nunca me interesó demasiado... (hasta ayer)</li>
+</ul>
+<p>Uno podría pensar que las discusiones y todo el contenido de Usenet está
+totalmente perdido e inaccesible. Mucho contenido de la internet que conocemos
+hoy en día se encuentra perdido e inaccesible. Pero así como existe
+<a href="https://archive.org/" target="_blank" rel="noopener noreferrer">gente que intenta preservar el contenido de la triple W</a>,
+existe gente que decidió resguardar y archivar los artículos de Usenet.</p>
+<p>Gracias a...
+<a href="https://en.wikipedia.org/wiki/Usenet#Archives_by_Google_Groups_and_Deja_News" target="_blank" rel="noopener noreferrer">¿GOOGLE?</a>
+Podemos acceder a un archivo de Usenet con contenido que data de 1981.</p>
+<p>Para eso tenemos que ir a <a href="https://groups.google.com/" target="_blank" rel="noopener noreferrer">Google Groups</a> y usar el
+buscador incorporado. Supuestamente antes había una forma más fácil de buscar
+cosas relacionadas a Usenet, pero como siempre, a Google le encanta romper todo.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="vistazo-al-pasado">Vistazo al pasado<a href="https://linternita.com/blog/internet-antes-de-la-triple-w#vistazo-al-pasado" class="hash-link" aria-label="Direct link to Vistazo al pasado" title="Direct link to Vistazo al pasado">​</a></h2>
+<p>El hecho de tener publicaciones archivadas desde 1981 vuelven a Usenet una
+fantástica cápsula del tiempo. Es posible encontrar acá información que no se
+puede encontrar en otros lados. Ni siquiera en la internet que tenemos hoy en
+día (y en la que cada vez es más difícil encontrar información,
+paradójicamente).</p>
+<p>En uno de sus últimos videos,
+<a href="https://www.youtube.com/watch?v=ympjaibY6to" target="_blank" rel="noopener noreferrer">Cathode Ray Dude</a> usó este sistema
+para encontrar el precio de... una conexión dial-up específica allá por los
+80/90. Puede parecer algo tonto, pero si no fuera porque alguien decidió hacer
+un comentario poniendo el precio en Usenet (y porque otro alguien decidió
+archivar todo esto), ese pedacito de información se hubiera pérdido para
+siempre.</p>
+<p>En mi caso no estoy buscando algo tan especifico. Simplemente entré para ver qué
+publicaban algunos argentinos/hispanohablantes en esas épocas. A continuación un
+listado de cosas que me parecieron interesantes o graciosas.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="primer-post-que-vi-alguien-enojado-y-a-las-puteadas">Primer post que vi: alguien enojado y a las puteadas<a href="https://linternita.com/blog/internet-antes-de-la-triple-w#primer-post-que-vi-alguien-enojado-y-a-las-puteadas" class="hash-link" aria-label="Direct link to Primer post que vi: alguien enojado y a las puteadas" title="Direct link to Primer post que vi: alguien enojado y a las puteadas">​</a></h3>
+<p><a href="https://groups.google.com/g/soc.culture.venezuela/c/qvQOGnwvdxY/m/1e_xDSHLl7oJ" target="_blank" rel="noopener noreferrer">https://groups.google.com/g/soc.culture.venezuela/c/qvQOGnwvdxY/m/1e_xDSHLl7oJ</a></p>
+<p>Un post bastante reciente de 2011 (!) donde alguien despotrica y empieza a
+insultar a otros usuarios frecuentes del newsgroup.</p>
+<p>Un usuario (que aparece en artículos que datan de 1995) le contestó:</p>
+<p><img decoding="async" loading="lazy" alt="catecumeno" src="https://linternita.com/assets/images/catecumeno-743311523c68631466fb27f720475544.png" width="579" height="587" class="img_ev3q"></p>
+<p><em>Usted es un catecúmeno que convirtió un discurso partidario en una parodia
+repetititva, elemental, irresponsable, en una pendejada que ni estimula mis
+glándulas risáceas.</em></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="laura-aprobó-el-examen">Laura aprobó el examen<a href="https://linternita.com/blog/internet-antes-de-la-triple-w#laura-aprob%C3%B3-el-examen" class="hash-link" aria-label="Direct link to Laura aprobó el examen" title="Direct link to Laura aprobó el examen">​</a></h3>
+<p><a href="https://groups.google.com/g/soc.culture.argentina/c/dXn0eeYBwvU/m/bYlTLriSJXMJ" target="_blank" rel="noopener noreferrer">https://groups.google.com/g/soc.culture.argentina/c/dXn0eeYBwvU/m/bYlTLriSJXMJ</a></p>
+<p>El 24 de diciembre de 1999, a las 5 de la mañana (no sé bajo qué huso horario),
+Laura nos informa que:</p>
+<p><img decoding="async" loading="lazy" alt="laura-examen" src="https://linternita.com/assets/images/laura-examen-8e537a29064e9ae86cd8e37ad2047082.png" width="633" height="229" class="img_ev3q"></p>
+<p>Y nos deja una traducción para los chilenos. Cachai?</p>
+<p>Felicidades Laura.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="un-faq-gigantesco-con-un-montón-de-cosas-sobre-argentina">Un FAQ gigantesco con un montón de cosas sobre Argentina<a href="https://linternita.com/blog/internet-antes-de-la-triple-w#un-faq-gigantesco-con-un-mont%C3%B3n-de-cosas-sobre-argentina" class="hash-link" aria-label="Direct link to Un FAQ gigantesco con un montón de cosas sobre Argentina" title="Direct link to Un FAQ gigantesco con un montón de cosas sobre Argentina">​</a></h3>
+<p><a href="https://groups.google.com/g/soc.answers/c/_D9o6J6iV_0/m/yHSOwVFS2S0J" target="_blank" rel="noopener noreferrer">https://groups.google.com/g/soc.answers/c/_D9o6J6iV_0/m/yHSOwVFS2S0J</a></p>
+<p>Se ve que este newsgroup tenía un FAQ que cubría un montón de cosas relacionadas
+a Argentina, más que nada orientado a argentinos en el exterior.</p>
+<p>Un poco de contexto: recordemos que tener una computadora y una conexión a
+internet en los 90 no era algo tan asequible como hoy en día. Menos que menos en
+Argentina. Aparentemente por estas fechas muchos de los usuarios eran argentinos
+que residían en el exterior, en países como Estados Unidos.</p>
+<p>Es bastante extenso, pero resalto:</p>
+<p><img decoding="async" loading="lazy" alt="faq-chorreo-argentino" src="https://linternita.com/assets/images/faq-chorreo-argentino-4d4c3f4fe2c9d125f511f070422436d9.png" width="517" height="194" class="img_ev3q"></p>
+<p>Aparentemente Chorreo Argentino funcionaba igual que hoy en día.</p>
+<p><img decoding="async" loading="lazy" alt="faq-mercedes-sosa" src="https://linternita.com/assets/images/faq-mercedes-sosa-24f9d89e998a315e89d4073ee4e87552.png" width="484" height="140" class="img_ev3q"></p>
+<p>Se ve que la gente que vivía en el exterior se moría por comprar CDs de Mercedes
+Sosa.</p>
+<p><img decoding="async" loading="lazy" alt="faq-viejos-modem" src="https://linternita.com/assets/images/faq-viejos-modem-98bc268c5b80a68066ba9922e9abf2ad.png" width="504" height="335" class="img_ev3q"></p>
+<p>No es buena idea darle un modem a tus papás porque si no les contestás un mail
+al instante se ponen muy pesados.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="errores-con-windows-98">Errores con Windows 98<a href="https://linternita.com/blog/internet-antes-de-la-triple-w#errores-con-windows-98" class="hash-link" aria-label="Direct link to Errores con Windows 98" title="Direct link to Errores con Windows 98">​</a></h3>
+<p><a href="https://groups.google.com/g/soc.culture.argentina/c/yEWVC8yYXw8/m/beczHvfGcsgJ" target="_blank" rel="noopener noreferrer">https://groups.google.com/g/soc.culture.argentina/c/yEWVC8yYXw8/m/beczHvfGcsgJ</a>
+<a href="https://groups.google.com/g/soc.culture.argentina/c/2hJgr5nAe9o/m/zKs6hyg81yoJ" target="_blank" rel="noopener noreferrer">https://groups.google.com/g/soc.culture.argentina/c/2hJgr5nAe9o/m/zKs6hyg81yoJ</a></p>
+<p>Dos posts donde un usuario reporta tener errores con Windows 98 y muchos salen a
+la ayuda. Otros salen a decir que Windows no es un sistema estable. Y otros le
+recomiendan tocar pasto.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="acuchillaron-a-geroge-harrison">Acuchillaron a Geroge Harrison<a href="https://linternita.com/blog/internet-antes-de-la-triple-w#acuchillaron-a-geroge-harrison" class="hash-link" aria-label="Direct link to Acuchillaron a Geroge Harrison" title="Direct link to Acuchillaron a Geroge Harrison">​</a></h3>
+<p><a href="https://groups.google.com/g/soc.culture.argentina/c/XCb6-0K5eMw/m/2CvVB7OCOfwJ" target="_blank" rel="noopener noreferrer">https://groups.google.com/g/soc.culture.argentina/c/XCb6-0K5eMw/m/2CvVB7OCOfwJ</a></p>
+<p>Un usuario reacciona con mucha tristza a la noticia de un posible re-encuentro
+de George Harrison y John Lennon.</p>
+<p><img decoding="async" loading="lazy" alt="george-harrison" src="https://linternita.com/assets/images/george-harrison-beb7a7f1cf421823172d773c89a41f1e.png" width="643" height="227" class="img_ev3q"></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="feliz-cumple-edu">Feliz cumple Edu<a href="https://linternita.com/blog/internet-antes-de-la-triple-w#feliz-cumple-edu" class="hash-link" aria-label="Direct link to Feliz cumple Edu" title="Direct link to Feliz cumple Edu">​</a></h3>
+<p><a href="https://groups.google.com/g/soc.culture.argentina/c/7EQkRsyfdFo/m/t176QYXty1wJ" target="_blank" rel="noopener noreferrer">https://groups.google.com/g/soc.culture.argentina/c/7EQkRsyfdFo/m/t176QYXty1wJ</a></p>
+<p>Olivia le desea un feliz cumpleaños a un tal Eduardo. ¿Y aparentemente... rolea
+en la primera oración?</p>
+<p><img decoding="async" loading="lazy" alt="edu-fc" src="https://linternita.com/assets/images/edu-fc-8c9e442c9076735a6affb77970f2ac4c.png" width="789" height="162" class="img_ev3q"></p>
+<p><em>* linternita se acerca e ilumina la situación *</em></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="edmundo-se-pasa">Edmundo se pasa<a href="https://linternita.com/blog/internet-antes-de-la-triple-w#edmundo-se-pasa" class="hash-link" aria-label="Direct link to Edmundo se pasa" title="Direct link to Edmundo se pasa">​</a></h3>
+<p><a href="https://groups.google.com/g/soc.culture.argentina/c/K6nnAosmZuA/m/T-wn7sr25HwJ" target="_blank" rel="noopener noreferrer">https://groups.google.com/g/soc.culture.argentina/c/K6nnAosmZuA/m/T-wn7sr25HwJ</a></p>
+<p>Edmundo deja este comentario:</p>
+<p><img decoding="async" loading="lazy" alt="edmundo-se-pasa" src="https://linternita.com/assets/images/edmundo-se-pasa-e40a9b6c1b8d0f4213922efb2f2dc4ac.png" width="576" height="217" class="img_ev3q"></p>
+<p>El cual le cae horriblemente mal a
+<a href="https://groups.google.com/g/soc.culture.argentina/c/K6nnAosmZuA/m/T-wn7sr25HwJ" target="_blank" rel="noopener noreferrer">rilkecita</a>:</p>
+<p><img decoding="async" loading="lazy" alt="edmundo-se-pasa-2" src="https://linternita.com/assets/images/edmundo-se-pasa-2-ba8c478cff387905bc68b5a7dda74476.png" width="627" height="589" class="img_ev3q"></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="tucumano-solitario">Tucumano solitario<a href="https://linternita.com/blog/internet-antes-de-la-triple-w#tucumano-solitario" class="hash-link" aria-label="Direct link to Tucumano solitario" title="Direct link to Tucumano solitario">​</a></h3>
+<p><a href="https://groups.google.com/g/soc.culture.argentina/c/aIjVF--wIXQ/m/gi9M0n4F5AAJ" target="_blank" rel="noopener noreferrer">https://groups.google.com/g/soc.culture.argentina/c/aIjVF--wIXQ/m/gi9M0n4F5AAJ</a></p>
+<p>Un tucumano se siente solo porque piensa que todos son porteños putos en este
+newsgroup.</p>
+<p><img decoding="async" loading="lazy" alt="tucumano-solitario" src="https://linternita.com/assets/images/tucumano-solitario-d7a70d7c635914b088b1b81e59e83a09.png" width="608" height="225" class="img_ev3q"></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="mujeres-argentinas">Mujeres argentinas<a href="https://linternita.com/blog/internet-antes-de-la-triple-w#mujeres-argentinas" class="hash-link" aria-label="Direct link to Mujeres argentinas" title="Direct link to Mujeres argentinas">​</a></h3>
+<p><a href="https://groups.google.com/g/soc.culture.argentina/c/cRTzHi4w9qw/m/f1W9BLshOb4J" target="_blank" rel="noopener noreferrer">https://groups.google.com/g/soc.culture.argentina/c/cRTzHi4w9qw/m/f1W9BLshOb4J</a></p>
+<p>Este post de 1993 tiene muchas cosas que me parecen interesantes. La primera,
+Graciela escribiendo fuego:</p>
+<p><img decoding="async" loading="lazy" alt="graciela-fuego" src="https://linternita.com/assets/images/graciela-fuego-1779b675076e71b6278c63c940f907f2.png" width="582" height="271" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" src="https://i.makeagif.com/media/7-21-2022/HatNIt.gif" alt="fuego" class="img_ev3q"></p>
+<p>La segunda, alguien llamado Martín Raskovsky participa en el artículo dejando
+varios comentarios. Aparentemente es alguien con un doctorado en Ciencias de la
+Computación. Pero no solo eso: este tipo sigue vivo, y es más, parece que ahora
+es un artista y fotógrafo galardonado: <a href="https://martinr.com/pages/about" target="_blank" rel="noopener noreferrer">https://martinr.com/pages/about</a></p>
+<p><img decoding="async" loading="lazy" alt="martin-raskovsky" src="https://linternita.com/assets/images/martin-raskovsky-fdfbb5cebbe75e1203081d73b68afb48.png" width="620" height="112" class="img_ev3q"></p>
+<p>La tercera, alguien tiene opiniones muy fuerte sobre las chicas de España:</p>
+<p><img decoding="async" loading="lazy" alt="gallegas" src="https://linternita.com/assets/images/gallegas-80cb975990cb1a013b514ce240b756d2.png" width="540" height="249" class="img_ev3q"></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="dónde-están-las-mujeres">Dónde están las mujeres<a href="https://linternita.com/blog/internet-antes-de-la-triple-w#d%C3%B3nde-est%C3%A1n-las-mujeres" class="hash-link" aria-label="Direct link to Dónde están las mujeres" title="Direct link to Dónde están las mujeres">​</a></h3>
+<p><a href="https://groups.google.com/g/soc.culture.argentina/c/4XWZRcnOSFw/m/VXT1gftndKIJ" target="_blank" rel="noopener noreferrer">https://groups.google.com/g/soc.culture.argentina/c/4XWZRcnOSFw/m/VXT1gftndKIJ</a></p>
+<p>Me fue recomendado no emitir opinión respecto a este artículo.</p>
+<p><img decoding="async" loading="lazy" alt="mujeres-cocina" src="https://linternita.com/assets/images/mujeres-cocina-2be07326b76435cc1dffd690b2729f54.png" width="591" height="342" class="img_ev3q"></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="acá-se-termina-lo-gracioso-si-querés-seguir-bien-con-tu-díasemana-cerrá-la-página">Acá se termina lo gracioso. Si querés seguir bien con tu día/semana, cerrá la página<a href="https://linternita.com/blog/internet-antes-de-la-triple-w#ac%C3%A1-se-termina-lo-gracioso-si-quer%C3%A9s-seguir-bien-con-tu-d%C3%ADasemana-cerr%C3%A1-la-p%C3%A1gina" class="hash-link" aria-label="Direct link to Acá se termina lo gracioso. Si querés seguir bien con tu día/semana, cerrá la página" title="Direct link to Acá se termina lo gracioso. Si querés seguir bien con tu día/semana, cerrá la página">​</a></h3>
+<p>Podría seguir poniendo infinitos ejemplos de cosas así. Hay decenas de miles de
+mensajes para revisar y solo alcancé a ver un par.</p>
+<p>En vez de seguir viendo posts de 1990, decidí hacer un salto a un año más
+interesante para Argentina... <strong>2001</strong> (para los que no sean argentinos,
+<a href="https://es.wikipedia.org/wiki/Crisis_de_diciembre_de_2001_en_Argentina" target="_blank" rel="noopener noreferrer">veáse</a>)</p>
+<p>Y para sorpresa mía, hay muchos artículos donde usuarios hablan de la situación
+del país en ese entonces y las cosas que pasaban... Hay comentarios realizados
+en <em>el mismo día o el día después de esos hechos</em>.</p>
+<p>En este
+<a href="https://groups.google.com/g/soc.culture.argentina/c/QISggC8KjGo/m/3w7yeRtC25gJ" target="_blank" rel="noopener noreferrer">post</a>
+un usuario hace referencia a la elección de Duhalde como presidente:</p>
+<p><img decoding="async" loading="lazy" alt="duhalde" src="https://linternita.com/assets/images/duhalde-57fb5ba94b0f61c07ab17da084b4d677.png" width="1194" height="331" class="img_ev3q"></p>
+<p>En
+<a href="https://groups.google.com/g/soc.culture.argentina/c/k1XyEXyMPIU/m/0Pfqw_wJoOwJ" target="_blank" rel="noopener noreferrer">este otro</a>
+alguien habla de la renuncia de Ramón Puerta como presidente.</p>
+<p><a href="https://groups.google.com/g/soc.culture.argentina/c/Cddhd5VkRaM/m/P5GcKIU0rdoJ" target="_blank" rel="noopener noreferrer">Este otro</a>
+parece haber sido publicado luego de los hechos del 19 de diciembre. Usuarios
+discuten acerca de los hechos, criticando al cacerolazo, las costumbres de la
+gente argentina, al país en general...</p>
+<p><img decoding="async" loading="lazy" alt="cacerolazo" src="https://linternita.com/assets/images/cacerolazo-d7e4103278e385b6b1d792635b0caf00.png" width="600" height="266" class="img_ev3q"></p>
+<p>Este artículo titulado
+<a href="https://groups.google.com/g/soc.culture.argentina/c/bQhb_gknke0/m/NxTVU4nh2bsJ" target="_blank" rel="noopener noreferrer">"Y ahora qué pasa, eh?"</a>
+tiene un montón de comentarios. Rescato los siguientes:</p>
+<p><img decoding="async" loading="lazy" alt="se-acabo-la-farsa" src="https://linternita.com/assets/images/se-acabo-la-farsa-a4924dbb4b9bb5cdeddb9525b4233159.png" width="647" height="471" class="img_ev3q"></p>
+<p><em>Estan deseperados porque parece que esta vez, realmente, se acabo la farsa. Hay
+que asumir la realidad de que el pais esta en muy mala situacion economica, y
+que no queda nada para repartir.</em></p>
+<hr>
+<p><img decoding="async" loading="lazy" alt="infiltrados" src="https://linternita.com/assets/images/infiltrados-9018578e11f41d896ae639b41a6c4a91.png" width="560" height="222" class="img_ev3q"></p>
+<p><em>en estas marchas pacíficas siempre hay infiltrados</em></p>
+<hr>
+<p><img decoding="async" loading="lazy" alt="grosso-matilde-menendez" src="https://linternita.com/assets/images/grosso-matilde-menendez-8b9f89d27d6025008590ca0665797d5c.png" width="592" height="151" class="img_ev3q"></p>
+<p><em>presencia de corruptos y procesados penales en el gobierno</em></p>
+<ul>
+<li><a href="https://es.wikipedia.org/wiki/Carlos_Grosso#Juicios_por_su_gesti%C3%B3n" target="_blank" rel="noopener noreferrer">Carlos Grosso</a>:
+Las causas acumuladas contra Grosso incluyeron cargos de asociación ilícita y
+de enriquecimiento ilícito.</li>
+<li><a href="https://es.wikipedia.org/wiki/Matilde_Men%C3%A9ndez#PAMI" target="_blank" rel="noopener noreferrer">Matilde Menendez</a>:
+Se acusaba a funcionarios y dirigentes de PAMI de cobrar coimas mensuales a
+los prestadores que, por este medio, se aseguraban continuar formando parte de
+la nómina de prestadores de PAMI.</li>
+<li><a href="https://www.rafaelanoticias.com/provinciales/murio-jose-maria-vernet-primer-gobernador-santafesino-tras-la-restauracion-democratica.htm" target="_blank" rel="noopener noreferrer">José María Vernet</a>:
+Como gobernador, pasó a la historia por un escándalo de corrupción,
+relacionado con el destino de los restos del Puente Colgante, cuando parte de
+su estructura se derrumbó y cayó a la laguna Setúbal.</li>
+</ul>
+<hr>
+<p><img decoding="async" loading="lazy" alt="un-dolar-tres-mangos" src="https://linternita.com/assets/images/un-dolar-tres-mangos-ebed1e703fc12a410296551e4c579844.png" width="501" height="187" class="img_ev3q"></p>
+<p>¿Cuál de todos los dólares?</p>
+<p><img decoding="async" loading="lazy" alt="dolares-2025" src="https://linternita.com/assets/images/dolares-2025-cf7f3b037538f9354742278af3c659a1.png" width="1644" height="732" class="img_ev3q"></p>
+<hr>
+<p>Por último, este artículo titulado
+<a href="https://groups.google.com/g/soc.culture.argentina/c/u_49u1auejc/m/fNdh3RfegzUJ" target="_blank" rel="noopener noreferrer">"Ay pais"</a>
+también tiene cientos de comentarios donde hablan del tema.</p>
+<p>Resalto este comentario de una tal Caro:</p>
+<p><img decoding="async" loading="lazy" alt="caro" src="https://linternita.com/assets/images/caro-9a7c2f93c2c4ef0f9adffbe73147fa11.png" width="654" height="395" class="img_ev3q"></p>
+<p><em>Otro congreso, otra Corte, todo de nuevo; no permitamos que nos roben los
+mismos de siempre.</em></p>
+<hr>
+<p>Resalté todos esos comentarios porque me parecen fascinantes. Son las mismas
+cosas que se escuchan hoy en día, 24 años después. Casi al pie de la letra.</p>
+<p>Vermouth, papas fritas, y algo de un show.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="próximamente-en-este-blog">Próximamente en este blog<a href="https://linternita.com/blog/internet-antes-de-la-triple-w#pr%C3%B3ximamente-en-este-blog" class="hash-link" aria-label="Direct link to Próximamente en este blog" title="Direct link to Próximamente en este blog">​</a></h2>
+<p>Sí ya sé que este post no tiene algo relacionado a piratería. No lo quería hacer
+más largo. En algún próximo post lo subo.</p>]]></content:encoded>
+            <category>random</category>
+        </item>
         <item>
             <title><![CDATA[en 2 o 3 años no va a haber más programadores - Spotify/Soulseek]]></title>
             <link>https://linternita.com/blog/no-more-programmers-soulseek</link>
