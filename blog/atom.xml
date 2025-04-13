@@ -2,11 +2,153 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://linternita.com/blog</id>
     <title>Linternita Blog</title>
-    <updated>2025-03-20T00:00:00.000Z</updated>
+    <updated>2025-04-13T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://linternita.com/blog"/>
     <subtitle>Linternita Blog</subtitle>
     <icon>https://linternita.com/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Ripeando CDs - Repacks]]></title>
+        <id>https://linternita.com/blog/ripeando-cds-repacks</id>
+        <link href="https://linternita.com/blog/ripeando-cds-repacks"/>
+        <updated>2025-04-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[_I'm telling you this one's on compact disc, compact disc! Have you seen these]]></summary>
+        <content type="html"><![CDATA[<p><em>I'm telling you this one's on compact disc, compact disc! Have you seen these
+things? They're in stores now. I'm telling ya it's gonna knock your socks off.
+It's like a record only it's played by lasers that won't skip.
+<a href="https://youtu.be/B-8EORB783c?si=xBuN17vbQM2A30wV&amp;t=1476" target="_blank" rel="noopener noreferrer">WOW!</a></em></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="introducción">Introducción<a href="https://linternita.com/blog/ripeando-cds-repacks#introducci%C3%B3n" class="hash-link" aria-label="Direct link to Introducción" title="Direct link to Introducción">​</a></h2>
+<p><img decoding="async" loading="lazy" alt="spotify-too-expensive" src="https://linternita.com/assets/images/spotify-too-expensive-eec42716b287cc1d1e01bf3fb35efab3.jpg" width="1080" height="1081" class="img_ev3q"></p>
+<p>La consumisión de contenido multimedia se TRANSformó* drásticamente en las
+últimas décadas, haciendo un giro a lo que se conoce como <strong>medios digitales</strong>.</p>
+<p>Si querés escuchar un albúm de tu artista favorito, no vas a comprar un CD,
+abrís Spotify (o te las ingeniás
+<a href="https://linternita.com/blog/no-more-programmers-soulseek#soulseek" target="_blank" rel="noopener noreferrer">de otra forma</a>)
+y listo. Si querés ver una película o serie, no vas a Blockbuster a alquilar un
+DVD, abrís Netflix. Incluso los fichines pasaron a ser algo mayormente digital:
+podes comprar un juego físicamente, pero lo único que trae la caja es un código
+de activación para que después lo descargues.</p>
+<p><em>* Los medios digitales son una mierda ... Los medios digitales son clave.</em></p>
+<p>Este giro no es algo malo de por sí. Los medios físicos tienen claros problemas
+y desventajas. Son incómodos de usar y peor, dependiendo del medio, puede que un
+par de años después de que lo compraste se degrade y te deje sin acceso al
+contenido.</p>
+<p><img decoding="async" loading="lazy" alt="optical-format-lifespan" src="https://linternita.com/assets/images/optical-format-lifespan-a9e8f2bcbca35513b14600b787369a6f.png" width="1163" height="751" class="img_ev3q"></p>
+<p><em>Figura 1: longevidad de distintos medios de almacenamiento óptico.
+<a href="https://www.canada.ca/en/conservation-institute/services/conservation-preservation-publications/canadian-conservation-institute-notes/longevity-recordable-cds-dvds.html" target="_blank" rel="noopener noreferrer">Fuente: CCI</a></em></p>
+<p>Pero... mientras el medio esté en condiciones, tenés acceso ilimitado al mismo.</p>
+<p>La evolución a los medios digitales no solo supuso un cambio de formato (físico
+a digital), sino también un cambio en la <em>propiedad</em> de las copias de contenido
+multimedia. Pasamos de ser dueños de una copia, a ser simplemente "dueños" de
+una <strong>licencia</strong> que nos provee acceso al contenido en una plataforma dada.</p>
+<p><strong>boring ass post modern technology sucks we get it 🙄🙄😴😴</strong></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="ripeando-cds">Ripeando CDs<a href="https://linternita.com/blog/ripeando-cds-repacks#ripeando-cds" class="hash-link" aria-label="Direct link to Ripeando CDs" title="Direct link to Ripeando CDs">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="ripear-qué-es-por-qué-no-solo-copio-y-pego-los-archivos-que-están-en-el-cd">¿Ripear? ¿Qué es? ¿Por qué no solo copio y pego los archivos que están en el CD?<a href="https://linternita.com/blog/ripeando-cds-repacks#ripear-qu%C3%A9-es-por-qu%C3%A9-no-solo-copio-y-pego-los-archivos-que-est%C3%A1n-en-el-cd" class="hash-link" aria-label="Direct link to ¿Ripear? ¿Qué es? ¿Por qué no solo copio y pego los archivos que están en el CD?" title="Direct link to ¿Ripear? ¿Qué es? ¿Por qué no solo copio y pego los archivos que están en el CD?">​</a></h3>
+<p>Los CDs de audio (es decir, los que siguen la
+<a href="https://en.wikipedia.org/wiki/Compact_Disc_Digital_Audio" target="_blank" rel="noopener noreferrer">especificación del libro rojo</a>)
+no almacenan archivos. El audio se almacena en pistas. Si abrís un CD de audio
+en Windows, vas a ver algo como esto:</p>
+<p><img decoding="async" loading="lazy" alt="cd-audio-tracks" src="https://linternita.com/assets/images/cd-audio-tracks-cd0a2d24d494a285ab00f8e3703a1872.png" width="634" height="181" class="img_ev3q"></p>
+<p>Esos no son archivos de audio convencionales: no es un WAV o un MP3. Los
+archivos <code>.cda</code> son como "accesos directos" (shortcuts) que apuntan a la
+ubicación de la pista en el disco. No contienen sonido alguno, por lo tanto,
+necesitás una forma que realmente extraiga el sonido de la pista y lo almacene
+en un archivo de audio. Esto es lo que se conoce como CD ripping.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="guía-resumida-para-extraer-audio-de-un-cd">Guía resumida para extraer audio de un CD<a href="https://linternita.com/blog/ripeando-cds-repacks#gu%C3%ADa-resumida-para-extraer-audio-de-un-cd" class="hash-link" aria-label="Direct link to Guía resumida para extraer audio de un CD" title="Direct link to Guía resumida para extraer audio de un CD">​</a></h3>
+<p>La verdad es que, como todo tema que tocan los audiófilos, esto es algo que se
+puede volver extenso, pesado, y pedante. Se puede hacer de mil formas y podés
+configurarlo muy minuciosamente. También hay muchos detalles que se pueden
+explicar y que hay que tener en cuenta. Cosa que no voy a hacer.</p>
+<p>Cosas que vas a necesitar:</p>
+<ul>
+<li>Una lectora de CDs</li>
+<li>Un CD</li>
+<li>Exact Audio Copy (EAC)</li>
+<li>Seguir esta guía</li>
+</ul>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="paso-1-conectar-la-lectora-a-la-computadora">Paso 1: Conectar la lectora a la computadora<a href="https://linternita.com/blog/ripeando-cds-repacks#paso-1-conectar-la-lectora-a-la-computadora" class="hash-link" aria-label="Direct link to Paso 1: Conectar la lectora a la computadora" title="Direct link to Paso 1: Conectar la lectora a la computadora">​</a></h4>
+<p>y... si</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="paso-2-conseguir-un-cd-a-ripear">Paso 2: Conseguir un CD a ripear<a href="https://linternita.com/blog/ripeando-cds-repacks#paso-2-conseguir-un-cd-a-ripear" class="hash-link" aria-label="Direct link to Paso 2: Conseguir un CD a ripear" title="Direct link to Paso 2: Conseguir un CD a ripear">​</a></h4>
+<p>En mi caso voy a usar este:</p>
+<p><img decoding="async" loading="lazy" alt="oso-arturo" src="https://linternita.com/assets/images/oso-arturo-c8b43307801eac21fc5490103533f1f3.png" width="839" height="706" class="img_ev3q"></p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="paso-3-descargar-e-instalar-eac">Paso 3: Descargar e instalar EAC<a href="https://linternita.com/blog/ripeando-cds-repacks#paso-3-descargar-e-instalar-eac" class="hash-link" aria-label="Direct link to Paso 3: Descargar e instalar EAC" title="Direct link to Paso 3: Descargar e instalar EAC">​</a></h4>
+<p>Podés descargarlo desde acá:
+<a href="https://www.exactaudiocopy.de/en/index.php/resources/download/" target="_blank" rel="noopener noreferrer">https://www.exactaudiocopy.de/en/index.php/resources/download/</a></p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="paso-4-configurando-eac">Paso 4: Configurando EAC<a href="https://linternita.com/blog/ripeando-cds-repacks#paso-4-configurando-eac" class="hash-link" aria-label="Direct link to Paso 4: Configurando EAC" title="Direct link to Paso 4: Configurando EAC">​</a></h4>
+<p><img decoding="async" loading="lazy" alt="eac-1" src="https://linternita.com/assets/images/eac-1-a36e38b32e16c27bf844b0cf11f2232e.png" width="1423" height="748" class="img_ev3q"></p>
+<p>Una vez instalado y abierto, EAC nos va a recibir con un asistente de
+configuración*. Este asistente nos va a llevar a través de algunos pasos, tales
+como:</p>
+<ol>
+<li>Selección de la lectora de CDs que vamos a usar</li>
+<li>Selección de la precisión de los resultados</li>
+<li>Realizar pruebas sobre la lectora</li>
+<li>Selección de formato de compresión</li>
+<li>Selección de formato de títulos para los archivos</li>
+</ol>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>Paso 4.1: Precisión de los resultados</summary><div><div class="collapsibleContent_i85q"><p><img decoding="async" loading="lazy" alt="eac-2" src="https://linternita.com/assets/images/eac-2-67415770837ff1c9eda73a2cb4a3142e.png" width="559" height="524" class="img_ev3q"></p><p>Seleccionar prefiero resultados precisos. Esto va a hacer que la extracción de
+audio tarde más, pero vamos a obtener una mejor calidad de la misma.</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>Paso 4.2: Pruebas sobre la lectora</summary><div><div class="collapsibleContent_i85q"><p><img decoding="async" loading="lazy" alt="eac-3" src="https://linternita.com/assets/images/eac-3-c8bb4eabca28679ac40159e4baff0657.png" width="559" height="519" class="img_ev3q"></p><p>Lo único que voy a decir sobre este paso es que no uses un CD rayado, tal cual
+indica el asistente.</p><p><img decoding="async" loading="lazy" alt="cd-rayado" src="https://linternita.com/assets/images/cd-rayado-b07fbcef362f73c116eb4515645502cb.png" width="897" height="941" class="img_ev3q"></p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>Paso 4.3: Selección de formato de compresión</summary><div><div class="collapsibleContent_i85q"><p><img decoding="async" loading="lazy" alt="eac-4" src="https://linternita.com/assets/images/eac-4-88157df086be7170ca14c23fcbec980d.png" width="593" height="527" class="img_ev3q"></p><p>Podemos elegir distintos formatos de compresión. EAC viene con algunos
+incorporados por defecto, pero si ninguno de esos nos conviene, se pueden
+modificar libremente.</p><p>En este caso recomiendo optar por MP3. O FLAC, si sos un pesado obsesionado con
+la calidad.</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>Paso 4.4: Selección de formato de títulos para los archivos</summary><div><div class="collapsibleContent_i85q"><p><img decoding="async" loading="lazy" alt="eac-5" src="https://linternita.com/assets/images/eac-5-70bb8ae70420ec647e6964c2ad8a1e39.png" width="565" height="522" class="img_ev3q"></p><p>Acá podemos elegir cómo queremos que sean los títulos de los archivos de audio
+que se generen. Elegí el que más te guste.</p></div></div></details>
+<p><em>*Acá es donde la cosa se puede volver extensa. Si estás interesado en obtener
+la mejor calidad te recomiendo seguir
+<a href="https://wiki.hydrogenaud.io/index.php?title=EAC_and_FLAC" target="_blank" rel="noopener noreferrer">esta guía</a> (que la
+verdad lo único que hace es usar una versión más reciente del códec FLAC y
+ajustar unos parámetros por defecto de EAC).</em></p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="paso-5-extrayendo-el-audio-finalmente">Paso 5: Extrayendo el audio (finalmente)<a href="https://linternita.com/blog/ripeando-cds-repacks#paso-5-extrayendo-el-audio-finalmente" class="hash-link" aria-label="Direct link to Paso 5: Extrayendo el audio (finalmente)" title="Direct link to Paso 5: Extrayendo el audio (finalmente)">​</a></h4>
+<p>Una vez que configuramos todo, vamos a Acciones --&gt; Probar y copiar pistas
+seleccionadas --&gt; Comprimidas</p>
+<p><img decoding="async" loading="lazy" alt="eac-6" src="https://linternita.com/assets/images/eac-6-89a14f1cbcb5c1d1ed81fc9711bc0b1f.png" width="620" height="280" class="img_ev3q"></p>
+<p>EAC nos va a pedir que seleccionemos una carpeta donde guardar los resultados.
+Una vez hecho eso, va a comenzar a leer el CD y generar los archivos de audio.</p>
+<p><img decoding="async" loading="lazy" alt="eac-7" src="https://linternita.com/assets/images/eac-7-624226e305219d102145dda619e96ba4.png" width="438" height="537" class="img_ev3q"></p>
+<p>Este proceso puede llevar un tiempo. Por ejemplo, para este magnífico
+<a href="https://www.youtube.com/watch?v=cMcil86djDg" target="_blank" rel="noopener noreferrer">CD del Oso Arturo</a>, tardó
+alrededor de 10 minutos para 5 temas de 2 minutos de duración en promedio.</p>
+<p><img decoding="async" loading="lazy" alt="oso-arturo-rip" src="https://linternita.com/assets/images/oso-arturo-rip-c52527c3755dda2e315b81de2786b586.png" width="707" height="189" class="img_ev3q"></p>
+<p>El perspicaz lector seguro se dará cuenta que los archivos generados no tienen
+información alguna sobre autor, título de la pista, u otros metadatos. Eso es
+porque usé un muy mal CD como ejemplo.</p>
+<p>Pero si agarramos un CD de algún artista medianamente reconocido, podemos usar
+uno de los plugins de metadatos incluidos en EAC, los cuales automatizan el
+proceso de identificar/añadir información relacionada al albúm.</p>
+<p><img decoding="async" loading="lazy" alt="eac-8" src="https://linternita.com/assets/images/eac-8-26e0a0c880730e298e697a4fe8101e75.png" width="502" height="211" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" alt="eac-9" src="https://linternita.com/assets/images/eac-9-1b9ad46c9a2a960130cc815cc8b61b34.png" width="1133" height="461" class="img_ev3q"></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="repacks-de-juegos">Repacks de juegos<a href="https://linternita.com/blog/ripeando-cds-repacks#repacks-de-juegos" class="hash-link" aria-label="Direct link to Repacks de juegos" title="Direct link to Repacks de juegos">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="qué-es-un-repack">¿Qué es un repack?<a href="https://linternita.com/blog/ripeando-cds-repacks#qu%C3%A9-es-un-repack" class="hash-link" aria-label="Direct link to ¿Qué es un repack?" title="Direct link to ¿Qué es un repack?">​</a></h3>
+<p>Un repack de un juego es básicamente una versión comprimida de los archivos de
+un juego. La compresión de los archivos solo aplica a la descarga, una vez que
+se instala, el juego tiene su tamaño normal.</p>
+<p>En la mayoría de los casos estos repacks ya vienen <em>crackeados</em> (lo que
+significa que sí, vas a poder jugar sin pagar un peso). A veces también pueden
+incluir mods o "fixes" que solucionan problemas del juego.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="debería-descargarme-un-repack-o-adquirir-un-juego-de-forma-legal-en-steam">¿Debería descargarme un repack o adquirir un juego de forma legal en Steam?<a href="https://linternita.com/blog/ripeando-cds-repacks#deber%C3%ADa-descargarme-un-repack-o-adquirir-un-juego-de-forma-legal-en-steam" class="hash-link" aria-label="Direct link to ¿Debería descargarme un repack o adquirir un juego de forma legal en Steam?" title="Direct link to ¿Debería descargarme un repack o adquirir un juego de forma legal en Steam?">​</a></h3>
+<p><img decoding="async" loading="lazy" alt="sonrisa-triste" src="https://linternita.com/assets/images/sonrisa-triste-794316ddcf3177648798fa597b480ac3.png" width="1158" height="802" class="img_ev3q"></p>
+<p>imagen equivocada, perdón.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="fitgirl">FitGirl<a href="https://linternita.com/blog/ripeando-cds-repacks#fitgirl" class="hash-link" aria-label="Direct link to FitGirl" title="Direct link to FitGirl">​</a></h3>
+<p><img decoding="async" loading="lazy" alt="fitgirl" src="https://linternita.com/assets/images/fitgirl-ddb7729e5f6b476741d04da3b6ae905e.jpg" width="1080" height="1181" class="img_ev3q"></p>
+<p>FitGirl quizás sea la repacker más conocida dentro de la escena. Desde 2016 que
+empezó a subirlos de forma pública y a día de hoy en su página hay miles de
+repacks.</p>
+<p>Ofrece la opción de descargarlos de forma directa, o usando un
+<a href="https://linternita.com/blog/tecnologia-actual-torrents#c%C3%B3mo-descargar-pel%C3%ADculas-y-series-usando-qbittorrent" target="_blank" rel="noopener noreferrer">cliente para torrents</a>.</p>
+<p>Otra ventaja de los repacks de FitGirl es que vienen con un instalador que hace
+<em>todo</em>. No tenés que preocuparte por "crackear" el juego manualmente,
+simplemente elegís donde instalarlo y dejás que haga su magia.</p>
+<p>Enlace a la página: <a href="https://fitgirl-repacks.site/" target="_blank" rel="noopener noreferrer">https://fitgirl-repacks.site/</a></p>]]></content>
+        <author>
+            <name>Una Linterna</name>
+            <uri>https://es.wikipedia.org/wiki/Linterna_el%C3%A9ctrica</uri>
+        </author>
+        <category label="musica" term="musica"/>
+        <category label="fichines" term="fichines"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Internet antes de la triple W]]></title>
         <id>https://linternita.com/blog/internet-antes-de-la-triple-w</id>
