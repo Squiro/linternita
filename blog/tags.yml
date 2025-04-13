@@ -33,3 +33,8 @@ random:
   label: random
   permalink: /random
   description: Posts de cualquier cosa
+
+fichines:
+  label: fichines
+  permalink: /fichines
+  description: Posts relacionados a fichines
