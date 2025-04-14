@@ -38,3 +38,8 @@ fichines:
   label: fichines
   permalink: /fichines
   description: Posts relacionados a fichines
+
+ebooks:
+  label: ebooks
+  permalink: /ebooks
+  description: Posts relacionados a ebooks
