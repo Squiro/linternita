@@ -55,11 +55,14 @@ archivos <code>.cda</code> son como "accesos directos" (shortcuts) que apuntan a
 ubicación de la pista en el disco. No contienen sonido alguno, por lo tanto,
 necesitás una forma que realmente extraiga el sonido de la pista y lo almacene
 en un archivo de audio. Esto es lo que se conoce como CD ripping.</p>
+<p>No solo vas a conseguir un archivo de audio (que luego podés almacenar en
+cualquier lugar), si no que también la calidad de ese archivo de audio va a ser
+excelente.</p>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="guía-resumida-para-extraer-audio-de-un-cd">Guía resumida para extraer audio de un CD<a href="https://linternita.com/blog/ripeando-cds-repacks#gu%C3%ADa-resumida-para-extraer-audio-de-un-cd" class="hash-link" aria-label="Direct link to Guía resumida para extraer audio de un CD" title="Direct link to Guía resumida para extraer audio de un CD">​</a></h3>
 <p>La verdad es que, como todo tema que tocan los audiófilos, esto es algo que se
 puede volver extenso, pesado, y pedante. Se puede hacer de mil formas y podés
-configurarlo muy minuciosamente. También hay muchos detalles que se pueden
-explicar y que hay que tener en cuenta. Cosa que no voy a hacer.</p>
+configurarlo muy minuciosamente. Hay muchos detalles que se pueden explicar y
+que hay que tener en cuenta. Cosa que no voy a hacer.</p>
 <p>Cosas que vas a necesitar:</p>
 <ul>
 <li>Una lectora de CDs</li>
