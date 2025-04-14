@@ -9,13 +9,13 @@
     <icon>https://linternita.com/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[hackeando mi universidad]]></title>
-        <id>https://linternita.com/blog/hackeando-mi-Universidad</id>
-        <link href="https://linternita.com/blog/hackeando-mi-Universidad"/>
+        <id>https://linternita.com/blog/hackeando-mi-universidad</id>
+        <link href="https://linternita.com/blog/hackeando-mi-universidad"/>
         <updated>2025-04-14T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Hoy en día podés convertirte en hacker muy fácilmente, solo tenés que]]></summary>
         <content type="html"><![CDATA[<p>Hoy en día podés convertirte en hacker muy fácilmente, solo tenés que
 intentarlo.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="introducción">Introducción<a href="https://linternita.com/blog/hackeando-mi-Universidad#introducci%C3%B3n" class="hash-link" aria-label="Direct link to Introducción" title="Direct link to Introducción">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="introducción">Introducción<a href="https://linternita.com/blog/hackeando-mi-universidad#introducci%C3%B3n" class="hash-link" aria-label="Direct link to Introducción" title="Direct link to Introducción">​</a></h2>
 <p><img decoding="async" loading="lazy" alt="miel-login" src="https://linternita.com/assets/images/miel-login-b4ecd33f2e8f29165083d40d7acdf76a.png" width="1903" height="926" class="img_ev3q"></p>
 <p>MIeL (HONeY en inglés) es una plataforma de la Universidad Nacional de La
 Matanza donde los alumnos pueden ingresar y ver contenido relacionado a sus
@@ -42,7 +42,7 @@ malicioso cuando es visto por los demás usuarios.</p>
 <p>Esos casos pueden ser evitados y existen distintas técnicas para hacerlo:
 validación de entradas, sanitización de entradas (controversial), codificación
 de salidas.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="hackeando-miel">"Hackeando" MIeL<a href="https://linternita.com/blog/hackeando-mi-Universidad#hackeando-miel" class="hash-link" aria-label="Direct link to &quot;Hackeando&quot; MIeL" title="Direct link to &quot;Hackeando&quot; MIeL">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="hackeando-miel">"Hackeando" MIeL<a href="https://linternita.com/blog/hackeando-mi-universidad#hackeando-miel" class="hash-link" aria-label="Direct link to &quot;Hackeando&quot; MIeL" title="Direct link to &quot;Hackeando&quot; MIeL">​</a></h2>
 <p>En algunos casos no hace falta hacer nada. La página se "hackea" sola.</p>
 <p>En el año 2020 alguien hizo un cambio en la página, provocando que todo el
 directorio de archivos del servidor quede expuesto:</p>
@@ -55,7 +55,7 @@ intentos fallidos de inicios de sesión. No solo se guardaba el nombre de usuari
 que no pudo iniciar sesión, si no también... la <strong>contraseña del usuario</strong>, en
 texto simple.</p>
 <p>No tiene remate.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="hackeando-miel-1">"""Hackeando""" MIeL<a href="https://linternita.com/blog/hackeando-mi-Universidad#hackeando-miel-1" class="hash-link" aria-label="Direct link to &quot;&quot;&quot;Hackeando&quot;&quot;&quot; MIeL" title="Direct link to &quot;&quot;&quot;Hackeando&quot;&quot;&quot; MIeL">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="hackeando-miel-1">"""Hackeando""" MIeL<a href="https://linternita.com/blog/hackeando-mi-universidad#hackeando-miel-1" class="hash-link" aria-label="Direct link to &quot;&quot;&quot;Hackeando&quot;&quot;&quot; MIeL" title="Direct link to &quot;&quot;&quot;Hackeando&quot;&quot;&quot; MIeL">​</a></h2>
 <p>El lector informado seguro se dio cuenta hace rato de la dirección de este
 artículo. Mucho enfoque en las entradas de los usuarios solo puede significar
 una cosa: un ataque de inyección.</p>
@@ -69,7 +69,7 @@ materia llamada Seguridad en Redes. Justamente en esta materia vimos diferentes
 tipos de ataques que pueden ser realizados sobre páginas web. Me sentí como un
 mono con una navaja y tuve un impulso muy fuerte y repentino que me llevó a
 intentar encontrar un ataque que funcionara dentro de MIeL.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="buscando-un-punto-débil">Buscando un punto débil<a href="https://linternita.com/blog/hackeando-mi-Universidad#buscando-un-punto-d%C3%A9bil" class="hash-link" aria-label="Direct link to Buscando un punto débil" title="Direct link to Buscando un punto débil">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="buscando-un-punto-débil">Buscando un punto débil<a href="https://linternita.com/blog/hackeando-mi-universidad#buscando-un-punto-d%C3%A9bil" class="hash-link" aria-label="Direct link to Buscando un punto débil" title="Direct link to Buscando un punto débil">​</a></h3>
 <p>Como dije antes, la plataforma permite a los usuarios enviarse mensajes o dejar
 comentarios en un foro. Tiene la particularidad de soportar texto enriquecido
 (rich text, permite agregar cosas como distintas fuentes, colores, o elementos
@@ -89,7 +89,7 @@ es?</p>
 código JavaScript al utilizar el editor. Aplica técnicas santiización y
 neutralización del contenido. El problema es que sanitizar HTML es algo difícil
 de hacer. Y eso hace que esto sea un punto débil.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="vulnerando-tinymce">Vulnerando TinyMCE<a href="https://linternita.com/blog/hackeando-mi-Universidad#vulnerando-tinymce" class="hash-link" aria-label="Direct link to Vulnerando TinyMCE" title="Direct link to Vulnerando TinyMCE">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="vulnerando-tinymce">Vulnerando TinyMCE<a href="https://linternita.com/blog/hackeando-mi-universidad#vulnerando-tinymce" class="hash-link" aria-label="Direct link to Vulnerando TinyMCE" title="Direct link to Vulnerando TinyMCE">​</a></h3>
 <p>Uno podría romperse la cabeza intentando encontrar la forma de romper el
 sanitizador de Tiny y lograr inyectar código JavaScript en el contenido de un
 mensaje...</p>
@@ -121,7 +121,7 @@ que el mismo sea asignado al editor.</li>
 funciones <code>setContent</code> e <code>insertContent</code>, las cuales son funciones
 pertenencientes a la instancia activa del editor.</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="ejecución-del-exploit">Ejecución del exploit<a href="https://linternita.com/blog/hackeando-mi-Universidad#ejecuci%C3%B3n-del-exploit" class="hash-link" aria-label="Direct link to Ejecución del exploit" title="Direct link to Ejecución del exploit">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="ejecución-del-exploit">Ejecución del exploit<a href="https://linternita.com/blog/hackeando-mi-universidad#ejecuci%C3%B3n-del-exploit" class="hash-link" aria-label="Direct link to Ejecución del exploit" title="Direct link to Ejecución del exploit">​</a></h3>
 <p>En MIeL, la ejecución del exploit podía realizarse siguiendo estos pasos:</p>
 <ol>
 <li>
@@ -176,14 +176,14 @@ contenido por parte del servidor.</p>
 <p><img decoding="async" loading="lazy" alt="exploit-7" src="https://linternita.com/assets/images/exploit-7-6e9314b9da43442bde34c21c62492848.jpg" width="1046" height="268" class="img_ev3q"></p>
 </li>
 </ol>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="qué-es-lo-peor-que-podría-haber-pasado">¿Qué es lo peor que podría haber pasado?<a href="https://linternita.com/blog/hackeando-mi-Universidad#qu%C3%A9-es-lo-peor-que-podr%C3%ADa-haber-pasado" class="hash-link" aria-label="Direct link to ¿Qué es lo peor que podría haber pasado?" title="Direct link to ¿Qué es lo peor que podría haber pasado?">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="qué-es-lo-peor-que-podría-haber-pasado">¿Qué es lo peor que podría haber pasado?<a href="https://linternita.com/blog/hackeando-mi-universidad#qu%C3%A9-es-lo-peor-que-podr%C3%ADa-haber-pasado" class="hash-link" aria-label="Direct link to ¿Qué es lo peor que podría haber pasado?" title="Direct link to ¿Qué es lo peor que podría haber pasado?">​</a></h3>
 <p>Muchas cosas. Se podrían haber robado cookies de sesión de los usuarios. O
 redirigirlos a una página que tenga un login falso de MIeL, para luego capturar
 sus credenciales. Si se hubieran obtenido credenciales de un profesor/tutor, se
 podría modificar contenido bibliográfico de las materias, o mejor aún, cambiar
 la corrección de algún trabajo práctico o parcial que haya sido evaluado por
 MIeL.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="conclusión">Conclusión<a href="https://linternita.com/blog/hackeando-mi-Universidad#conclusi%C3%B3n" class="hash-link" aria-label="Direct link to Conclusión" title="Direct link to Conclusión">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="conclusión">Conclusión<a href="https://linternita.com/blog/hackeando-mi-universidad#conclusi%C3%B3n" class="hash-link" aria-label="Direct link to Conclusión" title="Direct link to Conclusión">​</a></h2>
 <p>Está bien, lo admito, el título es muy clickbait. No hubo mucho hackeo que
 digamos y no estoy escribiendo esto solamente porque mi abogado me dijo que lo
 aclare de forma explícita.</p>
@@ -202,7 +202,7 @@ ejemplos de cómo explotar esa vulnerabilidad.</p>
 </li>
 </ol>
 <p>Eso es todo por ahora. 🔦</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="próximamente-en-este-blog">Próximamente en este blog<a href="https://linternita.com/blog/hackeando-mi-Universidad#pr%C3%B3ximamente-en-este-blog" class="hash-link" aria-label="Direct link to Próximamente en este blog" title="Direct link to Próximamente en este blog">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="próximamente-en-este-blog">Próximamente en este blog<a href="https://linternita.com/blog/hackeando-mi-universidad#pr%C3%B3ximamente-en-este-blog" class="hash-link" aria-label="Direct link to Próximamente en este blog" title="Direct link to Próximamente en este blog">​</a></h2>
 <p><img decoding="async" loading="lazy" alt="kindle" src="https://linternita.com/assets/images/kindle-31cea3b2a8122e908593708017c4eac3.jpg" width="750" height="422" class="img_ev3q"></p>
 <p>Todas las formas de conseguir ebooks que existen (o al menos todas las que yo
 conozco) y cómo usar Calibre para enviarlas a tu Kindle.</p>
