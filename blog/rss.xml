@@ -4,10 +4,280 @@
         <title>Linternita Blog</title>
         <link>https://linternita.com/blog</link>
         <description>Linternita Blog</description>
-        <lastBuildDate>Mon, 14 Apr 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 19 Apr 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[El problema de la acción a distancia - Ebooks]]></title>
+            <link>https://linternita.com/blog/accion-a-distancia-ebooks</link>
+            <guid>https://linternita.com/blog/accion-a-distancia-ebooks</guid>
+            <pubDate>Sat, 19 Apr 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[La ciencia es un proceso.]]></description>
+            <content:encoded><![CDATA[<p>La ciencia es un proceso.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="introducción">Introducción<a href="https://linternita.com/blog/accion-a-distancia-ebooks#introducci%C3%B3n" class="hash-link" aria-label="Direct link to Introducción" title="Direct link to Introducción">​</a></h2>
+<p>Es de público conocimiento que, si agarrás un ladrillo y lo lanzás hacia el
+cielo, después de un rato el ladrillo va a caer y estamparse contra el piso (o
+tu cabeza).</p>
+<p>La parte que involucra levantar el ladrillo y lanzarlo es fácil de entender: vos
+te pusiste en contacto con el ladrillo y en conjunto con tus manos y brazos lo
+impulsaste hacia arriba. Entraste en contacto con el objeto, hiciste fuerza, y
+lo lanzaste.</p>
+<p>¿Por qué cae después de un rato?</p>
+<p>Por la gravedad, claramente. Qué pregunta estúpida. Todo lo que sube tiene que
+bajar.</p>
+<p>Pero... <em>¿cómo hace la gravedad para forzar a que el ladrillo caiga si no hay
+nada que lo toque?</em></p>
+<p>Esta misma pregunta se hizo Isaac Newton por mucho tiempo después de haber
+introducido un par de leyes que ayudaban a describir el movimiento de los
+objetos. Incluso después de muerto se seguía haciendo la pregunta. No él, otros.
+La gente muerta no pregunta cosas.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="acción-a-distancia-siglo-17">Acción a distancia (Siglo 17)<a href="https://linternita.com/blog/accion-a-distancia-ebooks#acci%C3%B3n-a-distancia-siglo-17" class="hash-link" aria-label="Direct link to Acción a distancia (Siglo 17)" title="Direct link to Acción a distancia (Siglo 17)">​</a></h2>
+<p>La
+<a href="https://es.wikipedia.org/wiki/Ley_de_gravitaci%C3%B3n_universal" target="_blank" rel="noopener noreferrer">ley de gravitación universal</a>
+describe la gravedad como una fuerza y básicamente nos dice que los cuerpos que
+tengan masa se atraen entre sí. Siendo más precisos: dos cuerpos cualesquiera
+son atraídos por una fuerza proporcional a su masa e inversamente proporcional
+al cuadrado de la distancia que los separe.</p>
+<p>Pero esto representaba un problema: en tiempos de Newton reinaba la filosofía
+mecánica. Esta corriente filosófica veía al mundo (y todos sus objetos) como una
+máquina, y sostenía que todo suceso podía ser explicado a las partes físicas de
+las máquinas y sus interacciones entre ellas.</p>
+<p>A pesar de que las leyes de Newton funcionaban, iban en contra de lo establecido
+por la mecánica:</p>
+<ol>
+<li>No existe un mediador entre los cuerpos que hagan que los mismos se atraigan
+entre sí: los cuerpos pueden estar separados (es decir, sin tocarse), e igual
+experimentarían una fuerza que los atrae.</li>
+<li>Los efectos de la gravedad parecerían ser instantáneos: el movimiento de un
+cuerpo dentro de un sistema podría producir un efecto en un cuerpo distante,
+sin ningún tipo de retraso temporal.</li>
+</ol>
+<p>Newton, quién era seguidor de la filosófica mecánica, llegó a rechazar y
+considerar absurda la idea de que una fuerza pudiese transmitirse sin un medio.
+Él y otros científicos de su época propusieron la existencia de un medio llamado
+“éter” (una sustancia invisible que está en todas partes), por el cual se podría
+producir la interacción entre los cuerpos, pero nunca se pudo comprobar su
+existencia científicamente.</p>
+<p>Por lo tanto, muy a su pesar, se estableció la idea de que la gravedad actuaba a
+distancia, sin transmitirse a través de ningún medio, sin interactuar con otras
+"piezas" mecánicas del universo.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="el-concepto-de-campos-siglo-18">El concepto de Campos (Siglo 18)<a href="https://linternita.com/blog/accion-a-distancia-ebooks#el-concepto-de-campos-siglo-18" class="hash-link" aria-label="Direct link to El concepto de Campos (Siglo 18)" title="Direct link to El concepto de Campos (Siglo 18)">​</a></h2>
+<p>Un siglo después de la muerte de Newton, Lagrange, Laplace, y Poisson
+introdujeron el concepto de campos* escalares en conjunto con el
+<a href="https://en.wikipedia.org/wiki/Gravitational_potential" target="_blank" rel="noopener noreferrer">potencial gravitatorio</a>.
+Estos campos eran algo puramente matemático, no representaban un medio mecánico
+por el cual la fuerza de la gravedad pudiera transmitirse.</p>
+<p><em>* La definición formal de un campo es la existencia de una magnitud física,
+representada por un escalar, vector, o tensor, que tiene un valor asociado para
+cada punto del espacio y tiempo.</em></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="campos-electromagnéticos-siglo-19">Campos electromagnéticos (Siglo 19)<a href="https://linternita.com/blog/accion-a-distancia-ebooks#campos-electromagn%C3%A9ticos-siglo-19" class="hash-link" aria-label="Direct link to Campos electromagnéticos (Siglo 19)" title="Direct link to Campos electromagnéticos (Siglo 19)">​</a></h2>
+<p>El problema de los campos y acción a distancia volvió a surgir (en realidad,
+nunca se había ido) un siglo después. Esta vez, gracias al estudio de algo poco
+relacionado a la gravedad: la electricidad y el magnetismo.</p>
+<p>Michael Faraday en sus experimentos se interesó en la peculiar forma que tomaban
+las limaduras de hierro al estar próximas a los polos de un imán. En base a
+esto, concibió la idea de unas líneas de fuerza magnética que se extienden de un
+polo al otro en el imán, de la misma forma que lo hacen las limaduras de hierro.</p>
+<p><img decoding="async" loading="lazy" alt="lineas-fuerza" src="https://linternita.com/assets/images/lineas-fuerza-ce83955a1b2ad89d9996c6b69824a956.png" width="669" height="736" class="img_ev3q"></p>
+<p><em>Figura 1: ilustración del experimento de Faraday, las limaduras de hierro hacen
+visibles a las líneas de fuerza de un campo magnético</em></p>
+<p>Faraday se imaginaba que estas líneas emanaban de los cuerpos hacia el espacio,
+formando un campo. Para él, no existía un contacto entre la manzana y la tierra,
+sino entre los campos de ambos cuerpos.</p>
+<p>En 1873, James Clerk Maxwell tradujo la idea de los campos de Faraday (en
+conjunto con las ideas, teorías y leyes de otros científicos que estudiaron el
+electromagnetismo) en leyes matemáticas, y descubrió que había "ondas" en los
+campos que viajaban a la velocidad de la luz a través del espacio.</p>
+<p>De este descubrimiento surgen las ondas electromagnéticas: ondas creadas por las
+oscilaciones de los campos eléctricos y magnéticos, que se mueven por el espacio
+transportando energía, pudiendo interactuar con otras partículas cargadas,
+ejerciendo una fuerza sobre ellas.</p>
+<p>Gracias a esto se deja de lado el problema de la acción a distancia
+(instantánea) que también atormentaba al electromagnetismo.</p>
+<p>Aún así, la noción de que una onda <em>necesitaba</em> un medio para transmitirse era
+prevalente, y muchos científicos volcaron su tiempo en encontrar un
+<a href="https://en.wikipedia.org/wiki/Luminiferous_aether" target="_blank" rel="noopener noreferrer">"éter" para la luz</a>.</p>
+<p>No lo encontraron, y finalmente después de mucho tiempo, la teoría de un medio
+invisible que todo lo cubre fue descartada.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="la-gravedad-y-el-espacio-tiempo-siglo-20">La gravedad y el espacio-tiempo (Siglo 20)<a href="https://linternita.com/blog/accion-a-distancia-ebooks#la-gravedad-y-el-espacio-tiempo-siglo-20" class="hash-link" aria-label="Direct link to La gravedad y el espacio-tiempo (Siglo 20)" title="Direct link to La gravedad y el espacio-tiempo (Siglo 20)">​</a></h2>
+<p>La revolución de los campos electromagnéticos impulsó a que se estudiase y
+explicase la gravedad como un campo, en vez de la definición clásica de los
+tiempos de Newton (una fuerza entre cuerpos con masa).</p>
+<p>Heaviside propuso en 1893 la existencia de las ondas gravitacionales, haciendo
+una analogía a las ondas electromagnéticas de Maxwell. Poincaré hizo lo mismo
+en 1905.</p>
+<p>En 1915, Einstein propone la
+<a href="https://en.wikipedia.org/wiki/General_relativity" target="_blank" rel="noopener noreferrer">teoría de la relatividad general</a>,
+en la cual explica que la gravedad es un efecto producido por la deformación del
+espacio-tiempo ante la presencia de cuerpos con masa.</p>
+<p><img decoding="async" loading="lazy" alt="space-time-gravity" src="https://linternita.com/assets/images/space-time-gravity-76946110ddeff7a93063b4eef9c97b02.gif" width="600" height="338" class="img_ev3q"></p>
+<p>Esta es la mejor explicación que tenemos acerca de la graverdad y su
+funcionamiento a grandes escalas hasta ahora.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="conclusión">Conclusión<a href="https://linternita.com/blog/accion-a-distancia-ebooks#conclusi%C3%B3n" class="hash-link" aria-label="Direct link to Conclusión" title="Direct link to Conclusión">​</a></h2>
+<p>En la cultura popular existe la falsa noción de que la ciencia es algo similar a
+una base de conocimientos o un conjunto de reglas. Es común escuchar frases como
+"tal cosa no tiene fundamento científico" o "no está respaldada por la
+ciencia"... como si la ciencia se tratase de diccionario que pudieras abrir,
+buscar "tal cosa" y ver si es aceptada o no.</p>
+<p>La ciencia es un proceso: observamos fenómenos, elaboramos hipótesis, hacemos
+experimentos... y eso es lo que nos lleva a expandir continuamente nuestro
+entendimiento de las cosas que nos rodean.</p>
+<p>La historia de cómo se llegó al entendimiento actual que tenemos sobre la
+gravedad es un gran ejemplo de este proceso.</p>
+<p>Nota: sí obvio que estoy siendo pedante.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="todas-las-formas-de-obtener-ebooks-que-conozco">Todas las formas de obtener Ebooks que conozco<a href="https://linternita.com/blog/accion-a-distancia-ebooks#todas-las-formas-de-obtener-ebooks-que-conozco" class="hash-link" aria-label="Direct link to Todas las formas de obtener Ebooks que conozco" title="Direct link to Todas las formas de obtener Ebooks que conozco">​</a></h2>
+<p><strong>KINDLE GANG RISE TF UP!!!!</strong></p>
+<p>Desde el departamento de edición de este blog hay una constante bajada de línea
+para criticar a la tecnología moderna. No aplica para los los lectores de libros
+electrónicos. Entran en el top 5 mejores tecnologías de las últimas décadas
+tranquilamente.</p>
+<p>No hay mucho que explicar o definir. Un "ebook" es un libro en formato digital.
+Un lector de ebooks es un aparato que solamente sirve para leer esos libros. ¿Lo
+bueno? Los ebooks vienen en archivos que pesan relativamente poco (megabytes,
+como mucho). Los lectores vienen con gigabytes de almacenamiento. Lo que antes
+te llevaba toda una biblioteca entera lo podés almacenar en un rectángulo de
+17x12 cm.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="z-library">Z-Library<a href="https://linternita.com/blog/accion-a-distancia-ebooks#z-library" class="hash-link" aria-label="Direct link to Z-Library" title="Direct link to Z-Library">​</a></h3>
+<p>Z-Lib quizás sea la forma más fácil y menos rebuscada. El único problema que
+tiene es que cada tanto muere (tiran abajo el dominio) y hay que esperar a que
+aparezca una alternativa.</p>
+<p>En esta "wiki" de Reddit hay una guía que debería estar actualizada y listar los
+dominios actuales por los cuales se puede acceder:
+<a href="https://www.reddit.com/r/zlibrary/wiki/index/access/" target="_blank" rel="noopener noreferrer">https://www.reddit.com/r/zlibrary/wiki/index/access/</a></p>
+<ul>
+<li><a href="https://z-library.sk/" target="_blank" rel="noopener noreferrer">https://z-library.sk/</a></li>
+<li><a href="https://1lib.sk/" target="_blank" rel="noopener noreferrer">https://1lib.sk/</a></li>
+<li><a href="https://z-lib.fm/" target="_blank" rel="noopener noreferrer">https://z-lib.fm/</a></li>
+<li><a href="http://z-lib.gd/" target="_blank" rel="noopener noreferrer">http://z-lib.gd/</a></li>
+<li><a href="http://z-lib.gl/" target="_blank" rel="noopener noreferrer">http://z-lib.gl/</a></li>
+</ul>
+<p><strong>Siempre buscá el dominio actual en algún lugar como Reddit u otro canal de
+relativa confianza.</strong> Hay mucha gente que se aprovecha de la popularidad de
+Z-Lib y crea páginas falsas en las que en vez de un libro te descargás un
+troyano.</p>
+<p>Al entrar a la página nos encontramos con un campo de búsqueda y una sección de
+libros más populares:</p>
+<p><img decoding="async" loading="lazy" alt="zlib-1" src="https://linternita.com/assets/images/zlib-1-ecb6794a17ff582b623aaa12c65f3a8f.png" width="1495" height="792" class="img_ev3q"></p>
+<p>Si abrimos o buscamos un libro, podemos descargarlo muy fácil haciendo click en
+el botón que se encuentra resaltado en rojo:</p>
+<p><img decoding="async" loading="lazy" alt="zlib-2" src="https://linternita.com/assets/images/zlib-2-37a209888d8e57fc318d5b0a55a31f89.png" width="1349" height="765" class="img_ev3q"></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="library-genesis">Library Genesis<a href="https://linternita.com/blog/accion-a-distancia-ebooks#library-genesis" class="hash-link" aria-label="Direct link to Library Genesis" title="Direct link to Library Genesis">​</a></h3>
+<p>Libgen es otra página bastante conocida y que comparte características similares
+a Z-Lib.</p>
+<p>En mi experiencia personal, libgen me sirvió más para encontrar "libros de
+texto" (es decir, cosas como el libro de Física Universitaria de Sears) que
+libros "normales" (un libro de, no sé, Hunger Games por ejemplo).</p>
+<p><img decoding="async" loading="lazy" alt="libgen-1" src="https://linternita.com/assets/images/libgen-1-769a99bac652fdbdaf064f5a199cb0d7.png" width="1900" height="573" class="img_ev3q"></p>
+<p>Cuando seleccionamos un libro, para descargarlo tenemos que abrir alguno de los
+"mirrors":</p>
+<p><img decoding="async" loading="lazy" alt="libgen-2" src="https://linternita.com/assets/images/libgen-2-d91c2bdc39fedd129384e8ab486cf337.png" width="1641" height="455" class="img_ev3q"></p>
+<p>Y en la página que se nos abre hacer click en el enlace que dice GET:</p>
+<p><img decoding="async" loading="lazy" alt="libgen-3" src="https://linternita.com/assets/images/libgen-3-b0d9f5f69edc66d1e1db784f5632944e.png" width="497" height="448" class="img_ev3q"></p>
+<p>Podés acceder a libgen a través de:</p>
+<ul>
+<li><a href="https://libgen.is/" target="_blank" rel="noopener noreferrer">https://libgen.is/</a></li>
+<li><a href="http://libgen.rs/" target="_blank" rel="noopener noreferrer">http://libgen.rs/</a></li>
+<li><a href="http://libgen.st/" target="_blank" rel="noopener noreferrer">http://libgen.st/</a></li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="annas-archive">Anna's Archive<a href="https://linternita.com/blog/accion-a-distancia-ebooks#annas-archive" class="hash-link" aria-label="Direct link to Anna's Archive" title="Direct link to Anna's Archive">​</a></h3>
+<p>Nunca usé esta página, pero me la encontré hace poco y parece una buena
+alternativa como "último recurso". Según dicen ellos:</p>
+<p>"We mirror Sci-Hub and LibGen. We scrape and open-source Z-Lib, DuXiu, and more"</p>
+<p>Así que deberían tener bastantes libros.</p>
+<p>Lo único que no me convence son las trabas que te ponen para las descargas:</p>
+<p><img decoding="async" loading="lazy" alt="annasarchive-1" src="https://linternita.com/assets/images/annasarchive-1-05e70f9d9acbbc3adfbcb205ff2eb358.png" width="1048" height="465" class="img_ev3q"></p>
+<p>Aparentemente si te convertís en un "miembro", solo te dejan usar opciones
+lentas para las descargas. Para convertirse en un miembro hay que pagar.
+Justamente algo que queremos evitar, si estamos buscando ebooks gratis.</p>
+<p>Podés acceder a través de: <a href="https://annas-archive.org/" target="_blank" rel="noopener noreferrer">https://annas-archive.org/</a></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="irc">IRC<a href="https://linternita.com/blog/accion-a-distancia-ebooks#irc" class="hash-link" aria-label="Direct link to IRC" title="Direct link to IRC">​</a></h3>
+<p>Increíblemente IRC no está muerto y lo podés usar para descargar ebooks.</p>
+<p>Es una forma un poco obtusa (comparada con simplemente ir a una página web),
+pero tiene una gran ventaja: en todo este tiempo que lo estuve usando, nunca se
+cayó, ni tuve que buscar un dominio alternativo, ni cosas como esas.</p>
+<p>Para poder usarlo, vas a tener que descargarte un cliente de IRC.</p>
+<ol>
+<li>
+<p>Descargar e instalar Hexchat: <a href="https://hexchat.github.io/" target="_blank" rel="noopener noreferrer">https://hexchat.github.io/</a></p>
+</li>
+<li>
+<p>Una vez abierto, se nos va a aparecer una ventana como esta:
+<img decoding="async" loading="lazy" alt="irc-1" src="https://linternita.com/assets/images/irc-1-67abab3275aacc732ab810d6fe3402d0.png" width="401" height="482" class="img_ev3q"></p>
+</li>
+<li>
+<p>Completar los campos de nickname y username con algo que sea relativamente
+único.</p>
+</li>
+<li>
+<p>En la lista de "Networks", desplazarse hasta encontrar IRCHighWay.</p>
+</li>
+<li>
+<p>Hacer click en el botón que dice Connect.</p>
+</li>
+<li>
+<p>Una vez habiendo hecho todo eso, se nos va a abrir una nueva ventana:
+<img decoding="async" loading="lazy" alt="irc-2" src="https://linternita.com/assets/images/irc-2-4dc90f66c02106aaf502ba6a96f66db7.png" width="1920" height="1036" class="img_ev3q"></p>
+</li>
+<li>
+<p>En el campo de texto que aparece al lado de nuestro nombre, escribir
+<code>/join #ebooks</code> y apretar enter.</p>
+<p><img decoding="async" loading="lazy" alt="irc-3" src="data:image/png;base64,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" width="521" height="38" class="img_ev3q"></p>
+</li>
+<li>
+<p>Al hacer eso nos vamos a estar uniendo a un canal de IRC.</p>
+<p><img decoding="async" loading="lazy" alt="irc-4" src="https://linternita.com/assets/images/irc-4-09f9a068c5b382450f6af4e551f8c77a.png" width="1557" height="546" class="img_ev3q"></p>
+</li>
+<li>
+<p>En este canal podemos buscar y descargar libros. Para buscar un libro, hay
+que usar el comando <code>@search &lt;nombre_libro</code>. Por ejemplo:
+<code>@search hunger games</code>.</p>
+<p><img decoding="async" loading="lazy" alt="irc-5" src="https://linternita.com/assets/images/irc-5-6bfe48a35630b28683810b46e0fb661a.png" width="1321" height="198" class="img_ev3q"></p>
+</li>
+<li>
+<p>Cuando se ejecuta el comando, un bot del canal realiza la búsqueda. Como
+resultado nos ofrece un archivo .txt que contiene los resultados de la
+búsqueda. Tenemos que descargar este archivo.</p>
+<p><img decoding="async" loading="lazy" alt="irc-6" src="https://linternita.com/assets/images/irc-6-6d58e5cd989e5966a6da328bed422268.png" width="1418" height="592" class="img_ev3q"></p>
+</li>
+<li>
+<p>El archivo viene comprimido en un ZIP. Al descomprimirlo y abrirlo vemos que
+tiene una lista de resultados que coinciden con nuestra búsqueda:</p>
+<p><img decoding="async" loading="lazy" alt="irc-7" src="https://linternita.com/assets/images/irc-7-41ae50cdc8ece2c1cf841c578c3eee75.png" width="1468" height="782" class="img_ev3q"></p>
+</li>
+<li>
+<p>Si queremos descargar uno de estos resultados, tenemos que copiar desde el
+signo de exclamación (!) hasta la extensión del archivo (NO incluir la parte
+que dice ::INFO::). Ese texto copiado lo pegamos y enviamos en el chat del
+canal. Por ejemplo:
+<code>!peapod Suzanne Collins - [Hunger Games 01-03] - The Hunger Games Trilogy (The Hunger Games; Catching Fire, Mockingjay) (v5.0) (epub).rar</code></p>
+</li>
+<li>
+<p>Al hacer eso vamos a repetir el proceso de descarga de un archivo, pero esta
+vez para el ebook. Los pasos son los mismos que mostré antes (se nos abre una
+ventana diciendo si queremos descargar el archivo, le decimos que sí, etc).</p>
+</li>
+</ol>
+<p>Como dije es la forma más rebuscada que hay. Pero funcionar funciona y una vez
+que le agarrás la mano termina siendo igual de rápido que usar una página web.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="páginas-random-de-internet">Páginas random de internet<a href="https://linternita.com/blog/accion-a-distancia-ebooks#p%C3%A1ginas-random-de-internet" class="hash-link" aria-label="Direct link to Páginas random de internet" title="Direct link to Páginas random de internet">​</a></h3>
+<p>Así como existen Z-Lib, Libgen, y Anna's Archive, también existen mil páginas
+aleatorias en internet con ebooks. El problema es que quizás no sean tan
+confiables como las mencionadas en este blog.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="calibre">Calibre<a href="https://linternita.com/blog/accion-a-distancia-ebooks#calibre" class="hash-link" aria-label="Direct link to Calibre" title="Direct link to Calibre">​</a></h3>
+<p>Calibre no es una página para descargar ebooks, es un programa para administrar
+ebooks.</p>
+<p>No quiero convertir esto en un tutorial de Calibre porque la entrada se está
+volviendo demasiado larga, pero las funcionalidades que más uso son:</p>
+<ol>
+<li>Conversión de formatos de ebook (epub a AZW3 o al formato que quieras)</li>
+<li>Enviar al Kindle</li>
+<li>Editar ebooks</li>
+</ol>
+<p>Lo podés descargar desde: <a href="https://calibre-ebook.com/es" target="_blank" rel="noopener noreferrer">https://calibre-ebook.com/es</a></p>]]></content:encoded>
+            <category>random</category>
+            <category>ebooks</category>
+        </item>
         <item>
             <title><![CDATA[hackeando mi universidad]]></title>
             <link>https://linternita.com/blog/hackeando-mi-universidad</link>
