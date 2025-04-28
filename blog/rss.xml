@@ -73,12 +73,12 @@ errores. Pensalo, ¿cuántas veces calculaste mal un resultado (encima sin tener
 calculadoras para ayudarte)? Y no solo eso, si estás copiando una gran cantidad
 de números (1.9523925578232382398) es muy probable que "intercambies" los
 decimales de lugar sin darte cuenta o cometas algún error.</p>
-<p><strong>Charles Baggage</strong> notó que los diferentes libros de tablas matemáticas de su
+<p><strong>Charles Babbage</strong> notó que los diferentes libros de tablas matemáticas de su
 época tenían valores distintos entre sí. Seguramente un producto de los errores
 mencionados anteriormente. En base a eso tuvo una novedosa idea: hacer una
 máquina automática que calculara los números y que los fuese imprimiendo a
 medida que los obtenía.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="baggage-y-la-máquina-diferencial">Baggage y la Máquina Diferencial<a href="https://linternita.com/blog/mucho-mas-primera-programadora#baggage-y-la-m%C3%A1quina-diferencial" class="hash-link" aria-label="Direct link to Baggage y la Máquina Diferencial" title="Direct link to Baggage y la Máquina Diferencial">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="babbage-y-la-máquina-diferencial">Babbage y la Máquina Diferencial<a href="https://linternita.com/blog/mucho-mas-primera-programadora#babbage-y-la-m%C3%A1quina-diferencial" class="hash-link" aria-label="Direct link to Babbage y la Máquina Diferencial" title="Direct link to Babbage y la Máquina Diferencial">​</a></h2>
 <p>Esta máquina es conocida como la "Máquina Diferencial" o "Difference engine".</p>
 <p>A diferencia (NO ES UN CHISTE. NO TENGO OTRA FORMA DE DECIRLO.) de las
 calculadoras que conocemos hoy en día en las cuales podemos realizar varias
@@ -93,14 +93,14 @@ sin recurrir a aproximaciones.</p>
 <p>En criollo: con esta máquina serías capaz de generar muchas de las tablas que
 eran ampliamente utilizadas en la época, todo de forma automática, en poco
 tiempo, y sin errores.</p>
-<p>Baggage, quien definitivamente no saltaba, consiguió financiamiento del gobierno
+<p>Babbage, quien definitivamente no saltaba, consiguió financiamiento del gobierno
 británico para construir la máquina. El tema de las tablas de matemática era de
 gran interés para los británicos, ya que eran un imperio con una gran fuerza
 naval (en realidad después de las guerras napoleónicas eran <strong>el</strong> imperio
 naval), y como mencionamos anteriormente, la navegación de los mares requería
 del uso de tablas.</p>
 <p>El problema es que todavía seguimos en el 1800, donde no existe nada más que una
-solución mecánica a nuestros problemas. Baggage comenzó a hacer su "Difference
+solución mecánica a nuestros problemas. Babbage comenzó a hacer su "Difference
 Engine No. 1", pero se enfrentó a diversos desafíos de ingeniería, precisión,
 plata y tiempo.</p>
 <p>Nunca logró construirla, más allá de un pequeño prototipo que consta de 2000
@@ -110,22 +110,22 @@ piezas.</p>
 (de las cuales, 14 mil fueron creadas, y las 12 mil restantes que no fueron
 usadas las fundieron) y ser tan grande como una locomotora.</p>
 <p>Sin embargo, la historia de la Máquina Diferencial no termina acá.</p>
-<p>Baggage pasó un tiempo pensando en una
+<p>Babbage pasó un tiempo pensando en una
 máquinasorpresadelacualhablaremosenlapróximasección, y luego de eso, tuvo la
 idea de mejorar el diseño de la <em>Máquina Diferencial Número 1</em> y hacer su
 secuela.</p>
 <p>La <em>Máquina Diferencial Número 2</em> iba a estar formada por tan solo 8000 piezas y
 ser tan grande como una locomotora (pero no como la locomotora de la primera
-versión, una más chiquita). Baggage creó todos los planos y...</p>
+versión, una más chiquita). Babbage creó todos los planos y...</p>
 <p>...la máquina jamás fue construida mientras él estuvo con vida.</p>
 <p>En 1985 el Museo de Ciencias de Londres decidió poner a prueba los planos de
-Baggage y empezaron la construcción del aparato. A pesar de la tecnología
+Babbage y empezaron la construcción del aparato. A pesar de la tecnología
 moderna de la que disponían, tardaron 17 años en construirlo completamente.</p>
-<p>Los diseños de Baggage contenían errores pequeños, los cuales tuvieron que ser
+<p>Los diseños de Babbage contenían errores pequeños, los cuales tuvieron que ser
 arreglados. Pero fuera de eso, la máquina funciona correctamente:</p>
 <div style="margin:0 auto;text-align:center"><iframe width="560" height="315" src="https://www.youtube.com/embed/BlbQsKpq3Ak" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe></div>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="la-máquina-analítica-y-ada-lovelace">La Máquina Analítica y Ada Lovelace<a href="https://linternita.com/blog/mucho-mas-primera-programadora#la-m%C3%A1quina-anal%C3%ADtica-y-ada-lovelace" class="hash-link" aria-label="Direct link to La Máquina Analítica y Ada Lovelace" title="Direct link to La Máquina Analítica y Ada Lovelace">​</a></h2>
-<p>Baggage no saltó de una versión a la otra de la Máquina Diferencial. Por un par
+<p>Babbage no saltó de una versión a la otra de la Máquina Diferencial. Por un par
 de años entretuvo la idea de algo mucho más complejo: la Máquina Analítica.</p>
 <p>El "Analytical engine" no iba a ser otra calculadora de diferencias, sino una
 máquina capaz de realizar diferentes tipos de operaciones (adición,
@@ -134,7 +134,7 @@ llevadas a cabo por una unidad aritmética, contaría con un almacén de número
 (memoria), sería capaz de realizar bucles y procesar sentencias condicionales, y
 tendría una entrada basada en tarjetas perforadas.</p>
 <p>Básicamente, una computadora.</p>
-<p>La idea era muy buena, pero en Inglaterra no querían saber más de Baggage. Sin
+<p>La idea era muy buena, pero en Inglaterra no querían saber más de Babbage. Sin
 embargo, sus ideas tomaron popularidad en otros lugares, siendo invitado en 1840
 a dar conferencias sobre dicha máquina en la Universidad de Turín.</p>
 <p>En 1842 Menabrea publicó un artículo en Francés en el cual describía la Máquina
@@ -157,12 +157,12 @@ utilizando la Máquina Analítica.</p>
 <p><img decoding="async" loading="lazy" alt="note-g" src="https://linternita.com/assets/images/note-g-dc3c7bda829799a61f67c8dd44d82592.jpg" width="2000" height="1400" class="img_ev3q"></p>
 <p>Este es el primer algoritmo/programa en ser publicado que haya sido creado para
 ser ejecutado en una computadora.</p>
-<p>Baggage había creado algunos programas por su cuenta, pero nunca salieron a la
+<p>Babbage había creado algunos programas por su cuenta, pero nunca salieron a la
 luz, y además, ninguno era tan refinado ni sofisticado como el trabajo que hizo
 Ada.</p>
 <p>Lamentablemente, este algoritmo nunca pudo ser ejecutado en la Máquina
 Analítica, ya que la misma nunca se construyó (algo recurrente para este tipo de
-máquinas de Baggage, por lo visto). Mucho tiempo después fue traducido a
+máquinas de Babbage, por lo visto). Mucho tiempo después fue traducido a
 lenguajes modernos de programación para ser puesto a prueba, y quizás en un
 hecho que la define todavía más como la primera programadora, se descubrió que
 el programa tenía un pequeño error tipográfico y no funcionaría correctamente.</p>
@@ -192,7 +192,7 @@ instrucciones adecuadas.</p>
 <a href="https://en.wikipedia.org/wiki/Turing_machine#Universal_Turing_machines" target="_blank" rel="noopener noreferrer">máquina universal de computación</a>.
 Algo que se le ocurrió a Turing mucho tiempo después allá por 1930.</p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="impacto">Impacto<a href="https://linternita.com/blog/mucho-mas-primera-programadora#impacto" class="hash-link" aria-label="Direct link to Impacto" title="Direct link to Impacto">​</a></h2>
-<p>Lamentablemente las ideas de Baggage y Ada tuvieron nulo impacto en la
+<p>Lamentablemente las ideas de Babbage y Ada tuvieron nulo impacto en la
 computación que conocemos hoy en día.</p>
 <p>Las máquinas nunca lograron construirse en su época, por lo que el potencial de
 las mismas nunca pudo ser visto. Con el paso del tiempo nadie le prestó atención
@@ -209,12 +209,12 @@ se iban dando en la época.</p>
 <p>La historia en realidad es mucho más extensa e interesante. Por dar unos
 ejemplos:</p>
 <ul>
-<li>Baggage hacía fiestas donde mostraba la Máquina Diferencial. A esas fiestas
+<li>Babbage hacía fiestas donde mostraba la Máquina Diferencial. A esas fiestas
 asistía gente como Charles Darwin, Charles Dickens, y muchos otros Carlos.</li>
 <li>Ada era amiga de Florence Nightingale, la fundadora de la enfermería moderna.</li>
 </ul>
 <p>Recomiendo leer este blog de Stephen Wolfram, donde la cuenta en gran detalle,
-incluso mostrando correspondencia entre Baggage y Ada:
+incluso mostrando correspondencia entre Babbage y Ada:
 <a href="https://writings.stephenwolfram.com/2015/12/untangling-the-tale-of-ada-lovelace/" target="_blank" rel="noopener noreferrer">https://writings.stephenwolfram.com/2015/12/untangling-the-tale-of-ada-lovelace/</a></p>
 <hr>
 <p><img decoding="async" loading="lazy" alt="ada" src="https://linternita.com/assets/images/ada-ec88395669e09f9bff81158b4d8bbd17.jpeg" width="1512" height="2688" class="img_ev3q"></p>
