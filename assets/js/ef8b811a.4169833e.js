@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunklinternita=self.webpackChunklinternita||[]).push([[947],{6600:i=>{i.exports=JSON.parse('{"authors":[{"name":"Una Linterna","title":"Iluminando cosas","url":"https://es.wikipedia.org/wiki/Linterna_el%C3%A9ctrica","page":null,"imageURL":"https://upload.wikimedia.org/wikipedia/commons/4/4a/Flashlight.jpg","key":"linterna","count":9}]}')}}]);
