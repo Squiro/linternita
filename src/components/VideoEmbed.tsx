@@ -6,8 +6,7 @@ export const VideoEmbed = ({ src }) => (
     }}
   >
     <iframe
-      width="560"
-      height="315"
+      style={{ width: "100%", height: "315px" }}
       src={src}
       title="YouTube video player"
       frameborder="0"
