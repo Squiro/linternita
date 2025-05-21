@@ -96,7 +96,7 @@ interpretarlo como un 0.</p>
 <p>Esta no es la única forma de modulación que existe, hay muchas más. Otras en vez
 de alterar la amplitud realizan cambios en la frecuencia de una señal. Pero la
 modulación por amplitud es de las más fáciles de implementar y usar.</p>
-<p><img decoding="async" loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Modulation_categorization.svg" alt="modulation-categorization" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" alt="modulation-categorization" src="https://linternita.com/assets/images/modulation-categorization-97eaad9e68f00bea684b4d43e710c47b.jpg" width="4890" height="1168" class="img_ev3q"></p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="transmitiendo-datos-con-sonido">Transmitiendo datos con sonido<a href="https://linternita.com/blog/transmitiendo-datos-con-sonido#transmitiendo-datos-con-sonido" class="hash-link" aria-label="Direct link to Transmitiendo datos con sonido" title="Direct link to Transmitiendo datos con sonido">​</a></h2>
 <p>Por fin llegamos a la parte principal de este post.</p>
 <p>Ya sabemos cómo transformar una onda para convertirla en una señal que transmita
