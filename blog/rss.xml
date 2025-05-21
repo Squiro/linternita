@@ -184,7 +184,7 @@ información.</p>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="demo">Demo<a href="https://linternita.com/blog/transmitiendo-datos-con-sonido#demo" class="hash-link" aria-label="Direct link to Demo" title="Direct link to Demo">​</a></h3>
 <p>Blablablablabla mucho texto zzzzzzzzzzz.</p>
 <p>Acá hay una demostración en video de todo essto funcionando en la vida real:</p>
-<div style="margin:0 auto;text-align:center"><iframe width="560" height="315" src="https://www.youtube.com/embed/ARSIg6EtaA0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe></div>
+<div style="margin:0 auto;text-align:center"><iframe style="width:100%;height:315px" src="https://www.youtube.com/embed/ARSIg6EtaA0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe></div>
 <p>Y acá hay un repositorio con el código horrible que hice:
 <a href="https://github.com/Squiro/sound-modulation-poc" target="_blank" rel="noopener noreferrer">https://github.com/Squiro/sound-modulation-poc</a></p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="notas-finales">Notas finales<a href="https://linternita.com/blog/transmitiendo-datos-con-sonido#notas-finales" class="hash-link" aria-label="Direct link to Notas finales" title="Direct link to Notas finales">​</a></h2>
@@ -335,7 +335,7 @@ están ahí.</p>
 <p>En su momento, el canal de YouTube DankPods solía hacer bastantes vídeos
 comparando auriculares. Es un buen punto de partida decente para conocer
 distintos auriculares y formar una opinión sobre los mismos:</p>
-<div style="margin:0 auto;text-align:center"><iframe width="560" height="315" src="https://www.youtube.com/embed/V_gf8TZ1M6g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe></div>
+<div style="margin:0 auto;text-align:center"><iframe style="width:100%;height:315px" src="https://www.youtube.com/embed/V_gf8TZ1M6g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe></div>
 <p>En este vídeo en específico muestra auriculares baratos, pero decentes. No hace
 falta gastar una millonada para tener un auricular que se escuche <em>bien</em>.
 Incluso hay un Superlux metido por ahí &lt;3.</p>]]></content:encoded>
@@ -456,7 +456,7 @@ Babbage y empezaron la construcción del aparato. A pesar de la tecnología
 moderna de la que disponían, tardaron 17 años en construirlo completamente.</p>
 <p>Los diseños de Babbage contenían errores pequeños, los cuales tuvieron que ser
 arreglados. Pero fuera de eso, la máquina funciona correctamente:</p>
-<div style="margin:0 auto;text-align:center"><iframe width="560" height="315" src="https://www.youtube.com/embed/BlbQsKpq3Ak" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe></div>
+<div style="margin:0 auto;text-align:center"><iframe style="width:100%;height:315px" src="https://www.youtube.com/embed/BlbQsKpq3Ak" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe></div>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="la-máquina-analítica-y-ada-lovelace">La Máquina Analítica y Ada Lovelace<a href="https://linternita.com/blog/mucho-mas-primera-programadora#la-m%C3%A1quina-anal%C3%ADtica-y-ada-lovelace" class="hash-link" aria-label="Direct link to La Máquina Analítica y Ada Lovelace" title="Direct link to La Máquina Analítica y Ada Lovelace">​</a></h2>
 <p>Babbage no saltó de una versión a la otra de la Máquina Diferencial. Por un par
 de años entretuvo la idea de algo mucho más complejo: la Máquina Analítica.</p>
@@ -1530,7 +1530,7 @@ aprendizaje supervisado que realizaron sobre el contenido con el que fueron
 entrenadas y los que deciden ese contenido son un par de tipos de alguna empresa
 en Silly-Con Valley.</p>
 <p>Alec Watson, en poco menos de dos minutos, me dejó pedaleando:</p>
-<div style="margin:0 auto;text-align:center"><iframe width="560" height="315" src="https://www.youtube.com/embed/QEJpZjg8GuA?si=cHiyTqOisDgLXMzm&amp;start=2043" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe></div>
+<div style="margin:0 auto;text-align:center"><iframe style="width:100%;height:315px" src="https://www.youtube.com/embed/QEJpZjg8GuA?si=cHiyTqOisDgLXMzm&amp;start=2043" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe></div>
 <p><em>"[...] cayendo ante la tentación de máquinas que pueden sacarnos la carga de
 pensar. <strong>La cosa que nos hace humanos.</strong>"</em></p>
 <p>Por eso no estoy usando esas herramientas, a pesar de que reconozco la utilidad
