@@ -43,3 +43,9 @@ ebooks:
   label: ebooks
   permalink: /ebooks
   description: Posts relacionados a ebooks
+
+linternita-enseña:
+  label: linternita-enseña
+  permalink: /linternita-enseña
+  description:
+    Posts didáticos donde una linternita te enseña sobre un tema específico
