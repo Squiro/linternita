@@ -38,6 +38,10 @@ const config: Config = {
       {
         docs: false,
         blog: {
+          blogTitle: "Linternita.com",
+          blogDescription: "Una página sobre linternas.",
+          blogSidebarTitle: "Otros posts ↓ 🔦 ↓",
+          blogSidebarCount: "ALL",
           showReadingTime: true,
           feedOptions: {
             type: ["rss", "atom"],
