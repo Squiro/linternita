@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunklinternita=self.webpackChunklinternita||[]).push([[8146],{9328:e=>{e.exports=JSON.parse('{"metadata":{"permalink":"/blog","page":1,"postsPerPage":10,"totalPages":2,"totalCount":16,"nextPage":"/blog/page/2","blogDescription":"Una p\xe1gina sobre linternas.","blogTitle":"Linternita.com"}}')}}]);
