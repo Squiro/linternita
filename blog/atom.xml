@@ -2,11 +2,251 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://linternita.com/blog</id>
     <title>Linternita Blog</title>
-    <updated>2025-08-07T00:00:00.000Z</updated>
+    <updated>2025-08-20T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://linternita.com/blog"/>
     <subtitle>Linternita Blog</subtitle>
     <icon>https://linternita.com/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Linternita Lo-Fi]]></title>
+        <id>https://linternita.com/blog/linternita-lo-fi</id>
+        <link href="https://linternita.com/blog/linternita-lo-fi"/>
+        <updated>2025-08-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[¿Vinilos? CDs? ¿MP3s? ¿¿FLAC?? Quién necesita eso cuando la mejor forma de]]></summary>
+        <content type="html"><![CDATA[<p>¿Vinilos? CDs? ¿MP3s? ¿¿FLAC?? Quién necesita eso cuando la mejor forma de
+reproducir música es con un teléfono fijo.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="anunciando-el-futuro">Anunciando el futuro<a href="https://linternita.com/blog/linternita-lo-fi#anunciando-el-futuro" class="hash-link" aria-label="Direct link to Anunciando el futuro" title="Direct link to Anunciando el futuro">​</a></h2>
+<p>En el anterior post vimos como gracias a la invención del teléfono,
+<a href="https://linternita.com/blog/monopolio-que-cambio-mundo" target="_blank" rel="noopener noreferrer">una empresa inventó el siglo 21</a>.</p>
+<p>Hoy es mi turno para revolucionar a la industria. Recién salido de nuestra
+división de R&amp;D <em>Linternita Labs</em>, me enorgullece presentar:</p>
+<div style="display:flex;flex-direction:column;align-items:center"><p><strong>Linternita Lo-Fi: La <em>peor</em> forma de escuchar música</strong></p></div>
+<p>Nada de vinilos. Ni de CDs. Ni formatos "lossless" como FLAC. <em>Linternita Lo-Fi</em>
+desafía cualquier pretensión que tengas de escuchar música con buena calidad y
+de forma cómoda.</p>
+<p>Para participar de esta grandiosa experiencia tan solo necesitás:</p>
+<ul>
+<li>Una computadora</li>
+<li>Un módem</li>
+<li>Un teléfono fijo</li>
+<li>No ser sordo</li>
+<li>Tener ganas de sufrir</li>
+</ul>
+<p>Acá nuestro video demostrativo:</p>
+<div style="margin:0 auto;text-align:center"><iframe style="width:100%;height:315px" src="https://www.youtube.com/embed/PHusSniWM1M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe></div>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="making-of">Making-of<a href="https://linternita.com/blog/linternita-lo-fi#making-of" class="hash-link" aria-label="Direct link to Making-of" title="Direct link to Making-of">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="desentrañando-un-módem">Desentrañando un módem<a href="https://linternita.com/blog/linternita-lo-fi#desentra%C3%B1ando-un-m%C3%B3dem" class="hash-link" aria-label="Direct link to Desentrañando un módem" title="Direct link to Desentrañando un módem">​</a></h3>
+<p>Mi objetivo era, de alguna forma, lograr reproducir un archivo de audio desde mi
+computadora y que el sonido salga a través del teléfono. Quería hacer esto de la
+forma menos destructiva para el teléfono, es decir, que se mantenga lo más
+funcional posible y que no tenga que desarmarlo para cortar cables y cosas así.</p>
+<p>Lamentablemente no hay forma fácil de hacer esto.</p>
+<p>Históricamente los teléfonos fijos funcionaban con señales analógicas que eran
+enviadas a través de cables de cobre o similares.</p>
+<p>Pero la música que tenemos en nuestras computadoras se almacenan como señales
+digitales.</p>
+<p>Es decir, no podemos "conectar" un teléfono fijo directamente a la computadora y
+esperar que reproduzca música. Necesitamos un dispositivo que actúe como un
+traductor, convirtiendo señales digitales en analógicas.</p>
+<p>Por suerte tenemos la ayuda de un pequeño y cuadrado amigo:</p>
+<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="modem-front" src="https://linternita.com/assets/images/modem-front-c354f1756f5c1522026bc93224aec437.webp" width="640" height="457" class="img_ev3q"></p></div>
+<p>Cuyo nombre es Blu-Castle PhoneBox modelo BCEG670. Esto es un
+<em>módem</em><sup><a href="https://linternita.com/blog/linternita-lo-fi#note-1">1</a></sup>, un aparato que actúa como un "traductor".</p>
+<p>Si damos vuelta nuestro módem, vamos a ver que tiene un par de puertos (entre
+otras cosas):</p>
+<ul>
+<li>Un puerto RJ11 (para conectar nuestro teléfono al módem)</li>
+<li>Un misterioso puerto micro USB</li>
+</ul>
+<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="modem-back" src="https://linternita.com/assets/images/modem-back-79250899e7df0a907e3327a2c80eaaff.webp" width="640" height="406" class="img_ev3q"></p></div>
+<p>Al ver ese puerto micro USB pensé: si tiene un puerto así entonces lo puedo
+conectar a mi computadora y con suerte lo va a reconocer como un dispositivo USB
+con el que puedo interactuar.</p>
+<p>Lo cual fue totalmente ingenuo y muy optimista de mi parte. Pero lo hice igual.</p>
+<p>Al conectarlo, Windows reconoció el módem como un... ¿adaptador de red?</p>
+<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="windows-ethernet-adapter" src="https://linternita.com/assets/images/windows-ethernet-adapter-ec1d53d6b62762445a19fbba4ea225e0.png" width="813" height="571" class="img_ev3q"></p></div>
+<p>Antes de seguir decidí hacer lo que debería haber hecho en un comienzo: buscar
+información sobre el dispositivo. En algún lado tiene que haber un manual o
+cierta documentación del fabricante que diga para qué sirve ese puerto.</p>
+<p>Primero me encontré
+<a href="https://suportebc.com.br/documents/manual_bceg670.pdf" target="_blank" rel="noopener noreferrer">con este documento</a>, el
+cual me dice que puedo acceder a una página de administración web si conecto el
+módem a una PC.</p>
+<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="modem-web" src="https://linternita.com/assets/images/modem-web-b44f1de384425b7295ae6ef02728511e.png" width="790" height="677" class="img_ev3q"></p></div>
+<p>Intenté ingresar, pero me rendí tras muchos intentos fallidos. La dirección MAC
+que veía en Windows no era realmente la MAC del dispositivo.</p>
+<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="windows-modem-mac" src="https://linternita.com/assets/images/windows-modem-mac-292c217799d09d95145c05efcd4d8660.png" width="484" height="381" class="img_ev3q"></p></div>
+<p>Seguí buscando información sobre el módem y me encontré
+<a href="https://es.scribd.com/document/576177998/guia-PhoneBox-BCEG670-1" target="_blank" rel="noopener noreferrer">este otro documento</a>
+que dice que puedo conectarme al módem a través del protocolo Telnet para
+acceder... ¿a un Linux?</p>
+<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="modem-linux" src="https://linternita.com/assets/images/modem-linux-b02bdb3cfe689957a9be3e6b1748dd3e.png" width="933" height="611" class="img_ev3q"></p></div>
+<p>¿Eh? ¿Cómo que mi módem tiene un sistema operativo y encima es Linux?</p>
+<p>Abrí PuTTY, configuré la conexión, y...</p>
+<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="modem-linux-auth" src="data:image/png;base64,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" width="657" height="215" class="img_ev3q"></p></div>
+<p>Esto es muy interesante, básicamente que corra Linux hace que esta pequeña
+cajita cuadrada sea más cercana a lo que conocemos como "computadora
+convencional".</p>
+<p>Y esto me hizo pensar en lo siguiente: si está ejecutando Linux, tiene que haber
+un programa o algo que controle el teléfono... que capte los botones, realice
+las llamadas, <em>transmita el audio</em>...</p>
+<p><em><sup><a name="note-1">1</a>:</sup> en este caso, provisto a comodato por la
+empresa Movistar para poder realizar llamadas telefónicas a través de lo que se
+conoce como Voice over LTE luego de que se fuesen robadas todas las líneas de
+par trenzado de cobre en el país.</em></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="una-mini-computadora">Una mini computadora<a href="https://linternita.com/blog/linternita-lo-fi#una-mini-computadora" class="hash-link" aria-label="Direct link to Una mini computadora" title="Direct link to Una mini computadora">​</a></h3>
+<p>Una vez que iniciamos sesión podemos acceder a todo el sistema operativo y
+obtener más información.</p>
+<p>Antes de siquiera iniciar sesión nos dice un dato importante que puede pasar por
+desapercibido: <em>mdm9607</em>. Esto hace referencia al chipset en el que está basado
+todo el aparato, en este caso, <strong>Qualcomm MDM9607</strong>. Nos puede ser útil para
+saber de qué es capaz esta mini computadora.</p>
+<p>Si empezamos a revisar en los archivos del sistema operativo, hay algunas cosas
+interesantes, como scripts de configuración utilizados por Telefónica Argentina:</p>
+<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="default-sh" src="https://linternita.com/assets/images/default-sh-5f59e26b8ab96c9423ea2db5966c0c5b.png" width="762" height="886" class="img_ev3q"></p></div>
+<p>Pero realmente no me ayudó con mi objetivo de reproducir música porque no
+entiendo nada relacionado a esas configuraciones.</p>
+<p>Lo que siguió fueron varias horas de buscar entre todas las carpetas y archivos
+para tratar de hallar <em>algo</em> relacionado al control de teléfono fijo.</p>
+<p>En algún momento me encontré con el script <strong>d2volte_control.sh</strong> dentro de la
+carpeta <code>/usr/d2/</code>. ¿d2volte_control...? D2<sup><a href="https://linternita.com/blog/linternita-lo-fi#note-2">2</a></sup> Voice over
+LTE Control. Esto TIENE que estar relacionado al teléfono.</p>
+<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="d2-volte" src="data:image/png;base64,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" width="652" height="102" class="img_ev3q"></p></div>
+<p>Al abrir el script me encontré con que tenía varias funciones adentro, pero la
+que más me llamó la atención fue vapp_start:</p>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>d2volte_control.sh - vapp_start</summary><div><div class="collapsibleContent_i85q"><div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">vapp_start()</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">{</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        local bind_to_lan=$(cmscfg -ggn vapp_networkInterface)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        local slic_general_config_id=`cmscfg -gggn vapp_cms_slic_general_config`</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        [ -z "$slic_general_config_id" ] &amp;&amp; slic_general_config_id=0</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        mkdir -p /var/tmp/osal</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        # 9x07 idu command</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        amix 'AUX_PCM_RX Audio Mixer MultiMedia1' 1</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        amix 'MultiMedia1 Mixer AUX_PCM_UL_TX' 1</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        aplay -P &amp;</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        arec -P &amp;</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        amix 'AUX_PCM_RX_Voice Mixer CSVoice' 1</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        amix 'Voice_Tx Mixer AUX_PCM_TX_Voice' 1</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        aplay -D hw:0,2 -P &amp;</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        arec -D hw:0,2 -P -R 8000 -C 1 &amp;</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        insmod $D2_DIR/osal_kernel.ko</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        insmod $D2_DIR/extern_osal_kernel_gpl.ko</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        insmod $D2_DIR/ve_vtsp_hw.ko slic_general_config_id=$slic_general_config_id</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        insmod $D2_DIR/ve_vtsp_rt.ko</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        sleep 8</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        $D2_DIR/vapp_config</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        vapp_set_xml</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        sg volte -c $D2_DIR/vapp &amp;</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        sleep 3</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        $D2_DIR/vapp_client &amp;</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        if [ "$bind_to_lan" == "1" ]; then</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">                $D2_DIR/vapp -v $(cmscfg -ggn sys_lan_ip)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        fi</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">}</span><br></span></code></pre></div></div></div></div></details>
+<p>Estas líneas me llamaron mucho la atención porque mencionan explícitamente
+"audio":</p>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">    # 9x07 idu command</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    amix 'AUX_PCM_RX Audio Mixer MultiMedia1' 1</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    amix 'MultiMedia1 Mixer AUX_PCM_UL_TX' 1</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    aplay -P &amp;</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    arec -P &amp;</span><br></span></code></pre></div></div>
+<p>Por curiosidad ejecuté <code>amix 'AUX_PCM_RX Audio Mixer MultiMedia1' 0</code> y levanté
+el auricular del teléfono. No se escuchaba el tono de marcado, ni los botones,
+ni nada en absoluto, el teléfono estaba mudo. Después ejecuté
+<code>amix 'AUX_PCM_RX Audio Mixer MultiMedia1' 1</code> para revertir el cambio y el
+teléfono empezó a hacer sonidos de vuelta.</p>
+<p>¿Y los otros comandos? ¿Qué hace <code>aplay</code>?</p>
+<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="aplay" src="https://linternita.com/assets/images/aplay-c8364cd405e765507805bd7f1d26b007.png" width="709" height="445" class="img_ev3q"></p></div>
+<p>Reproduce archivos de música, por supuesto.</p>
+<p>Esto no puede ser así de fácil.</p>
+<p><em><sup><a name="note-2">2</a>:</sup> <a href="https://www.d2tech.com/" target="_blank" rel="noopener noreferrer">D2</a> resulta que es
+una empresa que ofrece productos relacionados a VoIP, VoLTE, entre otros. En
+este módem, VAPP es un software de ellos que controla todo lo relacionado a las
+llamadas. Antes de ir por la ruta de reproducir un archivo de audio con <code>aplay</code>
+pensé que tenía que controlar el programa VAPP de alguna forma para reproducir
+sonido, lo cual hubiera sido un quilombo.</em></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="alsa-y-buffer-underruns">ALSA y buffer underruns<a href="https://linternita.com/blog/linternita-lo-fi#alsa-y-buffer-underruns" class="hash-link" aria-label="Direct link to ALSA y buffer underruns" title="Direct link to ALSA y buffer underruns">​</a></h3>
+<p>No fue así de fácil.</p>
+<p>Al principio <code>aplay</code> fallaba todo el tiempo con el siguiente error:</p>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">aplay: Playing 'dummy':Signed 16 bit Little Endian</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">cannot open device '/dev/snd/pcmC0D0p', errno 16</span><br></span></code></pre></div></div>
+<p>Muchas horas de investigación después, descubrí que:</p>
+<ul>
+<li>
+<p>El Linux de este módem tiene una versión propia de
+<a href="https://wiki.archlinux.org/title/Advanced_Linux_Sound_Architecture_(Espa%C3%B1ol)" target="_blank" rel="noopener noreferrer">ALSA</a>
+(Advanced Linux Sound Architecture), que es un componente que proporciona
+drivers/controladores para las tarjetas de sonido que tengas instaladas en tu
+computadora.</p>
+</li>
+<li>
+<p><code>aplay</code>, <code>arec</code>, y <code>amix</code> son programas que vienen por defecto con ALSA.
+<code>aplay</code> y <code>arec</code> se usan para reproducir y para grabar sonido,
+respectivamente, mientras que <code>amix</code> se usa para configurar cosas relacionadas
+a los dispositivos de sonido. Al igual que ALSA, estos programas son una
+versión propia del fabricante (Qualcomm), <em>esto es importante porque me
+terminó complicando la vida después</em>.</p>
+</li>
+<li>
+<p><code>/dev/snd/pcmC0D0p</code> es la forma que ALSA usa para identificar a los
+dispositivos de sonido. La parte <code>pcm</code> significa <em>pulse coded modulation</em>,
+mientras que <code>C0</code> identifica a la primera tarjeta (card 0), y <code>D0</code> (device 0)
+al primer dispositivo dentro de la tarjeta. La <code>p</code> del final hace referencia a
+que es un dispositivo de <em>playback</em>, es decir, para reproducir sonidos.</p>
+</li>
+<li>
+<p><code>aplay</code> fallaba en iniciarse porque ya había otro proceso utilizando ese
+dispositivo de sonido.</p>
+</li>
+<li>
+<p>Ese dispositivo de sonido es el parlante del teléfono. Es decir... <strong>el Linux
+de este módem reconoce directamente al teléfono fijo como un dispositivo de
+sonido.</strong></p>
+</li>
+</ul>
+<p>Solucioné el problema de tener el dispositivo de sonido ocupado matando todos
+los procesos de <code>aplay</code>. Usando magia<sup><a href="https://linternita.com/blog/linternita-lo-fi#note-3">3</a></sup> transferí un
+archivo WAV al módem. Después intenté reproducirlo:</p>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">root@mdm9607:/mnt/jffs2/sound# aplay test.wav</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Aplay:aplay: 'test.wav' is not 16bit per sample</span><br></span></code></pre></div></div>
+<p>Ok. Se queja porque el formato del archivo WAV que le di no es lo que está
+esperando. No hay problema, <code>aplay</code> soporta parámetros para configurar lo que se
+reproduce. Usando <code>-F</code> puedo especificar el formato.</p>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">root@mdm9607:/mnt/jffs2/sound# aplay -F S8 test.wav</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">optarg = S8</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">format_names S8aplay: Playing 'test.wav': format Signed 8 bit ch = 2</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Aplay:cannot set hw params</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Aplay:params setting failed</span><br></span></code></pre></div></div>
+<p>Acá es donde entra en juego eso que dije de que estamos usando una versión no
+convencional de ALSA y aplay. Por alguna razón falla automáticamente si me
+desvío de la configuración por defecto del comando <code>aplay</code>.</p>
+<p>La configuración por defecto espera archivos WAV que tengan:</p>
+<ul>
+<li>Formato PCM Signed 16 Bit Little Endian</li>
+<li>8000Hz de frecuencia de muestreo</li>
+</ul>
+<p>Lo cual es malísimo en términos de calidad de sonido, pero no es el fin del
+mundo. Con Audacity puedo convertir cualquier archivo de música para que sea un
+WAV con esas características.</p>
+<p>Agarré un <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" rel="noopener noreferrer">tema</a> que todos
+conocemos muy bien, recorté los primeros 30 segundos, y creé un WAV con esas
+especificaciones. Funcionó... más o menos.</p>
+<div style="margin:0 auto;text-align:center"><iframe style="width:100%;height:315px" src="https://www.youtube.com/embed/Rsum0prmWJs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe></div>
+<p>El tema se reproduce, pero se escucha ralentizado, como si fuera una versión
+slowed+reverb. También a medida que se reproduce salta continuamente un mensaje
+de error en la consola de Linux:</p>
+<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="buffer-underrun" src="https://linternita.com/assets/images/buffer-underrun-f8abc6f137b245faf2a8a3d81f9cc1ad.png" width="557" height="647" class="img_ev3q"></p></div>
+<p>Este error hace referencia a un
+<a href="https://es.wikipedia.org/wiki/Subdesbordamiento_de_b%C3%BAfer" target="_blank" rel="noopener noreferrer">subdesbordamiento del búfer</a>.
+Esto pasa cuando un búfer de memoria se carga más lento que la velocidad a la
+que se procesa la información de ese búfer.</p>
+<p>En nuestro caso significa que, por alguna razón, los datos del archivo de música
+se transfieren muy lento a memoria, lo que causa interrupciones en el audio y
+hace que parecer que tema se está reproduciendo de forma ralentizada.</p>
+<p><em><sup><a name="note-3">3</a>:</sup> Si bien creo que el módem tiene soporte para
+FTP, decidí usar NCAT para transferir datos. Fue lo más sencillo y rápido.</em></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="tratando-de-arreglar-el-audio">Tratando de arreglar el audio<a href="https://linternita.com/blog/linternita-lo-fi#tratando-de-arreglar-el-audio" class="hash-link" aria-label="Direct link to Tratando de arreglar el audio" title="Direct link to Tratando de arreglar el audio">​</a></h3>
+<p>Intenté de todo para arreglar ese problema, pero no encontré ninguna solución
+mágica.</p>
+<p>En mi opinión, el problema puede estar relacionado a:</p>
+<ul>
+<li>
+<p>La versión de <code>aplay</code> que tiene este módem: voy a dejar que el
+<a href="https://android.googlesource.com/platform/hardware/qcom/audio/+/jb-mr1-dev/libalsa-intf/aplay.c" target="_blank" rel="noopener noreferrer">código fuente</a>
+hable por sí mismo. No quiero ser malo, pero es medio feo.</p>
+</li>
+<li>
+<p>El módem no se la banca: capaz no tiene suficiente poder como para reproducir
+archivos de audio, pero no tendría mucho sentido, porque el módem es capaz de
+conectarse a una red 4G y realizar llamadas telefónicas... las cuales
+generalmente reproducen audio.</p>
+</li>
+</ul>
+<p>Pero hoy se me prendió la linternita y pensé: si el audio se "escucha lento",
+¿qué pasa si le incremento la velocidad al tema?</p>
+<div style="margin:0 auto;text-align:center"><iframe style="width:100%;height:315px" src="https://www.youtube.com/embed/dvzABOUfp4o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe></div>
+<p>No soluciona el problema del búfer, pero eh, se escucha un poco mejor.</p>
+<p>Así que, con esto, <em>Linternita Lo-Fi</em> puede reproducir archivos WAV que tengan:</p>
+<ul>
+<li>Formato PCM Signed 16 Bit Little Endian</li>
+<li>8000Hz de frecuencia de muestreo</li>
+<li>Un solo canal de audio (mono)</li>
+<li>Tengan un 10% de la velocidad incrementada (en algunas canciones quizás deba
+ser más o menos)</li>
+<li>La amplitud de la canción reducida (descubrí que si la canción se escucha "muy
+fuerte" termina siendo horrible el sonido que sale del parlante)</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="conclusiones">Conclusiones<a href="https://linternita.com/blog/linternita-lo-fi#conclusiones" class="hash-link" aria-label="Direct link to Conclusiones" title="Direct link to Conclusiones">​</a></h2>
+<p>No hagas esto no vale la pena.</p>]]></content>
+        <author>
+            <name>Una Linterna</name>
+            <uri>https://es.wikipedia.org/wiki/Linterna_el%C3%A9ctrica</uri>
+        </author>
+        <category label="musica" term="musica"/>
+        <category label="diy" term="diy"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[El monopolio que cambió al mundo]]></title>
         <id>https://linternita.com/blog/monopolio-que-cambio-mundo</id>
@@ -1513,6 +1753,7 @@ soy.</p>]]></content>
             <uri>https://es.wikipedia.org/wiki/Linterna_el%C3%A9ctrica</uri>
         </author>
         <category label="fichines" term="fichines"/>
+        <category label="diy" term="diy"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[transmitiendo datos con sonido]]></title>
@@ -1712,6 +1953,7 @@ modulación por frecuencia: <a href="https://github.com/ggerganov/ggwave" target
             <uri>https://es.wikipedia.org/wiki/Linterna_el%C3%A9ctrica</uri>
         </author>
         <category label="random" term="random"/>
+        <category label="diy" term="diy"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[¿Cómo elegir un buen auricular?]]></title>
@@ -2696,6 +2938,7 @@ simplemente elegís donde instalarlo y dejás que haga su magia.</p>
         </author>
         <category label="musica" term="musica"/>
         <category label="fichines" term="fichines"/>
+        <category label="diy" term="diy"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Internet antes de la triple W]]></title>
