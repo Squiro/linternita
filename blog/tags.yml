@@ -49,3 +49,8 @@ linternita-enseña:
   permalink: /linternita-enseña
   description:
     Posts didáticos donde una linternita te enseña sobre un tema específico
+
+diy:
+  label: diy
+  permalink: /diy
+  description: Posts estilo DIY
