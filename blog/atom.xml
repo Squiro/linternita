@@ -204,7 +204,7 @@ Esto pasa cuando un búfer de memoria se carga más lento que la velocidad a la
 que se procesa la información de ese búfer.</p>
 <p>En nuestro caso significa que, por alguna razón, los datos del archivo de música
 se transfieren muy lento a memoria, lo que causa interrupciones en el audio y
-hace que parecer que tema se está reproduciendo de forma ralentizada.</p>
+que hace parecer que el tema se está reproduciendo de forma ralentizada.</p>
 <p><em><sup><a name="note-3">3</a>:</sup> Si bien creo que el módem tiene soporte para
 FTP, decidí usar NCAT para transferir datos. Fue lo más sencillo y rápido.</em></p>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="tratando-de-arreglar-el-audio">Tratando de arreglar el audio<a href="https://linternita.com/blog/linternita-lo-fi#tratando-de-arreglar-el-audio" class="hash-link" aria-label="Direct link to Tratando de arreglar el audio" title="Direct link to Tratando de arreglar el audio">​</a></h3>
