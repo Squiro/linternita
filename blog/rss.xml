@@ -4,17 +4,244 @@
         <title>Linternita Blog</title>
         <link>https://linternita.com/blog</link>
         <description>Linternita Blog</description>
-        <lastBuildDate>Wed, 20 Aug 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 12 Sep 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[¿Qué pasa cuando se rompen estos cables?]]></title>
+            <link>https://linternita.com/blog/cables-submarinos</link>
+            <guid>https://linternita.com/blog/cables-submarinos</guid>
+            <pubDate>Fri, 12 Sep 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[<div]]></description>
+            <content:encoded><![CDATA[<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="oh-shit-the-economy" src="https://linternita.com/assets/images/oh-shit-the-economy-950806b36e9b982a106a356e7575d05f.jpg" width="653" height="453" class="img_ev3q"></p></div>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="hay-cables-en-el-fondo-del-mar">Hay cables en el fondo del mar<a href="https://linternita.com/blog/cables-submarinos#hay-cables-en-el-fondo-del-mar" class="hash-link" aria-label="Direct link to Hay cables en el fondo del mar" title="Direct link to Hay cables en el fondo del mar">​</a></h2>
+<p>Hay muchas piezas de infraestructura que tendemos a ignorar. Nadie se para en la
+calle a ver un poste de cables eléctricos. Sabemos que están ahí pero <em>no nos
+importan</em>, es parte del escenario y no afectan en casi nada a nuestras vidas
+diarias.</p>
+<p>Por más que esos mismos cables sean gracias a los que tenemos electricidad en
+nuestras casas, trabajos, hospitales, etc.</p>
+<p>Pero al menos esos cables están ahí a simple vista. Los percibimos más a menudo
+que estos otros, que están sumergidos en el fondo del mar y que cumplen un rol
+tal vital como los cables que usamos para el suministro eléctrico.</p>
+<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="submarine-cable" src="https://linternita.com/assets/images/submarine-cable-a739edebc57f9a0c12adb29602e9620f.jpg" width="2560" height="1440" class="img_ev3q"></p></div>
+<p><strong>¿Qué son?</strong></p>
+<p>Cables de fibra óptica, un tipo de cable que transmite información utilizando a
+la luz como el medio, en vez de la electricidad como en el caso de un cable de
+cobre o similares.</p>
+<p><strong>¿Por qué... tiramos cables en el fondo del mar?</strong></p>
+<p>Para comunicarnos.</p>
+<p>Esto es algo que empezó con el telégrafo, como vimos en el post
+<a href="https://linternita.com/blog/monopolio-que-cambio-mundo" target="_blank" rel="noopener noreferrer">más largo y aburrido</a>
+de este blog. Para comunicarte con un telégrafo necesitabas una conexión
+cableada. No existían medios inalámbricos, y no iban a existir hasta el fin del
+1800 cuando Marconi empezó a jugar con las ondas de radio.</p>
+<p>Pero la gente quería <em>telegrafiar</em> y querían hacerlo también con gente que
+viviese al otro lado del charco.</p>
+<p>Entonces decidieron embarcarse (ja ja) en una gran hazaña y en 1858 decidieron
+tirar un cable desde Irlanda hasta lo que hoy en día es Canadá.</p>
+<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="atlantic-cable" src="https://linternita.com/assets/images/atlantic-cable-3fd537953ec25f084e1f8684bdebe1c8.jpg" width="1275" height="600" class="img_ev3q"></p></div>
+<p>Cuando llegó el teléfono seguimos tirando cables al agua, incluso aunque ya en
+ese entonces existieran algunas formas de comunicación inalámbrica.</p>
+<p>Hoy en día tenemos internet como nuestra forma de comunicación estrella, que en
+sus inicios también fue una tecnología "alámbrica" (cable dependiente). Pero
+todo lo relacionado al mundo inalámbrico avanzó drásticamente. Tipo, tenemos
+Wi-Fi, Bluetooth, satélites, y en algunas partes del mundo hay antenas 5G (lo
+que sea que signifique eso). ¿Sigue estando la necesidad de tirar cables al
+agua?</p>
+<p>Sí.</p>
+<p>A pesar de contar con todas estas formas de comunicación inalámbrica, los cables
+les pasan el trapo (en la mayoría de los casos).</p>
+<p>Por ejemplo, la comunicación cableada en comparación con la satelital es:</p>
+<ul>
+<li>Más rápida: los satélites orbitan a alturas desde 2.000 Km a 36.000 Km, lo que
+introduce un retardo indeseable en las comunicaciones.</li>
+<li>Más eficiente: los cables de fibra óptica tienen un ancho de banda superior al
+de cualquier satélite. Básicamente: pueden transmitir información en mayores
+cantidades y más rápido.</li>
+<li>Más "barata": tirar cables al fondo del mar es algo increíblemente costoso,
+pero ¿construir y lanzar a órbita un satélite?</li>
+<li>Más fácil de mantener: si un cable se corta, arreglarlo es relativamente
+fácil. La única mantención para un satélite es lanzar otro nuevo que lo
+reemplace.</li>
+<li>Y un largo etcétera<sup><a href="https://linternita.com/blog/cables-submarinos#note-1">1</a></sup>.</li>
+</ul>
+<p>Es por esto que el 99% del tráfico de internet <em>pasa</em> a través de los cables
+submarinos, lo que los convierte en una pieza de infraestructura global crítica.</p>
+<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="cable-map" src="https://linternita.com/assets/images/cable-map-6f298776ff29dd8374ba22f88483884c.png" width="1465" height="914" class="img_ev3q"></p><p><em>Figura 1: mapa de cables submarinos, cortesía de <a href="https://www.submarinecablemap.com/" target="_blank" rel="noopener noreferrer">https://www.submarinecablemap.com/</a></em></p></div>
+<p>A día de hoy existen más de 600 cables submarinos activos, que, en conjunto,
+tienen un largo de más de 1.48 millones de kilómetros . Algunos son muy "cortos"
+con tan solo cientos de kilómetros de longitud, mientras que otros son
+increíblemente laaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaargos, como el cable
+<em><a href="https://www.submarinecablemap.com/submarine-cable/asia-america-gateway-aag-cable-system" target="_blank" rel="noopener noreferrer">Asia-America Gateway</a></em>
+que cuenta con una longitud de 20.000 kilómetros .</p>
+<p><strong>¿Qué tanto nos afectaría si se cortasen estos cables?</strong></p>
+<p><em><sup><a name="note-1">1</a>:</sup> en realidad no conozco más ventajas, estoy
+usando la clásica técnica de poner "etc" para fingir que sé más cosas pero que
+las omito para no alargar el tema.</em></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="cortes-en-los-cables-submarinos">Cortes en los cables submarinos<a href="https://linternita.com/blog/cables-submarinos#cortes-en-los-cables-submarinos" class="hash-link" aria-label="Direct link to Cortes en los cables submarinos" title="Direct link to Cortes en los cables submarinos">​</a></h2>
+<p>Hay tres cosas que aterran al ser humano moderno:</p>
+<ol>
+<li>Que se corte la luz</li>
+<li>Que se corte internet</li>
+<li>Que pierda Boca<sup><a href="https://linternita.com/blog/cables-submarinos#note-2">2</a></sup></li>
+</ol>
+<p>Es quizás una obviedad decir esto hoy en día, pero en mayor o menor medida,
+todos dependemos del internet. Incluso aunque tu trabajo no dependa de eso,
+aunque tus hobbies sean tocar pasto y mirar vacas... estás atado a que funcione
+ese servicio.</p>
+<p>No es una exageración. Por ejemplo, en 2022 uno de los principales proveedores
+de internet de Canadá (Rogers Communications)
+<a href="https://en.wikipedia.org/wiki/2022_Rogers_Communications_outage" target="_blank" rel="noopener noreferrer">tuvo un corte masivo</a>
+de internet y telefonía celular que afectó a más de 12 millones de usuarios. No
+solo quedaron incomunicados, si no que en el país entero nadie podía usar
+tarjetas de débito, porque la empresa que maneja las transacciones quedó
+completamente fuera de servicio. Tampoco podías llamar al 911 en caso de
+emergencias... entre otras cosas divertidas como páginas del gobierno caídas y
+muchos canadienses enojados.</p>
+<p>Este corte masivo duró 15 horas y se estima que tuvo un impacto de $142 millones
+de dólares en la economía canadiense (oh shit! the economy!!).</p>
+<p>Es cierto que esta disrupción masiva no se produjo por que se haya cortado un
+cable submarino. Pero, ¿podría pasar algo así? Además, ¿cómo se cortarían? Están
+en el fondo del mar... ¿Qué va a venir, un buzo con un cuchillo Tramontina y
+empezar a serrucharlos?</p>
+<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="oh-no-not-again" src="https://linternita.com/assets/images/oh-no-not-again-42c4fa8c465a18d6cc5a2d69a15f2440.webp" width="700" height="382" class="img_ev3q"></p><p><em>Oh no, not again...</em></p></div>
+<p><em><sup><a name="note-2">2</a>:</sup> si pierde boquita... pierde la familia.</em></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="desastres-naturales">Desastres naturales<a href="https://linternita.com/blog/cables-submarinos#desastres-naturales" class="hash-link" aria-label="Direct link to Desastres naturales" title="Direct link to Desastres naturales">​</a></h3>
+<p>Una de las principales causas que hacen que se corten estos cables son los
+desastres naturales.</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="2022-erupción-del-volcán-submarino-hunga-tongahunga-haʻapai">2022: erupción del volcán submarino Hunga Tonga–Hunga Haʻapai<a href="https://linternita.com/blog/cables-submarinos#2022-erupci%C3%B3n-del-volc%C3%A1n-submarino-hunga-tongahunga-ha%CA%BBapai" class="hash-link" aria-label="Direct link to 2022: erupción del volcán submarino Hunga Tonga–Hunga Haʻapai" title="Direct link to 2022: erupción del volcán submarino Hunga Tonga–Hunga Haʻapai">​</a></h4>
+<p>Tonga es archipiélago de islas en el Océano Pacífico. También es un país. O un
+reino. No importa.</p>
+<p>En las cercanías de las islas de Tonga hay un volcán submarino (Hunga
+Tonga–Hunga Haʻapai) que el 15 de enero de 2022 explotó así:</p>
+<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Tonga_Volcano_Eruption_2022-01-15_0320Z_to_0610Z_Himawari-8_visible.gif/330px-Tonga_Volcano_Eruption_2022-01-15_0320Z_to_0610Z_Himawari-8_visible.gif" alt="tonga-volcano" class="img_ev3q"></p></div>
+<p>Esta erupción destrozó todos los cables submarinos de Tonga. Que no eran tantos,
+solo dos. Uno que los conecta con Fiji (y con el resto del mundo) y otro que
+utilizan de forma doméstica para comunicarse con otras islas.</p>
+<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="tonga-cable" src="https://linternita.com/assets/images/tonga-cable-a5b09bc9e4a9ea8e25421181d26d004f.png" width="942" height="557" class="img_ev3q"></p></div>
+<p>Las noticias sobre el estado de Tonga tardaron en llegar al resto del mundo
+porque simplemente no podían enviarlas. Al cortarse los cables, quedaron
+bastante incomunicados con el resto del mundo.</p>
+<p>Tardaron alrededor de 1 mes en arreglar la conexión con Fiji (y el resto del
+mundo), y, sorprendentemente, 18 meses para arreglar el cable doméstico.</p>
+<p>Obviamente en Tonga la estaban pasando demasiado mal (que el cable se haya
+cortado era malo, pero también estaban lidiando con el desastre causado por el
+volcán), pero el resto del mundo siguió como de costumbre.</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="2006-terremoto-de-taiwán">2006: Terremoto de Taiwán<a href="https://linternita.com/blog/cables-submarinos#2006-terremoto-de-taiw%C3%A1n" class="hash-link" aria-label="Direct link to 2006: Terremoto de Taiwán" title="Direct link to 2006: Terremoto de Taiwán">​</a></h4>
+<p>Un día después de la Navidad de 2006, Papá Noel les regaló un terremoto de
+magnitud 7.0 a Taiwán. Al menos 8 cables submarinos que conectan Taiwán con
+otros países asiáticos resultaron dañados.</p>
+<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="cable-failures-after-taiwan-earthquake" src="https://linternita.com/assets/images/cable-failures-after-taiwan-earthquake-617f56de16e9379b253ec5a67f82926e.jpg" width="599" height="474" class="img_ev3q"></p></div>
+<p>Si bien Taiwán fue el más afectado, muchos países de la región, como China, Hong
+Kong, Malasia, Singapur, Tailandia, y Filipinas reportaron tener serias
+disrupciones de los servicios de comunicación. Estuvieron días sin acceso a
+internet y con una degradación del servicio telefónico.</p>
+<p>También afectó a la timba local:</p>
+<blockquote>
+<p>Un terremoto dañó varios cables submarinos de fibra óptica que conectan con
+Taiwán, lo que provocó un caos en la red de telecomunicaciones de Asia
+Oriental y paralizó el centro de datos de Bloomberg, una plataforma popular
+para casas de bolsa y medios de comunicación de Hong Kong. El mercado
+cambiario de Corea del Sur quedó prácticamente paralizado, lo que lastró a las
+acciones coreanas, cuyo rendimiento fue significativamente inferior al de
+otros mercados de Asia-Pacífico. Los corredores de futuros de Singapur
+declararon que no pudieron realizar operaciones extrabursátiles de futuros de
+petróleo tras el cierre del mercado de Singapur debido a la falta de acceso al
+sistema informático de la Bolsa de Futuros de Materias Primas.</p>
+<p><a href="https://web.archive.org/web/20070518152250/http://hk.news.yahoo.com/061227/12/1yxbr.html" target="_blank" rel="noopener noreferrer">https://web.archive.org/web/20070518152250/http://hk.news.yahoo.com/061227/12/1yxbr.html</a></p>
+</blockquote>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="desastres-no-naturales">Desastres... no naturales<a href="https://linternita.com/blog/cables-submarinos#desastres-no-naturales" class="hash-link" aria-label="Direct link to Desastres... no naturales" title="Direct link to Desastres... no naturales">​</a></h3>
+<p>Pero la razón más frecuente de estos cortes es la actividad humana.</p>
+<p>Generalmente es culpa de barcos pesqueros y sus anclas, que a veces las
+arrastran por el fondo del mar y se llevan puesto uno (o varios) de estos
+cables.</p>
+<p>Es algo que pasa muy seguido, incluso pasó la semanada pasada:</p>
+<ul>
+<li><strong>6 de septiembre de 2025:</strong>
+<a href="https://www.reuters.com/world/middle-east/red-sea-cable-cuts-disrupt-internet-across-asia-middle-east-2025-09-07/" target="_blank" rel="noopener noreferrer">cortes en el Mar Rojo</a>
+producen disrupciones en el servicio en Asia y Medio Oriente</li>
+<li><strong>17 de noviembre de 2024:</strong>
+<a href="https://www.newsweek.com/nato-baltic-sea-undersea-cables-sabotage-finland-germany-sweden-lithuania-1988002" target="_blank" rel="noopener noreferrer">dos cables del Mar Báltico se cortan casi al mismo tiempo</a>,
+y dado el contexto mundial, se levantan sospechas de si se trató de cortes
+intencionales</li>
+</ul>
+<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="c-lion-cut" src="https://linternita.com/assets/images/c-lion-cut-b1bcd460844bac3368e6bba73cf28bae.jpg" width="815" height="671" class="img_ev3q"></p></div>
+<ul>
+<li><strong>Abril de 2018:</strong>
+<a href="https://fortune.com/2018/04/09/mauritania-cable-break-internet/" target="_blank" rel="noopener noreferrer">Mauritania se queda completamente sin conexión a internet</a>
+por dos días después de que se cortara un cable</li>
+<li><strong>Marzo de 2013:</strong> un cable en el Mar Arábigo se corta, reduciendo la
+velocidad de internet en un 60% para varios países,
+<a href="https://www.bbc.com/news/world-middle-east-21963100" target="_blank" rel="noopener noreferrer">tres tipos son arrestados en Egipto</a>
+al intentar cortar cables cerca de Alejandría (¿buzos con tramontinas? quién
+hubiera pensado que realmente existían)</li>
+<li><strong>etc</strong></li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="no-es-para-tanto-o-sí">No es para tanto... ¿o sí?<a href="https://linternita.com/blog/cables-submarinos#no-es-para-tanto-o-s%C3%AD" class="hash-link" aria-label="Direct link to No es para tanto... ¿o sí?" title="Direct link to No es para tanto... ¿o sí?">​</a></h2>
+<p>Con estos ejemplos que mencioné queda claro que estos cortes son malos. En el
+mejor de los casos solamente se sufre una degradación del servicio. En el peor,
+tu país puede quedar incomunicado por días.</p>
+<p>La verdad es que internet está construido de forma resiliente. Se estima que hay
+entre 150 y 200 cortes de este tipo al año, y sin embargo el mundo entero navega
+a través de internet todo el año sin mayores problemas. Esto es porque el
+tráfico puede ser re-enrutado por otros cables en caso de una falla. O incluso a
+través de otros medios, como los satélites.</p>
+<p>Pero resulta interesante saber lo vulnerables que son. Todo el mundo depende de
+estos cables y la única protección que tienen es la confianza de que nadie va a
+cortarlos intencionalmente (porque sería malo... para la economía).</p>
+<p>El contexto mundial se está caldeando cada vez más y empiezan a surgir estas
+conspiraciones de sabotaje llevado a cabo por algunos países. Si bien es algo
+plausible, sería una estrategia cuestionable para usar en una guerra propiamente
+dicha. Después de todo, si se enteran que estuviste cortando cables de un país,
+lo más seguro es que en represalia vayan a cortarte los tuyos.</p>
+<p>También esto me hace pensar en los
+<a href="https://www.nbcnews.com/news/us-news/north-carolina-substation-attack-raises-security-concerns-us-electric-rcna60428" target="_blank" rel="noopener noreferrer">ataques que hubo en algunas subestaciones eléctricas de Estados Unidos</a>
+hace algunos años. Estas subestaciones son una parte importante del suministro
+eléctrico, pero a diferencia de las centrales donde se genera la energía, no
+cuentan con seguridad o vigilancia. Lo único que tienen es una valla/cerco
+alrededor de las mismas.</p>
+<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="subestation" src="https://linternita.com/assets/images/subestation-d32e21046d68f5c3bd3ea133341635bb.jpg" width="838" height="628" class="img_ev3q"></p></div>
+<p>En este caso también la seguridad de las mismas está en la confianza de que la
+gente no rompería algo así, porque sería malo para todos (y para la
+economía...).</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="referencias">Referencias<a href="https://linternita.com/blog/cables-submarinos#referencias" class="hash-link" aria-label="Direct link to Referencias" title="Direct link to Referencias">​</a></h2>
+<ul>
+<li>
+<p><a href="https://www.submarinecablemap.com/" target="_blank" rel="noopener noreferrer">https://www.submarinecablemap.com/</a></p>
+</li>
+<li>
+<p><a href="https://blog.telegeography.com/" target="_blank" rel="noopener noreferrer">https://blog.telegeography.com</a></p>
+</li>
+<li>
+<p><a href="https://en.wikipedia.org/wiki/2022_Rogers_Communications_outage" target="_blank" rel="noopener noreferrer">https://en.wikipedia.org/wiki/2022_Rogers_Communications_outage</a></p>
+</li>
+<li>
+<p><a href="https://www.datacenterdynamics.com/en/news/tongas-domestic-submarine-cable-fixed-18-months-on-from-volcanic-eruption/" target="_blank" rel="noopener noreferrer">https://www.datacenterdynamics.com/en/news/tongas-domestic-submarine-cable-fixed-18-months-on-from-volcanic-eruption/</a></p>
+</li>
+<li>
+<p><a href="https://en.wikipedia.org/wiki/2024_Baltic_Sea_submarine_cable_disruptions" target="_blank" rel="noopener noreferrer">https://en.wikipedia.org/wiki/2024_Baltic_Sea_submarine_cable_disruptions</a></p>
+</li>
+<li>
+<p><a href="https://www.submarinenetworks.com/en/nv/news/cables-cut-after-taiwan-earthquake-2006" target="_blank" rel="noopener noreferrer">https://www.submarinenetworks.com/en/nv/news/cables-cut-after-taiwan-earthquake-2006</a></p>
+</li>
+<li>
+<p><a href="https://www.kentik.com/blog/subsea-cables-parted-in-red-sea-again/" target="_blank" rel="noopener noreferrer">https://www.kentik.com/blog/subsea-cables-parted-in-red-sea-again/</a></p>
+</li>
+<li>
+<p><a href="https://gulfnews.com/technology/red-sea-cable-chaos-why-the-internet-didnt-go-dark-1.500263896" target="_blank" rel="noopener noreferrer">https://gulfnews.com/technology/red-sea-cable-chaos-why-the-internet-didnt-go-dark-1.500263896</a></p>
+</li>
+</ul>]]></content:encoded>
+            <category>random</category>
+        </item>
         <item>
             <title><![CDATA[Linternita Lo-Fi]]></title>
             <link>https://linternita.com/blog/linternita-lo-fi</link>
             <guid>https://linternita.com/blog/linternita-lo-fi</guid>
             <pubDate>Wed, 20 Aug 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[¿Vinilos? CDs? ¿MP3s? ¿¿FLAC?? Quién necesita eso cuando la mejor forma de]]></description>
-            <content:encoded><![CDATA[<p>¿Vinilos? CDs? ¿MP3s? ¿¿FLAC?? Quién necesita eso cuando la mejor forma de
+            <description><![CDATA[¿Vinilos? ¿CDs? ¿MP3s? ¿¿FLAC?? Quién necesita eso cuando la mejor forma de]]></description>
+            <content:encoded><![CDATA[<p>¿Vinilos? ¿CDs? ¿MP3s? ¿¿FLAC?? Quién necesita eso cuando la mejor forma de
 reproducir música es con un teléfono fijo.</p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="anunciando-el-futuro">Anunciando el futuro<a href="https://linternita.com/blog/linternita-lo-fi#anunciando-el-futuro" class="hash-link" aria-label="Direct link to Anunciando el futuro" title="Direct link to Anunciando el futuro">​</a></h2>
 <p>En el anterior post vimos como gracias a la invención del teléfono,
