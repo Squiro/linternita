@@ -9,7 +9,7 @@
         <generator>https://github.com/jpmonette/feed</generator>
         <language>es</language>
         <item>
-            <title><![CDATA[Algunas cosas sobre Windows 95 y el vídeo "piloto"]]></title>
+            <title><![CDATA[Algunas cosas sobre Windows 95 y el video "piloto"]]></title>
             <link>https://linternita.com/blog/windows-95-piloto</link>
             <guid>https://linternita.com/blog/windows-95-piloto</guid>
             <pubDate>Mon, 29 Sep 2025 00:00:00 GMT</pubDate>
@@ -126,7 +126,7 @@ extraño para el video, y que en mi caso me rompía Windows 95.</p>
 emulador.</p>
 <p>A diferencia de los hipervisores, los emuladores se toman el trabajo de "imitar"
 el hardware de la época en el que corrían estos programas. Por ejemplo, 86Box es
-capaz de emular distintos tipos de procesadores, placas de vídeo, lectoras de
+capaz de emular distintos tipos de procesadores, placas de video, lectoras de
 CDs, etc, etc.</p>
 <p>Lo cual te da mucho mejor control del ambiente virtualizado y hace que el
 software que corras tenga mejor estabilidad y funcione... como funcionaba en ese
@@ -1018,7 +1018,7 @@ innovación.</p>
 <p>Algunas referencias o material de interés:</p>
 <ul>
 <li>
-<p><a href="https://www.youtube.com/watch?v=Cif1QJx46Yo" target="_blank" rel="noopener noreferrer">Lesson 8 Telegraph</a>: corto vídeo
+<p><a href="https://www.youtube.com/watch?v=Cif1QJx46Yo" target="_blank" rel="noopener noreferrer">Lesson 8 Telegraph</a>: corto video
 que muestra cómo funcionaba el sistema de telegrafía en su máximo apogeo.</p>
 </li>
 <li>
@@ -1454,7 +1454,7 @@ artículo que explica la historia de cómo las grandes petroleras impulsaron la
 idea de que el plástico era reciclable solo para seguir lucrando</p>
 </li>
 <li>
-<p>Por último, un vídeo de Wendover Productions que toca los mismos puntos que
+<p>Por último, un video de Wendover Productions que toca los mismos puntos que
 este post, pero mencionando que el reciclado de plástico tuvo una breve época
 donde fue económicamente viable gracias a China.</p>
 </li>
@@ -2450,7 +2450,7 @@ están ahí.</p>
 comparando auriculares. Es un buen punto de partida decente para conocer
 distintos auriculares y formar una opinión sobre los mismos:</p>
 <div style="margin:0 auto;text-align:center"><iframe style="width:100%;height:315px" src="https://www.youtube.com/embed/V_gf8TZ1M6g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe></div>
-<p>En este vídeo en específico muestra auriculares baratos, pero decentes. No hace
+<p>En este video en específico muestra auriculares baratos, pero decentes. No hace
 falta gastar una millonada para tener un auricular que se escuche <em>bien</em>.
 Incluso hay un Superlux metido por ahí &lt;3.</p>]]></content:encoded>
             <category>musica</category>
@@ -3511,7 +3511,7 @@ pintó</em></p>
 <p>En esta nueva ola de hype* relacionada a la inteligencia artificial surgieron
 un montón de herramientas interesantes. Esta vez la luz está puesta en lo que se
 conoce como <em>generative AI</em>, es decir, una subcategoría de la IA que se enfoca
-en usar modelos que son capaces de generar imágenes, vídeo, texto, entre otros,
+en usar modelos que son capaces de generar imágenes, video, texto, entre otros,
 basándose en una entrada conocida como
 <a href="https://en.wikipedia.org/wiki/Prompt_engineering" target="_blank" rel="noopener noreferrer">prompt</a> (que es, básicamente,
 una oración en forma de instrucción).</p>
