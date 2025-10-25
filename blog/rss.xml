@@ -103,7 +103,7 @@ las computadoras pertenecientes a una internet pueden/deben comunicarse.</p>
 es saber que cuando se diseñó, se hizo bajo la idea de que cada computadora
 debía tener una dirección única que la identificase. Y como en esa época no
 había tantas computadoras y dispositivos interconectados como hoy, <strong>se definió
-que IPv4 "tan solo" sea capaz de definir 4,294,967,296 direcciones
+que IPv4 "tan solo" tuviese 4,294,967,296 direcciones
 posibles.</strong><sup><a href="https://linternita.com/blog/habra-que-esperar-ipv6#note-3">3</a></sup></p>
 <p>Claro, en 1980 solamente tenías a dos universidades locas de Estados Unidos
 conectadas. Esa cantidad de direcciones era más que suficientes y todos estaban
