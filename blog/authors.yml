@@ -1,6 +1,5 @@
-linterna:
-  name: Una Linterna
-  title: Iluminando cosas
-  url: https://es.wikipedia.org/wiki/Linterna_el%C3%A9ctrica
-  image_url: https://upload.wikimedia.org/wikipedia/commons/4/4a/Flashlight.jpg
-  page: false
+linternita:
+  name: Linter Nita
+  title: Una especialista en todo y nada
+  image_url: /img/author.svg
+  page: true
