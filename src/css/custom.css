@@ -18,7 +18,7 @@
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
-[data-theme='dark'] {
+[data-theme="dark"] {
   --ifm-color-primary: #25c2a0;
   --ifm-color-primary-dark: #21af90;
   --ifm-color-primary-darker: #1fa588;
@@ -31,4 +31,25 @@
 
 p {
   text-align: justify;
+}
+
+.word-art-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 4em 0;
+}
+
+.word-art {
+  background: linear-gradient(183deg, #6000ca 10%, #ca00cd 70%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-family: "Impact";
+  transform: skewY(-8deg) scaleY(1.3) scaleX(0.8);
+  font-size: 4em;
+}
+
+.wordart-wrapper {
+  filter: drop-shadow(2px 2px 0px rgba(130, 140, 251, 0.8));
 }
