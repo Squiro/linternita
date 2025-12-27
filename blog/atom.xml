@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://linternita.com/blog</id>
     <title>Linternita Blog</title>
-    <updated>2025-12-18T00:00:00.000Z</updated>
+    <updated>2025-12-27T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://linternita.com/blog"/>
     <subtitle>Linternita Blog</subtitle>
@@ -11,7 +11,7 @@
         <title type="html"><![CDATA[Habrá que esperar: Computación Cuántica]]></title>
         <id>https://linternita.com/blog/habra-que-esperar-comp-cuantica</id>
         <link href="https://linternita.com/blog/habra-que-esperar-comp-cuantica"/>
-        <updated>2025-12-18T00:00:00.000Z</updated>
+        <updated>2025-12-27T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[¿No escuchaste? Las computadoras cuánticas van a romper la criptografía moderna]]></summary>
         <content type="html"><![CDATA[<p>¿No escuchaste? Las computadoras cuánticas van a romper la criptografía moderna
 en tan solo 5 años. Lo vienen diciendo hace 30 años.</p>
