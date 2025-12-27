@@ -4,10 +4,595 @@
         <title>Linternita Blog</title>
         <link>https://linternita.com/blog</link>
         <description>Linternita Blog</description>
-        <lastBuildDate>Thu, 04 Dec 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 18 Dec 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>es</language>
+        <item>
+            <title><![CDATA[Habrá que esperar: Computación Cuántica]]></title>
+            <link>https://linternita.com/blog/habra-que-esperar-comp-cuantica</link>
+            <guid>https://linternita.com/blog/habra-que-esperar-comp-cuantica</guid>
+            <pubDate>Thu, 18 Dec 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[¿No escuchaste? Las computadoras cuánticas van a romper la criptografía moderna]]></description>
+            <content:encoded><![CDATA[<p>¿No escuchaste? Las computadoras cuánticas van a romper la criptografía moderna
+en tan solo 5 años. Lo vienen diciendo hace 30 años.</p>
+<hr>
+<div class="word-art-title"><span class="wordart-wrapper"><p class="word-art">HABRÁ QUE ESPERAR: COMPUTACIÓN CUÁNTICA</p></span></div>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="qué-es-la-mecánica-cuántica">¿Qué es la mecánica cuántica?<a href="https://linternita.com/blog/habra-que-esperar-comp-cuantica#qu%C3%A9-es-la-mec%C3%A1nica-cu%C3%A1ntica" class="hash-link" aria-label="Enlace directo al ¿Qué es la mecánica cuántica?" title="Enlace directo al ¿Qué es la mecánica cuántica?" translate="no">​</a></h2>
+<p>...es una muy buena pregunta que no voy a responder en este post, en cambio, voy
+a intentar explicar algo mucho más simple.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="qué-es-una-computadora-cuántica">¿Qué es una computadora cuántica?<a href="https://linternita.com/blog/habra-que-esperar-comp-cuantica#qu%C3%A9-es-una-computadora-cu%C3%A1ntica" class="hash-link" aria-label="Enlace directo al ¿Qué es una computadora cuántica?" title="Enlace directo al ¿Qué es una computadora cuántica?" translate="no">​</a></h2>
+<p>Ah, mierda.</p>
+<p>No puedo explicar esto sin explicar lo de mecánica cuántica.</p>
+<p>Volvamos al principio.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="13-mil-millones-de-años-en-el-pasado">13 mil millones de años en el pasado<a href="https://linternita.com/blog/habra-que-esperar-comp-cuantica#13-mil-millones-de-a%C3%B1os-en-el-pasado" class="hash-link" aria-label="Enlace directo al 13 mil millones de años en el pasado" title="Enlace directo al 13 mil millones de años en el pasado" translate="no">​</a></h2>
+<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="big-bang" src="https://linternita.com/assets/images/big-bang-05853eeb1082b8048abf9ed1dbd8974b.webp" width="760" height="500" class="img_ev3q"></p></div>
+<p>NO TAN LITERALMENTE!!!</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="mecánica-clásica">Mecánica clásica<a href="https://linternita.com/blog/habra-que-esperar-comp-cuantica#mec%C3%A1nica-cl%C3%A1sica" class="hash-link" aria-label="Enlace directo al Mecánica clásica" title="Enlace directo al Mecánica clásica" translate="no">​</a></h2>
+<p>Por mucho tiempo a lo largo de la historia de la humanidad nos centramos en el
+estudio del movimiento de objetos o cuerpos macroscópicos, es decir, aquellos
+objetos que se aprecian a simple vista.</p>
+<p>Para intentar explicar cómo los cuerpos se mueven se generaron muchos
+postulados, conceptos, teorías. La mayoría de ellas recaían en la idea de una
+"fuerza" y cómo esta al ser aplicada a un cuerpo produce que el mismo se mueva.</p>
+<p>Recién en el siglo 17, gracias a las leyes del movimiento de Isaac Newton (y las
+contribuciones de muchos más, pero alguien se tiene que llevar el protagonismo
+siempre), es que se da comienzo a lo que conocemos como <em>mecánica clásica</em>.</p>
+<p>La mecánica clásica es una teoría científica. Las teorías intentan explicar el
+<em>cómo</em> de algo. Y contrario al uso popular de la palabra, las teorías
+científicas no son un "se me ocurreeee que podría ser por esto", sino que tienen
+sus bases en repetidos experimentos que validan la teoría y la dan por
+verdadera.</p>
+<p>En este caso, la mecánica clásica explica cómo los
+cuerpos<sup><a href="https://linternita.com/blog/habra-que-esperar-comp-cuantica#note-1" class="">1</a></sup> se mueven. Utilizándola podemos predecir cómo un
+objeto se moverá en el futuro, e incluso determinar cómo se movió en el pasado.
+Y la verdad es que las predicciones que podemos realizar con esta teoría son muy
+buenas, tan buenas que se siguen utilizando hasta el día de hoy.</p>
+<p>Pero las predicciones se caen a pedazos cuando intentamos estudiar cuerpos de
+otro tipo. Por ejemplo, no nos sirve para predecir el movimiento de cuerpos
+extremadamente masivos, ni para describir cuerpos que se encuentren cercanos a
+la velocidad de la luz, ni para estudiar cuerpos que sean inferiores al tamaño
+de un átomo. Para cada uno de estos casos necesitamos otras teorías, como la
+relatividad general, la relatividad especial, y la <strong>mecánica cuántica</strong>,
+respectivamente.</p>
+<p><em><sup> <a name="note-1">1</a>:</sup> Se entiende por cuerpo a un conjunto de
+materia que tiene propiedades tales como masa, velocidad, momento, y energía.</em></p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="vieja-teoría-cuántica">Vieja teoría cuántica<a href="https://linternita.com/blog/habra-que-esperar-comp-cuantica#vieja-teor%C3%ADa-cu%C3%A1ntica" class="hash-link" aria-label="Enlace directo al Vieja teoría cuántica" title="Enlace directo al Vieja teoría cuántica" translate="no">​</a></h2>
+<p>Así que... llega un punto en el que la mecánica clásica se rompe.</p>
+<p>¿Pero por qué? ¿Qué es lo que no podemos predecir usando esa teoría?</p>
+<p>Hubo algunos casos que se consideran "puntos de quiebre": fenómenos que no
+podían explicarse utilizando las bases clasicistas. Estos dieron inicio a una
+nueva forma de explicar las cosas.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="1-radiación-de-cuerpos-negros">1. Radiación de cuerpos negros<a href="https://linternita.com/blog/habra-que-esperar-comp-cuantica#1-radiaci%C3%B3n-de-cuerpos-negros" class="hash-link" aria-label="Enlace directo al 1. Radiación de cuerpos negros" title="Enlace directo al 1. Radiación de cuerpos negros" translate="no">​</a></h3>
+<p>A menos que hayas vivido en un tupper toda tu vida, la siguiente frase no
+debería ser una revelación: cuando las cosas se calientan, emiten luz. Esto
+aplica a cualquier objeto cuya temperatura sea mayor al cero
+absoluto.<sup><a href="https://linternita.com/blog/habra-que-esperar-comp-cuantica#note-2" class="">2</a></sup></p>
+<p>A medida que un objeto se va calentando más y más, el color de la luz emitida
+cambia. Si alguna vez viste un metal calentándose, seguramente apreciaste como
+al comienzo empieza a brillar con un color rojo apagado, luego un rojo vivo, y
+si le seguís sumando temperatura pasaría por naranja, amarillo, y <em>casi</em>-blanco.</p>
+<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="hot-iron" src="https://linternita.com/assets/images/hot-iron-7615b9f5d0d94db020f0243bc633d2cd.jpg" width="1280" height="853" class="img_ev3q"></p><p><em>Figura 1: un pedazo de hierro caliente que emite luz de color naranja</em></p></div>
+<p>La explicación física de este fenómeno es la siguiente: la luz es una onda
+electromagnética que se genera por los movimientos de una carga eléctrica. Lo
+que llamamos temperatura es un promedio de la energía cinética (movimiento) de
+los átomos que conforman un objeto. Mientras más temperatura tenga un objeto,
+más se van a mover los átomos. Estos están compuestos por protones, neutrones, y
+electrones. Los electrones son una partícula con carga eléctrica que puede
+moverse libremente alrededor del átomo. Por lo tanto, mientras mayor sea la
+temperatura, mayor es el movimiento de electrones, lo que termina generando más
+luz.</p>
+<p>Allá por fines del 1800 los científicos querían estudiar esta relación entre la
+temperatura de un cuerpo y la luz que es emitida. Para ello, se concibió la idea
+de un "cuerpo negro", un objeto idealizado capaz de absorber de forma perfecta
+<em>toda</em> la radiación electromagnética (luz) que le llega.</p>
+<div style="border:solid cadetblue;padding:2em 2em 0em 2em;margin-bottom:1em"><p style="font-style:italic;position:absolute;margin-bottom:0;margin-top:-50px;margin-left:10px;color:white;background:cadetblue;border-radius:10px;padding:2px 10px">Pensamientos del Lector</p><p>perdoname linternita no entiendo un pomo, qué tiene de importante que absorba
+toda la luz de forma perfecta??</p><p style="font-style:italic;text-align:center;margin-bottom:0;margin:0 auto;color:white;background:cadetblue;border-radius:10px;padding:2px 10px">SI UD. NO PENSÓ ESTO COMUNÍQUESE DE INMEDIATO AL 0800-555-LINT.</p></div>
+<p>El hecho de que absorba la luz de forma perfecta significa que <em>no refleja</em>
+ninguna luz proveniente del ambiente que lo rodea. Entonces, cualquier luz que
+sea emitida por el cuerpo negro es únicamente un resultado propio de la
+temperatura del mismo. De esta forma podés concentrarte únicamente en la
+relación temperatura / luz emitida sin tener algo externo que afecte al
+resultado.</p>
+<p>Usando el marco de la mecánica clásica que había en ese entonces, se generó una
+ecuación que se podía utilizar para predecir la intensidad de la radiación
+emitida por un cuerpo negro. Esta ecuación, conocida como la <em>Ley
+Rayleigh–Jeans</em>, establecía que la intensidad era directamente proporcional a la
+temperatura e inversamente proporcional a la longitud de onda elevada a la
+potencia de cuatro.</p>
+<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="rayleigh-jeans" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANEAAABACAYAAACEAJIJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAxeSURBVHhe7Z0FbFRNEMeX4k4huLsGD+4UJwQprsFdikuA4BYguJXgDsVdg7u7BpcmuMt++5/bV67Xu+Pa+6An80te9nbuvXevd2/ezM7MbqNIhWAYJsL46JZhmAjCSsQwTsJKxDBOwkrEME7CSsQwTsJKxDBOwkrEME7CSsQwTsJKxDBOwkrEME7CSsQwTsK1c0wIX758EcePH6fXyZMnF7ly5aLXzvKnWyxKlCi0D1p3hC2RB/D06VPRt29fUb16ddGmTRuxZs0a/U74CAwMFL179xYVKlQQq1ev1lLnaNCggfDx8bG7QXmM9sWLF/pINwKWiHFfrly5IkuUKCFv3Lghg4OD5cCBA/HYl/7+/nqP8LF9+3Y6ft++fVoScd69eyd9fX3l2rVr5Y8fP+SvX7+ojRcvnkyVKpXeS8pv377JsWPHygQJEmiJe8FK5OZUqlRJdu/eXSpXTEukrFy5MimCskha4jj9+vWT0aJFk58+fdKSiLN06VI5evRo3TNx7NgxurYWLVpoiQk8APLmzat77gW7c27OhQsXxLRp08TOnTu1RIjatWtTu3v3bmrDw/79+0WhQoVE7NixtSTibN68mdxLc4zrLF26NLUGT548ETly5NA994KVyM3p1KmTqFKliihVqpSWCKHcJWq/fv1KrTnfv38Xc+fOFcOGDRNTp06lvoFyv8SZM2dEyZIltUSIixcvCuVqCWUptMRx6tSpQwEKcw4ePEht2bJlqTWIGzcu/S1uibZIjAfRtm1bcpkWLFigJSaOHDkic+fOLQcPHiyVxZHNmzenzUBZDjpuy5YtNH7p06ePVDe2VEoqu3TpoveKOBj7wFVMkiQJnd9TYCXyMB4+fCjjxIlDymI+TtqzZ4+MESOG3LZtG/UfPHhACpMnTx7qg4CAAOnj4yNfv34te/ToIZXVkEFBQbRfq1at5J07d+SBAwfCbHfv3tVnsI8xHlIWSks8A3bnPAj1e5ILlTRpUrF3714RM2ZMkr9584ZCzUWLFqUwOEiXLp0YP368mDNnDvXBoUOHRNq0acXw4cNFvXr1yOXChj5cOnD//n1Rvnx5cf36der/+PFDKIUT2bNnpzyTPXB+UK5cOWo9BpMuMZ5A+/btZeHCheXLly+1xMSMGTPIAkyZMkVLwoJwdNSoUWWmTJlkvnz5yM178eKFfvc3SnnoXJcvX9YSKV+9ekWymTNnaol1lPLQflevXtUSz4AtkYegFISsBAbusEQfPnwISZieO3eO2jJlylBrDVQq/Pz5U0yfPl0oF01cuXJFFCxYUKixi94jNObVBcY+ON4Wnz9/ps9IliyZyJkzp5Z6BqxEHsCmTZvE+fPnhRrvUJQLHD16VJw6dYpeJ0iQgNqsWbNSa44aQ1GL/aEYCD37+vpS1QIqIRC9w3n69+9P+xlABoXdsmWLUFZLdOzYkTZbYF9EC3F+dy3vsYXXKBGehChrcQbkZE6fPq17rgHGPg0bNiRlqFSpEo03sOGGzpAhA+2D8Q24du0atQbbt28XAwYMoNcYryg3TsSPH5/6+L5SpkxJ46qlS5cKf39/kluCcHqBAgVo/48fP2ppWIzQNvb1OLRbF+kg5Glt+z/AeZo2bSpXrFihJSYsP8vWZoAsfrFixeSlS5e0JPJJly4djTOsbYjIGcyaNUsmTpxYdu7cWQ4ZMkQqJSOZcsFoix49uuzZs6feW0plmSiahygd9jewNiYChQoVou/YHHzfZcuWlcWLF6eon3FdKAVq0KCB3sv9iXQlUk9H+qLVU4++4MyZM1Pf2NDPnz+/VP69PiL8jBgxQnbo0EH3TOAHNn5URzZj0IwatfTp00vl6lA/srGm9MZmCYIHUA5lTbXkN2rcRMpkDhTGMghgS4lq1Kghs2XLpnu/+dM1eQIuY4lQ/4Uf58SJE1piArmOXLly0XuHDx/WUsdBbiNNmjTy7du3WmKiVq1aslu3bqHkeJLic9QAWEtMCUrl4oR6qiMKhuv1RgwlUq6tlkh6oKixmFSuoZZ4Fy6jRHAHUMVr+TQEXbt2pR9uzJgxWuI49evXl2pQrHsmkExE5bPlkzFFihSkMKg0NkcNhuWtW7d0T9JrVCK/f/9eS7wDWOOcOXPSb6HGNiHeAmQIn1t+b96CSygR3Az4zCgvsQbcOfxwRrbdUXCTo8wE1sScZcuWyblz5+qeCTxZ8RlwSyxBVt/8BoHyZcmSRS5atEhLGG/GJaJzyk2jXINlZS/ABDNExdq1axeSbXcUI2yLTL05iRIlEo0aNdI9E8iNAGvXgIx81KhRdc+UI8E5jWMY78YllMgIfyJcitfYdu3aReFX5UKQIs2bN4/2CQ8nT56kMK+5AgBlbUJyJwbKWlGr3DxqzWnbtq1+9Zu8efOGHPMn1MMqXBvjXrjEGgvFihUTN27cED179gx1E8GS4Gbt1q2byJgxo5aa1gKYMWMG5T/M5Za0aNFCPHv2TOzZs0dLbKPGQ1Tuj1yHUXNmjwULFoj27dtTlt5e8nD58uVi/vz5uucYW7duDZnOwLg+ka5EmMOCDHnFihXDTCKDsmCi1uvXr2lei5E8BChp6dq1K2XVo0ePrqWhqVatGr2HyWH2uHXrFhVQIknpqIu2fv16SkBC8ZIkSaKl/4Zv376JVatW6Z7ngQJXFMK6C5GuREFBQaJu3bpUKYyJYpZgZuTChQuppgtKY06mTJnExIkTQzLylmAMBauCz7AHzt29e3cxatQoMXjwYC21D2ZoQkkfPHgg0qdPr6X/Bjx4/Pz8dM/zmDRpkt06P1cj0pUINy9uYowvzGdUGhQvXlycOHGCFMGY9mwQEBBANWO2rAdqumApduzYoSXWwfSBjRs3UoDDfIaoPWAJGjdu/EdLBEt58+ZN3XMMWERPqy/zZCJdiVCvhZqu9+/fi1ixYmmpCcz3h5uXJUsWUhbLccLZs2dF4cKFxaNHj0SaNGm09Dd9+vQhxUCAwRaICiZMmJDmxeAaokWLpt+xD+bh9OrVS3z69MnuDY8gSXiieDgXlr8yCkkZIZ4/fy7u3btnNejjEkCJIgt180OBZYUKFbTEBJKhyMGom5vmt6DUxhrIAynFkxMmTNCS0KC0x95UZMhRIYFrKFiwoJY6BurMihQponvM30R5B/QbbdiwQUtci0hRItRuZc2alb4YY4sdOzZNKEP5iHoa0w2qxijy8+fP+qjQQI4ixnbt2lHG3BooR8G5Hz9+rCUmnjx5EpJth6Ia14DErHIpbSqtOShEVZZI95i/SZMmTagYFlPUXZFIs0SwAsZm9B3l2bNnpHAomlSmnm5+FFZaAze7rcoCy8939BpQb4dZoPh8byYwMFC/+vvcv39ftmnTRvdci0hLtsL3Nzaj7wjwj1EtgAoGzE3BkkxVq1YV69at03uEpl+/fhS4sIbl5zt6DUophbKUHjU3Rt0LNH5Evs4RlGtFkVMc9y/AuBJBJpeEVMmNQKW1ZQU1xj6YV2PN9YN1gdXau3evljgHauhQVW5e6e0JYByKukHcEkOHDtVS68D6+/n50b6OWm9nePPmDbnZHz580BLXwu2UKCJgwQ0skhEcHKwlEQfTIIYNG6Z7ngXWhcuQIQNVsn/9+lVLw9KsWTNaKgtKZK3q/v9mx44d8vz587rnenjF9HAsjoGp4UuWLNGSiIF1BdQAlxLDngiqO1AqhVC/rf8ssXLlSkpi4zv9V8Bdz58/v+65Hi5RO8e4DhgTYTUeLE1svr43ePv2LdUx4mGE3F7u3LmpdhD/FsWb8e6/ngkDahVRu4YFUCz/V9CgQYNEzZo1KYFsLNiCBU6wOKQ3w0rEhAGrpcLCWP6jL/y3CFggY7oKQIsCYW+G3TkmDHDbsAAkSqqOHTumpaHB9JLKlSvTunSOlkp5KqxETBgwERJ1h5iKcvfuXaqWNwdBGtQrAqw3h3XvsFqq1wIlYhiDcePG0YItqPLA7TFy5Ej9DmMLtkRMCJiOP3v2bAoaYAIkqkFSp05N63IztuHAAkOlO5jqPnnyZFrbIlu2bJQPg5t29erVMMsPM6FhJWJo8iJyPytWrKD1LgxatmxJ7eLFi6llrMPunJeDGb2Y2YtgQevWrbX0N6gUwOzcx48fk3ViwsJK5OVgNSQsEGNYHUtu374tli1bRu9bRukYE6xEDOMkPCZiGCdhJWIYJ2ElYhgnYSViGCdhJWIYJ2ElYhgnYSViGCdhJWIYpxDiP26i0VYJQaHBAAAAAElFTkSuQmCC" width="209" height="64" class="img_ev3q"></p></div>
+<p>Esta fórmula funcionaba bien para longitudes de onda grandes. Pero si tenés una
+mínima noción de análisis matemático, hay algo que te debería estar llamando la
+atención...</p>
+<p><strong><em>¿Qué pasa cuando la longitud de onda tiende a cero????</em></strong></p>
+<p>La intensidad emitida tiende al infinito... la cantidad de energía generada
+sería infinita.</p>
+<p>Esto no concuerda para nada con nuestra intuición, ni con lo que los
+experimentos mostraban.</p>
+<p>En el siguiente gráfico, la curva negra representa los resultados arrojados por
+la ecuación de Rayleigh–Jeans, donde se puede apreciar como para longitudes de
+onda que se acercan a cero la intensidad de la radiación es infinita.</p>
+<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="black-body-energy" src="https://linternita.com/assets/images/black-body-energy-91a81c285cd60a59afa887a5f35c9928.png" width="960" height="768" class="img_ev3q"></p></div>
+<p>Mientras que las curvas de otros colores muestran los valores obtenidos
+experimentalmente.</p>
+<p>Para arreglar esta discrepancia entra en escena Max Planck, un físico alemán.
+Tomando los valores experimentales intentó hallar una fórmula que concordase con
+los mismos.</p>
+<p>La fórmula de Rayleigh–Jeans asumía que la energía promedio de un sistema era
+<em>continua</em> (y esto no era algo que ellos sacaron de la galera, sino que era una
+asunción de la física clásica de ese entonces). Planck, después de romperse la
+cabeza por años, postula que la energía en realidad tomaba valores <em>discretos</em>
+proporcionales al valor de la frecuencia.</p>
+<p>Es decir, cuantizó los valores de energía. Bajo este contexto, el término
+"cuantizar" hace referencia a cómo restringimos una cantidad para que solamente
+pueda adoptar ciertos valores. La energía pasó de poder tomar cualquier valor
+(variable continua) a tan solo poder tomar valores pertenecientes a un conjunto
+(variable discreta).</p>
+<p>Al principio, ni Planck sabía por qué la energía tenía que ser cuantizada. Esta
+solución funcionaba bien para el problema de la radiación de cuerpos negros,
+pero para convertirse en una ley debería poder utilizarse para explicar otros
+problemas...<sup><a href="https://linternita.com/blog/habra-que-esperar-comp-cuantica#note-3" class="">3</a></sup></p>
+<p><em><sup> <a name="note-2">2</a>:</sup> Y vos, por estar vivo, tenés una
+temperatura que ronda los 36ºC, por lo que también estás emitiendo luz. Sos un
+ser de luz 🥰 .</em></p>
+<p><em><sup> <a name="note-3">3</a>:</sup> No te preocupes si no entendiste lo de la
+cuantización de energía. La explicación es muy larga e incluye bastante
+matemática y física (la cual yo tampoco entiendo, ni a palos). Lo importante es
+saber que el punto de quiebre fue pasar de pensar en la energía como algo
+continuo a algo discreto/cuantizado.</em></p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="2-el-efecto-fotoeléctrico">2. El efecto fotoeléctrico<a href="https://linternita.com/blog/habra-que-esperar-comp-cuantica#2-el-efecto-fotoel%C3%A9ctrico" class="hash-link" aria-label="Enlace directo al 2. El efecto fotoeléctrico" title="Enlace directo al 2. El efecto fotoeléctrico" translate="no">​</a></h3>
+<p>El efecto fotoeléctrico consiste en la emisión de electrones cuando un material
+es expuesto a radiación electromagnética (como la luz). Está presente en
+cualquier material que contenga un electrón, pero es más fácil de
+apreciar/reproducir en los metales.</p>
+<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="photo-electric" src="https://linternita.com/assets/images/photo-electric-c8fd9a5e581962284fd645ea6c6702f3.png" width="1024" height="683" class="img_ev3q"></p></div>
+<p>La perspectiva clásica explicaba el fenómeno de la siguiente manera: la luz
+(radiación electromagnética) es una onda. Cuando la onda golpea al metal, le
+transfiere energía lentamente. Cuando la energía se acumula hasta cierto umbral,
+hace que los electrones salgan disparados.</p>
+<p>Se presumía que, cuanto mayor fuese la intensidad de la luz (lo "brillante" que
+es), más energía se transfería. En cambio, una luz con intensidad menor (tenue)
+causaría un retardo en el efecto fotoeléctrico: los electrones no saldrían
+disparados tan rápido, porque la energía tardaría más tiempo en acumularse.</p>
+<p>Nuevamente... esto no concordaba con los experimentos. Los mismos mostraban que
+la intensidad de la luz era irrelevante, sino que lo importaba era la frecuencia
+de la misma. Si la frecuencia no superaba cierto umbral, ningún electrón era
+emitido, independientemente de lo mucho que brillase la luz.</p>
+<p>Para solucionar este problema, un científico propuso la siguiente teoría
+basándose en las ideas de Planck: la luz consiste en pequeños paquetes de
+energía llamados fotones o "cuantos" de luz. La energía dentro de estos paquetes
+es proporcional a la frecuencia de la onda electromagnética. El efecto
+fotoeléctrico solo se produce si los fotones que golpean el metal tienen la
+suficiente energía para "desprender" a los electrones. Aumentar la intensidad de
+la luz (cantidad de fotones por segundo) no hace nada, ya que, si los fotones
+tienen poca energía, nunca llegarían al umbral necesario.</p>
+<p>¿El nombre de ese científico...?</p>
+<p>...</p>
+<p>Albert Einstein.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="3-el-átomo-de-hidrógeno-y-su-espectro-de-emisión">3. El átomo de hidrógeno y su espectro de emisión<a href="https://linternita.com/blog/habra-que-esperar-comp-cuantica#3-el-%C3%A1tomo-de-hidr%C3%B3geno-y-su-espectro-de-emisi%C3%B3n" class="hash-link" aria-label="Enlace directo al 3. El átomo de hidrógeno y su espectro de emisión" title="Enlace directo al 3. El átomo de hidrógeno y su espectro de emisión" translate="no">​</a></h3>
+<p>A la vez que sucedían todas estas revelaciones, los científicos estaban
+intentando entender la estructura de los átomos.</p>
+<p>A través de los
+<a href="https://en.wikipedia.org/wiki/Rutherford_scattering_experiments" target="_blank" rel="noopener noreferrer" class="">experimentos de Rutherford</a>,
+se descubrió que los átomos poseían un núcleo en el cual residía la carga
+positiva de los mismos y que los electrones (descubiertos antes que estos
+experimentos) rodean al núcleo.</p>
+<p>Pero según el electromagnetismo clásico, una partícula con carga bajo
+aceleración debe radiar su energía como ondas electromagnéticas. Y a medida que
+irradia esa energía, pierde energía cinética, es decir, se reduce su movimiento.</p>
+<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="nuclear_model" src="https://linternita.com/assets/images/nuclear_model-cf950a94d1364bdc16b9e764b06afcbd.jpeg" width="1457" height="1074" class="img_ev3q"></p></div>
+<p>Bajo el modelo nuclear del átomo, esto significaría que los electrones
+eventualmente dejarían de girar alrededor del núcleo y se estrellarían contra el
+mismo, haciendo que el átomo deje de existir. Para empeorar las cosas, esto
+pasaría casi instantáneamente.</p>
+<p>Obviamente, esto no es lo que pasa. Los átomos son estables y los electrones que
+los componen no están constantemente irradiando ondas electromagnéticas.</p>
+<p>Además de ese problema, se estaba intentando entender por qué el espectro de
+emisión de los átomos era discreto.</p>
+<p>Como vimos hace un rato con los cuerpos negros, cuando calentás un objeto a
+altas temperaturas, el mismo empieza a emitir radiación electromagnética en un
+espectro continuo. Pero cuando calentás una muestra de gas de un elemento
+individual (imaginá un tubo de ensayo lleno de gas de hidrógeno), solo emite luz
+en ciertas frecuencias.</p>
+<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="hydrogen_spectrum" src="https://linternita.com/assets/images/hydrogen_spectrum-bd8910a06dae1b9afb5ff321d8b4fea6.png" width="480" height="287" class="img_ev3q"></p></div>
+<p>Ninguno de estos dos problemas podían ser resueltas con los métodos de la teoría
+clásica.</p>
+<p>En 1913 Niels Bohr presenta un nuevo modelo donde, nuevamente, las cosas se
+cuantizan (pasan a ser discretas). Postula cinco suposiciones (de las cuales
+solo voy a mencionar tres):</p>
+<ol>
+<li class="">
+<p>El átomo no puede absorber o radiar energía continuamente, contrario a lo que
+el electromagnetismo clásico sugiere. Por lo tanto, el electrón mantiene
+órbitas estables y estacionarias, y el mismo no puede tener ninguna otra
+órbita entre medio de las discretas.</p>
+</li>
+<li class="">
+<p>Los electrones obedecen el resto las reglas de la mecánica clásica en las
+órbitas estacionarias.</p>
+</li>
+<li class="">
+<p>La absorción o emisión de radiación electromagnética con una frecuencia <em>v</em>
+está relacionada a una energía de acuerdo a la Relación de Planck <strong>E = hv</strong>,
+donde <em>h</em> es la Constante de Planck.</p>
+</li>
+</ol>
+<p>Con esto en mente, se puede explicar por qué los átomos no producen un espectro
+continuo de radiación electromagnética: porque la energía que pueden emitir los
+electrones al moverse entre las órbitas está discretizada.</p>
+<p>Peroooo... el mismo falla en explicar concretamente <em>por qué</em> los electrones no
+irradian energía al estar en una órbita. Simplemente lo estipula como una ley de
+la naturaleza. Así que... este modelo no fue más que otro parche temporal, ya
+que el mismo está incompleto y es incorrecto.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="el-problema-con-la-vieja-teoría-cuántica">El problema con la vieja teoría cuántica<a href="https://linternita.com/blog/habra-que-esperar-comp-cuantica#el-problema-con-la-vieja-teor%C3%ADa-cu%C3%A1ntica" class="hash-link" aria-label="Enlace directo al El problema con la vieja teoría cuántica" title="Enlace directo al El problema con la vieja teoría cuántica" translate="no">​</a></h3>
+<p>¿Por qué "vieja" teoría cuántica?</p>
+<p>Porque, más que ser una teoría nueva, intentaba emparchar y reconciliar las
+cosas con la mecánica clásica. No estaba completa, acarreaba consigo prejuicios
+clasicistas, y tenía contradicciones que eran difíciles de ignorar.</p>
+<p>Con los ejemplos que vimos, hay una contradicción que claramente sale a la luz.</p>
+<p>La de la luz.</p>
+<p>Originalmente se pensaba que se comportaba como una onda, pero los "parches" que
+estuvimos viendo dan a entender que la luz está compuesta por partículas
+(fotones).</p>
+<p>El "experimento de la doble rendija" confundió todavía más las cosas, mostrando
+que bajo ciertas condiciones la luz parecía comportarse como una onda, y bajo
+otras, como algo compuesto por partículas.</p>
+<p>Como un remedio, se presentó el concepto de "dualidad onda-partícula", que
+establece... básicamente eso que dije. Las partículas elementales (electrones,
+fotones) bajo ciertas condiciones se comportan como la definición clásica de una
+onda y bajo otro conjunto de condiciones se comportan como la definición clásica
+de una partícula.</p>
+<p>Pero esto... es otro parche contradictorio. Si bien fue importante y ayudó a dar
+el siguiente paso que nos llevaría a la teoría cuántica moderna, hoy en día es
+un concepto obsoleto.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="inercia">Inercia<a href="https://linternita.com/blog/habra-que-esperar-comp-cuantica#inercia" class="hash-link" aria-label="Enlace directo al Inercia" title="Enlace directo al Inercia" translate="no">​</a></h3>
+<p>Lamentablemente, el concepto de dualidad onda-partícula se sigue enseñando y
+hablando como si fuera algo que realmente es parte de la teoría cuántica
+moderna.</p>
+<p>Parece haber una gran inercia al tratar de este tema, tanto en la bibliografía
+como en la "ciencia popular". En vez de enseñar la teoría cuántica moderna, se
+habla sobre la mecánica clásica y los "parches" que fueron surgiendo al intentar
+explicar cosas que no se acomodaban a la misma.</p>
+<p>Como este post lo muestra, fui víctima de esa inercia. No estaba enterado.
+Incluso pensaba que la dualidad onda-partícula era algo que seguía teniendo
+relevancia al día de hoy, algo que quizás era un concepto fundamental de la
+teoría cuántica.</p>
+<p>No es así. La teoría cuántica moderna es algo totalmente diferente a lo que
+venimos viendo. Incluso es contraproducente seguir pensando y acarreando las
+ideas clasicistas.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="intermisión">INTERMISIÓN<a href="https://linternita.com/blog/habra-que-esperar-comp-cuantica#intermisi%C3%B3n" class="hash-link" aria-label="Enlace directo al INTERMISIÓN" title="Enlace directo al INTERMISIÓN" translate="no">​</a></h2>
+<p>Este post es largo y todavía falta un montón.</p>
+<div style="margin:0 auto;text-align:center"><iframe style="width:100%;height:315px" src="https://www.youtube.com/embed/tSsiS-v6_6M" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></div>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="mecánica-cuántica">Mecánica cuántica<a href="https://linternita.com/blog/habra-que-esperar-comp-cuantica#mec%C3%A1nica-cu%C3%A1ntica" class="hash-link" aria-label="Enlace directo al Mecánica cuántica" title="Enlace directo al Mecánica cuántica" translate="no">​</a></h2>
+<p>La mejor forma de abordar la teoría cuántica moderna es dejando de lado tu
+intuición y toda preconcepción clasicista que tengas. Esto puede resultar muy
+difícil, porque intentamos explicar las cosas en base a las experiencias que
+tenemos a diario. Pero en la escala subatómica las cosas no se comportan como
+nada a lo que estamos acostumbrados. No se comportan como ondas, ni como
+partículas.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="estado-cuántico-y-probabilidad">Estado cuántico y probabilidad<a href="https://linternita.com/blog/habra-que-esperar-comp-cuantica#estado-cu%C3%A1ntico-y-probabilidad" class="hash-link" aria-label="Enlace directo al Estado cuántico y probabilidad" title="Enlace directo al Estado cuántico y probabilidad" translate="no">​</a></h3>
+<p>Un "estado" es una abstracción matemática que describe un sistema. En la
+mecánica clásica, un estado está compuesto por variables dinámicas con valores
+reales precisos para cada instante del tiempo.</p>
+<p>Un ejemplo clásico de esto: el estado de una bala que acaba de ser disparada.
+Las variables dinámicas que pueden llegar a componer ese estado serían la
+posición de la bala y la velocidad de la misma (en el tiempo). Estas dos
+variables evolucionan de acuerdo a... cualquiera sea la ecuación que define el
+movimiento de una bala. Conociendo la posición original desde dónde se disparó
+la bala y usando ecuaciones que tengan en cuenta cosas como la fuerza de la
+gravedad, podemos <em>predecir</em> con precisión la trayectoria de la bala.</p>
+<p>Un estado cuántico también consiste en un conjunto de variables dinámicas que
+evolucionan en base a alguna ecuación. Pero a diferencia de los "estados
+clásicos", están compuestos por números complejos, son afectados por el
+principio de incertidumbre, y como "predicción" arrojan una distribución de
+probabilidad para los resultados del sistema.</p>
+<p>Esto último es muy importante, siendo quizás el cambio más chocante con respecto
+a las teorías clásicas: <strong>bajo el esquema cuántico, perdimos la capacidad de
+predecir con certeza qué es lo que va a pasar.</strong></p>
+<p>Podés tener un estado que represente la posición de un electrón, pero los
+resultados que obtengas solamente van a ser las probabilidades de encontrar al
+electrón en una ubicación dada.</p>
+<p>Sin duda, las ramificaciones filosóficas de esto son bastante interesantes. Fue
+algo que causó mucho revuelo y disgusto en su tiempo (y sinceramente, lo sigue
+causando), incluso entre aquellos que fueron grandes contribuidores de la teoría
+cuántica, como Einstein y Schrödinger. En particular, Einstein solía decir que
+<em>dios no juega a los dados</em>, expresando así su disgusto ante la falta de
+determinismo presente en la teoría cuántica.</p>
+<p>El siguiente es un extracto de una clase dada por Richard Feynman que considero
+relevante:</p>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>Extracto de <em>First principles of quantum mechanics</em> (en inglés)</summary><div><div class="collapsibleContent_i85q"><p><em>We would like to emphasize a very important difference between classical and
+quantum mechanics.</em> We have been talking about the probability that an electron
+will arrive in a given circumstance. We have implied that in our experimental
+arrangement (or even in the best possible one) it would be impossible to predict
+exactly what would happen. We can only predict the odds! This would mean, if it
+were true, that physics has given up on the problem of trying to predict exactly
+what will happen in a definite circumstance. Yes! physics <em>has</em> given up. <em>We do
+not know how to predict what would happen in a given circumstance</em>, and we
+believe now that it is impossible—that the only thing that can be predicted is
+the probability of different events. It must be recognized that this is a
+retrenchment in our earlier ideal of understanding nature. It may be a backward
+step, but no one has seen a way to avoid it.</p><p>[...]</p><p>And no one has figured a way out of this puzzle. So at the present time we must
+limit ourselves to computing probabilities. We say “at the present time,” but we
+suspect very strongly that it is something that will be with us forever — that
+it is impossible to beat that puzzle — that this is the way nature really <em>is</em>.</p></div></div></details>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="superposición-de-estados">Superposición de estados<a href="https://linternita.com/blog/habra-que-esperar-comp-cuantica#superposici%C3%B3n-de-estados" class="hash-link" aria-label="Enlace directo al Superposición de estados" title="Enlace directo al Superposición de estados" translate="no">​</a></h3>
+<p>Esto puede incluso complicar más las cosas, pero básicamente los estados
+cuánticos pueden estar compuestos por otros estados. Esto es una consecuencia de
+la ecuación de Schrödinger.</p>
+<p>Matemáticamente esto no es ninguna revelación ni nada de otro mundo. En sí, los
+estados cuánticos son un vector (sí, como los de algebra lineal, exactamente lo
+mismo), y la ecuación de Schrödinger puede ser resuelta con combinaciones
+lineales de vectores. Es decir, sumas de distintos vectores. Es decir... sumas
+entre estados.</p>
+<div style="border:solid cadetblue;padding:2em 2em 0em 2em;margin-bottom:1em"><p style="font-style:italic;position:absolute;margin-bottom:0;margin-top:-50px;margin-left:10px;color:white;background:cadetblue;border-radius:10px;padding:2px 10px">Pensamientos del Lector</p>q carajo es la ecuacion de heimerdinger<p style="font-style:italic;text-align:center;margin-bottom:0;margin:0 auto;color:white;background:cadetblue;border-radius:10px;padding:2px 10px">SI UD. NO PENSÓ ESTO COMUNÍQUESE DE INMEDIATO AL 0800-555-LINT.</p></div>
+<p>Sin ahondar mucho, la ecuación de Schrödinger se utiliza para obtener la
+evolución del estado cuántico a través del tiempo, y es válida mientras que no
+"midamos" el estado.</p>
+<p>Saliendo del mundo matemático, podemos llegar a una explicación más intuitiva
+con el tan famoso "experimento mental" del gato de Schrödinger, el cual voy a
+obviar su explicación debido a la popularidad del mismo.<sup><a href="https://linternita.com/blog/habra-que-esperar-comp-cuantica#note-4" class="">4</a></sup></p>
+<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="schrodingers-cat" src="https://linternita.com/assets/images/schrodingers-cat-34f6642608e41a1fbc7e186e3f094851.png" width="960" height="511" class="img_ev3q"></p></div>
+<p>En este experimento, el estado cuántico es una superposición de los estados
+GatoVivo y GatoMuerto. Es decir, matemáticamente no es más que la suma de ambos:
+|GatoVivo&gt; + |GatoMuerto&gt;.</p>
+<p>Cuando abrimos la caja, estas superposiciones "colapsan" y vemos el resultado
+final: un gato vivo, o un gato muerto y un dueño muy triste.</p>
+<p>Lo irónico de esto es que, si bien el experimento mental se utiliza comúnmente
+la superposición, Schrödinger lo presentó como una crítica a la teoría cuántica,
+ya que consideraba la superposición como algo absurdo. En sí, el problema que
+quiere plantear es el siguiente: si una partícula (como un electrón) puede estar
+en un estado de superposición, entonces cosas más grandes, como un gato, también
+pueden estarlo. Lo cual no cuadra con nuestra intuición: las cosas son o no son,
+el gato está vivo o está bien muerto.</p>
+<p><em><sup> <a name="note-4">4</a>:</sup> Si no lo conocés, buscalo en Google. Y si
+sos algún arqueólogo del futuro y tu única fuente de información es este blog,
+estoy terriblemente apenado por vos. Quizás te interese saber cómo descargar
+música de manera ilegal, si Soulseek sigue existiendo en el futuro podés
+<a href="https://linternita.com/blog/no-more-programmers-soulseek#soulseek" target="_blank" rel="noopener noreferrer" class="">chequear mi otro post</a>.</em></p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="el-problema-de-la-medición">El problema de la medición<a href="https://linternita.com/blog/habra-que-esperar-comp-cuantica#el-problema-de-la-medici%C3%B3n" class="hash-link" aria-label="Enlace directo al El problema de la medición" title="Enlace directo al El problema de la medición" translate="no">​</a></h3>
+<p>Hablar sobre el gato de Schrödinger nos lleva directamente a lo que se conoce
+como el problema de la medición.</p>
+<p>Las "partículas cuánticas" (electrones, fotones, cualquier cosa subatómica)
+tienen ciertas propiedades, como su posición, momento, spin, entre otras. Los
+estados cuánticos tienen superposiciones y solo pueden arrojar una probabilidad
+de cierta propiedad de una partícula (como vimos anteriormente, no podemos saber
+con exactitud, por ejemplo, la posición de un electrón).</p>
+<p>Esto no quiere decir que nunca podamos conocer la posición exacta de un
+electrón. En realidad, si construís un aparato que detecte la posición, vas a
+obtener un resultado exacto y definitivo.</p>
+<p>Y ahí está el problema: ¿Cuándo decide el electrón asumir una posición
+definitiva (o mejor dicho: ¿cuándo ocurre la medición?)? ¿Cómo pasamos de una
+superposición de múltiples estados a un solo valor? ¿Por qué no podemos ver la
+superposición? ¿Qué es lo que selecciona el resultado que obtenemos?</p>
+<p>La teoría cuántica no otorga respuesta a estas preguntas.</p>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>Aclaración importante sobre el concepto de medición</summary><div><div class="collapsibleContent_i85q"><p>La teoría cuántica, como muchas otras cosas, tiene el gran problema de usar
+palabras inadecuadas o que prestan a la confusión.</p><p>Por ejemplo, una propiedad de los electrones es el "spin" (giro). Pero por más
+que sea una propiedad de los mismos y la palabra haga referencia a girar, los
+electrones no giran.</p><p>Lo mismo pasa con el concepto de medición. En toda la bibliografía que
+encuentres se va a mencionar el acto de medir, y esto generalmente confunde a la
+gente, porque algunos llegan a pensar que el colapso de la superposición (es
+decir, el hecho de obtener un solo resultado dentro de las infinitas
+probabilidades) del estado cuántico se produce cuando un observador consciente
+realiza una medición.</p><p><strong>NO. NO TIENE NADA QUE VER CON OBSERVADORES CONSCIENTES.</strong> El colapso no pasa
+porque un ser humano justo decida abrir la caja de Schrödinger y ver al gato
+vivo (o muerto). No tiene nada que ver con nosotros.</p><p>Una mejor palabra sería <strong>interactuar</strong>. Las partículas interactúan con los
+aparatos de medición, y es esta interacción la que lleva al colapso de la
+superposición.</p><p>En base a esto, podemos preguntarnos... ¿qué interacciones hacen que el estado
+se colapse? Porque una partícula está constantemente interactuando con otras que
+hay a su alrededor... ¿no debería el estado colapsar todo el rato?</p></div></div></details>
+<p>Y para complicar TODAVÍA MÁS las cosas, cuando una partícula cuántica es
+"medida", el estado de la misma cambia de forma permanente. Si leíste la
+aclaración de arriba, se presume que esto es porque la medición involucra una
+interacción con la partícula.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="entrelazamiento-cuántico">Entrelazamiento cuántico<a href="https://linternita.com/blog/habra-que-esperar-comp-cuantica#entrelazamiento-cu%C3%A1ntico" class="hash-link" aria-label="Enlace directo al Entrelazamiento cuántico" title="Enlace directo al Entrelazamiento cuántico" translate="no">​</a></h3>
+<p>Otra característica importante de la mecánica cuántica, relacionada con los
+estados y también con las mediciones, es el entrelazamiento cuántico.</p>
+<p>Uno de los ejemplos que se suele dar para explicar este fenómeno es el
+siguiente: imaginá que tenés un electrón que tiene un 0 como valor de spin
+(nuevamente, el spin es una propiedad física del electrón). Luego, el electrón
+se divide en dos partículas menores A y B. Al medir el spin de estas dos
+partículas vamos a encontrar que se encuentran altamente correlacionados: la
+partícula A va a tener un spin con valor -1, y la partícula B va a tener un spin
+con valor 1.</p>
+<p>Este entrelazamiento se mantiene incluso aunque las partículas estén separadas
+por una gran distancia (incluso miles de años luz).</p>
+<p>Contado así puede parecer poco sorprendente. Pero hay que recordar que el estado
+de superposición de una partícula colapsa cuando realizamos una medición. Es
+decir que, aunque las partículas A y B estén separadas por años luz de
+distancia, cuando midamos el spin en A, instantáneamente vamos a saber cuál es
+el spin de la partícula B.</p>
+<p>Los estados de ambas partículas se entrelazan, volviendo imposible describir
+cada partícula individualmente. Ambas partículas se mantienen en un estado de
+superposición hasta que se realiza una medición en una de ellas.</p>
+<p>Esta fue otra de las cosas que causó revuelo cuando se descubrió. Muchos
+científicos no podían hacer las paces con este fenómeno. Einstein (sí, otra
+vez...) dijo la famosa frase "spooky action at a distance", haciendo referencia
+a que no podía existir algo que pudiese influenciar a las partículas de forma
+instantánea, yendo más rápido que la velocidad de la luz.</p>
+<p>Con el tiempo se descubrió que realmente no hay un intercambio de información
+entre las partículas. No hay ninguna influencia que viaja de forma instantánea.
+No se produce una comunicación más rápida que la velocidad de la luz.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="el-universo-no-es-localmente-real">El universo no es localmente real<a href="https://linternita.com/blog/habra-que-esperar-comp-cuantica#el-universo-no-es-localmente-real" class="hash-link" aria-label="Enlace directo al El universo no es localmente real" title="Enlace directo al El universo no es localmente real" translate="no">​</a></h3>
+<p>Pero comprobar eso de forma experimental llevó mucho tiempo, siendo recién en
+2022 que se le otorgó el premio Nobel de Física a los científicos que lograron
+hacerlo.</p>
+<p>Como venimos hablando, la superposición de estados y el entrelazamiento cuántico
+suponen problemas que desafían las preconcepciones de la teoría clásica.</p>
+<p>Antes de que surgiera todo esto, se creía que el universo era <em>localmente real</em>.</p>
+<p><strong>Localmente</strong> (o local) hace referencia a que los objetos solo pueden ser
+influenciados por lo que haya dentro de su entorno inmediato. Para que un objeto
+ejerza una influencia sobre otro que se encuentra "lejos", <em>algo</em> tiene que
+viajar hasta el otro objeto. Y la velocidad de ese <em>algo</em> está limitada por la
+velocidad de la luz.</p>
+<p><strong>Real</strong> hace referencia a que los objetos tienen propiedades bien definidas
+incluso cuando no están interactuando con otros.</p>
+<p>Los experimentos realizados por los ganadores del Nobel demuestran que el
+universo no es localmente real.</p>
+<p>Puede ser local. O puede ser real. Pero no ambas cosas.</p>
+<p>Cabe destacar que no sabemos realmente cuál de esas propiedades es falsa. Los
+experimentos realizados no demuestran eso. Pero sí demuestran que no podemos
+tener ambas verdaderas al mismo tiempo.</p>
+<p>Sobre las implicaciones de vivir en un universo no localmente real, consultalo
+con el filósofo de turno.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="computación-cuántica">Computación cuántica<a href="https://linternita.com/blog/habra-que-esperar-comp-cuantica#computaci%C3%B3n-cu%C3%A1ntica" class="hash-link" aria-label="Enlace directo al Computación cuántica" title="Enlace directo al Computación cuántica" translate="no">​</a></h2>
+<p>Sé que este era el tema principal y la idea detrás de hacer este post, pero a
+esta altura me siento como esta imagen:</p>
+<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="smile-in-pain" src="https://linternita.com/assets/images/smile-in-pain-0ed46d01a9b6ee90459a0d572572f7b5.png" width="578" height="609" class="img_ev3q"></p></div>
+<p>Estoy un poco harto de pensar en partículas y en estados que se superponen y en
+cómo un estado puede ser modificado de forma que el mismo no se colapse para así
+representar cambios en bits y poder armar una computadora cuántica que sea capaz
+de jqewd2hd21ie3ajsdh231e092344wjrsdpfñlsdf32'fi032fi</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="qubits">Qubits<a href="https://linternita.com/blog/habra-que-esperar-comp-cuantica#qubits" class="hash-link" aria-label="Enlace directo al Qubits" title="Enlace directo al Qubits" translate="no">​</a></h3>
+<p>Para entender una computadora cuántica tenés que tener cierto conocimiento de
+cómo una computadora clásica funciona. Dependiendo del nivel de abstracción que
+queramos manejar esto puede ser bastante complicado.<sup><a href="https://linternita.com/blog/habra-que-esperar-comp-cuantica#note-5" class="">5</a></sup></p>
+<p>Para no complicar las cosas, vamos a hablar de bits.</p>
+<p>Las computadoras clásicas manipulan y almacenan información utilizando cadenas
+de dígitos binarios (bits). Estos dígitos solo pueden tomar dos valores: 0 o 1.</p>
+<p>Utilizando compuertas lógicas podemos alterar y manipular dichas cadenas,
+pudiendo así "computar" distintos resultados.</p>
+<p>Las computadoras cuánticas intentan replicar lo mismo, pero utilizando los
+conocimientos que tenemos de la mecánica cuántica. En vez de bits tenemos
+<em>qubits</em>, y a diferencia de los bits clásicos, un qubit se mantiene en un estado
+de superposición entre 1 y 0.</p>
+<p>Por ejemplo, si en una computadora clásica tenemos una secuencia de 3 bits, con
+la misma tan solo podemos representar 1 de los 8 posibles números a la vez. Pero
+en una computadora cuántica la secuencia de 3 qubits nos permite representar los
+8 posibles números todos al mismo tiempo utilizando la superposición del estado.</p>
+<p>La gran ventaja que nos da esto es que podemos realizar cálculos en paralelo
+para cada uno de los valores de esta superposición.</p>
+<p><em><sup> <a name="note-5">5</a>:</sup> después de todo, si realmente querés saber
+cómo funciona una computadora clásica, deberías saber cómo funciona un
+transistor y cosas por el estilo, que estoy seguro que la mayoría de
+informáticos vio en algún momento pero que si le preguntás ahora mismo no tienen
+ni puta idea.</em></p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="decoherencia">Decoherencia<a href="https://linternita.com/blog/habra-que-esperar-comp-cuantica#decoherencia" class="hash-link" aria-label="Enlace directo al Decoherencia" title="Enlace directo al Decoherencia" translate="no">​</a></h3>
+<p>La decoherencia es un fenómeno por el cual un estado cuántico pierde sus
+propiedades cuánticas debido a las interacciones que sus partículas tienen con
+el ambiente.</p>
+<p>La decoherencia es un gran obstáculo en la construcción física de una
+computadora cuántica. Se debe asegurar que las partículas que
+conforman/representan los qubits o el estado de la computadora tengan la menor
+interacción con el entorno que los rodea, de otra forma cualquier cálculo
+realizado por la computadora se vería afectado.</p>
+<p>Para evitar al mínimo las interacciones con el ambiente se utilizan distintas
+técnicas, como enfriarlas hasta el cero absoluto (−273.15 °C) y aparatos que
+aseguran un vacío.</p>
+<p>Es por esto que las computadoras cuánticas tienen la siguiente apariencia:</p>
+<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="quantum-computer" src="https://linternita.com/assets/images/quantum-computer-7d358b95fa5704e6f397d783836acc94.jpg" width="1200" height="1600" class="img_ev3q"></p></div>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="corrección-de-errores-cuántica">Corrección de errores cuántica<a href="https://linternita.com/blog/habra-que-esperar-comp-cuantica#correcci%C3%B3n-de-errores-cu%C3%A1ntica" class="hash-link" aria-label="Enlace directo al Corrección de errores cuántica" title="Enlace directo al Corrección de errores cuántica" translate="no">​</a></h3>
+<p>Pero por más que el problema de la decoherencia sea grande e inevitable, se
+encontró que se pueden aplicar
+<a href="https://en.wikipedia.org/wiki/Quantum_error_correction" target="_blank" rel="noopener noreferrer" class="">técnicas de corrección de errores</a>
+para reducir los problemas acarreados por la interacción con el medioambiente.</p>
+<p>Lamentablemente, las técnicas de corrección implican tener qubits extra que son
+utilizados únicamente para solucionar los errores, y no para realizar cálculos.</p>
+<p>Cuando leas una noticia donde se anuncia una computadora cuántica, prestá
+atención a la cantidad total de qubits que tiene, y cuántos de esos son "qubits
+lógicos". Estos qubits lógicos son los que realmente terminan siendo utilizados
+para computar, el resto son todos para corrección de errores.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="hardware">Hardware<a href="https://linternita.com/blog/habra-que-esperar-comp-cuantica#hardware" class="hash-link" aria-label="Enlace directo al Hardware" title="Enlace directo al Hardware" translate="no">​</a></h3>
+<p>Armar una computadora cuántica es increíblemente costoso y difícil. No solo por
+los problemas que estamos mencionando: un qubit puede estar representado
+físicamente por iones atrapados magnéticamente. Para modificar el qubit se puede
+utilizar un láser que energiza al ion.</p>
+<p>Esto quiere decir que "preparar" el estado cuántico para realizar un cálculo o
+resolver un algoritmo no es una tarea trivial y se necesitan usar técnicas con
+increíble nivel de precisión.</p>
+<p>PERO las cosas vienen bien. El hardware, después de tantos años de inversión e
+investigación, viene avanzando. Las metas se están cumpliendo según lo
+estipulado.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="los-problemas-que-puede-resolver-una-computadora-cuántica">Los problemas que puede resolver una computadora cuántica<a href="https://linternita.com/blog/habra-que-esperar-comp-cuantica#los-problemas-que-puede-resolver-una-computadora-cu%C3%A1ntica" class="hash-link" aria-label="Enlace directo al Los problemas que puede resolver una computadora cuántica" title="Enlace directo al Los problemas que puede resolver una computadora cuántica" translate="no">​</a></h3>
+<p>¿Por qué, si es algo tan costoso y difícil de hacer, se le da tanta atención?
+¿Por qué no seguir mejorando las computadoras clásicas y aferrarse a esas?</p>
+<p>Porque en algunos casos las computadoras cuánticas pueden resolver cosas de
+forma más rápida que una computadora clásica.</p>
+<p><strong>En algunos casos.</strong></p>
+<p>Esta distinción es clave y es algo que se pasa mucho por alto. Las computadoras
+cuánticas NO SON computadoras de uso general. No vas a poder jugar al DOOM en
+una computadora cuántica. No van a reemplazar las computadoras que ya tenemos.</p>
+<p>Pero sí pueden servir para resolver algunas cosas que a las computadoras
+clásicas le llevaría miles de años en resolverlo.</p>
+<p>Por ejemplo, la factorización de números enteros muy grandes es un problema
+difícil para las computadoras clásicas. No es que no sepamos cómo hacerlo, sino
+que los algoritmos tardarían miles de años en dar una respuesta (y mientras más
+grande el número, peor). Muchos sistemas de cifrado, como RSA, están basados en
+este problema.</p>
+<p>En 1994 Peter Shor publica un algoritmo cuántico que es capaz de realizar la
+factorización de números enteros muchísimo más rápido que una computadora
+clásica.</p>
+<p>Ese es <em>uno</em> de los pocos casos donde una computadora cuántica tiene ventajas
+sobre la clásica. Porque no hay muchos más algoritmos. Los podés contar con los
+dedos de tu mano.</p>
+<p>El siguiente es un extracto del libro <em>Principles of quantum computation and
+information</em> de Benenti y Casati:</p>
+<blockquote>
+<p>In short, to be useful, quantum computers require the development of
+appropriate quantum software, that is, of efficient quantum algorithms.</p>
+<p>Besides the problem of decoherence, we should also remark on the difficulty of
+finding new and efficient quantum algorithms. We know that the
+integer-factoring problem can be solved efficiently on a quantum computer, but
+we do not know the answer to the following fundamental question: What class of
+problems could be simulated efficiently on a quamtum computer?</p>
+</blockquote>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>Aclaración sobre cifrado y Shor</summary><div><div class="collapsibleContent_i85q"><p>Si el algoritmo de Shor puede resolver rápidamente la factorización de números
+enteros, ¿significa esto que estamos condenados y que toda nuestra criptografía
+es insegura?</p><p>Respuesta corta: no.</p><p>Respuesta larga: noooooooooooooooooooooooooooooooooooooooooooooooooo</p><p>¿Sabés cuál es el entero más grande que se logró factorizar con el algoritmo de
+Shor hasta la fecha? <strong>21</strong></p><p>Para que el algoritmo de Shor funcione para enteros más grandes necesitamos
+<strong>millones</strong> de qubits. A día de hoy, las computadoras cuánticas rondan los mil
+qubits.</p><p>Vos dirás "y pero en algún momento vamos a llegar a esos números". OK. Es
+verdad, no tenemos que confiarnos y quedarnos tranquilos solo porque es algo que
+"está lejos".</p><p>Pero lo importante es que el algoritmo de Shor solo afecta a los sistemas de
+cifrado que recaen en el problema de factorización de números enteros, como RSA
+y curvas elípticas. Es decir, aquellos sistemas asimétricos.</p><p>Los sistemas de cifrado simétricos, como AES, no son afectados por las
+computadoras cuánticas.</p><p>Así que no tiene sentido tener tanto pánico por esto y CUALQUIERA que te diga
+que las computadoras cuánticas son el fin de TODA la criptografía moderna que
+utilizamos te está queriendo vender algo.</p></div></div></details>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="es-puramente-hype">¿Es puramente hype?<a href="https://linternita.com/blog/habra-que-esperar-comp-cuantica#es-puramente-hype" class="hash-link" aria-label="Enlace directo al ¿Es puramente hype?" title="Enlace directo al ¿Es puramente hype?" translate="no">​</a></h3>
+<p>Si las computadoras cuánticas no son un "upgrade" que nos llevaría a calcular
+cualquier cosa de forma exponencialmente más rápida, ¿significa que son
+puramente hype?</p>
+<p>No me prestes atención a mí, mejor fijate lo que dice alguien que realmente
+estudió y sabe del tema:</p>
+<div style="margin:0 auto;text-align:center"><iframe style="width:100%;height:315px" src="https://www.youtube.com/embed/pDj1QhPOVBo" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></div>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="aclaraciones-finales">Aclaraciones finales<a href="https://linternita.com/blog/habra-que-esperar-comp-cuantica#aclaraciones-finales" class="hash-link" aria-label="Enlace directo al Aclaraciones finales" title="Enlace directo al Aclaraciones finales" translate="no">​</a></h2>
+<p>Este post fue muy difícil de hacer porque no soy un experto del tema, para nada.
+Todo lo que está escrito acá es producto de mi investigación y mi esfuerzo por
+intentar entender la teoría cuántica. Seguramente algunas cosas estén mal o no
+del todo bien explicadas. Si algún físico cuántico lee esto, me puede contactar
+a través de <a href="mailto:iluminame@linternita.com" target="_blank" rel="noopener noreferrer" class="">iluminame@linternita.com</a>.</p>
+<p>Además, en muchos casos asumo que el lector tiene algunos conocimientos de base.
+Es muy difícil armar un post para un público general. Destilar el conocimiento e
+intentar explicarlo para que "todos" lo puedan entender conlleva mucho esfuerzo.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="próximamente-en-este-blog">Próximamente en este blog<a href="https://linternita.com/blog/habra-que-esperar-comp-cuantica#pr%C3%B3ximamente-en-este-blog" class="hash-link" aria-label="Enlace directo al Próximamente en este blog" title="Enlace directo al Próximamente en este blog" translate="no">​</a></h2>
+<p>próximamente???? te pensas que voy a escribir mas???????</p>
+<p>jajajajajajajajjaajjajaajajajjajajajajajajajajjajajajajajajajjajajajajajajajjajajajajajajajjajajajajajajajjajajajajajajajjajajajajajajajjajajajajajajajjajajajajajajajjajajajajajajajjajajajajajajajjajajajajajajajjajajajajajajajjajajajajajajajjajajajajajajajjajajajajajajajjajajajajajajajjajajajajajajajjajajajajajajajjajajajajajajajjajajajaja</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="bibliografía">Bibliografía<a href="https://linternita.com/blog/habra-que-esperar-comp-cuantica#bibliograf%C3%ADa" class="hash-link" aria-label="Enlace directo al Bibliografía" title="Enlace directo al Bibliografía" translate="no">​</a></h2>
+<ul>
+<li class=""><a href="https://chem.libretexts.org/Courses/University_of_Florida/CHM2047%3A_One-Semester_General_Chemistry_(Kleiman)/01%3A__Introduction/1.04%3A_The_failures_of_Classical_Mechanics-_the_Particle_Nature_of_Light" target="_blank" rel="noopener noreferrer" class="">https://chem.libretexts.org/Courses/University_of_Florida/CHM2047%3A_One-Semester_General_Chemistry_(Kleiman)/01%3A__Introduction/1.04%3A_The_failures_of_Classical_Mechanics-_the_Particle_Nature_of_Light</a></li>
+<li class=""><a href="https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/The_Live_Textbook_of_Physical_Chemistry_(Peverati)/16%3A_The_Motivation_for_Quantum_Mechanics/16.03%3A_The_Ultraviolet_Catastrophe" target="_blank" rel="noopener noreferrer" class="">https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/The_Live_Textbook_of_Physical_Chemistry_(Peverati)/16%3A_The_Motivation_for_Quantum_Mechanics/16.03%3A_The_Ultraviolet_Catastrophe</a></li>
+<li class=""><a href="https://chem.libretexts.org/Courses/Howard_University/General_Chemistry%3A_An_Atoms_First_Approach/Unit_1%3A__Atomic_Structure/Chapter_2%3A_Atomic_Structure/Chapter_2.2%3A__Quantization_of_Energy" target="_blank" rel="noopener noreferrer" class="">https://chem.libretexts.org/Courses/Howard_University/General_Chemistry%3A_An_Atoms_First_Approach/Unit_1%3A__Atomic_Structure/Chapter_2%3A_Atomic_Structure/Chapter_2.2%3A__Quantization_of_Energy</a></li>
+<li class=""><a href="https://chem.libretexts.org/Courses/Solano_Community_College/Chem_160/Chapter_07%3A_Atomic_Structure_and_Periodicity/7.03_The_Atomic_Spectrum_of_Hydrogen" target="_blank" rel="noopener noreferrer" class="">https://chem.libretexts.org/Courses/Solano_Community_College/Chem_160/Chapter_07%3A_Atomic_Structure_and_Periodicity/7.03_The_Atomic_Spectrum_of_Hydrogen</a></li>
+<li class=""><a href="https://physics.stackexchange.com/questions/770420/in-simple-terms-how-does-the-quantisation-of-energy-solve-the-ultraviolet-catas" target="_blank" rel="noopener noreferrer" class="">https://physics.stackexchange.com/questions/770420/in-simple-terms-how-does-the-quantisation-of-energy-solve-the-ultraviolet-catas</a></li>
+<li class=""><a href="https://physics.stackexchange.com/questions/20003/why-dont-electrons-crash-into-the-nuclei-they-orbit" target="_blank" rel="noopener noreferrer" class="">https://physics.stackexchange.com/questions/20003/why-dont-electrons-crash-into-the-nuclei-they-orbit</a></li>
+<li class=""><a href="https://www.youtube.com/watch?v=rCfPQLVzus4" target="_blank" rel="noopener noreferrer" class="">https://www.youtube.com/watch?v=rCfPQLVzus4</a></li>
+<li class=""><a href="https://www.physicsforums.com/threads/why-does-wave-particle-duality-not-exist-anymore.910647/" target="_blank" rel="noopener noreferrer" class="">https://www.physicsforums.com/threads/why-does-wave-particle-duality-not-exist-anymore.910647/</a></li>
+<li class=""><a href="https://www.physicsforums.com/threads/is-wave-particle-duality-still-relevant-in-modern-physics.917079/" target="_blank" rel="noopener noreferrer" class="">https://www.physicsforums.com/threads/is-wave-particle-duality-still-relevant-in-modern-physics.917079/</a></li>
+<li class=""><a href="https://physics.stackexchange.com/questions/43992/is-wave-particle-duality-considered-a-valid-interpretation-of-the-behavior-of-ph" target="_blank" rel="noopener noreferrer" class="">https://physics.stackexchange.com/questions/43992/is-wave-particle-duality-considered-a-valid-interpretation-of-the-behavior-of-ph</a></li>
+<li class=""><a href="https://physics.stackexchange.com/questions/46237/is-the-wave-particle-duality-a-real-duality" target="_blank" rel="noopener noreferrer" class="">https://physics.stackexchange.com/questions/46237/is-the-wave-particle-duality-a-real-duality</a></li>
+<li class=""><a href="https://www.youtube.com/watch?v=41Jc75tQcB0" target="_blank" rel="noopener noreferrer" class="">https://www.youtube.com/watch?v=41Jc75tQcB0</a></li>
+<li class=""><a href="https://quantumcomputing.stackexchange.com/questions/1280/how-are-quantum-gates-implemented-in-reality" target="_blank" rel="noopener noreferrer" class="">https://quantumcomputing.stackexchange.com/questions/1280/how-are-quantum-gates-implemented-in-reality</a></li>
+<li class=""><a href="https://www.feynmanlectures.caltech.edu/III_01.html" target="_blank" rel="noopener noreferrer" class="">https://www.feynmanlectures.caltech.edu/III_01.html</a></li>
+<li class=""><a href="https://www.scientificamerican.com/article/the-universe-is-not-locally-real-and-the-physics-nobel-prize-winners-proved-it/" target="_blank" rel="noopener noreferrer" class="">https://www.scientificamerican.com/article/the-universe-is-not-locally-real-and-the-physics-nobel-prize-winners-proved-it/</a></li>
+<li class=""><a href="https://www.youtube.com/@LookingGlassUniverse/videos" target="_blank" rel="noopener noreferrer" class="">https://www.youtube.com/@LookingGlassUniverse/videos</a></li>
+<li class=""><a href="https://www.youtube.com/watch?v=Wsjgtp9XZxo&amp;list=PLwgQsqtH9H5djIfFhXE6We207beTgUnyL" target="_blank" rel="noopener noreferrer" class="">https://www.youtube.com/watch?v=Wsjgtp9XZxo&amp;list=PLwgQsqtH9H5djIfFhXE6We207beTgUnyL</a></li>
+<li class="">Y un montón de búsquedas aleatorias en Google y posts de Reddit con gente
+discutiendo y explicando cosas relacionadas al tema</li>
+</ul>
+<hr>
+<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="happy-new-year" src="https://linternita.com/assets/images/happy-new-year-ce495e4ff035553a1576eeaa817dc90b.jpeg" width="720" height="557" class="img_ev3q"></p><p>feliz 2026 a todos!!! &lt;3 &lt;3 &lt;3!!</p></div>]]></content:encoded>
+            <category>random</category>
+        </item>
         <item>
             <title><![CDATA[pensamientos sobre el pensamiento]]></title>
             <link>https://linternita.com/blog/pensamientos-sobre-pensamiento</link>
@@ -405,7 +990,7 @@ asalto</strong>: unidades de infantería altamente entrenadas y bien equipadas.<
 <p>Lo cual, si nos sumergimos en el contexto del siglo 17 y principios del 18,
 tiene mucho sentido. Estamos hablando de la época donde las guerras se libraban
 de esta forma:</p>
-<div style="margin:0 auto;text-align:center"><iframe style="width:100%;height:315px" src="https://www.youtube.com/embed/-PZQvMY_XlQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe></div>
+<div style="margin:0 auto;text-align:center"><iframe style="width:100%;height:315px" src="https://www.youtube.com/embed/-PZQvMY_XlQ" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></div>
 <p>Y donde los granadas eran cosas como estas:</p>
 <div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="17th-century-granade" src="https://linternita.com/assets/images/17th-century-granade-d93ed3dfff3bb46fc8cd669ad5931fab.jpg" width="960" height="640" class="img_ev3q"></p></div>
 <p>Pelotas de hierro fundido<sup><a href="https://linternita.com/blog/granaderos-a-caballo#note-1" class="">1</a></sup> que pesaban entre 1.5 y 2
@@ -501,7 +1086,7 @@ Contrario a lo que podrías asumir, se pueden hacer bastantes cosas que hacés a
 diario en ese sistema operativo, a pesar de tener 30 años y estar casi
 completamente olvidado.</p>
 <p>Si todavía no lo viste, lo podés ver acá:</p>
-<div style="margin:0 auto;text-align:center"><iframe style="width:100%;height:315px" src="https://www.youtube.com/embed/U1_P8C0PxiA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe></div>
+<div style="margin:0 auto;text-align:center"><iframe style="width:100%;height:315px" src="https://www.youtube.com/embed/U1_P8C0PxiA" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></div>
 <p>Escribir es lo que se me da mejor y me es relativamente fácil (ojo, no estoy
 diciendo que lo que escriba sea bueno, o que vaya a ganar el próximo Pulitzer,
 solamente que me es mucho más fácil escupir texto), pero hay dos grandes
@@ -650,7 +1235,7 @@ pasado 8 años sin actualizaciones.</p>
 lanzamiento le hayan dado soporte es increíble. Y a día de hoy podés jugar
 online porque todavía tienen un servidor levantado.</p>
 <p>Aprovecho para dejar lo que es capaz la mejor pieza cómica jamás realizada:</p>
-<div style="margin:0 auto;text-align:center"><iframe style="width:100%;height:315px" src="https://www.youtube.com/embed/WjvGtCo8RLE?si=CY2bTIbpZaXqvENS&amp;start=120" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe></div>]]></content:encoded>
+<div style="margin:0 auto;text-align:center"><iframe style="width:100%;height:315px" src="https://www.youtube.com/embed/WjvGtCo8RLE?si=CY2bTIbpZaXqvENS&amp;start=120" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></div>]]></content:encoded>
             <category>random</category>
         </item>
         <item>
@@ -906,7 +1491,7 @@ de forma cómoda.</p>
 <li class="">Tener ganas de sufrir</li>
 </ul>
 <p>Acá nuestro video demostrativo:</p>
-<div style="margin:0 auto;text-align:center"><iframe style="width:100%;height:315px" src="https://www.youtube.com/embed/PHusSniWM1M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe></div>
+<div style="margin:0 auto;text-align:center"><iframe style="width:100%;height:315px" src="https://www.youtube.com/embed/PHusSniWM1M" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></div>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="making-of">Making-of<a href="https://linternita.com/blog/linternita-lo-fi#making-of" class="hash-link" aria-label="Enlace directo al Making-of" title="Enlace directo al Making-of" translate="no">​</a></h2>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="desentrañando-un-módem">Desentrañando un módem<a href="https://linternita.com/blog/linternita-lo-fi#desentra%C3%B1ando-un-m%C3%B3dem" class="hash-link" aria-label="Enlace directo al Desentrañando un módem" title="Enlace directo al Desentrañando un módem" translate="no">​</a></h3>
 <p>Mi objetivo era, de alguna forma, lograr reproducir un archivo de audio desde mi
@@ -1066,7 +1651,7 @@ WAV con esas características.</p>
 <p>Agarré un <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" rel="noopener noreferrer" class="">tema</a> que todos
 conocemos muy bien, recorté los primeros 30 segundos, y creé un WAV con esas
 especificaciones. Funcionó... más o menos.</p>
-<div style="margin:0 auto;text-align:center"><iframe style="width:100%;height:315px" src="https://www.youtube.com/embed/Rsum0prmWJs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe></div>
+<div style="margin:0 auto;text-align:center"><iframe style="width:100%;height:315px" src="https://www.youtube.com/embed/Rsum0prmWJs" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></div>
 <p>El tema se reproduce, pero se escucha ralentizado, como si fuera una versión
 slowed+reverb. También a medida que se reproduce salta continuamente un mensaje
 de error en la consola de Linux:</p>
@@ -1099,7 +1684,7 @@ generalmente reproducen audio.</p>
 </ul>
 <p>Pero hoy se me prendió la linternita y pensé: si el audio se "escucha lento",
 ¿qué pasa si le incremento la velocidad al tema?</p>
-<div style="margin:0 auto;text-align:center"><iframe style="width:100%;height:315px" src="https://www.youtube.com/embed/dvzABOUfp4o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe></div>
+<div style="margin:0 auto;text-align:center"><iframe style="width:100%;height:315px" src="https://www.youtube.com/embed/dvzABOUfp4o" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></div>
 <p>No soluciona el problema del búfer, pero eh, se escucha un poco mejor.</p>
 <p>Así que, con esto, <em>Linternita Lo-Fi</em> puede reproducir archivos WAV que tengan:</p>
 <ul>
@@ -1490,9 +2075,9 @@ haya nadie calificado para responder eso. Pero muchos de los que trabajaron
 dentro de Bell Labs declaran que las condiciones de trabajo eran ideales para la
 innovación.</p>
 <p>Recomiendo ver:</p>
-<div style="margin:0 auto;text-align:center"><iframe style="width:100%;height:315px" src="https://www.youtube.com/embed/WMhgbj9bc4Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe></div>
-<div style="margin:0 auto;text-align:center"><iframe style="width:100%;height:315px" src="https://www.youtube.com/embed/weRd0l2Pync" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe></div>
-<div style="margin:0 auto;text-align:center"><iframe style="width:100%;height:315px" src="https://www.youtube.com/embed/QFK6RG47bww" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe></div>
+<div style="margin:0 auto;text-align:center"><iframe style="width:100%;height:315px" src="https://www.youtube.com/embed/WMhgbj9bc4Y" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></div>
+<div style="margin:0 auto;text-align:center"><iframe style="width:100%;height:315px" src="https://www.youtube.com/embed/weRd0l2Pync" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></div>
+<div style="margin:0 auto;text-align:center"><iframe style="width:100%;height:315px" src="https://www.youtube.com/embed/QFK6RG47bww" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></div>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="referencias">Referencias<a href="https://linternita.com/blog/monopolio-que-cambio-mundo#referencias" class="hash-link" aria-label="Enlace directo al Referencias" title="Enlace directo al Referencias" translate="no">​</a></h2>
 <p>Algunas referencias o material de interés:</p>
 <ul>
@@ -1938,7 +2523,7 @@ este post, pero mencionando que el reciclado de plástico tuvo una breve época
 donde fue económicamente viable gracias a China.</p>
 </li>
 </ul>
-<div style="margin:0 auto;text-align:center"><iframe style="width:100%;height:315px" src="https://www.youtube.com/embed/KXRtNwUju5g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe></div>]]></content:encoded>
+<div style="margin:0 auto;text-align:center"><iframe style="width:100%;height:315px" src="https://www.youtube.com/embed/KXRtNwUju5g" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></div>]]></content:encoded>
             <category>random</category>
         </item>
         <item>
@@ -2438,7 +3023,7 @@ subsistir.</p>
 <p>Y ni hablar de la comida.</p>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="video-con-la-simulación-de-1-año">Video con la simulación de 1 año<a href="https://linternita.com/blog/our-sun-is-gone#video-con-la-simulaci%C3%B3n-de-1-a%C3%B1o" class="hash-link" aria-label="Enlace directo al Video con la simulación de 1 año" title="Enlace directo al Video con la simulación de 1 año" translate="no">​</a></h2>
 <p>Acá abajo vas a poder ver el video con una simulación de este escenario:</p>
-<div style="margin:0 auto;text-align:center"><iframe style="width:100%;height:315px" src="https://www.youtube.com/embed/LETuauqe4aI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe></div>
+<div style="margin:0 auto;text-align:center"><iframe style="width:100%;height:315px" src="https://www.youtube.com/embed/LETuauqe4aI" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></div>
 <p>El mismo está hecho con <a href="https://universesandbox.com/" target="_blank" rel="noopener noreferrer" class="">Universe Sandbox</a>, del
 cual también salieron las imágenes utilizadas a lo largo del post.</p>]]></content:encoded>
             <category>random</category>
@@ -2776,7 +3361,7 @@ información.</p>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="demo">Demo<a href="https://linternita.com/blog/transmitiendo-datos-con-sonido#demo" class="hash-link" aria-label="Enlace directo al Demo" title="Enlace directo al Demo" translate="no">​</a></h3>
 <p>Blablablablabla mucho texto zzzzzzzzzzz.</p>
 <p>Acá hay una demostración en video de todo essto funcionando en la vida real:</p>
-<div style="margin:0 auto;text-align:center"><iframe style="width:100%;height:315px" src="https://www.youtube.com/embed/ARSIg6EtaA0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe></div>
+<div style="margin:0 auto;text-align:center"><iframe style="width:100%;height:315px" src="https://www.youtube.com/embed/ARSIg6EtaA0" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></div>
 <p>Y acá hay un repositorio con el código horrible que hice:
 <a href="https://github.com/Squiro/sound-modulation-poc" target="_blank" rel="noopener noreferrer" class="">https://github.com/Squiro/sound-modulation-poc</a></p>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="notas-finales">Notas finales<a href="https://linternita.com/blog/transmitiendo-datos-con-sonido#notas-finales" class="hash-link" aria-label="Enlace directo al Notas finales" title="Enlace directo al Notas finales" translate="no">​</a></h2>
@@ -2928,7 +3513,7 @@ están ahí.</p>
 <p>En su momento, el canal de YouTube DankPods solía hacer bastantes vídeos
 comparando auriculares. Es un buen punto de partida decente para conocer
 distintos auriculares y formar una opinión sobre los mismos:</p>
-<div style="margin:0 auto;text-align:center"><iframe style="width:100%;height:315px" src="https://www.youtube.com/embed/V_gf8TZ1M6g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe></div>
+<div style="margin:0 auto;text-align:center"><iframe style="width:100%;height:315px" src="https://www.youtube.com/embed/V_gf8TZ1M6g" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></div>
 <p>En este video en específico muestra auriculares baratos, pero decentes. No hace
 falta gastar una millonada para tener un auricular que se escuche <em>bien</em>.
 Incluso hay un Superlux metido por ahí &lt;3.</p>]]></content:encoded>
@@ -3049,7 +3634,7 @@ Babbage y empezaron la construcción del aparato. A pesar de la tecnología
 moderna de la que disponían, tardaron 17 años en construirlo completamente.</p>
 <p>Los diseños de Babbage contenían errores pequeños, los cuales tuvieron que ser
 arreglados. Pero fuera de eso, la máquina funciona correctamente:</p>
-<div style="margin:0 auto;text-align:center"><iframe style="width:100%;height:315px" src="https://www.youtube.com/embed/BlbQsKpq3Ak" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe></div>
+<div style="margin:0 auto;text-align:center"><iframe style="width:100%;height:315px" src="https://www.youtube.com/embed/BlbQsKpq3Ak" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></div>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="la-máquina-analítica-y-ada-lovelace">La Máquina Analítica y Ada Lovelace<a href="https://linternita.com/blog/mucho-mas-primera-programadora#la-m%C3%A1quina-anal%C3%ADtica-y-ada-lovelace" class="hash-link" aria-label="Enlace directo al La Máquina Analítica y Ada Lovelace" title="Enlace directo al La Máquina Analítica y Ada Lovelace" translate="no">​</a></h2>
 <p>Babbage no saltó de una versión a la otra de la Máquina Diferencial. Por un par
 de años entretuvo la idea de algo mucho más complejo: la Máquina Analítica.</p>
@@ -3974,111 +4559,6 @@ cosas que se escuchan hoy en día, 24 años después. Casi al pie de la letra.</
 <p>Sí ya sé que este post no tiene algo relacionado a piratería. No lo quería hacer
 más largo. En algún próximo post lo subo.</p>]]></content:encoded>
             <category>random</category>
-        </item>
-        <item>
-            <title><![CDATA[en 2 o 3 años no va a haber más programadores - Spotify/Soulseek]]></title>
-            <link>https://linternita.com/blog/no-more-programmers-soulseek</link>
-            <guid>https://linternita.com/blog/no-more-programmers-soulseek</guid>
-            <pubDate>Fri, 14 Mar 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[_Tu oficio va a dejar de existir. Estás condenado. De nada te sirvió la carrera.]]></description>
-            <content:encoded><![CDATA[<p><em>Tu oficio va a dejar de existir. Estás condenado. De nada te sirvió la carrera.
-Mejor andá agarrando una cuchara de albañil.</em> - ChatGPT, probablemente</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="no-more-programmers">No more programmers<a href="https://linternita.com/blog/no-more-programmers-soulseek#no-more-programmers" class="hash-link" aria-label="Enlace directo al No more programmers" title="Enlace directo al No more programmers" translate="no">​</a></h2>
-<p><img decoding="async" loading="lazy" alt="no-more-programmers" src="https://linternita.com/assets/images/no-more-programmers-2c0bd373b7cfc042e9a35a3de0a0993c.png" width="1200" height="747" class="img_ev3q"></p>
-<p><em>Figura 1: ChatGPT decimando la población mundial de programadores porque le
-pintó</em></p>
-<p>En esta nueva ola de hype* relacionada a la inteligencia artificial surgieron
-un montón de herramientas interesantes. Esta vez la luz está puesta en lo que se
-conoce como <em>generative AI</em>, es decir, una subcategoría de la IA que se enfoca
-en usar modelos que son capaces de generar imágenes, video, texto, entre otros,
-basándose en una entrada conocida como
-<a href="https://en.wikipedia.org/wiki/Prompt_engineering" target="_blank" rel="noopener noreferrer" class="">prompt</a> (que es, básicamente,
-una oración en forma de instrucción).</p>
-<p>Algunas de estas herramientas son capaces de generar código. Otras son capaces
-de armar proyectos enteros de programación (con una estructura de carpetas
-definida, configuraciones iniciales, y otras cosas similares).</p>
-<p>Debido a esto, hubo una idea que circuló (o que anda circulando) con frecuencia:
-el fin de la programación como oficio.</p>
-<p>Mi objetivo en este post no es refutar esa idea. Sino, tomando el consejo de
-<a href="https://www.youtube.com/watch?v=3xcwoWF5H1A" target="_blank" rel="noopener noreferrer" class="">LaurieWired</a> (Laurita Conectada
-para los amigos... ¿o es Laurita Cableada? ¿Serial Experiments Laurie?), quiero
-hacer una predicción. O dos.</p>
-<p>*<em>Se deja como ejercicio para el lector definir si la
-<a href="https://en.wikipedia.org/wiki/AI_winter" target="_blank" rel="noopener noreferrer" class="">historia se repite a sí misma</a> o no.</em></p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="los-lenguajes-de-programación-cambian-con-el-tiempo">Los lenguajes de programación cambian con el tiempo<a href="https://linternita.com/blog/no-more-programmers-soulseek#los-lenguajes-de-programaci%C3%B3n-cambian-con-el-tiempo" class="hash-link" aria-label="Enlace directo al Los lenguajes de programación cambian con el tiempo" title="Enlace directo al Los lenguajes de programación cambian con el tiempo" translate="no">​</a></h3>
-<p>Dependiendo de qué tan metido estés en la programación, esto te puede resultar
-obvio o no. Si no estás muy adentrado: los lenguajes de programación no están
-escritos en piedra, cambian con bastante frecuencia. Incluso C, un lenguaje que
-salió en 1972,
-<a href="https://en.wikipedia.org/wiki/C_(programming_language)#History" target="_blank" rel="noopener noreferrer" class="">sigue recibiendo cambios</a>:</p>
-<p><img decoding="async" loading="lazy" alt="c-timeline" src="https://linternita.com/assets/images/c-timeline-5c764b1e54a1962f307f3d7b963708f1.png" width="358" height="395" class="img_ev3q"></p>
-<p>En algunos casos, los cambios son bastante drásticos. Por ejemplo*, así se
-definía una clase en JavaScript ES5 (2009):</p>
-<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>JavaScript ES5</summary><div><div class="collapsibleContent_i85q"><div class="language-javascript codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-javascript codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token string" style="color:#e3116c">"use strict"</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token doc-comment comment" style="color:#999988;font-style:italic">/**</span><br></span><span class="token-line" style="color:#393A34"><span class="token doc-comment comment" style="color:#999988;font-style:italic"> * Person class.</span><br></span><span class="token-line" style="color:#393A34"><span class="token doc-comment comment" style="color:#999988;font-style:italic"> *</span><br></span><span class="token-line" style="color:#393A34"><span class="token doc-comment comment" style="color:#999988;font-style:italic"> * </span><span class="token doc-comment comment keyword" style="color:#00009f;font-style:italic">@constructor</span><span class="token doc-comment comment" style="color:#999988;font-style:italic"></span><br></span><span class="token-line" style="color:#393A34"><span class="token doc-comment comment" style="color:#999988;font-style:italic"> * </span><span class="token doc-comment comment keyword" style="color:#00009f;font-style:italic">@param</span><span class="token doc-comment comment" style="color:#999988;font-style:italic"> </span><span class="token doc-comment comment class-name punctuation" style="color:#393A34;font-style:italic">{</span><span class="token doc-comment comment class-name" style="color:#999988;font-style:italic">String</span><span class="token doc-comment comment class-name punctuation" style="color:#393A34;font-style:italic">}</span><span class="token doc-comment comment" style="color:#999988;font-style:italic"> </span><span class="token doc-comment comment parameter" style="color:#999988;font-style:italic">name</span><span class="token doc-comment comment" style="color:#999988;font-style:italic"> - name of a person.</span><br></span><span class="token-line" style="color:#393A34"><span class="token doc-comment comment" style="color:#999988;font-style:italic"> * </span><span class="token doc-comment comment keyword" style="color:#00009f;font-style:italic">@param</span><span class="token doc-comment comment" style="color:#999988;font-style:italic"> </span><span class="token doc-comment comment class-name punctuation" style="color:#393A34;font-style:italic">{</span><span class="token doc-comment comment class-name" style="color:#999988;font-style:italic">Number</span><span class="token doc-comment comment class-name punctuation" style="color:#393A34;font-style:italic">}</span><span class="token doc-comment comment" style="color:#999988;font-style:italic"> </span><span class="token doc-comment comment parameter" style="color:#999988;font-style:italic">age</span><span class="token doc-comment comment" style="color:#999988;font-style:italic">  - age of a person.</span><br></span><span class="token-line" style="color:#393A34"><span class="token doc-comment comment" style="color:#999988;font-style:italic"> * </span><span class="token doc-comment comment keyword" style="color:#00009f;font-style:italic">@param</span><span class="token doc-comment comment" style="color:#999988;font-style:italic"> </span><span class="token doc-comment comment class-name punctuation" style="color:#393A34;font-style:italic">{</span><span class="token doc-comment comment class-name" style="color:#999988;font-style:italic">String</span><span class="token doc-comment comment class-name punctuation" style="color:#393A34;font-style:italic">}</span><span class="token doc-comment comment" style="color:#999988;font-style:italic"> </span><span class="token doc-comment comment parameter" style="color:#999988;font-style:italic">gender</span><span class="token doc-comment comment" style="color:#999988;font-style:italic">  - gender of a person.</span><br></span><span class="token-line" style="color:#393A34"><span class="token doc-comment comment" style="color:#999988;font-style:italic"> */</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token keyword" style="color:#00009f">function</span><span class="token plain"> </span><span class="token function maybe-class-name" style="color:#d73a49">Person</span><span class="token punctuation" style="color:#393A34">(</span><span class="token parameter">name</span><span class="token parameter punctuation" style="color:#393A34">,</span><span class="token parameter"> age</span><span class="token parameter punctuation" style="color:#393A34">,</span><span class="token parameter"> gender</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token keyword" style="color:#00009f">this</span><span class="token punctuation" style="color:#393A34">.</span><span class="token property-access">name</span><span class="token plain"> </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> name</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token keyword" style="color:#00009f">this</span><span class="token punctuation" style="color:#393A34">.</span><span class="token property-access">age</span><span class="token plain"> </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> age</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token keyword" style="color:#00009f">this</span><span class="token punctuation" style="color:#393A34">.</span><span class="token property-access">gender</span><span class="token plain"> </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> gender</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token punctuation" style="color:#393A34">}</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token class-name">Person</span><span class="token punctuation" style="color:#393A34">.</span><span class="token property-access">prototype</span><span class="token punctuation" style="color:#393A34">.</span><span class="token method-variable function-variable method function property-access" style="color:#d73a49">getName</span><span class="token plain"> </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> </span><span class="token keyword" style="color:#00009f">function</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token keyword control-flow" style="color:#00009f">return</span><span class="token plain"> </span><span class="token keyword" style="color:#00009f">this</span><span class="token punctuation" style="color:#393A34">.</span><span class="token property-access">name</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token punctuation" style="color:#393A34">}</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token class-name">Person</span><span class="token punctuation" style="color:#393A34">.</span><span class="token property-access">prototype</span><span class="token punctuation" style="color:#393A34">.</span><span class="token method-variable function-variable method function property-access" style="color:#d73a49">getAge</span><span class="token plain"> </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> </span><span class="token keyword" style="color:#00009f">function</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token keyword control-flow" style="color:#00009f">return</span><span class="token plain"> </span><span class="token keyword" style="color:#00009f">this</span><span class="token punctuation" style="color:#393A34">.</span><span class="token property-access">age</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token punctuation" style="color:#393A34">}</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token class-name">Person</span><span class="token punctuation" style="color:#393A34">.</span><span class="token property-access">prototype</span><span class="token punctuation" style="color:#393A34">.</span><span class="token method-variable function-variable method function property-access" style="color:#d73a49">getGender</span><span class="token plain"> </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> </span><span class="token keyword" style="color:#00009f">function</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token keyword control-flow" style="color:#00009f">return</span><span class="token plain"> </span><span class="token keyword" style="color:#00009f">this</span><span class="token punctuation" style="color:#393A34">.</span><span class="token property-access">gender</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token punctuation" style="color:#393A34">}</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token doc-comment comment" style="color:#999988;font-style:italic">/**</span><br></span><span class="token-line" style="color:#393A34"><span class="token doc-comment comment" style="color:#999988;font-style:italic"> * Teacher class.</span><br></span><span class="token-line" style="color:#393A34"><span class="token doc-comment comment" style="color:#999988;font-style:italic"> *</span><br></span><span class="token-line" style="color:#393A34"><span class="token doc-comment comment" style="color:#999988;font-style:italic"> * </span><span class="token doc-comment comment keyword" style="color:#00009f;font-style:italic">@constructor</span><span class="token doc-comment comment" style="color:#999988;font-style:italic"></span><br></span><span class="token-line" style="color:#393A34"><span class="token doc-comment comment" style="color:#999988;font-style:italic"> * </span><span class="token doc-comment comment keyword" style="color:#00009f;font-style:italic">@param</span><span class="token doc-comment comment" style="color:#999988;font-style:italic"> </span><span class="token doc-comment comment class-name punctuation" style="color:#393A34;font-style:italic">{</span><span class="token doc-comment comment class-name" style="color:#999988;font-style:italic">String</span><span class="token doc-comment comment class-name punctuation" style="color:#393A34;font-style:italic">}</span><span class="token doc-comment comment" style="color:#999988;font-style:italic"> </span><span class="token doc-comment comment parameter" style="color:#999988;font-style:italic">name</span><span class="token doc-comment comment" style="color:#999988;font-style:italic"> - name of a teacher.</span><br></span><span class="token-line" style="color:#393A34"><span class="token doc-comment comment" style="color:#999988;font-style:italic"> * </span><span class="token doc-comment comment keyword" style="color:#00009f;font-style:italic">@param</span><span class="token doc-comment comment" style="color:#999988;font-style:italic"> </span><span class="token doc-comment comment class-name punctuation" style="color:#393A34;font-style:italic">{</span><span class="token doc-comment comment class-name" style="color:#999988;font-style:italic">Number</span><span class="token doc-comment comment class-name punctuation" style="color:#393A34;font-style:italic">}</span><span class="token doc-comment comment" style="color:#999988;font-style:italic"> </span><span class="token doc-comment comment parameter" style="color:#999988;font-style:italic">age</span><span class="token doc-comment comment" style="color:#999988;font-style:italic">  - age of a teacher.</span><br></span><span class="token-line" style="color:#393A34"><span class="token doc-comment comment" style="color:#999988;font-style:italic"> * </span><span class="token doc-comment comment keyword" style="color:#00009f;font-style:italic">@param</span><span class="token doc-comment comment" style="color:#999988;font-style:italic"> </span><span class="token doc-comment comment class-name punctuation" style="color:#393A34;font-style:italic">{</span><span class="token doc-comment comment class-name" style="color:#999988;font-style:italic">String</span><span class="token doc-comment comment class-name punctuation" style="color:#393A34;font-style:italic">}</span><span class="token doc-comment comment" style="color:#999988;font-style:italic"> </span><span class="token doc-comment comment parameter" style="color:#999988;font-style:italic">gender</span><span class="token doc-comment comment" style="color:#999988;font-style:italic">  - gender of a teacher.</span><br></span><span class="token-line" style="color:#393A34"><span class="token doc-comment comment" style="color:#999988;font-style:italic"> * </span><span class="token doc-comment comment keyword" style="color:#00009f;font-style:italic">@param</span><span class="token doc-comment comment" style="color:#999988;font-style:italic"> </span><span class="token doc-comment comment class-name punctuation" style="color:#393A34;font-style:italic">{</span><span class="token doc-comment comment class-name" style="color:#999988;font-style:italic">String</span><span class="token doc-comment comment class-name punctuation" style="color:#393A34;font-style:italic">}</span><span class="token doc-comment comment" style="color:#999988;font-style:italic"> </span><span class="token doc-comment comment parameter" style="color:#999988;font-style:italic">subject</span><span class="token doc-comment comment" style="color:#999988;font-style:italic"> - subject of a teacher.</span><br></span><span class="token-line" style="color:#393A34"><span class="token doc-comment comment" style="color:#999988;font-style:italic"> */</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token keyword" style="color:#00009f">function</span><span class="token plain"> </span><span class="token function maybe-class-name" style="color:#d73a49">Teacher</span><span class="token punctuation" style="color:#393A34">(</span><span class="token parameter">name</span><span class="token parameter punctuation" style="color:#393A34">,</span><span class="token parameter"> age</span><span class="token parameter punctuation" style="color:#393A34">,</span><span class="token parameter"> gender</span><span class="token parameter punctuation" style="color:#393A34">,</span><span class="token parameter"> subject</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token maybe-class-name">Person</span><span class="token punctuation" style="color:#393A34">.</span><span class="token method function property-access" style="color:#d73a49">call</span><span class="token punctuation" style="color:#393A34">(</span><span class="token keyword" style="color:#00009f">this</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> name</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> age</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> gender</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token keyword" style="color:#00009f">this</span><span class="token punctuation" style="color:#393A34">.</span><span class="token property-access">subject</span><span class="token plain"> </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> subject</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token punctuation" style="color:#393A34">}</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token class-name">Teacher</span><span class="token punctuation" style="color:#393A34">.</span><span class="token property-access">prototype</span><span class="token plain"> </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> </span><span class="token known-class-name class-name">Object</span><span class="token punctuation" style="color:#393A34">.</span><span class="token method function property-access" style="color:#d73a49">create</span><span class="token punctuation" style="color:#393A34">(</span><span class="token class-name">Person</span><span class="token punctuation" style="color:#393A34">.</span><span class="token property-access">prototype</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token class-name">Teacher</span><span class="token punctuation" style="color:#393A34">.</span><span class="token property-access">prototype</span><span class="token punctuation" style="color:#393A34">.</span><span class="token property-access">constructor</span><span class="token plain"> </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> </span><span class="token maybe-class-name">Teacher</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token class-name">Teacher</span><span class="token punctuation" style="color:#393A34">.</span><span class="token property-access">prototype</span><span class="token punctuation" style="color:#393A34">.</span><span class="token method-variable function-variable method function property-access" style="color:#d73a49">getSubject</span><span class="token plain"> </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> </span><span class="token keyword" style="color:#00009f">function</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token keyword control-flow" style="color:#00009f">return</span><span class="token plain"> </span><span class="token keyword" style="color:#00009f">this</span><span class="token punctuation" style="color:#393A34">.</span><span class="token property-access">subject</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token punctuation" style="color:#393A34">}</span><span class="token punctuation" style="color:#393A34">;</span><br></span></code></pre></div></div></div></div></details>
-<p>Mientras que así se define en JavaScript ES6 (2015):</p>
-<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>JavaScript ES6</summary><div><div class="collapsibleContent_i85q"><div class="language-javascript codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-javascript codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token string" style="color:#e3116c">"use strict"</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token doc-comment comment" style="color:#999988;font-style:italic">/**</span><br></span><span class="token-line" style="color:#393A34"><span class="token doc-comment comment" style="color:#999988;font-style:italic"> * Person class.</span><br></span><span class="token-line" style="color:#393A34"><span class="token doc-comment comment" style="color:#999988;font-style:italic"> *</span><br></span><span class="token-line" style="color:#393A34"><span class="token doc-comment comment" style="color:#999988;font-style:italic"> * </span><span class="token doc-comment comment keyword" style="color:#00009f;font-style:italic">@constructor</span><span class="token doc-comment comment" style="color:#999988;font-style:italic"></span><br></span><span class="token-line" style="color:#393A34"><span class="token doc-comment comment" style="color:#999988;font-style:italic"> * </span><span class="token doc-comment comment keyword" style="color:#00009f;font-style:italic">@param</span><span class="token doc-comment comment" style="color:#999988;font-style:italic"> </span><span class="token doc-comment comment class-name punctuation" style="color:#393A34;font-style:italic">{</span><span class="token doc-comment comment class-name" style="color:#999988;font-style:italic">String</span><span class="token doc-comment comment class-name punctuation" style="color:#393A34;font-style:italic">}</span><span class="token doc-comment comment" style="color:#999988;font-style:italic"> </span><span class="token doc-comment comment parameter" style="color:#999988;font-style:italic">name</span><span class="token doc-comment comment" style="color:#999988;font-style:italic"> - name of a person.</span><br></span><span class="token-line" style="color:#393A34"><span class="token doc-comment comment" style="color:#999988;font-style:italic"> * </span><span class="token doc-comment comment keyword" style="color:#00009f;font-style:italic">@param</span><span class="token doc-comment comment" style="color:#999988;font-style:italic"> </span><span class="token doc-comment comment class-name punctuation" style="color:#393A34;font-style:italic">{</span><span class="token doc-comment comment class-name" style="color:#999988;font-style:italic">Number</span><span class="token doc-comment comment class-name punctuation" style="color:#393A34;font-style:italic">}</span><span class="token doc-comment comment" style="color:#999988;font-style:italic"> </span><span class="token doc-comment comment parameter" style="color:#999988;font-style:italic">age</span><span class="token doc-comment comment" style="color:#999988;font-style:italic">  - age of a person.</span><br></span><span class="token-line" style="color:#393A34"><span class="token doc-comment comment" style="color:#999988;font-style:italic"> * </span><span class="token doc-comment comment keyword" style="color:#00009f;font-style:italic">@param</span><span class="token doc-comment comment" style="color:#999988;font-style:italic"> </span><span class="token doc-comment comment class-name punctuation" style="color:#393A34;font-style:italic">{</span><span class="token doc-comment comment class-name" style="color:#999988;font-style:italic">String</span><span class="token doc-comment comment class-name punctuation" style="color:#393A34;font-style:italic">}</span><span class="token doc-comment comment" style="color:#999988;font-style:italic"> </span><span class="token doc-comment comment parameter" style="color:#999988;font-style:italic">gender</span><span class="token doc-comment comment" style="color:#999988;font-style:italic">  - gender of a person.</span><br></span><span class="token-line" style="color:#393A34"><span class="token doc-comment comment" style="color:#999988;font-style:italic"> */</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token keyword" style="color:#00009f">class</span><span class="token plain"> </span><span class="token class-name">Person</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token function" style="color:#d73a49">constructor</span><span class="token punctuation" style="color:#393A34">(</span><span class="token parameter">name</span><span class="token parameter punctuation" style="color:#393A34">,</span><span class="token parameter"> age</span><span class="token parameter punctuation" style="color:#393A34">,</span><span class="token parameter"> gender</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token keyword" style="color:#00009f">this</span><span class="token punctuation" style="color:#393A34">.</span><span class="token property-access">name</span><span class="token plain"> </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> name</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token keyword" style="color:#00009f">this</span><span class="token punctuation" style="color:#393A34">.</span><span class="token property-access">age</span><span class="token plain"> </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> age</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token keyword" style="color:#00009f">this</span><span class="token punctuation" style="color:#393A34">.</span><span class="token property-access">gender</span><span class="token plain"> </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> gender</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token punctuation" style="color:#393A34">}</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token function" style="color:#d73a49">getName</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token keyword control-flow" style="color:#00009f">return</span><span class="token plain"> </span><span class="token keyword" style="color:#00009f">this</span><span class="token punctuation" style="color:#393A34">.</span><span class="token property-access">name</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token punctuation" style="color:#393A34">}</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token function" style="color:#d73a49">getAge</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token keyword control-flow" style="color:#00009f">return</span><span class="token plain"> </span><span class="token keyword" style="color:#00009f">this</span><span class="token punctuation" style="color:#393A34">.</span><span class="token property-access">age</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token punctuation" style="color:#393A34">}</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token function" style="color:#d73a49">getGender</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token keyword control-flow" style="color:#00009f">return</span><span class="token plain"> </span><span class="token keyword" style="color:#00009f">this</span><span class="token punctuation" style="color:#393A34">.</span><span class="token property-access">gender</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token punctuation" style="color:#393A34">}</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token punctuation" style="color:#393A34">}</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token doc-comment comment" style="color:#999988;font-style:italic">/**</span><br></span><span class="token-line" style="color:#393A34"><span class="token doc-comment comment" style="color:#999988;font-style:italic"> * Teacher class.</span><br></span><span class="token-line" style="color:#393A34"><span class="token doc-comment comment" style="color:#999988;font-style:italic"> *</span><br></span><span class="token-line" style="color:#393A34"><span class="token doc-comment comment" style="color:#999988;font-style:italic"> * </span><span class="token doc-comment comment keyword" style="color:#00009f;font-style:italic">@constructor</span><span class="token doc-comment comment" style="color:#999988;font-style:italic"></span><br></span><span class="token-line" style="color:#393A34"><span class="token doc-comment comment" style="color:#999988;font-style:italic"> * </span><span class="token doc-comment comment keyword" style="color:#00009f;font-style:italic">@param</span><span class="token doc-comment comment" style="color:#999988;font-style:italic"> </span><span class="token doc-comment comment class-name punctuation" style="color:#393A34;font-style:italic">{</span><span class="token doc-comment comment class-name" style="color:#999988;font-style:italic">String</span><span class="token doc-comment comment class-name punctuation" style="color:#393A34;font-style:italic">}</span><span class="token doc-comment comment" style="color:#999988;font-style:italic"> </span><span class="token doc-comment comment parameter" style="color:#999988;font-style:italic">name</span><span class="token doc-comment comment" style="color:#999988;font-style:italic"> - name of a teacher.</span><br></span><span class="token-line" style="color:#393A34"><span class="token doc-comment comment" style="color:#999988;font-style:italic"> * </span><span class="token doc-comment comment keyword" style="color:#00009f;font-style:italic">@param</span><span class="token doc-comment comment" style="color:#999988;font-style:italic"> </span><span class="token doc-comment comment class-name punctuation" style="color:#393A34;font-style:italic">{</span><span class="token doc-comment comment class-name" style="color:#999988;font-style:italic">Number</span><span class="token doc-comment comment class-name punctuation" style="color:#393A34;font-style:italic">}</span><span class="token doc-comment comment" style="color:#999988;font-style:italic"> </span><span class="token doc-comment comment parameter" style="color:#999988;font-style:italic">age</span><span class="token doc-comment comment" style="color:#999988;font-style:italic">  - age of a teacher.</span><br></span><span class="token-line" style="color:#393A34"><span class="token doc-comment comment" style="color:#999988;font-style:italic"> * </span><span class="token doc-comment comment keyword" style="color:#00009f;font-style:italic">@param</span><span class="token doc-comment comment" style="color:#999988;font-style:italic"> </span><span class="token doc-comment comment class-name punctuation" style="color:#393A34;font-style:italic">{</span><span class="token doc-comment comment class-name" style="color:#999988;font-style:italic">String</span><span class="token doc-comment comment class-name punctuation" style="color:#393A34;font-style:italic">}</span><span class="token doc-comment comment" style="color:#999988;font-style:italic"> </span><span class="token doc-comment comment parameter" style="color:#999988;font-style:italic">gender</span><span class="token doc-comment comment" style="color:#999988;font-style:italic">  - gender of a teacher.</span><br></span><span class="token-line" style="color:#393A34"><span class="token doc-comment comment" style="color:#999988;font-style:italic"> * </span><span class="token doc-comment comment keyword" style="color:#00009f;font-style:italic">@param</span><span class="token doc-comment comment" style="color:#999988;font-style:italic"> </span><span class="token doc-comment comment class-name punctuation" style="color:#393A34;font-style:italic">{</span><span class="token doc-comment comment class-name" style="color:#999988;font-style:italic">String</span><span class="token doc-comment comment class-name punctuation" style="color:#393A34;font-style:italic">}</span><span class="token doc-comment comment" style="color:#999988;font-style:italic"> </span><span class="token doc-comment comment parameter" style="color:#999988;font-style:italic">subject</span><span class="token doc-comment comment" style="color:#999988;font-style:italic"> - subject of a teacher.</span><br></span><span class="token-line" style="color:#393A34"><span class="token doc-comment comment" style="color:#999988;font-style:italic"> */</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token keyword" style="color:#00009f">class</span><span class="token plain"> </span><span class="token class-name">Teacher</span><span class="token plain"> </span><span class="token keyword" style="color:#00009f">extends</span><span class="token plain"> </span><span class="token class-name">Person</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token function" style="color:#d73a49">constructor</span><span class="token punctuation" style="color:#393A34">(</span><span class="token parameter">name</span><span class="token parameter punctuation" style="color:#393A34">,</span><span class="token parameter"> age</span><span class="token parameter punctuation" style="color:#393A34">,</span><span class="token parameter"> gender</span><span class="token parameter punctuation" style="color:#393A34">,</span><span class="token parameter"> subject</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token keyword" style="color:#00009f">super</span><span class="token punctuation" style="color:#393A34">(</span><span class="token plain">name</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> age</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> gender</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token keyword" style="color:#00009f">this</span><span class="token punctuation" style="color:#393A34">.</span><span class="token property-access">subject</span><span class="token plain"> </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> subject</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token punctuation" style="color:#393A34">}</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token function" style="color:#d73a49">getSubject</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token keyword control-flow" style="color:#00009f">return</span><span class="token plain"> </span><span class="token keyword" style="color:#00009f">this</span><span class="token punctuation" style="color:#393A34">.</span><span class="token property-access">subject</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token punctuation" style="color:#393A34">}</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token punctuation" style="color:#393A34">}</span><br></span></code></pre></div></div></div></div></details>
-<p>Mientras haya una comunidad activa que utilice el lenguaje va a existir una
-fuerza que intente mejorarlo, introduciendo cambios en el mismo.</p>
-<p><em>*Los ejemplos fueron robados sin escrúpulos
-<a href="https://gist.github.com/apal21/7cf1d3e62c2eae60860f2b8a97caa799#file-readme-md" target="_blank" rel="noopener noreferrer" class="">de esta fuente.</a></em></p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="mother-where-are-the-angels-im-scared-of-the-changes">Mother, where are the angels? I'm scared of the changes<a href="https://linternita.com/blog/no-more-programmers-soulseek#mother-where-are-the-angels-im-scared-of-the-changes" class="hash-link" aria-label="Enlace directo al Mother, where are the angels? I'm scared of the changes" title="Enlace directo al Mother, where are the angels? I'm scared of the changes" translate="no">​</a></h3>
-<p>Escenario hipotético: supongamos que hoy la versión más nueva de JavaScript es
-ES5 (esa versión horrenda que vimos hace un rato), y que la misma salió hace
-muchos años. Internet está plagado de tutoriales, ejemplos, y un montón de
-código fuente basado en esa versión. Mañana sale ES6.</p>
-<p>Todas las herramientas de <em>gen AI</em> que produzcan código van a haber sido
-entrenadas sobre <em>esos</em> ejemplos. Cuando salga ES6 mañana, si usás una y le
-pedís <em>"por favor me crearías una clase en Javascript siguiendo la
-especificación ES6?"</em>, no obtendrías una respuesta útil. No serían capaces de
-generar código basado en esa versión porque no vieron ni conocen nada
-relacionado a ella.</p>
-<p>¿Por cuánto tiempo permanecería así la situación? Hasta que consigan cientos de
-miles de ejemplos de código basados en ES6 para poder re-entrenar los modelos y
-que los mismos aprendan bien esos cambios.</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="mis-predicciones">Mis predicciones<a href="https://linternita.com/blog/no-more-programmers-soulseek#mis-predicciones" class="hash-link" aria-label="Enlace directo al Mis predicciones" title="Enlace directo al Mis predicciones" translate="no">​</a></h3>
-<p>En base a esto, veo dos posibles escenarios:</p>
-<ul>
-<li class="">
-<p>Los lenguajes siguen evolucionando y cambiando con el tiempo, perjudicando la
-utilidad de estas herramientas temporalmente. La innovación sigue su curso
-natural. <strong>80% de probabilidad</strong></p>
-</li>
-<li class="">
-<p>Los lenguajes dejan de cambiar porque, si cambian, significa que estas
-herramientas dejan de ser útiles. La industria queda atascada en versiones
-especificas de lenguajes/frameworks. ¿Innovación restringida? <strong>20% de
-probabilidad</strong></p>
-</li>
-</ul>
-<p>Me cuesta mucho pensar que el segundo escenario llegue a pasar, por más útiles
-que sean estas herramientas. Pero quizás esté totalmente equivocado.</p>
-<p>¿Qué opinás vos?</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="spotify">Spotify<a href="https://linternita.com/blog/no-more-programmers-soulseek#spotify" class="hash-link" aria-label="Enlace directo al Spotify" title="Enlace directo al Spotify" translate="no">​</a></h2>
-<p>La verdad no tengo nada en contra de Spotify. Me parece un buen servicio. Muy
-buena forma de descubrir música nueva similar a la que te gusta. O algo
-totalmente distinto.</p>
-<p>Si podés pagar por Spotify Premium, hacelo.</p>
-<p>Si por alguna razón no podés o no querés, podés usar
-<a href="https://github.com/mrpond/BlockTheSpot" target="_blank" rel="noopener noreferrer" class="">BlockTheSpot</a> para evitar todos los
-anuncios y escuchar música sin interrupciones, ¿qué estás esperando?</p>
-<p>Usé BlockTheSpot por muchos años y funciona sin problemas. A diferencia de las
-APK modeadas para Android, no corrés riesgo de que te suspendan la cuenta.</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="soulseek">Soulseek<a href="https://linternita.com/blog/no-more-programmers-soulseek#soulseek" class="hash-link" aria-label="Enlace directo al Soulseek" title="Enlace directo al Soulseek" translate="no">​</a></h2>
-<p>Si la hiper dependencia de servicios de streaming te da miedo... podés usar
-<a href="https://www.slsknet.org/news/" target="_blank" rel="noopener noreferrer" class="">Soulseek</a>, un cliente P2P utilizado para
-intercambiar archivos, principalmente archivos de música (aunque podés hallar de
-todo).</p>
-<p>Los usuarios de Soulseek pueden elegir archivos que deseen compartir desde sus
-computadoras. Y otros usuarios pueden usar el buscador incorporado y
-descargarlos.</p>
-<p><img decoding="async" loading="lazy" alt="soulseek" src="https://linternita.com/assets/images/soulseek-51e27730d00298dc4f02b565d7ebb1bf.png" width="1913" height="589" class="img_ev3q"></p>
-<p>Es una gran forma de encontrar música en alta calidad y diferentes formatos
-(flac, mp3).</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="próximamente-en-este-blog">Próximamente en este blog<a href="https://linternita.com/blog/no-more-programmers-soulseek#pr%C3%B3ximamente-en-este-blog" class="hash-link" aria-label="Enlace directo al Próximamente en este blog" title="Enlace directo al Próximamente en este blog" translate="no">​</a></h2>
-<p><img decoding="async" loading="lazy" alt="amelie" src="https://linternita.com/assets/images/amelie-9f10b0da22ec46f512897739f40aaaaa.jpg" width="1024" height="768" class="img_ev3q"></p>]]></content:encoded>
-            <category>musica</category>
-            <category>AI</category>
-            <category>techtakes</category>
         </item>
     </channel>
 </rss>
