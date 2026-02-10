@@ -4,10 +4,284 @@
         <title>Linternita Blog</title>
         <link>https://linternita.com/blog</link>
         <description>Linternita Blog</description>
-        <lastBuildDate>Sat, 17 Jan 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 08 Feb 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>es</language>
+        <item>
+            <title><![CDATA[cuando ya no estemos, ¿cómo nos van a encontrar?]]></title>
+            <link>https://linternita.com/blog/como-nos-van-a-encontrar</link>
+            <guid>https://linternita.com/blog/como-nos-van-a-encontrar</guid>
+            <pubDate>Sun, 08 Feb 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[¿Estamos dejando algún rastro de nuestra existencia en el universo?]]></description>
+            <content:encoded><![CDATA[<p>¿Estamos dejando algún rastro de nuestra existencia en el universo?</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="el-calendario-cósmico">El calendario cósmico<a href="https://linternita.com/blog/como-nos-van-a-encontrar#el-calendario-c%C3%B3smico" class="hash-link" aria-label="Enlace directo al El calendario cósmico" title="Enlace directo al El calendario cósmico" translate="no">​</a></h2>
+<p>La existencia de nuestra especie tal como la conocemos es... corta. En el post
+<a href="https://linternita.com/blog/que-tan-diferentes-homo-sapiens" target="_blank" rel="noopener noreferrer" class=""><em>¿qué tan diferentes somos a los primeros homo sapiens?</em></a>
+hablamos de cómo los Homo Sapiens (nosotros) tan solo llevan merodeando por
+estas tierras unos 300 mil años (aproximadamente).</p>
+<p>Por más que parezca un número grande, antepasados nuestros vivieron por mucho
+más tiempo que nosotros. Los Homo Erectus, por ejemplo, llegaron a vivir 2
+millones de años.</p>
+<p>Pero incluso esa cantidad inmensa de años no significa nada si la ponemos en
+comparación con la edad del universo.</p>
+<p>El <a href="https://en.wikipedia.org/wiki/Cosmic_Calendar" target="_blank" rel="noopener noreferrer" class="">calendario cósmico</a> es una
+forma de visualizar la cronología del universo. El mismo extrapola los (casi)
+13.8 mil millones de años de edad del mismo en tan solo un año. Nuestra historia
+empieza en el último día... del último mes.</p>
+<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="cosmic-calendar" src="https://linternita.com/assets/images/cosmic-calendar-08527e673c554958577005288d8c9a26.png" width="4050" height="2700" class="img_ev3q"></p><p><em>Figura 1: el calendario cósmico</em></p></div>
+<p>Y eso es siendo <em>muy</em> generosos e incluyendo la historia de nuestros antepasados
+como parte de la nuestra. Si nos enfocásemos únicamente en el periodo donde
+encontramos nuestros más admirables hitos, estaríamos hablando de tan solo un
+minuto de duración dentro del calendario cósmico.</p>
+<p>Esto pone en claro dos cosas: la primera, que somos una especie infante dando
+sus primeros pasos, la segunda, que Homo Erectus vivió por 2 millones de años y
+ni siquiera pudieron crear algo como el dulce de leche. Total desperdicio
+evolutivo, su extinción está más que justificada.</p>
+<p>En tan poco tiempo logramos cosas increíbles: construimos pirámides gigante,
+domesticamos animales y plantas, creamos máquinas capaces de surcar los cielos,
+llevamos gente a la Luna, y por encima de todo eso inventamos las linternas. Qué
+útiles que son.</p>
+<p><strong>Pero si llegáramos a extinguirnos... ¿qué rastro estamos dejando de nuestra
+existencia?</strong> ¿Qué cosas hablarían por nosotros cuando ya no estemos?</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="radiaciones-electromagnéticas">Radiaciones electromagnéticas<a href="https://linternita.com/blog/como-nos-van-a-encontrar#radiaciones-electromagn%C3%A9ticas" class="hash-link" aria-label="Enlace directo al Radiaciones electromagnéticas" title="Enlace directo al Radiaciones electromagnéticas" translate="no">​</a></h2>
+<p>Muchas de las señales que emitimos son capaces de atravesar la atmósfera y
+escapar hacia el espacio. Al estar compuestas de radiación electromagnética,
+estas señales viajan a la velocidad de la luz, lo que significa que en tan solo
+un año serían capaces de atravesar 9460730472580.8 kilómetros (mejor conocido
+como un <a href="https://en.wikipedia.org/wiki/Light-year" target="_blank" rel="noopener noreferrer" class="">año luz</a>).</p>
+<p>La película Contact<sup><a href="https://linternita.com/blog/como-nos-van-a-encontrar#note-1" class="">1</a></sup> muestra (de forma ficticia) qué
+señales escucharíamos a medida que nos vamos alejando de la Tierra (si
+reproducís esto bajá el volumen porque empieza fuerte):</p>
+<div style="margin:0 auto;text-align:center"><iframe style="width:100%;height:315px" src="https://www.youtube.com/embed/s4XbnJvtqGU" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></div>
+<div id="note-1" style="background-color:lightgreen;position:relative;border-top-right-radius:20px;border-bottom-right-radius:20px;padding:0.5em 1em;margin-bottom:1em"><span><b><i>Linter-nota <!-- -->1<!-- -->:</i></b></span> me encanta esta peli!!! </div>
+<p>No solamente es "de forma ficticia" porque sea una película, sino porque hay dos
+cosas que están mal en esa escena:</p>
+<p>La primera es un detalle menor... Las cosas que se escuchan cambian muy rápido
+en base a la distancia que se muestra. Ya a distancia de Marte la música cambió
+un par de décadas... pero Marte se encuentra entre 3 a 20 minutos luz de
+distancia de la Tierra. No debería haber un salto tan
+grande.<sup><a href="https://linternita.com/blog/como-nos-van-a-encontrar#note-2" class="">2</a></sup></p>
+<div id="note-2" style="background-color:lightgreen;position:relative;border-top-right-radius:20px;border-bottom-right-radius:20px;padding:0.5em 1em;margin-bottom:1em"><span><b><i>Linter-nota <!-- -->2<!-- -->:</i></b></span><p>La página <a href="https://lightyear.fm/" target="_blank" rel="noopener noreferrer" class="">LightYear.fm</a> está inspirada en esa escena,
+pero arreglando el problema de la distancia.</p></div>
+<p>La segunda es la que realmente importa: las señales pierden potencia a medida
+que se propagan por el espacio, siguiendo la
+<a href="https://en.wikipedia.org/wiki/Inverse-square_law" target="_blank" rel="noopener noreferrer" class="">ley de la inversa al cuadrado</a>.
+En criollo: la intensidad con la que recibís la señal se ve afectada por la
+distancia que haya entre vos y el origen de la misma. Mientras más lejos estés,
+menor intensidad.</p>
+<p>Es decir... que a medida que las señales se vayan alejando de la Tierra, más
+difícil se hace discernirlas. Eventualmente las señales se volverían tan débiles
+que sería imposible distinguirlas del ruido electromagnético de fondo del
+universo.<sup><a href="https://linternita.com/blog/como-nos-van-a-encontrar#note-3" class="">3</a></sup></p>
+<p>Así que lamentablemente los aliens que estén apuntando sus radiotelescopios
+hacia la Tierra planeta no van a poder escuchar nuestra evolución musical.</p>
+<p>Cabe destacar que estamos hablando de afortunadas señales que lograron escaparse
+de nuestro planeta. Señales emitidas quizás por una estación de radio o de
+televisión. Estaciones que simplemente transmitían con la potencia suficiente
+para ser captadas a un par de kilómetros a la redonda. Ninguna estación de radio
+va a transmitir con la suficiente potencia como para escuchar música estando en
+Aldebarán.</p>
+<p>Pero, ¿y si decidiéramos transmitir con la suficiente potencia como para que nos
+escuchen desde otras estrellas?</p>
+<div id="note-3" style="background-color:lightgreen;position:relative;border-top-right-radius:20px;border-bottom-right-radius:20px;padding:0.5em 1em;margin-bottom:1em"><span><b><i>Linter-nota <!-- -->3<!-- -->:</i></b></span><p>Además... así de lejos llegaron nuestras señales en comparación con nuestra galaxia.</p><div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="extent-human-broadcast" src="https://linternita.com/assets/images/extent-human-broadcast-0d1aca5c4dd85bc82ebbc3559a8322ae.webp" width="2400" height="2400" class="img_ev3q"></p><p><em>Tomado de <a href="https://www.planetary.org/articles/3390" target="_blank" rel="noopener noreferrer" class="">https://www.planetary.org/articles/3390</a></em></p></div></div>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="seti">SETI<a href="https://linternita.com/blog/como-nos-van-a-encontrar#seti" class="hash-link" aria-label="Enlace directo al SETI" title="Enlace directo al SETI" translate="no">​</a></h3>
+<p>Poco después de que surgiese la revolución electromagnética, algunos se pusieron
+a pensar en lo siguiente: nosotros somos inteligentes y usamos señales
+electromagnéticas para comunicarnos... si hay vida inteligente en el resto del
+universo, alguna tiene que comunicarse de la misma forma.</p>
+<p>En base a esto surgió lo que se conoce como SETI (<strong>S</strong>earch for
+<strong>E</strong>xtra<strong>t</strong>errestial <strong>I</strong>ntelligence), la búsqueda de vida inteligente que
+sea extraterrestre. Y aunque parezca algo inventado por un loquito conspiranoico
+que usa sombreros de aluminio, en realidad es una iniciativa encabezada por
+reconocidos científicos e instituciones (como la NASA).</p>
+<p>Mayormente consiste en una búsqueda pasiva: algunos proyectos SETI utilizan
+<a href="https://en.wikipedia.org/wiki/Radio_telescope" target="_blank" rel="noopener noreferrer" class="">radiotelescopios</a>, antenas
+(gigantes) específicamente diseñadas para capturar las débiles señales
+provenientes del espacio. Mientras que otros realizan experimentos ópticos,
+tratando de capturar pulsos láser.</p>
+<p>Pero también existe <strong>Active SETI</strong>: una búsqueda activa que consiste en el
+envío de mensajes, principalmente a través de señales de radio.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="mensaje-de-arecibo">Mensaje de Arecibo<a href="https://linternita.com/blog/como-nos-van-a-encontrar#mensaje-de-arecibo" class="hash-link" aria-label="Enlace directo al Mensaje de Arecibo" title="Enlace directo al Mensaje de Arecibo" translate="no">​</a></h4>
+<p>El primero de estos mensajes (y uno de los más conocidos) es el
+<a href="https://en.wikipedia.org/wiki/Arecibo_message" target="_blank" rel="noopener noreferrer" class="">mensaje de Arecibo</a>, transmitido
+por el radiotelescopio del mismo nombre<sup><a href="https://linternita.com/blog/como-nos-van-a-encontrar#note-4" class="">4</a></sup> en el año 1974,
+con una potencia de 450 kilowatts. A diferencia de las señales emitidas por,
+digamos, una estación de radio FM, el mensaje de Arecibo (y los otros mensajes
+de Active SETI) son mensajes direccionales: se apunta a una región específica
+del espacio a donde queremos que el mensaje llegue. Esta direccionalidad ayuda a
+concentrar la potencia de la señal, permitiendo que un receptor lejano pueda
+detectarla más fácilmente.</p>
+<p>El mensaje de Arecibo fue enviado en dirección a un clúster de estrellas llamado
+Messier 13, que se encuentra a 24.000 años luz de distancia. Se espera que
+llegue en el año 25974.</p>
+<p>¿Qué fue lo que enviamos? Números del 1 al 10, los números atómicos de los
+elementos que componen el ADN, algunas cosas relacionadas al ADN, la altura
+promedio de un ser humano, un dibujito de un ser humano... entre otras cosas.</p>
+<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="arecibo-message" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPoAAALuCAMAAACw6vurAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAQlBMVEW0tLkAAAASEhKRkZH///8aGhpZWVlEHktoGXWsD8YaeRkeTR0Qzg4dNlkZS5EOcv9THCCFFR7mBxhXWR6OkRr4/xE9CwxpAAAAAWJLR0QEj2jZUQAAAAd0SU1FB+kLGQYkLo7tWTUAAAhsSURBVHja7d3Ncpw4FAbQARzbacdOMnHe/1Vng9MbhkhGXAT3aKVqm59DiaoPIYl//lEURVEURVEuUYaPMo7VtelhLlOb33arDejo6Ojo6OgXp48f5cuX6trjNJfHNr/tVhuL6a1PNYK+ur+xuMG3bqARDX51fwM6Ojo6OnoOeuJIMxWewmPo/61frOptl+kPhQ1vCv2/9VuketsBHR0dHR09Bz1xpJkady3u11W54a/laW7q6Lcmfx3Q0dHR0dFz0BNHmnH/V7zH18bmQwtOUxvQ0dHR0dFz0BNHmqPoT89zebrXkqS5569zeb7Xktzr6Ojo6Ojol0tzHUSa8XDmpdPceuO+9L2Ojo6Ojo5+uTTXaaSR5tzr6Ojo6Ojo0pw0tw6u/+3kaa60cV/wXkdHR0dHR79cmus+0oyh8XW9dsE0V1q74L2Ojo6Ojo5+uTTXaaQxp9WMJ3R0dHR09MGc1hNHmttHeXn5Uyvd9cvCtqV7eWl83E/Qv32U2+1PrbRB3Ra2Ld3LrfFxP9Hg0dHR0dHRL0dPHGlu1Qfer1ZKqr5Yf0tzxz9ulDbk6ltkQEdHR0dHz0FPHGnWg+x+sXS/ILvw22f65vZ7GNnv8WXhtwEdHR0dHT0HPXGkua12LZYepPNtb8UNvrST+XaWbb+ho6Ojo6PnoCeONGZBGCOLjo6Ojo5uFsR1v+z10tEr6PpOy01prr6juKcBCpvudXR0dHR09BPSE0cafXOe3NDR0dHR0fXNXbdv7iKR9rapwZ/6QeYbOjo6Ojp6DnriSLNlyGBP036DZ0H0NNk7eIwsOjo6Ojp6l/TEkcabVv3w6Ojo6Ojo3rT6FkTniy7HfAuiy6W2B3R0dHR09Bz0xJGm9cLJEd2XnX4LIqLTutOVwtHR0dHR0Q+nJ440bRZObr2EculnMDr4FkTrhbNLP37SwUrh6Ojo6OjoHdETRxrfgrBSODo6Ojo6+gXovgVhFoQxsujo6Ojo6GZB+BbE/9Qep7k83mtJvgUxPcxluteSrBSOjo6Ojo4eSk8caSKCbCy9q7652Abf1ZMbOjo6Ojr65frmOo00EQsnH0Xv4FsQRzX4DlYKR0dHR0dHD6UnjjQRCye3pp/oWxCtG/yJVgpHR0dHR0cPpSeONN606odHR0dHR0f3pvVqb1pf3+byut9FaL3n1XMuT3Nv3+fytl/Tb73n1XMe0NHR0dHRc9ATR5rx8zvsIMgWnt9n+ubaNP39Hl8Kz29AR0dHR0fPQU8cacbqg9Rfjtb06jPY9qb13rTqb4LWDb76DAZ0dHR0dPQc9MSRZmxyCqUnU0/fcsl3HDdXfxPUN/gtN9qOoyrQ0dHR0dG7pCeOND0NGWzCPOcsiCaN+5xjZNHR0dHR0Q9PcyePNPrmPLmho6Ojo6Prm8vQN2fcnFEV6Ojo6Ojoxs2db9xc6wkgoZN4+5rTGjp1u68ZT+jo6Ojo6AH0xJEmYnGWiKX2Ol1vLmKBxU5XI0JHR0dHRw+lJ440Y+gCe52muYhlFTu919HR0dHR0S+X5tJFmgj6fh2Ujd607tfg9+uWbtQPj46Ojo6OfhF64kgT2y0ZCu7rTWtoM++rHx4dHR0dHT2AnjjSRAwZbMMMXqEk4pGm0/nr6Ojo6OjoJ6QnjjRj5CkcdYzjVigZjz7GgI6Ojo6OnoOeONJs6ZZcOtWlbX/8nMuP2Eu545vWpQa6tO3Pf+fyM/YG2rEfHh0dHR0dvUt64kgT8ZJ5iR5aO27c3FKDD60N6Ojo6OjoOeiJI01r+p1ZWrtMmrs37tLaZe51dHR0dHT0w+mJI00b+hKkFLx+EZYmj6wv9rLw12nHBr/UfEub+XrTX5oytL7Ez8JfH9DR0dHR0XPQE0eacbfuxvr4WnoRqmvTpoGi9Z3M9Q8tpU2/uvaAjo6Ojo6eg5440kyFQbF+gZXWnZHV8fVv9IfCx4P6ZXVad0FXP7T8rcGjo6Ojo6Nfjp440oy7veKt74Kspzd/07rf8NDWDb55Pzw6Ojo6Ovqp6YkjzX4TQGLpjd60tpn2E9vgG/XDo6Ojo6Ojn5qeONKcm97pCiURDb7T+evo6Ojo6OgH0RNHmojpvKV/veAKJaV/veD8dXR0dHR09FB64kgz7n/g42tj8NCCjmoDOjo6Ojp6DnriSLNE//U+l19LtfpT2LJtcJp7/z2X96VafcPbsm3wvY6Ojo6Ojn5qeuJIs4Ve+lvp5djtt/fmDb70t9KbYLfffqOjo6Ojo+egJ440EUF2S+BtcsmP65vb8pjT5EYb0NHR0dHRc9ATR5qeXjJvCcYnHze35XHo5KMq0NHR0dHRLzduLjjStKY/Pc/lqbR2mVkQz1/n8lxau8wYWXR0dHR09MPpiSPNGMo86HK0T3P1jfugm2BAR0dHR0fPQU8cacYmzIgQfFiai2igux1jQEdHR0dHz0FPHGnG6pOJffHc5Aw+k+YO6jxufQYDOjo6Ojp6DnriSDNWHy7iIqwft/oMytPceiOLaPrrx60+gwEdHR0dHT0HPXGkGat3Hdst2eQM/pbmShtUbGd0kzMY0NHR0dHRc9ATR5qxOqC2Drdb9tc8zW15tGj9qFK/7aZ7HR0dHR0d/dT0xJFmbHy4nvYSkubGLvcScq+jo6Ojo6N3RE8cacYmwfOggBq9QknEY07jbu4BHR0dHR09Bz1xpNmPHrtFV2kudouu7nV0dHR0dPTLpbnuI00E/cvRxzguzY1HH2NAR0dHR0fPQU8cadp8BuNxmstj6V/XtzjRl72mh7lMpX9d3+JE331BR0dHR0fviJ440tzpr29zeV2vreNKa6UXYctZFae5t+9zeVuvrTfp0lpp099yVsX3Ojo6Ojo6OvrZ6YqiKIqiKMrpyn9o5TXodkQ4ZwAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyNS0xMS0yNVQwNjozNjo0NSswMDowMLmejzsAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjUtMTEtMjVUMDY6MzY6NDUrMDA6MDDIwzeHAAAAAElFTkSuQmCC" width="250" height="750" class="img_ev3q"></p><p><em>Contenidos codificados del mensaje de Arecibo</em></p></div>
+<div id="note-4" style="background-color:lightgreen;position:relative;border-top-right-radius:20px;border-bottom-right-radius:20px;padding:0.5em 1em;margin-bottom:1em"><span><b><i>Linter-nota <!-- -->4<!-- -->:</i></b></span><p>El telescopio de Arecibo fue por mucho tiempo el radiotelescopio más grande del
+mundo (desde 1963 hasta 2016). Consistía de un platillo gigante de 305 metros de
+diámetro ubicado en una cavidad natural (un agujero gigante) en Puerto Rico.</p><p>Lamentablemente el telescopio colapsó catastróficamente en diciembre 2020.</p><div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="we-still-talk-arecibo" src="https://linternita.com/assets/images/we-still-talk-arecibo-5a8f9866fe848b4b130c9cc138050a39.png" width="499" height="675" class="img_ev3q"></p></div></div>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="otras-transmisiones">Otras transmisiones<a href="https://linternita.com/blog/como-nos-van-a-encontrar#otras-transmisiones" class="hash-link" aria-label="Enlace directo al Otras transmisiones" title="Enlace directo al Otras transmisiones" translate="no">​</a></h4>
+<p>El mensaje de Arecibo no fue la única transmisión de ese estilo que realizamos.
+Acá hay una lista de las transmisiones más notables:
+<a href="https://en.wikipedia.org/wiki/List_of_interstellar_radio_messages" target="_blank" rel="noopener noreferrer" class="">https://en.wikipedia.org/wiki/List_of_interstellar_radio_messages</a></p>
+<p>EN MI OPINIÓN las dos mejores transmisiones son la que envió la canción
+<a href="https://en.wikipedia.org/wiki/Across_the_Universe_(message)" target="_blank" rel="noopener noreferrer" class="">Across the Universe</a>
+de The Beatles, y Cosmic Call 2, que transmitió la canción Starman de David
+Bowie. Muy buenas elecciones.</p>
+<p>De todas formas, a pesar de que estas transmisiones se realizan con bastante
+potencia, es muy difícil que sean capturadas. La "vida inteligente" que esté del
+otro lado necesitaría contar con un radiotelescopio inmenso (más grande que el
+de Arecibo incluso) para poder detectarlas. Aunque tampoco sabemos qué clase de
+tecnología manejan. En el lado positivo de las cosas, es posible que cuenten con
+mejores radiotelescopios, en el lado negativo, puede que ni siquiera usen
+señales electromagnéticas para comunicarse.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="satélites-y-sondas-espaciales">Satélites y sondas espaciales<a href="https://linternita.com/blog/como-nos-van-a-encontrar#sat%C3%A9lites-y-sondas-espaciales" class="hash-link" aria-label="Enlace directo al Satélites y sondas espaciales" title="Enlace directo al Satélites y sondas espaciales" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="voyager">Voyager<a href="https://linternita.com/blog/como-nos-van-a-encontrar#voyager" class="hash-link" aria-label="Enlace directo al Voyager" title="Enlace directo al Voyager" translate="no">​</a></h3>
+<p>Si hablamos de mensajes enviados al espacio exterior, inevitablemente hay que
+mencionar al que fue enviado en las sondas espaciales Voyager.</p>
+<p>Estas sondas tenían como objetivo realizar un "grand tour" en el cual visitarían
+a los planetas Júpiter, Saturno, Urano, y Pluto (en ese entonces todavía era un
+planeta).</p>
+<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="voyager_probes_with_the_outer_worlds" src="https://linternita.com/assets/images/voyager_probes_with_the_outer_worlds-968892fd1a293f63d6cb0bd95fd8ded3.jpg" width="500" height="615" class="img_ev3q"></p><p><em>Montaje de los planetas visitados por las sondas Voyager, hecho con las fotos
+que tomaron</em></p></div>
+<p>Además de llevar varios instrumentos científicos, cada sonda lleva consigo un
+disco de oro (idéntico para ambas).</p>
+<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="sounds-of-earth-1" src="https://linternita.com/assets/images/sounds-of-earth-1-b6df4124d384d50f218758c10a237c17.jpg" width="960" height="960" class="img_ev3q"></p></div>
+<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="sounds-of-earth-2" src="https://linternita.com/assets/images/sounds-of-earth-2-95e80056372264099b619ef89651ed1a.jpg" width="960" height="960" class="img_ev3q"></p></div>
+<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="voyager-disc" src="https://linternita.com/assets/images/voyager-disc-2c203cee1b0175837d4194c172a39794.jpg" width="800" height="626" class="img_ev3q"></p></div>
+<p>Estos discos son una cápsula de tiempo. Dentro suyo contienen:</p>
+<ul>
+<li class="">Cerca de 116 imágenes que muestran nuestro planeta, nuestro sistema solar, el
+ADN y su estructura, la anatomía humana...</li>
+<li class="">31 pistas de audio, entre las que se encuentran saludos grabados en 55 idiomas
+diferentes, 12 minutos de "sonidos de la Tierra" (animales, viento, pasos,
+risas) y varios temas de música de diferentes géneros (desde Clásica hasta
+Mariachis)</li>
+<li class="">Una grabación de una hora (comprimida a un minuto) de las ondas cerebrales y
+el latido del corazón de Ann Druyan, mientras pensaba en cosas sobre la
+historia de la humanidad, la civilización humana, y el enamorarse</li>
+</ul>
+<p>El dorso del disco contiene información que explica cómo debe ser reproducido
+para obtener acceso al contenido del mismo:</p>
+<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="cover-diagram" src="https://linternita.com/assets/images/cover-diagram-53122595248c240eeb9b83b62a9292f4.jpg" width="2000" height="1533" class="img_ev3q"></p></div>
+<p>Dentro de las imágenes se incluye la siguiente declaración del entonces
+presidente de los Estados Unidos Jimmy Carter:</p>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>Voyager Spacecraft Statement</summary><div><div class="collapsibleContent_i85q"><p>July 29, 1977</p><p>This Voyager spacecraft was constructed by the United States of America. We are
+a community of 240 million human beings among the more than 4 billion who
+inhabit the planet Earth. We human beings are still divided into nation states,
+but these states are rapidly becoming a single global civilization.</p><p>We cast this message into the cosmos. It is likely to survive a billion years
+into our future, when our civilization is profoundly altered and the surface of
+the Earth may be vastly changed. Of the 200 billion stars in the Milky Way
+galaxy, some--perhaps many--may have inhabited planets and spacefaring
+civilizations. If one such civilization intercepts Voyager and can understand
+these recorded contents, here is our message:</p><p>This is a present from a small distant world, a token of our sounds, our
+science, our images, our music, our thoughts, and our feelings. We are
+attempting to survive our time so we may live into yours. We hope someday,
+having solved the problems we face, to join a community of galactic
+civilizations. This record represents our hope and our determination, and our
+good will in a vast and awesome universe.</p></div></div></details>
+<p>La cual me parece increíblemente inspiradora... <em>Estamos tratando de sobrevivir
+en nuestro tiempo para poder vivir en el de ustedes.</em></p>
+<p>Si querés escuchar la música y ver algunas de las imágenes que fueron incluidas
+en los discos, podés visitar <a href="https://goldenrecord.org/" target="_blank" rel="noopener noreferrer" class="">goldenrecord.org</a>.</p>
+<p>Quizás lo más importante de estos discos no es solamente el contenido, sino que,
+a día de hoy, la sonda <em>Voyager 1</em> es el objeto hecho por humanos que más lejos
+se encuentra de la Tierra.</p>
+<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="voyager-1-position" src="https://linternita.com/assets/images/voyager-1-position-db61d495214746b54b67a06e0b19c07a.jpg" width="1200" height="675" class="img_ev3q"></p></div>
+<p>Se encuentra fuera de nuestro sistema solar y está emprendiendo viaje a través
+del espacio interestelar a una velocidad de 61196 kilómetros por hora. Podríamos
+decir que nuestra cápsula de tiempo más distante.</p>
+<p><strong>¿Significa esto que es la mejor forma que tenemos de que una especie
+extraterrestre nos descubra?</strong></p>
+<p>No. Ni de cerca. Por más que el mensaje de las Voyager sea increíblemente
+inspirador y emotivo, es... algo simbólico. Detectar las sondas en el espacio
+(sin saber nada sobre ellas) es una tarea imposible. Son muy "pequeñas" (del
+tamaño de un auto compacto) y serían indistinguibles de cualquier basura
+espacial.</p>
+<p>Sería como intentar encontrar un grano de arena en específico después de tirarlo
+en la playa.</p>
+<p>Pero quién sabe. Capaz algún día...</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="lageos">LAGEOS<a href="https://linternita.com/blog/como-nos-van-a-encontrar#lageos" class="hash-link" aria-label="Enlace directo al LAGEOS" title="Enlace directo al LAGEOS" translate="no">​</a></h3>
+<p>LAGEOS son un conjunto de satélites que están orbitando a más de 5900 kilómetros
+de distancia de la superficie de la Tierra. La órbita de estos satélites es
+bastante estable, se espera que "caigan" nuevamente a la Tierra en 8 millones de
+años.</p>
+<p>LAGEOS-1 contiene una cápsula del tiempo. Mucho más simple que la de las
+Voyager, es una placa de 10 x 17 cm cuyo objetivo es indicar cuando el satélite
+fue lanzado. Incluye los números del 1 al 10 en binario, un diagrama de la
+Tierra orbitando al Sol que indica que una revolución completa dura un año, y
+otros diagramas que muestran la deriva continental a lo largo del tiempo
+(268.435.456 años en el pasado, el presente, y 8 millones de años en el futuro).</p>
+<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="lageos" src="https://linternita.com/assets/images/lageos-7a6e21dced601b5c136cd0be10ad43ec.jpg" width="500" height="670" class="img_ev3q"></p></div>
+<p>¿Sería este un buen candidato de "rastro" que dejamos en el universo?</p>
+<p>Más o menos. Al igual que las Voyager, sería imposible de detectar para alguien
+fuera de este planeta. Pero quizás si alguna especie inteligente está con vida
+en la Tierra dentro de 8 millones de años...<sup><a href="https://linternita.com/blog/como-nos-van-a-encontrar#note-5" class="">5</a></sup></p>
+<div id="note-5" style="background-color:lightgreen;position:relative;border-top-right-radius:20px;border-bottom-right-radius:20px;padding:0.5em 1em;margin-bottom:1em"><span><b><i>Linter-nota <!-- -->5<!-- -->:</i></b></span><p>Honestamente, si ese fuera el caso, tendrían mil formas más fáciles de saber
+sobre nosotros, y seguramente ya sabrían de nuestra existencia... más sobre
+esto al final del post!!!</p></div>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="la-luna">La Luna<a href="https://linternita.com/blog/como-nos-van-a-encontrar#la-luna" class="hash-link" aria-label="Enlace directo al La Luna" title="Enlace directo al La Luna" translate="no">​</a></h2>
+<p>La Luna es un excelente lugar para preservar... cosas. La Luna no cuenta con una
+atmósfera, a términos prácticos se la considera rodeada de un vacío. Sin
+atmósfera no hay viento, ni lluvia, ni agua, ni ningún fenómeno climático como
+los presentes en nuestro planeta.</p>
+<p>Esto genera un ambiente propicio para que las cosas se mantengan en su lugar y
+perseveren. No ocurriría ningún tipo de erosión con el paso del tiempo.</p>
+<p>Las misiones lunares Apollo que aterrizaron en la Luna dejaron algunos elementos
+(banderas, vehículos lunares, el módulo de aterrizaje lunar, instrumentos
+científicos), los cuales a día de hoy siguen estando ahí:</p>
+<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="lunar-objects" src="https://linternita.com/assets/images/lunar-objects-61abe4e61df9e600d7745e1929b4000f.png" width="1135" height="851" class="img_ev3q"></p><p><em>Tomado de: <a href="https://lroc.im-ldi.com/images/1198" target="_blank" rel="noopener noreferrer" class="">https://lroc.im-ldi.com/images/1198</a></em></p></div>
+<p>Si bien es un buen lugar, la Luna no está excenta de comerse un meteorito. O de
+recibir la radiación ultravioleta del Sol sin ningún tipo de filtro. Y además
+volvemos al mismo problema de antes: estas cosas son increíblemente pequeñas y
+nosotros podemos detectarlas porque ya sabemos que están ahí. Para alguien fuera
+de la Tierra sería imposible encontrarlas.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="radiotelescopio-lunar">Radiotelescopio lunar<a href="https://linternita.com/blog/como-nos-van-a-encontrar#radiotelescopio-lunar" class="hash-link" aria-label="Enlace directo al Radiotelescopio lunar" title="Enlace directo al Radiotelescopio lunar" translate="no">​</a></h3>
+<p>Ok, esto ni siquiera es algo que exista aún, y seguramente sea algo que no se
+llegue a realizar en nuestras vidas, pero... sería rastro interesante.</p>
+<p>La construcción de un
+<a href="https://en.wikipedia.org/wiki/Lunar_Crater_Radio_Telescope" target="_blank" rel="noopener noreferrer" class="">radiotelescopio lunar</a>
+es una propuesta encabezada por el Instituto de Conceptos Avanzados de la NASA.
+En resumidas cuentas, la idea es crear un radiotelescopio gigante en uno de los
+cráteres de la Luna, para evitar así el ruido y las interferencias de radio
+provenientes de la Tierra.</p>
+<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="lunar-radio-telescope" src="https://linternita.com/assets/images/lunar-radio-telescope-16d3d1d9d76d2ddc8fd080be9ea5fcff.jpg" width="960" height="663" class="img_ev3q"></p></div>
+<p>Las ventajas son las mismas que mencionamos anteriormente (la Luna es un buen
+lugar para preservar las cosas), pero en este caso estaríamos hablando de una
+estructura de 5 kilómetros de diámetro. Un cráter entero ocupado con algo
+artificial, hecho por humanos.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="la-tierra">La Tierra<a href="https://linternita.com/blog/como-nos-van-a-encontrar#la-tierra" class="hash-link" aria-label="Enlace directo al La Tierra" title="Enlace directo al La Tierra" translate="no">​</a></h2>
+<p>La idea de este post era intentar hallar algún rastro de nuestra existencia que
+no esté ligado a la Tierra. Algo que sea capaz de moverse a través del espacio y
+eventualmente ser encontrado o captado por vida inteligente.</p>
+<p>Pero con la tecnología y el conocimiento que tenemos hoy en día... no hay muchas
+cosas que hagamos que puedan dejar un rastro de ese estilo.</p>
+<p>Sin embargo, si todos nos fuésemos a extinguir ahora mismo (por favor no, tengo
+impuestos que pagar), nuestro planeta quedaría plagado de evidencia de actividad
+humana.</p>
+<p>A nivel orbital, seguramente quede nuestra basura espacial dando vueltas por
+millones de años, o incluso "para siempre".<sup><a href="https://linternita.com/blog/como-nos-van-a-encontrar#note-6" class="">6</a></sup></p>
+<p>A nivel de la superficie terrestre habría muchísimos más rastros aún. Con el
+paso de los años algunos de estos irían "escondiéndose" o haciéndose difíciles
+de ver a simple vista (gracias a un proceso de erosión, movimiento de placas
+tectónicas, meteoritos, subida del nivel del mar, etc), pero si una especie
+inteligente pisase el planeta, tardarían poco en darse cuenta de ciertas
+peculiaridades del mismo.</p>
+<p>Y cuando empiecen a investigar, lo más probable es que se encuentren con
+ciudades enterradas, construcciones gigantes (como represas), y restos
+fosilizados, al igual que nosotros al investigar el pasado de nuestro planeta.</p>
+<p>Quizás al hallar esos restos fósiles lleguen a la conclusión de que en este
+planeta habitaban tres posibles especies inteligentes: nosotros, los perros, y
+los gatos.</p>
+<div id="note-6" style="background-color:lightgreen;position:relative;border-top-right-radius:20px;border-bottom-right-radius:20px;padding:0.5em 1em;margin-bottom:1em"><span><b><i>Linter-nota <!-- -->6<!-- -->:</i></b></span><p>En unos 6 mil millones de años nuestro sol se va a convertir en una estrella
+gigante roja, devorando a su paso a Mercurio, Venus, la Tierra y la Luna.
+Realmente nos tenemos que poner a trabajar en esto de dejar un rastro, nos
+queda poco tiempo.</p></div>]]></content:encoded>
+            <category>espacio</category>
+        </item>
         <item>
             <title><![CDATA[recibi una carta de la NASA]]></title>
             <link>https://linternita.com/blog/recibi-carta-nasa</link>
@@ -102,7 +376,7 @@ vencidos. La historia completa de eso se puede ver acá:
 <video controls="" style="width:100%;height:315px"><source src="https://stereo-ssc.nascom.nasa.gov/img/3dimages/movies/3D_EUV195_0507_bestH264.mov" type="video/mp4"></video>
 <p><em><sup> <a name="note-2">2</a>:</sup> Cercano a la fecha en la que recibí la
 carta... ups.</em></p>]]></content:encoded>
-            <category>random</category>
+            <category>espacio</category>
         </item>
         <item>
             <title><![CDATA[un lindo dia de pesca]]></title>
@@ -3168,7 +3442,7 @@ subsistir.</p>
 <div style="margin:0 auto;text-align:center"><iframe style="width:100%;height:315px" src="https://www.youtube.com/embed/LETuauqe4aI" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></div>
 <p>El mismo está hecho con <a href="https://universesandbox.com/" target="_blank" rel="noopener noreferrer" class="">Universe Sandbox</a>, del
 cual también salieron las imágenes utilizadas a lo largo del post.</p>]]></content:encoded>
-            <category>random</category>
+            <category>espacio</category>
         </item>
         <item>
             <title><![CDATA[aprendiendo a crear patrones bullet hell]]></title>
@@ -4143,208 +4417,6 @@ volviendo demasiado larga, pero las funcionalidades que más uso son:</p>
 <p>Lo podés descargar desde: <a href="https://calibre-ebook.com/es" target="_blank" rel="noopener noreferrer" class="">https://calibre-ebook.com/es</a></p>]]></content:encoded>
             <category>random</category>
             <category>ebooks</category>
-        </item>
-        <item>
-            <title><![CDATA[hackeando mi universidad]]></title>
-            <link>https://linternita.com/blog/hackeando-mi-universidad</link>
-            <guid>https://linternita.com/blog/hackeando-mi-universidad</guid>
-            <pubDate>Mon, 14 Apr 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[Hoy en día podés convertirte en hacker muy fácilmente, solo tenés que]]></description>
-            <content:encoded><![CDATA[<p>Hoy en día podés convertirte en hacker muy fácilmente, solo tenés que
-intentarlo.</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="introducción">Introducción<a href="https://linternita.com/blog/hackeando-mi-universidad#introducci%C3%B3n" class="hash-link" aria-label="Enlace directo al Introducción" title="Enlace directo al Introducción" translate="no">​</a></h2>
-<p><img decoding="async" loading="lazy" alt="miel-login" src="https://linternita.com/assets/images/miel-login-b4ecd33f2e8f29165083d40d7acdf76a.png" width="1903" height="926" class="img_ev3q"></p>
-<p>MIeL (HONeY en inglés) es una plataforma de la Universidad Nacional de La
-Matanza donde los alumnos pueden ingresar y ver contenido relacionado a sus
-materias, enviar mensajes a los profesores, participar en foros dejando
-comentarios, subir archivos para entregas de trabajos prácticos, entre otras
-cosas...</p>
-<p>Muchas de las acciones que enumeré en el anterior párrafo tienen algo en común:
-involucran la <em>entrada</em> de datos por parte de un usuario. Y no solo eso, si no
-que la entrada de dichos datos modifica el contenido de la plataforma.</p>
-<p>No estoy diciendo nada muy llamativo. La mayoría de las páginas webs hacen eso:
-recibir entradas de un usuario y adaptar el contenido adecuadamente. Cuando
-ingresás a YouTube y seleccionás un video, el mismo empieza a reproducirse.
-Cuando ingresás texto en un campo de búsqueda, la página lo procesa y te
-devuelve datos refinados. Cuando le dejás un comentario a la chica que te gusta
-en Instagram, quedás bloqueado.</p>
-<p>En resumen: estas páginas son dinámicas, el contenido de las mismas cambia
-dependiendo de las entradas de los usuarios. Esto no es malo de por sí, pero
-puede llegar a ser peligroso. Un usuario podría subir un archivo que contenga
-virus. Podría ingresar
-<a href="https://en.wikipedia.org/wiki/SQL_injection" target="_blank" rel="noopener noreferrer" class="">un texto específico</a> en un campo
-de búsqueda que produzca que la página revele información que no debería. O
-podría dejar un comentario inofensivo a simple vista, pero que ejecuta código
-malicioso cuando es visto por los demás usuarios.</p>
-<p>Esos casos pueden ser evitados y existen distintas técnicas para hacerlo:
-validación de entradas, sanitización de entradas (controversial), codificación
-de salidas.</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="hackeando-miel">"Hackeando" MIeL<a href="https://linternita.com/blog/hackeando-mi-universidad#hackeando-miel" class="hash-link" aria-label="Enlace directo al &quot;Hackeando&quot; MIeL" title="Enlace directo al &quot;Hackeando&quot; MIeL" translate="no">​</a></h2>
-<p>En algunos casos no hace falta hacer nada. La página se "hackea" sola.</p>
-<p>En el año 2020 alguien hizo un cambio en la página, provocando que todo el
-directorio de archivos del servidor quede expuesto:</p>
-<p><img decoding="async" loading="lazy" alt="miel-logs-1" src="https://linternita.com/assets/images/miel-logs-1-8d1fa07f52a57c74cc44b6ba42b4808c.png" width="517" height="800" class="img_ev3q"></p>
-<p>Un problema de seguridad interesante. Pero queda en segundo plano gracias a
-esto:</p>
-<p><img decoding="async" loading="lazy" alt="miel-logs-2" src="https://linternita.com/assets/images/miel-logs-2-f5dc77b85a68f27a653d1ec8dee6ddce.png" width="1069" height="559" class="img_ev3q"></p>
-<p>Por alguna razón el código de MIeL creaba y almacenaba un registro de todos los
-intentos fallidos de inicios de sesión. No solo se guardaba el nombre de usuario
-que no pudo iniciar sesión, si no también... la <strong>contraseña del usuario</strong>, en
-texto simple.</p>
-<p>No tiene remate.</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="hackeando-miel-1">"""Hackeando""" MIeL<a href="https://linternita.com/blog/hackeando-mi-universidad#hackeando-miel-1" class="hash-link" aria-label="Enlace directo al &quot;&quot;&quot;Hackeando&quot;&quot;&quot; MIeL" title="Enlace directo al &quot;&quot;&quot;Hackeando&quot;&quot;&quot; MIeL" translate="no">​</a></h2>
-<p>El lector informado seguro se dio cuenta hace rato de la dirección de este
-artículo. Mucho enfoque en las entradas de los usuarios solo puede significar
-una cosa: un ataque de inyección.</p>
-<p>Los ataques de inyección explotan vulnerabilidades presentes en una página web,
-permitiéndole a un atacante inyectar una entrada maliciosa que luego puede ser
-ejecutada por la página. Quizás el más conocido de estos ataques (y por suerte,
-cayendo en la irrelevancia) es
-<a href="https://en.wikipedia.org/wiki/SQL_injection" target="_blank" rel="noopener noreferrer" class="">SQL Injection</a>.</p>
-<p>Tan solo un año después del incidente de los logs, me encontraba cursando una
-materia llamada Seguridad en Redes. Justamente en esta materia vimos diferentes
-tipos de ataques que pueden ser realizados sobre páginas web. Me sentí como un
-mono con una navaja y tuve un impulso muy fuerte y repentino que me llevó a
-intentar encontrar un ataque que funcionara dentro de MIeL.</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="buscando-un-punto-débil">Buscando un punto débil<a href="https://linternita.com/blog/hackeando-mi-universidad#buscando-un-punto-d%C3%A9bil" class="hash-link" aria-label="Enlace directo al Buscando un punto débil" title="Enlace directo al Buscando un punto débil" translate="no">​</a></h3>
-<p>Como dije antes, la plataforma permite a los usuarios enviarse mensajes o dejar
-comentarios en un foro. Tiene la particularidad de soportar texto enriquecido
-(rich text, permite agregar cosas como distintas fuentes, colores, o elementos
-como imágenes), y para eso utiliza un editor de texto muy popular llamado
-<a href="https://www.tiny.cloud/" target="_blank" rel="noopener noreferrer" class="">TinyMCE</a>.</p>
-<p><img decoding="async" loading="lazy" alt="miel-tinymce" src="https://linternita.com/assets/images/miel-tinymce-4f36d6e15cae13e51be8a750f2709f2e.png" width="1667" height="466" class="img_ev3q"></p>
-<p>Para esto, lo que hace TinyMCE detrás de escena es crear HTML para representar
-ese texto:</p>
-<p><img decoding="async" loading="lazy" alt="html-text-tinymce" src="https://linternita.com/assets/images/html-text-tinymce-50dd070c91124987943e52c47b0db1bc.png" width="955" height="230" class="img_ev3q"></p>
-<p>El lenguaje HTML permite la ejecución de scripts de código JavaScript. Y acá
-estamos lidiando con un editor de texto que genera HTML, el cual luego (de
-enviar un comentario) es reflejado en la página para que los demás usuarios lo
-puedan ver.</p>
-<p>¿Entonces puedo agregar código JavaScript en el editor de Tiny? ¿Así de fácil
-es?</p>
-<p>No. TinyMCE tiene medidas de seguridad para evitar que los usuarios inyecten
-código JavaScript al utilizar el editor. Aplica técnicas santiización y
-neutralización del contenido. El problema es que sanitizar HTML es algo difícil
-de hacer. Y eso hace que esto sea un punto débil.</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="vulnerando-tinymce">Vulnerando TinyMCE<a href="https://linternita.com/blog/hackeando-mi-universidad#vulnerando-tinymce" class="hash-link" aria-label="Enlace directo al Vulnerando TinyMCE" title="Enlace directo al Vulnerando TinyMCE" translate="no">​</a></h3>
-<p>Uno podría romperse la cabeza intentando encontrar la forma de romper el
-sanitizador de Tiny y lograr inyectar código JavaScript en el contenido de un
-mensaje...</p>
-<p>O podrías averiguar qué versión de Tiny está ejecutando la página y después
-buscar
-<a href="https://es.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures" target="_blank" rel="noopener noreferrer" class="">CVEs</a> que
-afecten a esa versión. Lo bueno de los CVEs es que no solamente informan sobre
-una vulnerabilidad, si no que muchas veces contienen pasos para replicarla.</p>
-<p><img decoding="async" loading="lazy" alt="version-miel-tinymce" src="https://linternita.com/assets/images/version-miel-tinymce-b67a2dd44f68dd09da298e555995558e.jpg" width="709" height="332" class="img_ev3q"></p>
-<p>MIeL estaba usando la versión 4.4.3 de Tiny, que tenía 5 años de antiguedad en
-ese entonces. Existía la posibilidad de que alguien haya encontrado una
-vulnerabilidad en todos esos años y que la haya reportado.</p>
-<p>En efecto, dicha versión es vulnerable a XSS según lo reportado por el
-<a href="https://nvd.nist.gov/vuln/detail/cve-2020-12648" target="_blank" rel="noopener noreferrer" class="">CVE-2020-12648</a>. Según el
-informe, cuando TinyMCE está configurado en el modo clásico, la sanitización y
-neutralización puede ser evadida utilizando tags HTML anidados y sin
-terminación. De esta forma, un atacante podría insertar un tag HTML <code>img</code>,
-ingresando específicamente atributos <code>src</code> y <code>onerror</code> para producir una
-inyección de código malicioso.</p>
-<p>Para poder aprovechar esta vulnerabilidad, el contenido malicioso debe ser
-ingresado programáticamente en la instancia del editor TinyMCE. Es decir, el
-atacante no puede escribir el contenido, sino que debe lograr una asignación
-directa de dicho contenido en el editor. Existen dos formas de lograr esto:</p>
-<ul>
-<li class="">TinyMCE puede asignar como contenido del editor una respuesta que reciba desde
-el servidor. Un atacante podría enviar contenido malicioso al servidor para
-que el mismo sea asignado al editor.</li>
-<li class="">Mediante JavaScript, se puede asignar contenido al editor haciendo uso de las
-funciones <code>setContent</code> e <code>insertContent</code>, las cuales son funciones
-pertenencientes a la instancia activa del editor.</li>
-</ul>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="ejecución-del-exploit">Ejecución del exploit<a href="https://linternita.com/blog/hackeando-mi-universidad#ejecuci%C3%B3n-del-exploit" class="hash-link" aria-label="Enlace directo al Ejecución del exploit" title="Enlace directo al Ejecución del exploit" translate="no">​</a></h3>
-<p>En MIeL, la ejecución del exploit podía realizarse siguiendo estos pasos:</p>
-<ol>
-<li class="">
-<p>Ingresar a una publicación de un foro, o a la funcionalidad de envíos de
-mensajes.</p>
-<p><img decoding="async" loading="lazy" alt="exploit-1" src="https://linternita.com/assets/images/exploit-1-3503c1eeda09eedffc17de81b341d4f1.jpg" width="871" height="500" class="img_ev3q"></p>
-</li>
-<li class="">
-<p>Abrir las Herramientas del Desarrollador en el navegador.</p>
-</li>
-<li class="">
-<p>Si en la consola escribimos “tiny”, veremos los objetos e identificadores que
-existen actualmente en la memoria de JavaScript cuyo nombre comienza por
-“tiny”. Esto nos es de utilidad, ya que necesitamos acceder a la instancia
-activa del editor.</p>
-<p><img decoding="async" loading="lazy" alt="exploit-2" src="https://linternita.com/assets/images/exploit-2-e2ea97a19fa128aa774ff429ad9a875e.jpg" width="702" height="119" class="img_ev3q"></p>
-</li>
-<li class="">
-<p>En base a la
-<a href="https://www.tiny.cloud/docs/api/tinymce/tinymce.editor/" target="_blank" rel="noopener noreferrer" class="">documentación de TinyMCE</a>,
-sabemos la instancia activa del editor es identificada por la propiedad
-“activeEditor”. Al escribir esto en la consola, nos devuelve el objeto
-asociado.</p>
-<p><img decoding="async" loading="lazy" alt="exploit-3" src="data:image/jpeg;base64,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" width="650" height="67" class="img_ev3q"></p>
-</li>
-<li class="">
-<p>Una vez obtenida la instancia del editor, podemos hacer uso de la función
-<code>setContent</code> para ingresar el contenido malicioso. Basándonos
-<a href="https://bishopfox.com/blog/tinymce-version-5-2-1-advisory" target="_blank" rel="noopener noreferrer" class="">en el ejemplo provisto</a>
-por la consultora Bishop Fox, insertaremos el siguiente string como
-contenido:</p>
-<p><code>&lt;iframe&gt;&lt;textarea&gt;&lt;/iframe&gt;&lt;img src="" onerror="alert(document.domain)"&gt;</code></p>
-<p>Para eso, tenemos que ejecutar el siguiente comando en la consola del
-navegador:</p>
-<div class="language-javascript codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-javascript codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">tinymce</span><span class="token punctuation" style="color:#393A34">.</span><span class="token property-access">activeEditor</span><span class="token punctuation" style="color:#393A34">.</span><span class="token method function property-access" style="color:#d73a49">setContent</span><span class="token punctuation" style="color:#393A34">(</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token string" style="color:#e3116c">'&lt;iframe&gt;&lt;textarea&gt;&lt;/iframe&gt;&lt;img src="" onerror="alert(document.domain)"&gt;'</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">;</span><br></span></code></pre></div></div>
-<p><img decoding="async" loading="lazy" alt="exploit-4" src="https://linternita.com/assets/images/exploit-4-5d1ad30cd52ff1eb819022e51befd973.jpg" width="696" height="58" class="img_ev3q"></p>
-</li>
-<li class="">
-<p>El código es ejecutado en el navegador ni bien es ingresado en el editor. El
-mismo permanecerá en el editor y no se verá modificado por más que el
-atacante ingrese contenido extra en el editor. Al enviar el mensaje, los
-contenidos no son neutralizados por el servidor, por lo que el código
-malicioso permanece intacto. De esta forma, cuando el recipiente abra el
-mensaje, el código se ejecutará en su navegador.</p>
-<p><img decoding="async" loading="lazy" alt="exploit-5" src="https://linternita.com/assets/images/exploit-5-1b36d19f9a8bcd8a6a9b7c7671f70976.jpg" width="852" height="324" class="img_ev3q"></p>
-<p>En la siguiente imagen se puede observar una demostración real de la
-ejecución del ataque.</p>
-<p><img decoding="async" loading="lazy" alt="exploit-6" src="https://linternita.com/assets/images/exploit-6-103d1b70d5336428c627ef244cdb02e6.jpg" width="774" height="504" class="img_ev3q"></p>
-<p>Este exploit era posible no solo gracias a la vulnerabilidad presente en el
-editor TinyMCE, sino también gracias a la falta de neutralización del
-contenido por parte del servidor.</p>
-<p><img decoding="async" loading="lazy" alt="exploit-7" src="https://linternita.com/assets/images/exploit-7-6e9314b9da43442bde34c21c62492848.jpg" width="1046" height="268" class="img_ev3q"></p>
-</li>
-</ol>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="qué-es-lo-peor-que-podría-haber-pasado">¿Qué es lo peor que podría haber pasado?<a href="https://linternita.com/blog/hackeando-mi-universidad#qu%C3%A9-es-lo-peor-que-podr%C3%ADa-haber-pasado" class="hash-link" aria-label="Enlace directo al ¿Qué es lo peor que podría haber pasado?" title="Enlace directo al ¿Qué es lo peor que podría haber pasado?" translate="no">​</a></h3>
-<p>Muchas cosas. Se podrían haber robado cookies de sesión de los usuarios. O
-redirigirlos a una página que tenga un login falso de MIeL, para luego capturar
-sus credenciales. Si se hubieran obtenido credenciales de un profesor/tutor, se
-podría modificar contenido bibliográfico de las materias, o mejor aún, cambiar
-la corrección de algún trabajo práctico o parcial que haya sido evaluado por
-MIeL.</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="conclusión">Conclusión<a href="https://linternita.com/blog/hackeando-mi-universidad#conclusi%C3%B3n" class="hash-link" aria-label="Enlace directo al Conclusión" title="Enlace directo al Conclusión" translate="no">​</a></h2>
-<p>Está bien, lo admito, el título es muy clickbait. No hubo mucho hackeo que
-digamos y no estoy escribiendo esto solamente porque mi abogado me dijo que lo
-aclare de forma explícita.</p>
-<p>¿Por qué elegí MIeL? Ni idea. Pintó. Rebelarse contra el sistema y esas cosas.</p>
-<p>Pero creo que en base a los dos incidentes puedo dar los siguientes consejos:</p>
-<ol>
-<li class="">
-<p>No repitas/reutilices la misma contraseña. Alguien podría crear una página
-que la almacena en un registro cada vez que hacés un intento fallido o hay un
-error.</p>
-</li>
-<li class="">
-<p>Las CVEs no solo son buenas para saber si hay una vulnerabilidad en un
-software que estás utilizando, sino que también pueden servir para encontrar
-ejemplos de cómo explotar esa vulnerabilidad.</p>
-</li>
-</ol>
-<p>Eso es todo por ahora. 🔦</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="próximamente-en-este-blog">Próximamente en este blog<a href="https://linternita.com/blog/hackeando-mi-universidad#pr%C3%B3ximamente-en-este-blog" class="hash-link" aria-label="Enlace directo al Próximamente en este blog" title="Enlace directo al Próximamente en este blog" translate="no">​</a></h2>
-<p><img decoding="async" loading="lazy" alt="kindle" src="https://linternita.com/assets/images/kindle-31cea3b2a8122e908593708017c4eac3.jpg" width="750" height="422" class="img_ev3q"></p>
-<p>Todas las formas de conseguir ebooks que existen (o al menos todas las que yo
-conozco) y cómo usar Calibre para enviarlas a tu Kindle.</p>
-<p>Y si no tenés Kindle, lo lamento mucho, te estás perdiendo un montón.</p>]]></content:encoded>
-            <category>random</category>
         </item>
     </channel>
 </rss>
