@@ -54,3 +54,8 @@ diy:
   label: diy
   permalink: /diy
   description: Posts estilo DIY
+
+espacio:
+  label: espacio
+  permalink: /espacio
+  description: Posts astronómicamente correctos
