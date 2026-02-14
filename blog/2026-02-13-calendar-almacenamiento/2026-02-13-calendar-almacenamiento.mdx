@@ -1,0 +1,82 @@
+---
+slug: usando-calendar-como-almacenamiento
+title: usando google calendar como medio de almacenamiento
+authors: [linternita]
+tags: [random]
+---
+
+import { VideoEmbed } from "@site/src/components/VideoEmbed";
+import { Note } from "@site/src/components/Note";
+
+lo único que puedo decir es que al menos es gratis
+
+<!-- truncate -->
+
+## blah
+
+esto es un proyecto estúpido y sin sentido en el cual utilizo Google Calendar
+como medio de almacenamiento
+
+es decir
+
+guardo archivos en Calendar
+
+## blahblah
+
+más específicamente:
+
+- leo el archivo
+- lo convierto a base64
+- lo divido en partes
+- creo una estructura de datos para manejar las partes
+- creo un evento para cada parte
+- guardo la estructura codificada en base64 en la descripcion del evento
+- imprimo el ID del evento raiz (el primer evento que corresponde a la primera
+  parte)
+
+## blahblahblah
+
+y para leer el archivo:
+
+- empiezo desde el evento raiz
+- leo los datos y sigo hasta el siguiente evento
+- junto todos los datos
+- guardo el archivo en disco
+
+## blah?
+
+<VideoEmbed src="https://www.youtube.com/embed/5G3CLsRZdBo" />
+
+## blahs frecuentes
+
+esto funcionaría en la vida real? no
+
+por qué? porque google te suspendería la cuenta o seguramente te topes con
+límites de uso
+
+## blahs finales
+
+si querés ver el código fuente lo podés encontrar acá:
+[https://github.com/Squiro/calendar-storage](https://github.com/Squiro/calendar-storage)
+
+para poder autenticarte con la API de google calendar vas a tener que seguir el
+proceso que se detalla acá en la documentación de google
+[https://developers.google.com/workspace/calendar/api/quickstart/nodejs](https://developers.google.com/workspace/calendar/api/quickstart/nodejs)
+
+esto es una prueba de concepto y por el momento funciona con un solo archivo
+pero en teoría podrías hacer un sistema de archivos, por ejemplo haciendo que
+exista un nodo raíz desde el cual tengas punteros a los nodos raíces de cada
+archivo
+
+o si tenés ganas podrías mejorarlo y hacer algo así:
+
+![inode](inode.png)
+
+## blah inspirado por
+
+[https://blog.benjojo.co.uk/post/dns-filesystem-true-cloud-storage-dnsfs](https://blog.benjojo.co.uk/post/dns-filesystem-true-cloud-storage-dnsfs)
+
+[https://code.kryo.se/pingfs/](https://code.kryo.se/pingfs/)
+
+y esos videos de youtube donde el video que se reproduce es en realidad un
+archivo codificado que despues se puede decodificar para obtener... el archivo
