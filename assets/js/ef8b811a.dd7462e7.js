@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunklinternita=self.webpackChunklinternita||[]).push([[8947],{6600:e=>{e.exports=JSON.parse('{"authors":[{"name":"Linter Nita","title":"Una especialista en todo y nada","page":{"permalink":"/blog/authors/linternita"},"imageURL":"/img/author.svg","key":"linternita","count":26}]}')}}]);
