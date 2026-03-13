@@ -2,11 +2,135 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://linternita.com/blog</id>
     <title>Linternita Blog</title>
-    <updated>2026-02-13T00:00:00.000Z</updated>
+    <updated>2026-03-13T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://linternita.com/blog"/>
     <subtitle>Linternita Blog</subtitle>
     <icon>https://linternita.com/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Linternita FM]]></title>
+        <id>https://linternita.com/blog/linternita-fm</id>
+        <link href="https://linternita.com/blog/linternita-fm"/>
+        <updated>2026-03-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[reproduciendo mis vinilos... ¿para todo el internet?]]></summary>
+        <content type="html"><![CDATA[<p>reproduciendo mis vinilos... ¿para todo el internet?</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="introduciendo-linternita-fm">Introduciendo... Linternita FM<a href="https://linternita.com/blog/linternita-fm#introduciendo-linternita-fm" class="hash-link" aria-label="Enlace directo al Introduciendo... Linternita FM" title="Enlace directo al Introduciendo... Linternita FM" translate="no">​</a></h2>
+<p>Linternita FM es una radio... web. Así que de <em>frecuencia modulada</em> tiene poco y
+nada. Pero si hay algo que la historia nos enseñó es que todas las buenas radios
+tienen FM en su nombre. Por ejemplo, Flash FM. No se me ocurre otra más.</p>
+<p>Una imagen dice más que mil palabras así que esta es la idea detrás de la radio:</p>
+<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="linternita-fm-diagram" src="https://linternita.com/assets/images/linternita-fm-diagram-ec1e2b77696a192a6500460ca1445cf0.png" width="660" height="210" class="img_ev3q"></p></div>
+<p>Básicamente, conectar el tocadiscos a mi computadora y transmitir la música a
+internet para que pueda ser escuchada por... gente.</p>
+<p><strong>Si estás leyendo este post momentos después de que haya sido publicado, es muy
+posible que la radio esté en vivo. Entrá acá para escucharla:
+<a href="https://cs.linternita.com/" target="_blank" rel="noopener noreferrer" class="">https://cs.linternita.com</a></strong> <sup><a href="https://linternita.com/blog/linternita-fm#note-1" class="">1</a></sup></p>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>Caso contrario...</summary><div><div class="collapsibleContent_i85q"><p>Si no llegaste a ver la radio en vivo, acá tenés unas imágenes de cómo se ve la
+página:</p><p><img decoding="async" loading="lazy" alt="linternita-fm-1" src="https://linternita.com/assets/images/linternita-fm-1-fb11b675c253923fd3929c4a265c0b82.png" width="917" height="833" class="img_ev3q"></p><p><img decoding="async" loading="lazy" alt="linternita-fm-2" src="https://linternita.com/assets/images/linternita-fm-2-1ffc577344b2c9f9ef943a731d36f5c7.png" width="611" height="793" class="img_ev3q"></p><p>Obviamente te estás perdiendo toda la gracia de escuchar un vinilo
+reproduciéndose y siendo transmitido por internet. Usá tu imaginación.</p></div></div></details>
+<div id="note-1" style="scroll-margin:100px;background-color:lightgreen;position:relative;border-top-right-radius:20px;border-bottom-right-radius:20px;padding:0.5em 1em;margin-bottom:1em"><span><b><i>Linter-nota <!-- -->1<!-- -->:</i></b></span><p>Sí, el subodminio es CS porque originalmente esto iba a ser un servidor de
+Counter-Strike 1.6, pool_day 24/7.</p></div>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="making-of">Making-of<a href="https://linternita.com/blog/linternita-fm#making-of" class="hash-link" aria-label="Enlace directo al Making-of" title="Enlace directo al Making-of" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="conectando-el-tocadiscos-a-la-computadora">Conectando el tocadiscos a la computadora<a href="https://linternita.com/blog/linternita-fm#conectando-el-tocadiscos-a-la-computadora" class="hash-link" aria-label="Enlace directo al Conectando el tocadiscos a la computadora" title="Enlace directo al Conectando el tocadiscos a la computadora" translate="no">​</a></h3>
+<p>La conexión va a depender del tocadiscos que tengas, en mi caso el mío trae una
+salida de audio de 3.5mm.</p>
+<p><img decoding="async" loading="lazy" alt="analog-out" src="https://linternita.com/assets/images/analog-out-25dfbf9a4aac9564db7836034b3b3303.jpg" width="750" height="457" class="img_ev3q"></p>
+<p>Muchas computadoras (¿casi todas?) tienen una entrada de audio que utiliza el
+mismo conector de 3.5mm.</p>
+<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="computer-35mm" src="https://linternita.com/assets/images/computer-35mm-34c066fd813b49e8df237ebbbf531a95.png" width="307" height="401" class="img_ev3q"></p></div>
+<p>Consiguiendo un cable como este...</p>
+<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="35mm-male-to-male" src="https://linternita.com/assets/images/35mm-male-to-male-de44f896b00e6aa4dfe5458d602fba17.jpeg" width="600" height="600" class="img_ev3q"></p></div>
+<p>...podés conectar el tocadiscos la computadora. Después lo configurás como una
+Entrada de Audio en tu sistema operativo y listo, lo que el tocadiscos
+reproduzca lo vas a poder capturar en tu computadora.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="transmitiendo-audio">Transmitiendo audio<a href="https://linternita.com/blog/linternita-fm#transmitiendo-audio" class="hash-link" aria-label="Enlace directo al Transmitiendo audio" title="Enlace directo al Transmitiendo audio" translate="no">​</a></h3>
+<p>Para transmitir el audio a través del internet tuve que usar dos programas:</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="icecast">Icecast<a href="https://linternita.com/blog/linternita-fm#icecast" class="hash-link" aria-label="Enlace directo al Icecast" title="Enlace directo al Icecast" translate="no">​</a></h4>
+<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="icecast-logo" src="https://linternita.com/assets/images/icecast-logo-758456f2b55f34d1055c2ba49e6dbcae.png" width="623" height="253" class="img_ev3q"></p></div>
+<p><a href="https://icecast.org/" target="_blank" rel="noopener noreferrer" class="">Icecast</a> es un servidor capaz de transmitir audio (y
+video, aparentemente) a través del internet.</p>
+<p>Es bastante simple de instalar y configurar. En conjunto con otros programas
+permite hacer cosas bastantes complejas, como una radio totalmente automatizada
+que reproduzca música las 24 horas.</p>
+<p>Este servidor en sí no "reproduce" música ni es capaz de "capturar" el sonido de
+tu computadora y transmitirlo. Esa tarea se la delega a otros programas, a los
+que denomina "source clients". Estos clientes se conectan al servidor de Icecast
+y le transmiten el audio. Después el servidor se encarga de retransmitir eso al
+internet.</p>
+<p>Generalmente los source clients son programas que reproducen música o video,
+como VLC.</p>
+<p>En el caso de Linternita FM, necesitamos un programa que sea capaz de capturar
+la entrada de audio (del tocadiscos) y enviársela al servidor de Icecast.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="butt">BUTT<a href="https://linternita.com/blog/linternita-fm#butt" class="hash-link" aria-label="Enlace directo al BUTT" title="Enlace directo al BUTT" translate="no">​</a></h4>
+<p><a href="https://danielnoethen.de/butt/" target="_blank" rel="noopener noreferrer" class="">CULO</a> (Broadcast Using This Tool) es uno de
+esos programas. Es capaz de capturar el audio que recibe tu computadora y
+enviárselo al servidor de Icecast.</p>
+<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="butt" src="https://linternita.com/assets/images/butt-35da218ecee47c378c5f9c6358c0f087.png" width="1084" height="1088" class="img_ev3q"></p></div>
+<p>Soporta distintos formatos de transmisión como MP3, Vorbis, FLAC, etc. Te
+permite configurar el bitrate de la transmisión y tiene algunas funcionalidades
+interesantes que no son relevantes a este post.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="abriendo-la-radio-al-público">Abriendo la radio al público<a href="https://linternita.com/blog/linternita-fm#abriendo-la-radio-al-p%C3%BAblico" class="hash-link" aria-label="Enlace directo al Abriendo la radio al público" title="Enlace directo al Abriendo la radio al público" translate="no">​</a></h3>
+<p>El problema con el setup que tenemos hasta ahora es que... está concentrado en
+una computadora. Más específicamente, la mía.</p>
+<p>¿Cómo hacemos para que el resto de la gente pueda conectarse al servidor?</p>
+<p>Es fácil, primero tenés que comprar un dominio en un
+<em><a href="https://es.wikipedia.org/wiki/Registrador_de_dominios" target="_blank" rel="noopener noreferrer" class="">registrar</a></em>, que es una
+empresa que administra y vende dominios. Después tenés que delegar el DNS del
+dominio a un proveedor de DNS que en mi caso es CloudFlare porque tiene un plan
+gratuito donde no te cobran por administrar tus registros DNS, entre otras
+cosas.</p>
+<div style="font-size:14px"><p>Luego tenés que crear registros DNS que apunten a la dirección IP
+pública de tu computadora. En mi caso creé un subdomino "cs" y lo apunté a mi
+dirección IP pública. Es posible que tu proveedor de internet no te asigne una dirección fija, sino una que cambia todos los días. En ese caso, las cosas se te van a complicar un poco más, pero hay algunas soluciones, como por ejemplo <a href="https://developers.cloudflare.com/cloudflare-one/networks/connectors/cloudflare-tunnel/" target="_blank" rel="noopener noreferrer" class="">CloudFlare Tunnel</a></p><p>Después, accediendo a la configuración de tu router, tenés que abrir algunos
+puertos para poder recibir conexiones entrantes. Además, si tenés varios
+dispositivos en la red de tu casa, vas a tener que indicar la dirección IP
+privada a la que dirigir el tráfico entrante que llegue a través de esos
+puertos. Los puertos que tengas que abrir dependen de los servicios que levantes
+en tu computadora.</p></div>
+<div style="font-size:12px"><p>Por ejemplo, el servidor de Icecast escucha conexiones por defecto en el
+puerto 8000. Un servidor HTTP en el puerto 80, y un servidor HTTPS en el
+puerto 443. No es necesario que levantes un servidor HTTP ya que Icecast tiene
+una interfaz web y el stream de audio puede escucharse directamente.</p></div>
+<div style="font-size:10px"><p>Pero en caso de que quieras hacer algo más lindo vas a tener que crear una
+página web (lo cual no vamos a indagar demasiado pero podrías utilizar algo
+como React o algún otro framework popular y moderno) y servirla utilizando
+algún servidor HTTP, como Apache o Nginx. A todo esto, vas a necesitar un
+certificado SSL/TLS para que los navegadores web no se quejen al intentar
+ingresar a tu dominio.</p></div>
+<div style="font-size:8px"><p>Caso contrario un cartel grande que dice "PELIGRO TE VAN A ROBAR DATOS" les va
+a aparecer a tus usuarios. Para poder generar un certificado SSL/TLS podés
+usar certbot. Al ejecutar certbot se te van a generar dos archivos .PEM. Uno
+contiene la clave privada del certificado y el otro el certificado en sí. Una
+vez generados estos archivos vas a tener que editar la configuración de tu
+servidor HTTP para añadirlos. Esta configuración depende del servidor HTTP que
+estés utilizando. Si usás Apache, vas a tener que editar el VirtualHost del
+puerto 443 e indicar donde se encuentra el archivo que contiene el certificado
+para la Web Root especificada.</p></div>
+<div style="font-size:6px"><p>A todo esto, si te da miedo tener los puertos abiertos y algún servicio
+expuesto a todo el internet... No lo tengas. Desde un punto de vista de
+seguridad es raro que te pase algo, a menos que <em>justo</em> el servidor que estés
+levantando tenga una vulnerabilidad de tipo RCE y termines con la computadora
+llena de troyanos. Por otro lado, si te da miedo que te hagan un ataque de
+DDoS... de nuevo, no tengas miedo. Nadie va a gastar recursos para atacarte
+específicamente a vos.</p></div>
+<p>Lo importante de todo esto es que la radio es self-hosted. No estoy pagando
+ningún servidor en la nube. Todo corre desde mi humilde computadora.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="conclusiones">Conclusiones<a href="https://linternita.com/blog/linternita-fm#conclusiones" class="hash-link" aria-label="Enlace directo al Conclusiones" title="Enlace directo al Conclusiones" translate="no">​</a></h2>
+<p>Hacer servicios self-hosted es divertido y vale la pena. No solo podés hacer una
+radio y compartirla con el resto del internet: podés hacer de todo. Páginas web,
+servidores de juegos, compartir archivos, chats, y cualquier cosa que se te
+ocurra.</p>
+<p>Con respecto a Linternita FM, dudo mucho que haga transmisiones frecuentes. Si
+bien me encanta la idea de tener una radio donde se reproduzcan mis vinilos, el
+setup que tengo es bastante incómodo. Además ni que fuese a tener oyentes.</p>
+<p>En fin, eso es todo por hoy. Las luces se apagan.<sup><a href="https://linternita.com/blog/linternita-fm#note-2" class="">2</a></sup></p>
+<div id="note-2" style="scroll-margin:100px;background-color:lightgreen;position:relative;border-top-right-radius:20px;border-bottom-right-radius:20px;padding:0.5em 1em;margin-bottom:1em"><span><b><i>Linter-nota <!-- -->2<!-- -->:</i></b></span><p>¿Sabías que...? El primer albúm transmitido por Linternita FM es Discovery, de
+Daft Punk, que cumplió 25 años el 12 de marzo de 2026.</p></div>]]></content>
+        <author>
+            <name>Linter Nita</name>
+        </author>
+        <category label="musica" term="musica"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[usando google calendar como medio de almacenamiento]]></title>
         <id>https://linternita.com/blog/usando-calendar-como-almacenamiento</id>
@@ -114,7 +238,7 @@ como un <a href="https://en.wikipedia.org/wiki/Light-year" target="_blank" rel="
 señales escucharíamos a medida que nos vamos alejando de la Tierra (si
 reproducís esto bajá el volumen porque empieza fuerte):</p>
 <div style="margin:0 auto;text-align:center"><iframe style="width:100%;height:315px" src="https://www.youtube.com/embed/s4XbnJvtqGU" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></div>
-<div id="note-1" style="background-color:lightgreen;position:relative;border-top-right-radius:20px;border-bottom-right-radius:20px;padding:0.5em 1em;margin-bottom:1em"><span><b><i>Linter-nota <!-- -->1<!-- -->:</i></b></span> me encanta esta peli!!! </div>
+<div id="note-1" style="scroll-margin:100px;background-color:lightgreen;position:relative;border-top-right-radius:20px;border-bottom-right-radius:20px;padding:0.5em 1em;margin-bottom:1em"><span><b><i>Linter-nota <!-- -->1<!-- -->:</i></b></span> me encanta esta peli!!! </div>
 <p>No solamente es "de forma ficticia" porque sea una película, sino porque hay dos
 cosas que están mal en esa escena:</p>
 <p>La primera es un detalle menor... Las cosas que se escuchan cambian muy rápido
@@ -122,7 +246,7 @@ en base a la distancia que se muestra. Ya a distancia de Marte la música cambi�
 un par de décadas... pero Marte se encuentra entre 3 a 20 minutos luz de
 distancia de la Tierra. No debería haber un salto tan
 grande.<sup><a href="https://linternita.com/blog/como-nos-van-a-encontrar#note-2" class="">2</a></sup></p>
-<div id="note-2" style="background-color:lightgreen;position:relative;border-top-right-radius:20px;border-bottom-right-radius:20px;padding:0.5em 1em;margin-bottom:1em"><span><b><i>Linter-nota <!-- -->2<!-- -->:</i></b></span><p>La página <a href="https://lightyear.fm/" target="_blank" rel="noopener noreferrer" class="">LightYear.fm</a> está inspirada en esa escena,
+<div id="note-2" style="scroll-margin:100px;background-color:lightgreen;position:relative;border-top-right-radius:20px;border-bottom-right-radius:20px;padding:0.5em 1em;margin-bottom:1em"><span><b><i>Linter-nota <!-- -->2<!-- -->:</i></b></span><p>La página <a href="https://lightyear.fm/" target="_blank" rel="noopener noreferrer" class="">LightYear.fm</a> está inspirada en esa escena,
 pero arreglando el problema de la distancia.</p></div>
 <p>La segunda es la que realmente importa: las señales pierden potencia a medida
 que se propagan por el espacio, siguiendo la
@@ -144,7 +268,7 @@ va a transmitir con la suficiente potencia como para escuchar música estando en
 Aldebarán.</p>
 <p>Pero, ¿y si decidiéramos transmitir con la suficiente potencia como para que nos
 escuchen desde otras estrellas?</p>
-<div id="note-3" style="background-color:lightgreen;position:relative;border-top-right-radius:20px;border-bottom-right-radius:20px;padding:0.5em 1em;margin-bottom:1em"><span><b><i>Linter-nota <!-- -->3<!-- -->:</i></b></span><p>Además... así de lejos llegaron nuestras señales en comparación con nuestra galaxia.</p><div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="extent-human-broadcast" src="https://linternita.com/assets/images/extent-human-broadcast-0d1aca5c4dd85bc82ebbc3559a8322ae.webp" width="2400" height="2400" class="img_ev3q"></p><p><em>Tomado de <a href="https://www.planetary.org/articles/3390" target="_blank" rel="noopener noreferrer" class="">https://www.planetary.org/articles/3390</a></em></p></div></div>
+<div id="note-3" style="scroll-margin:100px;background-color:lightgreen;position:relative;border-top-right-radius:20px;border-bottom-right-radius:20px;padding:0.5em 1em;margin-bottom:1em"><span><b><i>Linter-nota <!-- -->3<!-- -->:</i></b></span><p>Además... así de lejos llegaron nuestras señales en comparación con nuestra galaxia.</p><div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="extent-human-broadcast" src="https://linternita.com/assets/images/extent-human-broadcast-0d1aca5c4dd85bc82ebbc3559a8322ae.webp" width="2400" height="2400" class="img_ev3q"></p><p><em>Tomado de <a href="https://www.planetary.org/articles/3390" target="_blank" rel="noopener noreferrer" class="">https://www.planetary.org/articles/3390</a></em></p></div></div>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="seti">SETI<a href="https://linternita.com/blog/como-nos-van-a-encontrar#seti" class="hash-link" aria-label="Enlace directo al SETI" title="Enlace directo al SETI" translate="no">​</a></h3>
 <p>Poco después de que surgiese la revolución electromagnética, algunos se pusieron
 a pensar en lo siguiente: nosotros somos inteligentes y usamos señales
@@ -179,7 +303,7 @@ llegue en el año 25974.</p>
 elementos que componen el ADN, algunas cosas relacionadas al ADN, la altura
 promedio de un ser humano, un dibujito de un ser humano... entre otras cosas.</p>
 <div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="arecibo-message" src="data:image/png;base64,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" width="250" height="750" class="img_ev3q"></p><p><em>Contenidos codificados del mensaje de Arecibo</em></p></div>
-<div id="note-4" style="background-color:lightgreen;position:relative;border-top-right-radius:20px;border-bottom-right-radius:20px;padding:0.5em 1em;margin-bottom:1em"><span><b><i>Linter-nota <!-- -->4<!-- -->:</i></b></span><p>El telescopio de Arecibo fue por mucho tiempo el radiotelescopio más grande del
+<div id="note-4" style="scroll-margin:100px;background-color:lightgreen;position:relative;border-top-right-radius:20px;border-bottom-right-radius:20px;padding:0.5em 1em;margin-bottom:1em"><span><b><i>Linter-nota <!-- -->4<!-- -->:</i></b></span><p>El telescopio de Arecibo fue por mucho tiempo el radiotelescopio más grande del
 mundo (desde 1963 hasta 2016). Consistía de un platillo gigante de 305 metros de
 diámetro ubicado en una cavidad natural (un agujero gigante) en Puerto Rico.</p><p>Lamentablemente el telescopio colapsó catastróficamente en diciembre 2020.</p><div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="we-still-talk-arecibo" src="https://linternita.com/assets/images/we-still-talk-arecibo-5a8f9866fe848b4b130c9cc138050a39.png" width="499" height="675" class="img_ev3q"></p></div></div>
 <h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="otras-transmisiones">Otras transmisiones<a href="https://linternita.com/blog/como-nos-van-a-encontrar#otras-transmisiones" class="hash-link" aria-label="Enlace directo al Otras transmisiones" title="Enlace directo al Otras transmisiones" translate="no">​</a></h4>
@@ -279,7 +403,7 @@ otros diagramas que muestran la deriva continental a lo largo del tiempo
 <p>Más o menos. Al igual que las Voyager, sería imposible de detectar para alguien
 fuera de este planeta. Pero quizás si alguna especie inteligente está con vida
 en la Tierra dentro de 8 millones de años...<sup><a href="https://linternita.com/blog/como-nos-van-a-encontrar#note-5" class="">5</a></sup></p>
-<div id="note-5" style="background-color:lightgreen;position:relative;border-top-right-radius:20px;border-bottom-right-radius:20px;padding:0.5em 1em;margin-bottom:1em"><span><b><i>Linter-nota <!-- -->5<!-- -->:</i></b></span><p>Honestamente, si ese fuera el caso, tendrían mil formas más fáciles de saber
+<div id="note-5" style="scroll-margin:100px;background-color:lightgreen;position:relative;border-top-right-radius:20px;border-bottom-right-radius:20px;padding:0.5em 1em;margin-bottom:1em"><span><b><i>Linter-nota <!-- -->5<!-- -->:</i></b></span><p>Honestamente, si ese fuera el caso, tendrían mil formas más fáciles de saber
 sobre nosotros, y seguramente ya sabrían de nuestra existencia... más sobre
 esto al final del post!!!</p></div>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="la-luna">La Luna<a href="https://linternita.com/blog/como-nos-van-a-encontrar#la-luna" class="hash-link" aria-label="Enlace directo al La Luna" title="Enlace directo al La Luna" translate="no">​</a></h2>
@@ -335,7 +459,7 @@ fosilizados, al igual que nosotros al investigar el pasado de nuestro planeta.</
 <p>Quizás al hallar esos restos fósiles lleguen a la conclusión de que en este
 planeta habitaban tres posibles especies inteligentes: nosotros, los perros, y
 los gatos.</p>
-<div id="note-6" style="background-color:lightgreen;position:relative;border-top-right-radius:20px;border-bottom-right-radius:20px;padding:0.5em 1em;margin-bottom:1em"><span><b><i>Linter-nota <!-- -->6<!-- -->:</i></b></span><p>En unos 6 mil millones de años nuestro sol se va a convertir en una estrella
+<div id="note-6" style="scroll-margin:100px;background-color:lightgreen;position:relative;border-top-right-radius:20px;border-bottom-right-radius:20px;padding:0.5em 1em;margin-bottom:1em"><span><b><i>Linter-nota <!-- -->6<!-- -->:</i></b></span><p>En unos 6 mil millones de años nuestro sol se va a convertir en una estrella
 gigante roja, devorando a su paso a Mercurio, Venus, la Tierra y la Luna.
 Realmente nos tenemos que poner a trabajar en esto de dejar un rastro, nos
 queda poco tiempo.</p></div>]]></content>
@@ -4047,221 +4171,5 @@ Incluso hay un Superlux metido por ahí &lt;3.</p>]]></content>
             <name>Linter Nita</name>
         </author>
         <category label="musica" term="musica"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ada Lovelace: mucho más que la primera programadora]]></title>
-        <id>https://linternita.com/blog/mucho-mas-primera-programadora</id>
-        <link href="https://linternita.com/blog/mucho-mas-primera-programadora"/>
-        <updated>2025-04-27T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[“I begin to understand Death; which is going on quietly & gradually every]]></summary>
-        <content type="html"><![CDATA[<p>“I begin to understand Death; which is going on quietly &amp; gradually every
-minute, &amp; will never be a thing of one particular moment" - Ada Lovelace</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="introducción">Introducción<a href="https://linternita.com/blog/mucho-mas-primera-programadora#introducci%C3%B3n" class="hash-link" aria-label="Enlace directo al Introducción" title="Enlace directo al Introducción" translate="no">​</a></h2>
-<p><img decoding="async" loading="lazy" alt="ada-lovelace" src="https://linternita.com/assets/images/ada-lovelace-6a71058cbc040b31335968d2bb600e62.jpg" width="550" height="789" class="img_ev3q"></p>
-<p>¿Alguna vez te pusiste a pensar cómo en la cultura popular tenemos un "almacén"
-de nombres de personas relevantes por haber sido pioneros en algo? Es muy fácil
-ponerlo a prueba:</p>
-<ul>
-<li class="">Si te digo Thomas Edison, vas a pensar en una lamparita... (o fonógrafo... o
-corriente continua... el tipo hizo bastantes cosas ok)</li>
-<li class="">Hermanos Wright, aviones.</li>
-<li class="">Ford, producción en cadena (aunque seguro pienses en automóviles primero).</li>
-<li class="">Fleming, penicilina.</li>
-<li class="">Graham Bell, teléfono.</li>
-</ul>
-<p>Y la lista podría seguir.</p>
-<p>Hay un nombre que quizás no se encuentre dentro de ese metafórico almacén de la
-cultura popular. Si buscamos en Google el término "first programmer" (en inglés
-a propósito para evitar caer en géneros), vamos a ver esto como resultado:</p>
-<p><img decoding="async" loading="lazy" alt="first-programmer" src="https://linternita.com/assets/images/first-programmer-e70e7d904097a24bfdf064c6149f248e.png" width="1168" height="786" class="img_ev3q"></p>
-<p>La primera programadora fue una mujer llamada Ada Lovelace. Distinción
-importante: no fue la primera <em>mujer</em> programadora. Fue <strong>LA</strong> primera
-programadora.*</p>
-<p>Si estás sumergido en el ámbito de la informática quizás no te sea una
-revelación tan grande. Después de todo es un "fun fact" que se comparte a
-menudo. Pero... ¿primera programadora de qué lenguaje? ¿En qué computadora? ¿Qué
-programó?</p>
-<p>Para responder esto vamos a tener que desviarnos un poco y hablar
-momentáneamente de otra persona y sus inventos.</p>
-<p><em>* Esta es una afirmación controversial. Mucha gente se enojó, se enoja, y se
-va a seguir enojando al oírla. En parte es porque en algunos casos es difícil
-demostrar ser haber sido el primero en algo. Y por otro lado, está el tema de
-que Ada fue una mujer, y hay gente estúpida que no le gusta eso.</em></p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="tablas-de-matemática">Tablas de matemática<a href="https://linternita.com/blog/mucho-mas-primera-programadora#tablas-de-matem%C3%A1tica" class="hash-link" aria-label="Enlace directo al Tablas de matemática" title="Enlace directo al Tablas de matemática" translate="no">​</a></h2>
-<p>Ada nació en el 1815... más de 100 años antes de que Alan Turing propusiese el
-concepto de una
-<a href="https://en.wikipedia.org/wiki/Turing_machine" target="_blank" rel="noopener noreferrer" class="">"máquina universal de cómputo"</a>.
-No existían computadoras electrónicas. Ni siquiera electromecánicas. Ni de
-ningún tipo, realmente. Lo único que había, desde tiempos de Pascal, eran
-calculadoras mecánicas. Pero a pesar de su existencia no eran ampliamente
-utilizadas.</p>
-<p>Aún así, el mundo seguía girando, y la gente necesitaba una forma práctica de
-resolver algunas cuentas. Los astrónomos seguían estudiando los astros y sus
-movimientos. Aquellos que zarpaban hacia el mar dependían de la matemática para
-la navegación. ¿Cómo hacían?</p>
-<p>Dependían de
-<a href="https://es.wikipedia.org/wiki/Regla_de_c%C3%A1lculo" target="_blank" rel="noopener noreferrer" class="">reglas de cálculo</a> y
-tablas de matemática.</p>
-<p><img decoding="async" loading="lazy" alt="log-table" src="https://linternita.com/assets/images/log-table-907a44cb492f919861e635f23afd8e96.png" width="738" height="553" class="img_ev3q"></p>
-<p><em>Figura 1: Tabla de logaritmos naturales.
-<a href="https://www.youtube.com/watch?v=VRzH4xB0GdM" target="_blank" rel="noopener noreferrer" class="">Video de ejemplo que muestra cómo se usan</a></em></p>
-<p>Estas tablas eran hechas por calculadoras humanas. Es decir que alguien (o mejor
-dicho, un grupo de personas) se tenía que sentar y calcular los números
-correspondientes para cada fila y columna. Y después, traspasarlos de forma
-limpia para que sea impreso en un libro. Un proceso lento, costoso, y propenso a
-errores. Pensalo, ¿cuántas veces calculaste mal un resultado (encima sin tener
-calculadoras para ayudarte)? Y no solo eso, si estás copiando una gran cantidad
-de números (1.9523925578232382398) es muy probable que "intercambies" los
-decimales de lugar sin darte cuenta o cometas algún error.</p>
-<p><strong>Charles Babbage</strong> notó que los diferentes libros de tablas matemáticas de su
-época tenían valores distintos entre sí. Seguramente un producto de los errores
-mencionados anteriormente. En base a eso tuvo una novedosa idea: hacer una
-máquina automática que calculara los números y que los fuese imprimiendo a
-medida que los obtenía.</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="babbage-y-la-máquina-diferencial">Babbage y la Máquina Diferencial<a href="https://linternita.com/blog/mucho-mas-primera-programadora#babbage-y-la-m%C3%A1quina-diferencial" class="hash-link" aria-label="Enlace directo al Babbage y la Máquina Diferencial" title="Enlace directo al Babbage y la Máquina Diferencial" translate="no">​</a></h2>
-<p>Esta máquina es conocida como la "Máquina Diferencial" o "Difference engine".</p>
-<p>A diferencia (NO ES UN CHISTE. NO TENGO OTRA FORMA DE DECIRLO.) de las
-calculadoras que conocemos hoy en día en las cuales podemos realizar varias
-operaciones, la Máquina Diferencial era una calculadora con un fin específico:
-resolver polinomios utilizando el método de "diferencia finita" (del cual se
-deriva el nombre del aparato).</p>
-<p>Con este método podemos interpolar polinomios. La interpolación es una forma de
-aproximar valores, y puede ser utilizada para aproximar los resultados de
-funciones trascendentales, tales como las logarítmicas o trigonométricas.
-Funciones que son tediosas y requieren muchos pasos para calcularlas "a mano",
-sin recurrir a aproximaciones.</p>
-<p>En criollo: con esta máquina serías capaz de generar muchas de las tablas que
-eran ampliamente utilizadas en la época, todo de forma automática, en poco
-tiempo, y sin errores.</p>
-<p>Babbage, quien definitivamente no saltaba, consiguió financiamiento del gobierno
-británico para construir la máquina. El tema de las tablas de matemática era de
-gran interés para los británicos, ya que eran un imperio con una gran fuerza
-naval (en realidad después de las guerras napoleónicas eran <strong>el</strong> imperio
-naval), y como mencionamos anteriormente, la navegación de los mares requería
-del uso de tablas.</p>
-<p>El problema es que todavía seguimos en el 1800, donde no existe nada más que una
-solución mecánica a nuestros problemas. Babbage comenzó a hacer su "Difference
-Engine No. 1", pero se enfrentó a diversos desafíos de ingeniería, precisión,
-plata y tiempo.</p>
-<p>Nunca logró construirla, más allá de un pequeño prototipo que consta de 2000
-piezas.</p>
-<p><img decoding="async" loading="lazy" alt="diff-engine-1" src="https://linternita.com/assets/images/diff-engine-1-4ce2d1cebda61eaa1f5acb7e5fb55b45.jpg" width="454" height="576" class="img_ev3q"></p>
-<p>En total la <em>Máquina Diferencial Número 1</em> iba a estar formada por 25 mil piezas
-(de las cuales, 14 mil fueron creadas, y las 12 mil restantes que no fueron
-usadas las fundieron) y ser tan grande como una locomotora.</p>
-<p>Sin embargo, la historia de la Máquina Diferencial no termina acá.</p>
-<p>Babbage pasó un tiempo pensando en una
-máquinasorpresadelacualhablaremosenlapróximasección, y luego de eso, tuvo la
-idea de mejorar el diseño de la <em>Máquina Diferencial Número 1</em> y hacer su
-secuela.</p>
-<p>La <em>Máquina Diferencial Número 2</em> iba a estar formada por tan solo 8000 piezas y
-ser tan grande como una locomotora (pero no como la locomotora de la primera
-versión, una más chiquita). Babbage creó todos los planos y...</p>
-<p>...la máquina jamás fue construida mientras él estuvo con vida.</p>
-<p>En 1985 el Museo de Ciencias de Londres decidió poner a prueba los planos de
-Babbage y empezaron la construcción del aparato. A pesar de la tecnología
-moderna de la que disponían, tardaron 17 años en construirlo completamente.</p>
-<p>Los diseños de Babbage contenían errores pequeños, los cuales tuvieron que ser
-arreglados. Pero fuera de eso, la máquina funciona correctamente:</p>
-<div style="margin:0 auto;text-align:center"><iframe style="width:100%;height:315px" src="https://www.youtube.com/embed/BlbQsKpq3Ak" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></div>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="la-máquina-analítica-y-ada-lovelace">La Máquina Analítica y Ada Lovelace<a href="https://linternita.com/blog/mucho-mas-primera-programadora#la-m%C3%A1quina-anal%C3%ADtica-y-ada-lovelace" class="hash-link" aria-label="Enlace directo al La Máquina Analítica y Ada Lovelace" title="Enlace directo al La Máquina Analítica y Ada Lovelace" translate="no">​</a></h2>
-<p>Babbage no saltó de una versión a la otra de la Máquina Diferencial. Por un par
-de años entretuvo la idea de algo mucho más complejo: la Máquina Analítica.</p>
-<p>El "Analytical engine" no iba a ser otra calculadora de diferencias, sino una
-máquina capaz de realizar diferentes tipos de operaciones (adición,
-substracción, multiplicación, división, comparaciones, raíces cuadradas)
-llevadas a cabo por una unidad aritmética, contaría con un almacén de números
-(memoria), sería capaz de realizar bucles y procesar sentencias condicionales, y
-tendría una entrada basada en tarjetas perforadas.</p>
-<p>Básicamente, una computadora.</p>
-<p>La idea era muy buena, pero en Inglaterra no querían saber más de Babbage. Sin
-embargo, sus ideas tomaron popularidad en otros lugares, siendo invitado en 1840
-a dar conferencias sobre dicha máquina en la Universidad de Turín.</p>
-<p>En 1842 Menabrea publicó un artículo en Francés en el cual describía la Máquina
-Analítica, habiéndose basado en las conferencias dadas dos años atrás.</p>
-<p>Ada, quien años atrás había quedado fascinada con el prototipo de la <em>Máquina
-Diferencial Número 1</em>, tuvo la idea de traducir el artículo al inglés para que
-sea publicado en Inglaterra. No solo eso: expandió el artículo original
-añadiendo extensas notas (<strong>tres veces</strong> más largas que el artículo original)
-acerca del funcionamiento de la máquina analítica y las capacidades que tendría
-la misma.</p>
-<p>Lo cual no es una tarea menor: científicos de la época no entendían bien de qué
-iba la cosa, la alta sociedad británica no estaba interesada en la máquina, y
-por sobre todo, ¿cómo le explicás a alguien en el 1800 que estás haciendo una
-máquina capaz de ser "programada con tarjetas perforadas" que puede ser usada
-para resolver distintos problemas?</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="el-primer-algoritmoprograma-de-computación">El primer algoritmo/programa de computación<a href="https://linternita.com/blog/mucho-mas-primera-programadora#el-primer-algoritmoprograma-de-computaci%C3%B3n" class="hash-link" aria-label="Enlace directo al El primer algoritmo/programa de computación" title="Enlace directo al El primer algoritmo/programa de computación" translate="no">​</a></h2>
-<p>La última de las notas de Ada, la Nota G, contiene un algoritmo que calcularía
-los <a href="https://en.wikipedia.org/wiki/Bernoulli_number" target="_blank" rel="noopener noreferrer" class="">números de Bernoulli</a>
-utilizando la Máquina Analítica.</p>
-<p><img decoding="async" loading="lazy" alt="note-g" src="https://linternita.com/assets/images/note-g-dc3c7bda829799a61f67c8dd44d82592.jpg" width="2000" height="1400" class="img_ev3q"></p>
-<p>Este es el primer algoritmo/programa en ser publicado que haya sido creado para
-ser ejecutado en una computadora.</p>
-<p>Babbage había creado algunos programas por su cuenta, pero nunca salieron a la
-luz, y además, ninguno era tan refinado ni sofisticado como el trabajo que hizo
-Ada.</p>
-<p>Lamentablemente, este algoritmo nunca pudo ser ejecutado en la Máquina
-Analítica, ya que la misma nunca se construyó (algo recurrente para este tipo de
-máquinas de Babbage, por lo visto). Mucho tiempo después fue traducido a
-lenguajes modernos de programación para ser puesto a prueba, y quizás en un
-hecho que la define todavía más como la primera programadora, se descubrió que
-el programa tenía un pequeño error tipográfico y no funcionaría correctamente.</p>
-<p>Aplicando una corrección, el programa es capaz de calcular los números de
-Bernoulli sin problema.</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="más-que-solo-la-primera-programadora">Más que solo la primera programadora<a href="https://linternita.com/blog/mucho-mas-primera-programadora#m%C3%A1s-que-solo-la-primera-programadora" class="hash-link" aria-label="Enlace directo al Más que solo la primera programadora" title="Enlace directo al Más que solo la primera programadora" translate="no">​</a></h2>
-<p>La Nota G de por sí es algo fascinante, pero hay algo que lleva el trabajo de
-Ada todavía más lejos.</p>
-<p>En sus primeras notas, Ada imagina que los números de la Máquina Analítica
-podrían ser utilizados para representar letras del alfabeto, o símbolos,
-pudiendo generar programas para manipular los mismos. Incluso pensó que podría
-ser utilizado para crear música:</p>
-<p><em>Again, it might act upon other things besides number, were objects found whose
-mutual fundamental relations could be expressed by those of the abstract science
-of operations, and which should be also susceptible of adaptations to the action
-of the operating notation and mechanism of the engine. Supposing, for instance,
-that the fundamental relations of pitched sounds in the science of harmony and
-of musical composition were susceptible of such expression and adaptations, the
-engine might compose elaborate and scientific pieces of music of any degree of
-complexity or extent.</em></p>
-<p>Y esto es algo de por sí muy interesante. Ada estaba expandiendo inmensamente
-las capacidades de la máquina. No solo ibas a poder hacer cuentas y resolver
-algo matemático. Ibas a poder escribir un programa capaz de calcular y resolver
-cualquier cosa que sea computable, mientras fueses capaz de dar con las
-instrucciones adecuadas.</p>
-<p>Una
-<a href="https://en.wikipedia.org/wiki/Turing_machine#Universal_Turing_machines" target="_blank" rel="noopener noreferrer" class="">máquina universal de computación</a>.
-Algo que se le ocurrió a Turing mucho tiempo después allá por 1930.</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="impacto">Impacto<a href="https://linternita.com/blog/mucho-mas-primera-programadora#impacto" class="hash-link" aria-label="Enlace directo al Impacto" title="Enlace directo al Impacto" translate="no">​</a></h2>
-<p>Lamentablemente las ideas de Babbage y Ada tuvieron nulo impacto en la
-computación que conocemos hoy en día.</p>
-<p>Las máquinas nunca lograron construirse en su época, por lo que el potencial de
-las mismas nunca pudo ser visto. Con el paso del tiempo nadie le prestó atención
-a los diseños, quedando olvidado.</p>
-<p>Además... la vida de Ada tuvo un desenlace trágico, muriendo increíblemente
-joven a la edad de 36 años.</p>
-<p>Cuando se comenzó con la computación electromecánica/digital, sus ideas ya
-habían sido olvidadas.</p>
-<p>Solo nos queda pensar qué hubiera pasado si hubiese vivido más tiempo,
-aprovechando los desarrollos tecnológicos (como los relacionados al
-<a href="https://linternita.com/blog/accion-a-distancia-ebooks" target="_blank" rel="noopener noreferrer" class="">electromagnetismo</a>) que
-se iban dando en la época.</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="notas-finales">Notas finales<a href="https://linternita.com/blog/mucho-mas-primera-programadora#notas-finales" class="hash-link" aria-label="Enlace directo al Notas finales" title="Enlace directo al Notas finales" translate="no">​</a></h2>
-<p>La historia en realidad es mucho más extensa e interesante. Por dar unos
-ejemplos:</p>
-<ul>
-<li class="">Babbage hacía fiestas donde mostraba la Máquina Diferencial. A esas fiestas
-asistía gente como Charles Darwin, Charles Dickens, y muchos otros Carlos.</li>
-<li class="">Ada era amiga de Florence Nightingale, la fundadora de la enfermería moderna.</li>
-</ul>
-<p>Recomiendo leer este blog de Stephen Wolfram, donde la cuenta en gran detalle,
-incluso mostrando correspondencia entre Babbage y Ada:
-<a href="https://writings.stephenwolfram.com/2015/12/untangling-the-tale-of-ada-lovelace/" target="_blank" rel="noopener noreferrer" class="">https://writings.stephenwolfram.com/2015/12/untangling-the-tale-of-ada-lovelace/</a></p>
-<hr>
-<p><img decoding="async" loading="lazy" alt="ada" src="https://linternita.com/assets/images/ada-ec88395669e09f9bff81158b4d8bbd17.jpeg" width="1512" height="2688" class="img_ev3q"></p>
-<p><em>Dedicado a Ada, 2011 - 2024.</em></p>]]></content>
-        <author>
-            <name>Linter Nita</name>
-        </author>
-        <category label="random" term="random"/>
     </entry>
 </feed>
