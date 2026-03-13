@@ -16,7 +16,7 @@ plex:
 musica:
   label: musica
   permalink: /musica
-  description: Posts relacionados a musica
+  description: Posts relacionados a música
 
 techtakes:
   label: techtakes

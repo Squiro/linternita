@@ -6,12 +6,13 @@ interface Props {
   children: ReactNode;
 }
 
-export const Note = ({ noteIndex, children }) => {
+export const Note = ({ noteIndex, children }: Props) => {
   const { isDarkTheme } = useColorMode();
   return (
     <div
       id={`note-${noteIndex}`}
       style={{
+        scrollMargin: "100px",
         backgroundColor: isDarkTheme ? "darkgreen" : "lightgreen",
         position: "relative",
         borderTopRightRadius: "20px",
