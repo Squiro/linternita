@@ -4,10 +4,226 @@
         <title>Linternita Blog</title>
         <link>https://linternita.com/blog</link>
         <description>Linternita Blog</description>
-        <lastBuildDate>Fri, 10 Apr 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 18 Apr 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>es</language>
+        <item>
+            <title><![CDATA[¿nos hizo la tecnología más tontos?]]></title>
+            <link>https://linternita.com/blog/tecnologia-hizo-tontos</link>
+            <guid>https://linternita.com/blog/tecnologia-hizo-tontos</guid>
+            <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Interrumpimos la programación habitual de "cosas interesantes sobre animales"]]></description>
+            <content:encoded><![CDATA[<p>Interrumpimos la programación habitual de "cosas interesantes sobre animales"
+para discutir sobre tecnología. No cambies de canal. Por favor.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="título-intencionalmente-engañoso">Título intencionalmente engañoso<a href="https://linternita.com/blog/tecnologia-hizo-tontos#t%C3%ADtulo-intencionalmente-enga%C3%B1oso" class="hash-link" aria-label="Enlace directo al Título intencionalmente engañoso" title="Enlace directo al Título intencionalmente engañoso" translate="no">​</a></h2>
+<p>La respuesta al título de este post es, claramente,
+<strong>no</strong>.<sup><a href="https://linternita.com/blog/tecnologia-hizo-tontos#note-1" class="">1</a></sup></p>
+<p>Pero antes de responder, analicemos la pregunta de cerca:</p>
+<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="analisis-sintactico" src="https://linternita.com/assets/images/analisis-sintactico-be538c1b2ed4fcb3520376c8f4519738.png" width="544" height="163" class="img_ev3q"></p></div>
+<p>Es joda, en realidad, quiero centrarme en la palabra "tecnología".</p>
+<div id="note-1" style="scroll-margin:100px;background-color:lightgreen;position:relative;border-top-right-radius:20px;border-bottom-right-radius:20px;padding:0.5em 1em;margin-bottom:1em"><span><b><i>Linter-nota <!-- -->1<!-- -->:</i></b></span><div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="it-depends" src="https://linternita.com/assets/images/it-depends-4180b3be89adde4d17e2cf5d8f77fb7d.webp" width="828" height="311" class="img_ev3q"></p></div></div>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="tecnología">Tecnología<a href="https://linternita.com/blog/tecnologia-hizo-tontos#tecnolog%C3%ADa" class="hash-link" aria-label="Enlace directo al Tecnología" title="Enlace directo al Tecnología" translate="no">​</a></h2>
+<p>Esta es una palabra que, al menos en la modernidad contemporánea, repetimos
+incesantemente. Hablamos de tecnología en nuestros trabajos. Probablemente
+hables de tecnología con tus amigos. Tenemos medios de comunicación con
+secciones, o dedicados totalmente, a hablar de tecnología. En el mundo
+empresarial y de negocios es común escuchar hablar de empresas tecnológicas, las
+cuales se enfocan en ofrecer productos o servicios tecnológicos.</p>
+<p>Comúnmente cuando usamos esta palabra lo hacemos para referirnos a aparatos o
+técnicas "de punta", es decir, cosas que se hayan creado recientemente y que
+representen un progreso novedoso.</p>
+<p>Esta acepción y uso masivo de la palabra es producto de nuestros tiempos. Si
+bien Ngram no es una fuente determinante y cien-por-ciento fáctica, podemos
+notar una clara tendencia en el incremento del uso de la palabra a lo largo del
+siglo 20:</p>
+<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="ngram-technology" src="https://linternita.com/assets/images/ngram-technology-fff0aac016107dd03448c1d006906a19.png" width="908" height="547" class="img_ev3q"></p></div>
+<p>Pero, en realidad, tecnología no significa únicamente "cosas nuevas bonitas y
+brillantes". No es solamente la electrificación y digitalización de las cosas,
+la computación en todas partes, los dispositivos con pantallas hechas de
+cristal.</p>
+<p>Una rueda, inventada hace más de 6000 años, es tecnología.</p>
+<p>Las herramientas que hacíamos a base de piedras en la época paleolítica, como
+hachas de mano, lanzas o cuchillos, también son tecnología.</p>
+<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="levallois-technique" src="https://linternita.com/assets/images/levallois-technique-b13d6551eb987ac33a10c34fe7f75711.jpg" width="960" height="991" class="img_ev3q"></p><p><em>Figura: Puntas de piedra generadas con el
+<a href="https://es.wikipedia.org/wiki/M%C3%A9todo_Levallois" target="_blank" rel="noopener noreferrer" class="">Método Levallois</a></em></p></div>
+<p>Teniendo esto en cuenta, la pregunta del título parece un poco ridícula. ¿Cómo
+podríamos decir que, la invención de herramientas de piedra, nos hizo más
+tontos?</p>
+<p>No tiene sentido alguno. Es justamente nuestro ingenioso uso de estas
+herramientas que nos dio una ventaja por sobre otras especies. Si no fuera
+porque un grupo de primates prehistóricos decidiese usar piedras en su día a
+día, no tendríamos nada de esto. No tendríamos sociedad, ni cultura, ni
+lenguajes, ni... nuevas, bonitas y brillantes tecnologías.</p>
+<p>¿Y cuál es la definición de inteligencia, en todo caso? ¿Cuál es la vara que
+decide si somos más o menos tontos? ¿Es, por ejemplo, un humano "moderno" de
+hace 200.000 años, más inteligente que nosotros?</p>
+<p>Claramente los tipos sabían lo que hacían. Imaginate intentar sobrevivir 200.000
+años atrás con el conocimiento que tenés actualmente, pero sin ninguna de las
+facilidades modernas. ¿Serías capaz de generar una lanza con punta de piedra? ¿Y
+de crear fuego cuando lo necesites? ¿De coordinarte con otros humanos para matar
+a un mamut? ¿De recordar dónde está tu refugio y poder hallarlo nuevamente?</p>
+<p>A su vez, estos humanos arcaicos no tenían idea de matemática. No serían capaces
+de despejar una ecuación o resolver una integral. ¿Nos hace eso más
+inteligentes?</p>
+<p>Por mi parte, adhiero a lo expresado en
+<a href="https://linternita.com/blog/pensamientos-sobre-pensamiento#algunos-pensamientos-sobre-el-pensamiento" target="_blank" rel="noopener noreferrer" class="">pensamientos sobre el pensamiento</a>.
+Lo que consideramos como "inteligente" es algo subjetivo que cambia según la
+época. El conjunto de habilidades que producía que la sociedad te viese como
+alguien inteligente hace 500 años es muy distinto al conjunto actual. A ningún
+humano antiguo le parecería inteligente alguien que puede resolver integrales
+pero no cazar animales. Con el paso del tiempo, y gracias a la tecnología,
+ciertas habilidades cayeron en desuso y las dejamos de aprender y valorar.</p>
+<p>Pero, ¿qué consecuencias tiene eso en nuestra especie? El hecho de que dejemos
+de lado ciertas habilidades, y de que cada vez más y más las tecnologías nos
+simplifiquen la vida, al punto de poder vivir casi "sin fricción alguna", ¿puede
+causar una reducción en nuestras capacidades cognitivas?</p>
+<p>Lo que me lleva al que realmente debería haber sido el título de este post, o la
+pregunta a responder:</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="es-el-continuo-esfuerzo-por-simplificar-nuestras-vidas-lo-más-posible-realmente-benéfico-para-nuestra-especie-para-nuestra-sociedad">¿Es el continuo esfuerzo por simplificar nuestras vidas lo más posible realmente benéfico para nuestra especie? ¿Para nuestra sociedad?<a href="https://linternita.com/blog/tecnologia-hizo-tontos#es-el-continuo-esfuerzo-por-simplificar-nuestras-vidas-lo-m%C3%A1s-posible-realmente-ben%C3%A9fico-para-nuestra-especie-para-nuestra-sociedad" class="hash-link" aria-label="Enlace directo al ¿Es el continuo esfuerzo por simplificar nuestras vidas lo más posible realmente benéfico para nuestra especie? ¿Para nuestra sociedad?" title="Enlace directo al ¿Es el continuo esfuerzo por simplificar nuestras vidas lo más posible realmente benéfico para nuestra especie? ¿Para nuestra sociedad?" translate="no">​</a></h2>
+<p>¿Está bien que deleguemos cada una de nuestras "cargas" que tenemos en nuestra
+vida cotidiana?</p>
+<p>Mirá, te voy a ser sincero, no hay nada nuevo bajo el sol. Esto es lo que decía
+Sócrates
+<a href="https://www.historyofinformation.com/detail.php?id=3439" target="_blank" rel="noopener noreferrer" class="">acerca de la invención de la escritura y los libros</a>:</p>
+<blockquote>
+<p>"For this invention will produce forgetfulness in the minds of those who learn
+to use it, because they will not practice their memory. Their trust in
+writing, produced by external characters which are no part of themselves, will
+discourage the use of their own memory within them. You have invented an
+elixir not of memory, but of reminding; and you offer your pupils the
+appearance of wisdom, not true wisdom, for they will read many things without
+instruction and will therefore seem [275b] to know many things, when they are
+for the most part ignorant and hard to get along with, since they are not
+wise, but only appear wise."<sup><a href="https://linternita.com/blog/tecnologia-hizo-tontos#note-2" class="">2</a></sup></p>
+</blockquote>
+<p>Es fácil entender su planteo: los libros almacenan conocimiento. Si querés saber
+algo, ya no tenés que memorizarlo para luego recordarlo, podés agarrar el libro
+y leerlo en el momento que lo necesites. Ya no hace falta que te esfuerces en
+usar tu memoria, por lo que, con el tiempo, vas a tener una peor capacidad para
+recordar cosas. Además, sugiere que leer algo no necesariamente te haga experto
+en ese tema, porque no pasaste por todo el proceso y esfuerzo necesario para
+realmente entenderlo.</p>
+<p>¿Tiene razón?</p>
+<p>Difícil dar una respuesta concreta en este caso. Es posible que las culturas
+antiguas que dependían de la tradición oral fuesen mejores en memorizar y
+recordar cosas que lo que somos nosotros hoy en día. Después de todo, debían
+recordar historias completas, leyes y reglas, y cualquier otro tipo de expresión
+cultural. Hoy en día, si bien es posible seguir memorizando esas cosas, si
+queremos recordar lo que dice una ley simplemente leemos el texto de esa ley.
+Delegamos el esfuerzo y liberamos a nuestra memoria de esa carga.</p>
+<p>Pero hay algunos estudios que indican que la excesiva dependencia en una
+tecnología puede causarnos problemas cognitivos:</p>
+<p><a href="https://www.nature.com/articles/s41598-020-62877-0" target="_blank" rel="noopener noreferrer" class="">Uso habitual de GPS impacta de forma negativa la memoria espacial durante navegación autoguiada</a>:</p>
+<blockquote>
+<p>Although the longitudinal sample was small, we observed an important effect of
+GPS use over time, whereby greater GPS use since initial testing was
+associated with a steeper decline in hippocampal-dependent spatial memory.</p>
+</blockquote>
+<p><a href="https://www.imrpress.com/journal/jin/21/1/10.31083/j.jin2101028" target="_blank" rel="noopener noreferrer" class="">Demencia digital en la generación del internet: el excesivo uso de pantallas durante el desarrollo del cerebro incrementará el riesgo de Alzheimer y demencias similares en la adultez</a>:</p>
+<blockquote>
+<p>Excessive screen time is known to alter gray matter and white volumes in the
+brain, increase the risk of mental disorders, and impair acquisition of
+memories and learning which are known risk factors for dementia. Chronic
+sensory overstimulation (i.e., excessive screen time) during brain development
+increases the risk of accelerated neurodegeneration in adulthood (i.e.,
+amnesia, early onset dementia).</p>
+</blockquote>
+<p><a href="https://dtg.sites.fas.harvard.edu/DANWEGNER/pub/Sparrow%20et%20al.%202011.pdf" target="_blank" rel="noopener noreferrer" class="">Efectos de Google en la memoria: consecuencias cognitivas de tener información al alcance de nuestras manos</a>:</p>
+<blockquote>
+<p>The results of four studies suggest that when faced with difficult questions,
+people are primed to think about computers and that when people expect to have
+future access to information, they have lower rates of recall of the
+information itself and enhanced recall instead for where to access it</p>
+</blockquote>
+<p>Si querés encontrar o leer más estudios como estos, este paper recolecta y
+menciona varios:
+<a href="https://www.frontiersin.org/journals/cognition/articles/10.3389/fcogn.2023.1203077/full" target="_blank" rel="noopener noreferrer" class="">The impact of digital technology, social media, and artificial intelligence on cognitive functions: a review</a></p>
+<div id="note-2" style="scroll-margin:100px;background-color:lightgreen;position:relative;border-top-right-radius:20px;border-bottom-right-radius:20px;padding:0.5em 1em;margin-bottom:1em"><span><b><i>Linter-nota <!-- -->2<!-- -->:</i></b></span><p>En realidad, esto es algo más profundo que "libros = malo", ya que Sócrates
+estaba haciendo un análisis de las cosas que veía en su época, donde muy pocos
+eran capaces de leer y escribir. Además hay toda una cuestión filosófica de
+fondo acerca de cómo se llega a la verdad a través del dialógo y blablabla a
+quién le importa Sócrates</p></div>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="delegación-del-pensamiento">Delegación del pensamiento<a href="https://linternita.com/blog/tecnologia-hizo-tontos#delegaci%C3%B3n-del-pensamiento" class="hash-link" aria-label="Enlace directo al Delegación del pensamiento" title="Enlace directo al Delegación del pensamiento" translate="no">​</a></h2>
+<p>Seguramentes conocés eso de pensar. Obvio que lo conocés. Es algo que hacemos
+los humanos. Estoy seguro que alguna vez escuchaste de eso. Es más, es algo tan
+humano, que se podría decir que es lo que nos hace tan especiales y diferentes a
+las otras especies.</p>
+<p>Después de haber leído que hay una numerosa cantidad de estudios que indican que
+el uso excesivo y la dependencia tecnológica nos afecta a nivel cognitivo,
+seguramente estarás aliviado al saber que al menos por el momento no existe
+ninguna tecnología que podamos usar para delegar la "carga" de pensar. Las
+computadoras y celulares nos pueden afectar a la memoria y cosas así, pero por
+lo menos no estamos adoptando masivamente una tecnología que realmente ponga en
+riesgo nuestra habilidad de pensar. Ya sabés. Esa cosa que hacen los humanos. Lo
+que nos distingue.</p>
+<p>Y por suerte no estamos en un mundo donde multimillonarios que son dueños de
+medios de comunicación y que poseen influencia por sobre las corporaciones y
+gobiernos más poderosos del mundo nos intentan vender una tecnología a medio
+cocinar que prometa algo por el estilo, provocando que toda una industria adopte
+dicha tecnología porque esto es el futuro y es fascinante ya no tenemos que
+tener empleados que piensen podemos hacer que nuestras ganancias suban hacia el
+infinito y no ves como todo el mundo lo está usando nosotros también deberíamos
+usarlo porque si no nos vamos a quedar atrás.</p>
+<p>Dios, qué escenario hipotético espantoso. Uno se pregunta cuál podría ser el
+posible resultado de forzar un cambio así. Pero hay que agradecer que por suerte
+no estamos viviendo por algo como eso y que todavía podemos pensar.</p>
+<p>Ya sabés.</p>
+<p>Esa cosa que hacen los humanos.</p>
+<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="finally-agi" src="https://linternita.com/assets/images/finally-agi-09141c582e2b822321708e90e13d54e5.jpg" width="1206" height="1053" class="img_ev3q"></p></div>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="tecnología-moderna--mala">Tecnología moderna = mala<a href="https://linternita.com/blog/tecnologia-hizo-tontos#tecnolog%C3%ADa-moderna--mala" class="hash-link" aria-label="Enlace directo al Tecnología moderna = mala" title="Enlace directo al Tecnología moderna = mala" translate="no">​</a></h2>
+<p>No soy ludita. Este post tampoco es anti inteligencia artificial. Es más que
+nada para concientizar como el mal uso de la tecnología puede perjudicarnos sin
+que nos demos cuenta.</p>
+<p>Nuestras vidas deberían ser lo más simples y sin fricción posibles. Pero esto no
+significa convertirnos en seres adictos a una pantalla, incapaces de retener
+información, y que ni siquiera tengan que pensar porque hay una tecnología que
+lo hace por ellos. Significa tener acceso a comida, agua, un techo donde vivir,
+salud, educación. Deberíamos estar esforzándonos en eso, y no seguir prestándole
+atención a multimillonarios psicópatas que dicen a viva voz que nos van a dejar
+sin trabajos y arruinar nuestras vidas.</p>
+<p>Para terminar, unas citas de The Demon-Haunted World, que siguen tan relevantes
+hoy como en 1997:</p>
+<blockquote>
+<p>We've arranged a global civilization in which most crucial elements profoundly
+depend on science and technology. We have also arranged things so that almost
+no one understands science and technology. This is a prescription for
+disaster. We might get away with it for a while, but sooner or later this
+combustible mixture of ignorance and power is going to blow up in our faces.</p>
+</blockquote>
+<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="candle" src="https://linternita.com/assets/images/candle-32f7d0ed5e0234aa9e311dbefbf447ad.gif" width="220" height="310" class="img_ev3q"></p></div>
+<blockquote>
+<p>If we can't think for ourselves, if we're unwilling to question authority,
+then we're just putty in the hands of those in power. But if the citizens are
+educated and form their own opinions, then those in power work for us. In
+every country, we should be teaching our children the scientific method and
+the reasons for a Bill of Rights. With it comes a certain decency, humility
+and community spirit. In the demon-haunted world that we inhabit by virtue of
+being human, this may be all that stands between us and the enveloping
+darkness.</p>
+</blockquote>
+<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="candle-2" src="https://linternita.com/assets/images/candle-2-e216e0def6a03846abecb03e3ed5ade8.gif" width="400" height="216" class="img_ev3q"></p></div>
+<blockquote>
+<p>I have a foreboding of an America in my children's or grandchildren's time --
+when the United States is a service and information economy; when nearly all
+the manufacturing industries have slipped away to other countries; when
+awesome technological powers are in the hands of a very few, and no one
+representing the public interest can even grasp the issues; when the people
+have lost the ability to set their own agendas or knowledgeably question those
+in authority; when, clutching our crystals and nervously consulting our
+horoscopes, our critical faculties in decline, unable to distinguish between
+what feels good and what's true, we slide, almost without noticing, back into
+superstition and darkness...</p>
+<p>The dumbing down of American is most evident in the slow decay of substantive
+content in the enormously influential media, the 30 second sound bites (now
+down to 10 seconds or less), lowest common denominator programming, credulous
+presentations on pseudoscience and superstition, but especially a kind of
+celebration of ignorance</p>
+</blockquote>
+<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="candle-3" src="https://linternita.com/assets/images/candle-3-23a8050cf12c7ad316787ab1909e36a7.gif" width="480" height="270" class="img_ev3q"></p></div>]]></content:encoded>
+            <category>random</category>
+        </item>
         <item>
             <title><![CDATA[cosas interesantes sobre animales - parte 1]]></title>
             <link>https://linternita.com/blog/cosas-interesantes-animales</link>
@@ -4133,161 +4349,6 @@ con blockchain.</p>
 <p>Y en la actualidad estamos con mucho <em>hype</em> por la inteligencia artificial (de
 nuevo). Pero eso es un tema para otro post.</p>]]></content:encoded>
             <category>linternita-enseña</category>
-        </item>
-        <item>
-            <title><![CDATA[que pasaría si nuestro sol desapareciese]]></title>
-            <link>https://linternita.com/blog/our-sun-is-gone</link>
-            <guid>https://linternita.com/blog/our-sun-is-gone</guid>
-            <pubDate>Sun, 08 Jun 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[☀️💣💥😱]]></description>
-            <content:encoded><![CDATA[<p>☀️💣💥😱</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="t-1-1-minuto-para-que-el-sol-desaparezca">T-1: 1 minuto para que el Sol desaparezca<a href="https://linternita.com/blog/our-sun-is-gone#t-1-1-minuto-para-que-el-sol-desaparezca" class="hash-link" aria-label="Enlace directo al T-1: 1 minuto para que el Sol desaparezca" title="Enlace directo al T-1: 1 minuto para que el Sol desaparezca" translate="no">​</a></h2>
-<p>Es un día normal como cualquier otro en el planeta Tierra. El Dow Jones abre en
-alza. Hay un paro de colectivos en la ciudad de Buenos Aires. Un médico en
-Estados Unidos salva a alguien que tuvo un paro cardíaco, y después le hace una
-factura por 30000 dólares. En China un menor esclavizado y con precaria salud
-está ensamblando el nuevo iPhone que te vas a comprar cuando salga.</p>
-<p>Nadie sabe que en exactamente un minuto el Sol va a desaparecer.</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="t-0-el-sol-desaparece">T-0: el Sol desaparece<a href="https://linternita.com/blog/our-sun-is-gone#t-0-el-sol-desaparece" class="hash-link" aria-label="Enlace directo al T-0: el Sol desaparece" title="Enlace directo al T-0: el Sol desaparece" translate="no">​</a></h2>
-<video controls="" style="width:100%;height:400px"><source src="/assets/medias/T-0-10db1176e9ba481e821c49e98cf03cbf.mp4" type="video/mp4"></video>
-<p>Sin previo aviso y por intervención divina el Sol desaparece. Es una incógnita:
-no tiene entidad, no está, ni muerto ni vivo, está desaparecido.</p>
-<p>El día sigue como si nada en nuestro mundo. Aunque esa bola gigante de fuego ya
-no exista, nosotros no nos vamos a dar cuenta de esto instantáneamente. Hay un
-límite impuesto por las reglas de nuestro universo. Este límite dice que no hay
-nada que pueda viajar más rápido que a 300.000 km/s.</p>
-<p>Nosotros estamos bastante lejos de nuestra estrella, a unos 149.6 millones de
-kilómetros. Cualquier información sobre la desaparición del Sol tardaría
-aproximadamente 8 minutos en llegarnos.</p>
-<p>Esto no solamente implica a los últimos rayos de luz emanados por la estrella:
-el efecto gravitacional de la misma sobre la Tierra también tardaría esos 8
-minutos en notarse.<sup><a href="https://linternita.com/blog/our-sun-is-gone#note-1" class="">1</a></sup></p>
-<p><em><sup><a name="note-1">1</a>:</sup> Un pensamiento bastante trillado en sí, pero
-esto significa que cuando mirás las estrellas a la noche, no las estás viendo en
-tiempo real, si no que estás observando la luz que emitió esa estrella hace
-millones de años. Posiblemente algunas de esas estrellas no existan más, pero
-nosotros seguimos viéndolas.</em></p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="t8-se-cortó-la-luz">T+8: se cortó la luz!!<a href="https://linternita.com/blog/our-sun-is-gone#t8-se-cort%C3%B3-la-luz" class="hash-link" aria-label="Enlace directo al T+8: se cortó la luz!!" title="Enlace directo al T+8: se cortó la luz!!" translate="no">​</a></h2>
-<p><img decoding="async" loading="lazy" alt="T+8" src="https://linternita.com/assets/images/T+8-6e6454d9e0bae513b767001418f00a6d.png" width="1920" height="1080" class="img_ev3q"></p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="luz">Luz<a href="https://linternita.com/blog/our-sun-is-gone#luz" class="hash-link" aria-label="Enlace directo al Luz" title="Enlace directo al Luz" translate="no">​</a></h3>
-<p>Si justo era de noche en el lugar donde estabas, posiblemente no te des cuenta
-de lo que pasó. A menos que estuvieras viendo directamente a la Luna en ese
-momento. En cuyo caso, notarías como se desvanece del cielo nocturno sin dejar
-rastro alguno.</p>
-<p>Si es de día, te darías cuenta bastante rápido. De un momento a otro todo se
-sumergiría en la oscuridad.</p>
-<p>Pero no sería una oscuridad absoluta, incluso aunque no dispongamos de la Luna
-para iluminarnos vagamente. Primero que nada, todavía podríamos iluminar nuestra
-vida como lo hacemos actualmente: quemando combustible y contaminando nuestro
-planeta con dióxido de carbono que luego aspiramos en nuestros pulmones.</p>
-<p>Segundo, por algunos escasos minutos todavía recibiríamos la luz del Sol
-reflejada en algunos de los otros planetas, como Marte o Júpiter, lo cual no es
-mucho, pero es algo. Y por último, la Vía Láctea tiene muchas otras estrellas
-que nos brindarían su luz. Esta sería la única forma de iluminación que nos
-llegaría "desde afuera".</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="gravedad">Gravedad<a href="https://linternita.com/blog/our-sun-is-gone#gravedad" class="hash-link" aria-label="Enlace directo al Gravedad" title="Enlace directo al Gravedad" translate="no">​</a></h3>
-<p>La absencia de la luz solar sería el único cambio que notaríamos a simple vista.
-Pero al mismo tiempo perderíamos la influencia gravitacional de nuestro astro.
-La Tierra dejaría de orbitar y saldría "disparada" siguiendo su última
-dirección. Nosotros no nos daríamos cuenta, no sentiríamos ningún cambio en
-absoluto.</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="temperatura">Temperatura<a href="https://linternita.com/blog/our-sun-is-gone#temperatura" class="hash-link" aria-label="Enlace directo al Temperatura" title="Enlace directo al Temperatura" translate="no">​</a></h3>
-<p>No habría un cambio percetible en la temperatura... por ahora.</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="sociedad">Sociedad<a href="https://linternita.com/blog/our-sun-is-gone#sociedad" class="hash-link" aria-label="Enlace directo al Sociedad" title="Enlace directo al Sociedad" translate="no">​</a></h3>
-<p>El impacto más notable en la sociedad sería que la gente ya no podría decir "no
-se puede tapar el sol con un dedo".</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="t24-hs-un-día-entero-sin-el-sol">T+24 hs: un día entero sin el Sol<a href="https://linternita.com/blog/our-sun-is-gone#t24-hs-un-d%C3%ADa-entero-sin-el-sol" class="hash-link" aria-label="Enlace directo al T+24 hs: un día entero sin el Sol" title="Enlace directo al T+24 hs: un día entero sin el Sol" translate="no">​</a></h2>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="temperatura-1">Temperatura<a href="https://linternita.com/blog/our-sun-is-gone#temperatura-1" class="hash-link" aria-label="Enlace directo al Temperatura" title="Enlace directo al Temperatura" translate="no">​</a></h3>
-<video controls="" style="width:100%;height:400px"><source src="/assets/medias/t+24-temp-f3552ec8fab7725018edf6831d25065e.mp4" type="video/mp4"></video>
-<p>En tan solo un día la temperatura bajaría drásticamente en tierra firme, con
-pocos lugares superando los 0 grados celsius.</p>
-<p>¿Qué pasa con los océanos? El agua es increíblemente buena reteniendo calor, y
-la Tierra está mayormente cubierta por una inmensa cantidad de agua. En tan solo
-un día no se produciría un gran salto... pero al igual que la superficie, el
-agua está perdiendo calor, y rápido.</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="luz-1">Luz<a href="https://linternita.com/blog/our-sun-is-gone#luz-1" class="hash-link" aria-label="Enlace directo al Luz" title="Enlace directo al Luz" translate="no">​</a></h3>
-<p>Las ventas de linternas vuelan por los cielos. <a href="https://linternita.com/" target="_blank" rel="noopener noreferrer" class="">https://linternita.com/</a> se
-convierte realmente en una página sobre linternas, listando en tiempo real las
-fluctuaciones de los precios de los modelos más demandados.</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="gravedad-1">Gravedad<a href="https://linternita.com/blog/our-sun-is-gone#gravedad-1" class="hash-link" aria-label="Enlace directo al Gravedad" title="Enlace directo al Gravedad" translate="no">​</a></h3>
-<p>Perdimos al Sol y estamos vagando en una dirección, pero a pesar de eso, la Luna
-y nuestros cientos de satélites artificiales siguen con nosotros, fieles
-acompañantes en nuestro camino a la extinción.</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="sociedad-1">Sociedad<a href="https://linternita.com/blog/our-sun-is-gone#sociedad-1" class="hash-link" aria-label="Enlace directo al Sociedad" title="Enlace directo al Sociedad" translate="no">​</a></h3>
-<p><img decoding="async" loading="lazy" alt="stealing-this" src="https://linternita.com/assets/images/stealing-this-4809e4656b43208ab1498cbc0a4d6f23.gif" width="382" height="218" class="img_ev3q"></p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="t1-semana">T+1 semana<a href="https://linternita.com/blog/our-sun-is-gone#t1-semana" class="hash-link" aria-label="Enlace directo al T+1 semana" title="Enlace directo al T+1 semana" translate="no">​</a></h2>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="temperatura-2">Temperatura<a href="https://linternita.com/blog/our-sun-is-gone#temperatura-2" class="hash-link" aria-label="Enlace directo al Temperatura" title="Enlace directo al Temperatura" translate="no">​</a></h3>
-<video controls="" style="width:100%;height:400px"><source src="/assets/medias/t+1w-temp-cb62dff2babf60c9296c5f867af1c2c4.mp4" type="video/mp4"></video>
-<p>Lo que no era notable en un día, se vuelve evidente en una semana. Los océanos
-comienzan a ceder: donde antes había temperaturas que rondaban los 20/24ºC,
-ahora tan solo llegan a 18/19ºC.</p>
-<p>El mundo se vuelve un lugar cada vez más frío e inhóspito. Pero esto no quiere
-decir que sea imposible vivir en él. Todavía podríamos calentar nuestra vida
-como lo hacemos actualmente: quemando combustible y contaminando nuestro planeta
-con dióxido de carbono que luego aspiramos en nuestros
-pulmones.<sup><a href="https://linternita.com/blog/our-sun-is-gone#note-2" class="">2</a></sup></p>
-<p>Eso ayudaría... un poco. La verdad es que un descenso tan drástico de las
-temperaturas traería problemas en todos lados, quizás principalmente relacionado
-al uso/consumo de agua potable. Incluso en un mundo con Sol
-<a href="https://protectyourpipes.org/frozen-pipes" target="_blank" rel="noopener noreferrer" class="">las tuberías se congelan y explotan en invierno</a>,
-teniendo que adoptar medidas para prevenirlo.</p>
-<p><em><sup><a name="note-2">2</a>:</sup> ¿Linternita repitiendo contenido? Más
-probable de lo que pensarías.</em></p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="flora">Flora<a href="https://linternita.com/blog/our-sun-is-gone#flora" class="hash-link" aria-label="Enlace directo al Flora" title="Enlace directo al Flora" translate="no">​</a></h3>
-<p>Las plantas realizan un inexplicable y curioso proceso llamado fotosíntesis,
-gracias al cual básicamente viven. Para realizar fotosíntesis necesitan... luz.</p>
-<p>No necesariamente luz solar, la luz artificial también puede ser usada para este
-proceso. Mientras tengamos combustibles (que quememos para contaminar nuestro
-planeta...) podemos generar luz y hacer que las plantas crezcan. Y para que el
-creciente frío no las afecte, podríamos crear ambientes climatizados,
-otorgándoles las condiciones propicias para su desarrollo.</p>
-<p>Pero es imposible aplicar algo así a gran escala. Imaginate tratar de hacerlo
-solamente para un campo de maíz de 100 hectáreas... Y después tener que
-replicarlo para miles de hectáreas alrededor del mundo.</p>
-<p>Sin mencionar que, sin el Sol, el ciclo del agua se rompería. No habría
-precipitaciones. Toda la irrigación debería ser artificial.</p>
-<p>Puede que algunas plantas sobrevivan, pero en 1 o 2 semanas, la mayoría estarían
-muertas. Ya sea por la falta de luz, agua, o por haberse congelado.</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="fauna">Fauna<a href="https://linternita.com/blog/our-sun-is-gone#fauna" class="hash-link" aria-label="Enlace directo al Fauna" title="Enlace directo al Fauna" translate="no">​</a></h3>
-<p>Si la situación es complicada para las plantas, para los animales es peor.
-Incluso los peces que están en el océano (de los pocos lugares con temperaturas
-mayores a cero grados) se verían afectados por esto, ya que son extremadamente
-sensibles a los cambios de temperatura.</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="sociedad-2">Sociedad<a href="https://linternita.com/blog/our-sun-is-gone#sociedad-2" class="hash-link" aria-label="Enlace directo al Sociedad" title="Enlace directo al Sociedad" translate="no">​</a></h3>
-<p><img decoding="async" loading="lazy" alt="what-if-we-kissed" src="https://linternita.com/assets/images/what-if-we-kissed-4a3b69daae7c27800da561c611c1d4e6.png" width="960" height="481" class="img_ev3q"></p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="t6-meses-el-mundo-entero-bajo-cero">T+6 meses: el mundo entero bajo cero<a href="https://linternita.com/blog/our-sun-is-gone#t6-meses-el-mundo-entero-bajo-cero" class="hash-link" aria-label="Enlace directo al T+6 meses: el mundo entero bajo cero" title="Enlace directo al T+6 meses: el mundo entero bajo cero" translate="no">​</a></h3>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="temperatura-3">Temperatura<a href="https://linternita.com/blog/our-sun-is-gone#temperatura-3" class="hash-link" aria-label="Enlace directo al Temperatura" title="Enlace directo al Temperatura" translate="no">​</a></h3>
-<video controls="" style="width:100%;height:400px"><source src="/assets/medias/t+6m-temp-b239b654964cd6e69aeb875d1c9e3d66.mp4" type="video/mp4"></video>
-<p>La temperatura de los océanos llega a 0 grados celsius. A partir de ahora la
-superficie de los océanos se empieza a congelar.</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="t1-año-">T+1 año: 🥶<a href="https://linternita.com/blog/our-sun-is-gone#t1-a%C3%B1o-" class="hash-link" aria-label="Enlace directo al T+1 año: 🥶" title="Enlace directo al T+1 año: 🥶" translate="no">​</a></h2>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="temperatura-sociedad-flora-y-fauna">Temperatura, Sociedad, Flora y Fauna<a href="https://linternita.com/blog/our-sun-is-gone#temperatura-sociedad-flora-y-fauna" class="hash-link" aria-label="Enlace directo al Temperatura, Sociedad, Flora y Fauna" title="Enlace directo al Temperatura, Sociedad, Flora y Fauna" translate="no">​</a></h3>
-<p>A esta altura, el planeta está bastante congelado.</p>
-<p>De todos los seres vivos, aquellos que se verían menos afectados serían los
-<a href="https://es.wikipedia.org/wiki/Extrem%C3%B3filo" target="_blank" rel="noopener noreferrer" class="">extremófilos</a>, organismos que
-viven bajo condiciones extremas en la Tierra. Existen organismos de este tipo
-que no dependen de la luz solar (ni siquiera la conocen) y que viven en las
-profundidades de los océanos.</p>
-<p>Si bien la superficie del planeta estaría congelada, todavía existirían zonas
-con agua líquida. Principalmente en aquellas zonas donde existe actividad
-geotermal bajo el océano. Estos organismos extremófilos <em>ya sobreviven</em> en zonas
-así hoy en día. En el caso de que el Sol desapareciera, ni se inmutarían.</p>
-<p>¿Qué pasaría con nosotros?</p>
-<p>Posiblemente sobrevivamos, pero en números muy reducidos. Los pocos que
-sobrevivan deberían moverse a zonas donde haya actividad geotermal (donde haya
-géiseres o similares) para aprovechar un poco del calor interno del planeta.</p>
-<p>Si bien es cierto que dispondríamos de combustibles fósiles, realizar la
-extracción de los mismos en las condiciones extremas en las que se encontraría
-el planeta sería increíblemente complicado. Lo mismo sucedería con otros
-recursos que son necesarios (metales, madera, fibras para uso textil, etc) para
-subsistir.</p>
-<p>Y ni hablar de la comida.</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="video-con-la-simulación-de-1-año">Video con la simulación de 1 año<a href="https://linternita.com/blog/our-sun-is-gone#video-con-la-simulaci%C3%B3n-de-1-a%C3%B1o" class="hash-link" aria-label="Enlace directo al Video con la simulación de 1 año" title="Enlace directo al Video con la simulación de 1 año" translate="no">​</a></h2>
-<p>Acá abajo vas a poder ver el video con una simulación de este escenario:</p>
-<div style="margin:0 auto;text-align:center"><iframe style="width:100%;height:315px" src="https://www.youtube.com/embed/LETuauqe4aI" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></div>
-<p>El mismo está hecho con <a href="https://universesandbox.com/" target="_blank" rel="noopener noreferrer" class="">Universe Sandbox</a>, del
-cual también salieron las imágenes utilizadas a lo largo del post.</p>]]></content:encoded>
-            <category>espacio</category>
         </item>
     </channel>
 </rss>
