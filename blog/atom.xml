@@ -2,11 +2,278 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://linternita.com/blog</id>
     <title>Linternita Blog</title>
-    <updated>2026-04-18T00:00:00.000Z</updated>
+    <updated>2026-05-14T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://linternita.com/blog"/>
     <subtitle>Linternita Blog</subtitle>
     <icon>https://linternita.com/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[armando antenas y escuchando ondas de radio]]></title>
+        <id>https://linternita.com/blog/antenas-diy</id>
+        <link href="https://linternita.com/blog/antenas-diy"/>
+        <updated>2026-05-14T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Hertz no se dió cuenta de la importancia a nivel práctico que tenían sus]]></summary>
+        <content type="html"><![CDATA[<p>Hertz no se dió cuenta de la importancia a nivel práctico que tenían sus
+experimentos con ondas de radio. Declaró que:</p>
+<blockquote>
+<p>No tienen uso alguno... esto es solo un experimento que demuestra que el
+Maestro Maxwell estaba en lo correcto—tenemos estas misterioras ondas
+electromagnéticas que no podemos ver a ojo desnudo. Pero están ahí.</p>
+</blockquote>
+<p>Cuando se le preguntó acerca de las aplicaciones que sus descubrimientos podían
+tener, Hertz respondió:</p>
+<blockquote>
+<p>Ninguna, supongo.</p>
+</blockquote>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="introducción">Introducción<a href="https://linternita.com/blog/antenas-diy#introducci%C3%B3n" class="hash-link" aria-label="Enlace directo al Introducción" title="Enlace directo al Introducción" translate="no">​</a></h2>
+<p>El telégrafo cambió la forma en que se luchaban las guerras. El teléfono redujo
+las distancias, brindando un sentimiento de cercanía en nuestra sociedad. Las
+ondas de radio... transformaron todo.</p>
+<p>Me resulta fascinante el contraste entre las afirmaciones de
+<a href="https://en.wikipedia.org/wiki/Heinrich_Hertz" target="_blank" rel="noopener noreferrer" class="">Heinrich Hertz</a> y lo que terminó
+sucediendo. La aplicación práctica de las ondas de radio revolucionó
+completamente el siglo XX.</p>
+<p>Podríamos hacer una extensa lista de todas las cosas que <em>no</em> hubieran pasado si
+este descubrimiento no se hubiese hecho, pero creo que lo podemos resumir en lo
+siguiente:</p>
+<ul>
+<li class="">No hubiéramos ido a la luna</li>
+<li class="">No tendríamos radio ni televisión</li>
+<li class="">No tendríamos teléfonos celulares</li>
+</ul>
+<p>Imaginate un siglo XX sin ninguna de esas cosas y sus ramificaciones. Estaríamos
+viviendo en un planeta totalmente distinto.</p>
+<p>Pero esto no es un post acerca de tecnología o cómo la misma cambió al mundo. Si
+querés leer sobre eso tenés
+<a href="https://linternita.com/blog/monopolio-que-cambio-mundo" target="_blank" rel="noopener noreferrer" class="">este otro post</a>.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="intermisión-newsletter-nita">Intermisión: NEWSLETTER-NITA<a href="https://linternita.com/blog/antenas-diy#intermisi%C3%B3n-newsletter-nita" class="hash-link" aria-label="Enlace directo al Intermisión: NEWSLETTER-NITA" title="Enlace directo al Intermisión: NEWSLETTER-NITA" translate="no">​</a></h2>
+<p>¿QUERÉS ESTAR AL TANTO DE LOS ÚLTIMOS POSTS?</p>
+<p>¿NECESITÁS MÁS LINTERNITA EN TU VIDA?</p>
+<p>NO SUFRAS MÁS.</p>
+<p>TENEMOS LA SOLUCIÓN PARA VOS EN SUAVES DOSIS DE NUEVE MILÍMETROS.</p>
+<p>UNITE AL <a href="https://www.patreon.com/cw/Linternita" target="_blank" rel="noopener noreferrer" class="">PATREON DE LINTERNITA.COM</a> PARA
+OBTENER UN CORREO CADA VEZ QUE SUBA UN POST.</p>
+<p>QUÉ EMOCIÓN!!</p>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>Abrime</summary><div><div class="collapsibleContent_i85q"><p>Tuve que ceder a la demanda popular. Muchos de mis amigos
+<a href="https://en.wikipedia.org/wiki/Wikipedia:Citation_needed" target="_blank" rel="noopener noreferrer" class=""><em>[citation needed]</em></a>
+me pidieron que haga una especie de newsletter para poder recibir notificaciones
+por correo cada vez que subo un post.</p><p>En vez de, como quizás sabés, la idiotez de subir historias en Instagram.</p><p>Si bien me gustaba la idea, no tenía ganas de pagar un servicio que haga eso.</p><p>Hasta que me acordé que existe Patreon. Básicamente si te unís al Patreon vas a
+recibir una notificación cada vez que cree una publicación ahí.</p><p>La única desventaja es que tenés que crearte una cuenta de Patreon pero fuera de
+eso no tenés que pagar (ni yo) nada y podés estar al tanto de todo lo que pasa
+en Linternita.com por el resto de tu vida.</p></div></div></details>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="des-intermisión">Des-intermisión<a href="https://linternita.com/blog/antenas-diy#des-intermisi%C3%B3n" class="hash-link" aria-label="Enlace directo al Des-intermisión" title="Enlace directo al Des-intermisión" translate="no">​</a></h2>
+<p>En este post no voy a ahondar sobre conceptos físicos ni teóricos acerca de
+electromagnetismo, ondas de radio, antenas, y demás.</p>
+<p>Primero, porque es largo y aburrido. Segundo, porque honestamente no sé mucho
+sobre antenas.</p>
+<p>Desde hace <strong>años</strong> que tengo un RTL-SDR y siempre quise utilizarlo para
+escuchar <em>algo</em> por fuera de la frecuencia de radios FM. Resulta que, para hacer
+eso, necesitás una o varias antenas.</p>
+<p>Existen decenas de diseños de antenas distintos, cada uno con sus ventajas y
+desventajas. Esto es porque no existe una antena que funcione óptimamente para
+todos los casos/frecuencias. Pero en sí, para lo que es <em>recepción</em> de señales
+(u ondas de radio, como le quieras decir), una antena puede ser cualquier pedazo
+de cable o caño de metal que tengas al alcance.</p>
+<p>No es joda. Una de las antenas más "simples" de hacer para captar
+<a href="https://en.wikipedia.org/wiki/High_frequency" target="_blank" rel="noopener noreferrer" class="">frecuencias altas</a> es...
+literalmente un pedazo de cable largo tendido entre dos postes:</p>
+<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="random-wire-antenna" src="https://linternita.com/assets/images/random-wire-antenna-87c006f5768e7f5275bd5b10903f52be.png" width="1640" height="954" class="img_ev3q"></p><p><em>Figura 1: una
+<a href="https://en.wikipedia.org/wiki/Random_wire_antenna" target="_blank" rel="noopener noreferrer" class="">"random wire antenna"</a></em></p></div>
+<p>En mi caso, me decidí por intentar hacer las siguientes tres antenas:</p>
+<ul>
+<li class="">Una antena dipolo "estándar"</li>
+<li class="">Una antena de "bucle magnético"</li>
+<li class="">Una antena dipolo V invertida</li>
+</ul>
+<p>Todas estas antenas las intenté hacer con la mayor cantidad de material
+reciclado posible porque no tenía ganas de gastar mucha plata en esto. Incluso
+algunos cables me los robé de la calle.</p>
+<p>Si bien con cualquier pedazo de cable podemos capturar señales que estén
+viajando a través del campo electromagnético, necesitamos una forma de
+interpretarlas. Acá es donde entra juego el "SDR". En términos simples, es un
+aparatito mágico que con la ayuda de alguna matemática y ciertos circuitos
+electrónicos permite que tu computadora pueda interpretar las señales.</p>
+<p>Es un aparatito como este:</p>
+<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="rtl-sdr" src="data:image/jpeg;base64,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" width="319" height="158" class="img_ev3q"></p></div>
+<p>La parte que tiene un USB se conecta a tu computadora. La otra parte, que tiene
+un conector dorado llamado SMA, se usa para conectarlo a la antena.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="antena-dipolo-estándar">Antena dipolo estándar<a href="https://linternita.com/blog/antenas-diy#antena-dipolo-est%C3%A1ndar" class="hash-link" aria-label="Enlace directo al Antena dipolo estándar" title="Enlace directo al Antena dipolo estándar" translate="no">​</a></h2>
+<p>Si un pedazo de cable o caño es la antena más simple, el dipolo se lleva el
+segundo puesto. Básicamente son dos pedazos de cable.</p>
+<p>A pesar de eso, hay muchas formas de construir un dipolo. En este caso, construí
+lo que voy a llamar un dipolo "estándar" o clásico, que tiene una forma de T,
+como se aprecia en la siguiente figura:</p>
+<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="standard-dipole" src="https://linternita.com/assets/images/standard-dipole-7f54cd0dc3acddb48be0f393f9784d67.jpg" width="1600" height="1600" class="img_ev3q"></p></div>
+<p>En las antenas dipolo, a cada "pedazo de cable" se lo llama pata. El largo de
+las patas influye en la frecuencia que tu antena va a recibir mejor.</p>
+<p>"la frecuencia que tu antena recibe mejor" se suele llamar frecuencia central o
+frecuencia resonante. Una antena puede captar distintas frecuencias, pero
+siempre va a captar mejor a la frecuencia resonante.</p>
+<p>Y en el caso de este tipo de antenas, mientras más cortas sean las patas, más
+alta va a ser la frecuencia resonante. Y mientras más largas sean, más baja
+será.</p>
+<p>La construcción de un dipolo es bastante simple: cortás dos pedazos de cable.
+Uno va a ser la pata izquierda, el otro la pata derecha. Los alinéas
+horizontalmente procurando mantener una pequeña separación entre ambos. Después
+conectás una de las patas al conductor exterior del cable coaxial, y luego otra
+al conductor núcleo.<sup><a href="https://linternita.com/blog/antenas-diy#note-1" class="">1</a></sup></p>
+<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="dipole-diagram" src="https://linternita.com/assets/images/dipole-diagram-baa9f1118936939844ea71abeeb0b947.jpg" width="1000" height="550" class="img_ev3q"></p></div>
+<p>Después conectás el cable coaxial a tu SDR y tirás la antena en algún lugar alto
+y listo. Tu primer dipolo.</p>
+<div id="note-1" style="scroll-margin:100px;background-color:lightgreen;position:relative;border-top-right-radius:20px;border-bottom-right-radius:20px;padding:0.5em 1em;margin-bottom:1em"><span><b><i>Linter-nota <!-- -->1<!-- -->:</i></b></span><p>Es la primera vez que menciono un cable coaxial en este post. Como dije antes,
+no voy a ahondar demasiado, pero básicamente lo podés pensar como el cable que
+transmite la señal capturada por la antena hacia el SDR.</p></div>
+<p>Para esta antena disponía de los siguientes materiales:</p>
+<ul>
+<li class="">Dos antenas telescópicas (las cuales habré sacado de alguna radio antigua rota
+en algún momento de mi vida)</li>
+<li class="">Tablitas de madera "fibrofácil" (recicladas de proyectos artisticos fallidos)</li>
+<li class="">Pedazos varios de cables de cobre viejos</li>
+<li class="">Un pedazo caño de PVC termofusión</li>
+</ul>
+<p>Con un poco de pegamento, una agujereadora y muy poca paciencia, este fue el
+resultado:</p>
+<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="dipolo-1" src="https://linternita.com/assets/images/dipolo-1-8999ce50670fd7d8b4aab07416d85d45.jpg" width="4096" height="2304" class="img_ev3q"></p></div>
+<p>La caja de fibrofácil la hice a mano cortando las tablitas y pegándolas. Esta
+caja asegura la separación entre ambas patas del dipolo. En teoría también
+debería servir para que estén alineados horizontalmente, pero como soy
+impaciente no esperé a que el pegamento se seque del todo y las patas quedaron
+algo torcidas formando un ángulo (esto no afecta demasiado a la recepción).</p>
+<p>En la parte de abajo de la caja hice un agujero para poder hacer pasar el caño
+de PVC. La idea detrás de esto era poder subir la antena lo más alto posible,
+haciendo que no esté en contacto con... el techo de mi casa o lo que fuere.</p>
+<p>El hecho de que cada pata del dipolo sea "telescópica" es una ventaja
+interesante de esta antena:</p>
+<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="dipolo-2" src="https://linternita.com/assets/images/dipolo-2-b94eb38cbb993afb5cacdee034da2df9.jpg" width="4096" height="2304" class="img_ev3q"></p></div>
+<p>Como mencioné antes, el largo de las patas afecta a la frecuencia resonante. Al
+ser telescópicas, puedo cambiar a gusto la frecuencia resonante del dipolo,
+simplemente extendiendo o contrayendo las patas.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="qué-logré-capturar">¿Qué logré capturar?<a href="https://linternita.com/blog/antenas-diy#qu%C3%A9-logr%C3%A9-capturar" class="hash-link" aria-label="Enlace directo al ¿Qué logré capturar?" title="Enlace directo al ¿Qué logré capturar?" translate="no">​</a></h3>
+<p>Además de estaciones de radio FM, pude captar audio de canales de televisión.</p>
+<div style="margin:0 auto;text-align:center"><iframe style="width:100%;height:315px" src="https://www.youtube.com/embed/kigushx-cck" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></div>
+<p>Estoy seguro que este audio no es el del sistema de televisión digital terrestre
+en Argentina (TDA), ya que en ese sistema tanto el audio como video son
+transmitidos de forma digital... Mientras que lo que recibí acá es claramente
+una señal analógica.</p>
+<p>La TDA existe desde 2008 en Argentina, a esta altura no debería haber canales de
+televisión que transmitan de forma analógica. <sup><a href="https://linternita.com/blog/antenas-diy#note-2" class="">2</a></sup></p>
+<div id="note-2" style="scroll-margin:100px;background-color:lightgreen;position:relative;border-top-right-radius:20px;border-bottom-right-radius:20px;padding:0.5em 1em;margin-bottom:1em"><span><b><i>Linter-nota <!-- -->2<!-- -->:</i></b></span><p>Aparentemente el apagón de las transmisiones analógicas algo que se viene
+postergando y en 2 meses va a dejar de existir:</p><div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="transicion-progreso" src="https://linternita.com/assets/images/transicion-progreso-cad4e7ec074102360ca6474f6668684d.png" width="965" height="117" class="img_ev3q"></p></div></div>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="antena-de-bucle-magnético">Antena de bucle magnético<a href="https://linternita.com/blog/antenas-diy#antena-de-bucle-magn%C3%A9tico" class="hash-link" aria-label="Enlace directo al Antena de bucle magnético" title="Enlace directo al Antena de bucle magnético" translate="no">​</a></h2>
+<p>Las antenas de bucle magnético o "magnetic loop antenas" son totalmente
+distintas a las dipolo.</p>
+<p>En vez de tener dos pedazos de cables ubicados de forma horizontal, tenemos...
+un bucle hecho con cable coaxial.</p>
+<p>Así se ven estas antenas:</p>
+<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="mag-loop-antenna" src="https://linternita.com/assets/images/mag-loop-antenna-3193e4db72af5bf3296da90bf5c6bc2d.jpg" width="970" height="1024" class="img_ev3q"></p></div>
+<p>¿Por qué harías una antena como esta en vez de un dipolo?</p>
+<p>El problema del dipolo es que, mientras más bajas sea la frecuencia resonante,
+más grande tiene que ser la antena.</p>
+<p>Por ejemplo, si querés hacer un dipolo que tenga una frecuencia resonante de 20
+MHz, vas a terminar con una antena que tiene como 7 metros de largo.</p>
+<p>En cambio, con una de bucle magnético, terminarías con un círculo de algo de 1
+metro de diámetro.</p>
+<p>Para esta antena disponía de los siguientes materiales:</p>
+<ul>
+<li class="">Un cable coaxial "quad-shield" (robado de la calle)</li>
+<li class="">Un toroide de ferrita (sacado de una motherboard quemada)</li>
+<li class="">Cables de cobre</li>
+</ul>
+<p>Básicamente, seguí esta guía:
+<a href="https://swling.com/blog/2020/04/diy-how-to-build-a-noise-cancelling-passive-loop-ncpl-antenna/" target="_blank" rel="noopener noreferrer" class="">DIY: How to build a Noise-Cancelling Passive Loop (NCPL) antenna</a>.</p>
+<p>En comparación con el dipolo, la construcción se dificulta. Tenés que
+cuidadosamente manipular el cable coaxial y soldar bien todo.</p>
+<p>Para complicar más las cosas, la guía específica que tenés que usar un balun
+para esta antena.</p>
+<p>¿...qué carajo es un balun?</p>
+<p><a href="https://ludens.cl/Radiacti/topicos/balun/balun.htm" target="_blank" rel="noopener noreferrer" class="">Acá</a> tenés una explicación
+detallada que incluso explica las diferentes formas de balunes que existen.</p>
+<p>Yo no leí esa explicación detallada. Pero según lo que sé actualmente: la
+impedancia es la oposición al paso de la corriente alterna, medida en Ohms. Las
+antenas tienen una impedancia dada. Los cables coaxiales también tienen una
+impedancia, que puede ser distinta a la de la antena. El receptor SDR también
+maneja un valor impedancia. Si en tu sistema antenístico no intentás "arreglar"
+las diferencias entre impedancias, vas a tener peor rendimiento y pérdidas en la
+señal. Los balunes ayudan a regular la impedancia y que todo el sistema trabaje
+bajo un mismo valor.<sup><a href="https://linternita.com/blog/antenas-diy#note-3" class="">3</a></sup></p>
+<p>En fin. Hay varias formas de hacer un balun casero. Una de ellas consiste en
+agarrar un toroide de ferrita y darle una cierta cantidad de vueltas con un
+cable de cobre.</p>
+<p>Las plaquetas de dispositivos electrónicos antiguos suelen tener estos toroides.
+Se ven así:</p>
+<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="toroides" src="https://linternita.com/assets/images/toroides-cf6c4a3675f9f70aeff7fa21479f6ec8.jpg" width="350" height="350" class="img_ev3q"></p></div>
+<p>En mi caso, saqué uno de una motherboard rota y lo convertí en el peor balun del
+mundo. Digo esto porque al armar un balun tenés que tener en cuenta las
+dimensiones del toroide y las cantidad de vueltas que le das con el cable. Yo no
+tuve en cuenta nada.</p>
+<div id="note-3" style="scroll-margin:100px;background-color:lightgreen;position:relative;border-top-right-radius:20px;border-bottom-right-radius:20px;padding:0.5em 1em;margin-bottom:1em"><span><b><i>Linter-nota <!-- -->3<!-- -->:</i></b></span><p>Después de toda esta explicación, estarás pensando: "wow sí o sí necesito un
+balun si quiero recibir señales".</p><p>No. Las diferencias de impedancia afectan más a la transmisión de señales que a
+la recepción. Las pérdidas que tengas por no usar un balun al recibir señales
+son negligibles. Así que no te preocupes y no gastes tiempo en construir o
+conseguir uno.</p><p>Yo no lo sabía en ese momento.</p></div>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="qué-logré-capturar-1">¿Qué logré capturar?<a href="https://linternita.com/blog/antenas-diy#qu%C3%A9-logr%C3%A9-capturar-1" class="hash-link" aria-label="Enlace directo al ¿Qué logré capturar?" title="Enlace directo al ¿Qué logré capturar?" translate="no">​</a></h3>
+<p>Nada fuera de estaciones de radio FM.</p>
+<p>Realmente me rendí con esta antena. Si bien logré armar el bucle y
+conectar/soldar todo másomenos como se debía, no tenía manera fácil de conservar
+la forma circular de la antena y subirla a mi techo para poder capturar más
+cosas.</p>
+<p>De todas formas, es un diseño de antena interesante. Si algún día ves un pedazo
+de cable coaxial cortado en la calle, tranquilamente lo podrías intentar
+convertir en una antena de estas.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="antena-dipolo-v-invertida">Antena dipolo V invertida<a href="https://linternita.com/blog/antenas-diy#antena-dipolo-v-invertida" class="hash-link" aria-label="Enlace directo al Antena dipolo V invertida" title="Enlace directo al Antena dipolo V invertida" translate="no">​</a></h2>
+<p>Ante el fracaso de la antena de bucle volví a lo simple, a lo que sabía que
+funcionaba. Dipolo my beloved.</p>
+<p>El dipolo V invertida es una variación del dipolo estándar. En este caso, en vez
+de tener las dos patas horizontales, están orientadas hacia abajo, formando una
+V invertida:</p>
+<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="inverted-vee" src="https://linternita.com/assets/images/inverted-vee-38e53c44c66807c4b5f9abc1699f0e91.jpg" width="1280" height="720" class="img_ev3q"></p></div>
+<p>¿Cuál es la ventaja de hacer esta antena?</p>
+<p>Como la imagen lo muestra, en el dipolo estándar necesitás tener 2 soportes para
+fijar cada pata. En el dipolo invertido solo usás un soporte, y las patas las
+fijás en el piso.</p>
+<p>Además este tipo de antena tiene menor impedancia que el dipolo estándar pero no
+vamos a ahondar en eso.</p>
+<p>En este caso quería construir una antena con una frecuencia resonante de 30 MHz.
+Según <a href="https://k7mem.com/Ant_Inverted-V.html" target="_blank" rel="noopener noreferrer" class="">la calculadora</a> que usé, estas
+serían las dimensiones finales:</p>
+<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="inverted-vee-dim" src="https://linternita.com/assets/images/inverted-vee-dim-be550b0cf3c7d8a000945ffb95a68dca.png" width="710" height="468" class="img_ev3q"></p></div>
+<p>Un mástil de 1.76 metros de altura, con cada pata midiendo 2.28 metros de largo
+(sin contar los soportes). El largo total de la antena ocupa 3.52 metros.</p>
+<p>La lista de materiales es casi la misma que el dipolo original. Fibrofácil,
+caños, cables, tornillos.</p>
+<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="my-vee-1" src="https://linternita.com/assets/images/my-vee-1-b13cef05df907ca49bd1732f1f61e1da.jpg" width="4096" height="2304" class="img_ev3q"></p><p><img decoding="async" loading="lazy" alt="my-vee-2" src="https://linternita.com/assets/images/my-vee-2-be623d40ab2ef727164cec58464517dc.jpg" width="4096" height="2304" class="img_ev3q"></p><p><em>balun incluido!!!1</em></p><p><img decoding="async" loading="lazy" alt="my-vee-3" src="https://linternita.com/assets/images/my-vee-3-5dff5c54c3fe3f5b044070b79f36789e.jpg" width="4096" height="2304" class="img_ev3q"></p><p><img decoding="async" loading="lazy" alt="my-vee-4" src="https://linternita.com/assets/images/my-vee-4-440007e646dbed8115ad305c68531994.jpg" width="4096" height="2304" class="img_ev3q"></p></div>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="qué-logré-capturar-2">¿Qué logré capturar?<a href="https://linternita.com/blog/antenas-diy#qu%C3%A9-logr%C3%A9-capturar-2" class="hash-link" aria-label="Enlace directo al ¿Qué logré capturar?" title="Enlace directo al ¿Qué logré capturar?" translate="no">​</a></h3>
+<p>De todo, menos cosas en la frecuencia resonante.</p>
+<p>Esto es por varias razones, pero principalmente porque desplegué la antena así
+no más. En general, se recomienda tener las antenas lo más alto posible,
+alejadas de otros elementos que puedan causar interferencias (metales, cables,
+árboles, dispositivos electrónicos). Digamos que mi antena no estaba muy
+alejada.</p>
+<p>Otra cosa que aprendí al momento de construir esta antena es a usar el control
+de ganancia en la aplicación de SDR que uso en la computadora. Básicamente el
+control de ganancia te permite "amplificar" (con muchas comillas) las señales
+que estás recibiendo, haciendo más fácil distinguirlas.</p>
+<p>Esto, más el hecho de que es una antena más grande y que estaba más alta que el
+primer dipolo, me permitió capturar:</p>
+<ul>
+<li class="">Torres de control de aeropuertos</li>
+<li class="">Aviones</li>
+<li class="">Comunicaciones entre radioaficionados</li>
+</ul>
+<p>Lo que más me sorprendió es que logré capturar a un radioaficionado que estaba
+hablando a través de un handy a 60 km de distancia de mi casa.</p>
+<p>El siguiente video tiene una recopilación de capturas que realicé con la antena.</p>
+<div style="margin:0 auto;text-align:center"><iframe style="width:100%;height:315px" src="https://www.youtube.com/embed/UelA5lQTM6c" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></div>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="notas-finales">Notas finales<a href="https://linternita.com/blog/antenas-diy#notas-finales" class="hash-link" aria-label="Enlace directo al Notas finales" title="Enlace directo al Notas finales" translate="no">​</a></h2>
+<p>que divertido, no?</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="próximamente">Próximamente<a href="https://linternita.com/blog/antenas-diy#pr%C3%B3ximamente" class="hash-link" aria-label="Enlace directo al Próximamente" title="Enlace directo al Próximamente" translate="no">​</a></h2>
+<p>Cómo armar un radiotelescopio casero en tu casa usando materiales reciclados</p>]]></content>
+        <author>
+            <name>Linter Nita</name>
+        </author>
+        <category label="diy" term="diy"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[¿nos hizo la tecnología más tontos?]]></title>
         <id>https://linternita.com/blog/tecnologia-hizo-tontos</id>
@@ -4058,355 +4325,5 @@ donde fue económicamente viable gracias a China.</p>
             <name>Linter Nita</name>
         </author>
         <category label="random" term="random"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Sobre blockchain]]></title>
-        <id>https://linternita.com/blog/blockchain</id>
-        <link href="https://linternita.com/blog/blockchain"/>
-        <updated>2025-06-20T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[¿Qué era eso de lo que todo el mundo estaba hablando entre 2016 y 2021?]]></summary>
-        <content type="html"><![CDATA[<p>¿Qué era eso de lo que todo el mundo estaba hablando entre 2016 y 2021?</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="introducción">Introducción<a href="https://linternita.com/blog/blockchain#introducci%C3%B3n" class="hash-link" aria-label="Enlace directo al Introducción" title="Enlace directo al Introducción" translate="no">​</a></h2>
-<p>Si estabas vivo entre 2016 y 2021 es casi seguro que, incluso en contra de tu
-voluntad, hayas sido bombardeado con alguna de las siguientes palabras o
-términos: blockchain, Bitcoin, criptomonedas, NFTs, Proof of Work...</p>
-<p>Es inevitable: en estos tiempos que vivimos cuando surge una nueva tecnología
-"prometedora" la misma es ovacionada y aclamada como si fuese la segunda venida
-de &lt;INSERTAR MESÍAS ACA SEGUN TU RELIGIÓN&gt;. Después de un rato, cuando el humo
-comienza a disiparse, se ven las cosas como son y lo que prometía ser una
-revolución de la humanidad pasa a un relativo olvido.</p>
-<p><strong>Blockchain</strong> es una de estas tecnologías. Algo que, según algunos, prometía
-<em>ser la rampa de la humanidad hacia el futuro</em><sup><a href="https://linternita.com/blog/blockchain#note-1" class="">1</a></sup>, algo que
-fue tan popular que <em>crypto</em> se convirtió en sinónimo de criptomonedas (en vez
-de criptografía), pero que hoy en día quedó en segundo plano, reemplazada por
-otra tecnología que está siendo aclamada y ovacionada como la nueva "cosa
-caliente".</p>
-<p>Pero es muy fácil criticar una cosa cuando ya pasó su momento de fama y sus
-promesas resultaron ser vacías. Lo difícil es sostener este escepticismo cuando
-las cosas se están desarrollando en vivo y en directo. Para eso no hay mejor
-arma que el conocimiento: saber y entender cómo funciona algo es fundamental
-para no ser arrastrado por olas masivas de desinformación y sensacionalismo.</p>
-<p>Por eso, más tarde que nunca y sin que sea de mucha utilidad, en este post vamos
-a explicar: <strong>¿¿QUÉ ES UNA CADENA DE BLOQUES Y QUÉ TIENE DE IMPORTANTE??</strong></p>
-<p><em><sup><a name="note-1">1</a>:</sup> Fragmento extraído de una conversación que
-tuve con una persona, la cual lo dijo con absoluta seriedad y convicción.</em></p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="qué-es-una-cadena-de-bloques-y-qué-tiene-de-importante">¿¿QUÉ ES UNA CADENA DE BLOQUES Y QUÉ TIENE DE IMPORTANTE??<a href="https://linternita.com/blog/blockchain#qu%C3%A9-es-una-cadena-de-bloques-y-qu%C3%A9-tiene-de-importante" class="hash-link" aria-label="Enlace directo al ¿¿QUÉ ES UNA CADENA DE BLOQUES Y QUÉ TIENE DE IMPORTANTE??" title="Enlace directo al ¿¿QUÉ ES UNA CADENA DE BLOQUES Y QUÉ TIENE DE IMPORTANTE??" translate="no">​</a></h2>
-<p>Antes de meternos de lleno en este grandioso tema hay que detallar algunos
-conceptos.</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="qué-es-una-aplicación-distribuida">¿Qué es una aplicación distribuida?<a href="https://linternita.com/blog/blockchain#qu%C3%A9-es-una-aplicaci%C3%B3n-distribuida" class="hash-link" aria-label="Enlace directo al ¿Qué es una aplicación distribuida?" title="Enlace directo al ¿Qué es una aplicación distribuida?" translate="no">​</a></h3>
-<p>Una aplicación distribuida es un programa/software donde los componentes que lo
-conforman se encuentran ubicados (o distribuidos) en diferentes computadoras
-conectadas entre sí por medio de una red.</p>
-<p>Dichos componentes se comunican a través de mensajes, que son enviados por la
-red, con el objetivo de brindar un servicio o proporcionar alguna funcionalidad
-en específico.</p>
-<p>Las computadoras que son parte de la aplicación suelen conocerse como <em>nodos</em>.
-Cada nodo posee sus propios recursos (memoria, almacenamiento, ancho de banda,
-etc.), y a su vez, un nodo puede ejercerse diferentes tareas y asumir distintos
-roles.</p>
-<p>Existen distintas formas de armar una red para una aplicación distribuida. En
-este caso vamos a mencionar solo dos:</p>
-<ul>
-<li class="">Arquitectura cliente-servidor</li>
-<li class="">Arquitectura Peer to Peer (P2P)</li>
-</ul>
-<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="cliente-servidor">Cliente servidor<a href="https://linternita.com/blog/blockchain#cliente-servidor" class="hash-link" aria-label="Enlace directo al Cliente servidor" title="Enlace directo al Cliente servidor" translate="no">​</a></h4>
-<div style="display:flex;justify-content:center"><p><img decoding="async" loading="lazy" alt="red-cliente-servidor" src="https://linternita.com/assets/images/red-cliente-servidor-e27ec7257914642e077118ebbb0ccd71.png" width="266" height="275" class="img_ev3q"></p></div>
-<p>Quizá sea la forma más popular de armar una aplicación distribuida, ya que en
-general la mayoría de las aplicaciones que usamos hoy en día utilizan esta
-arquitectura.</p>
-<p>En este caso, tenemos un nodo central que actúa como servidor. ¿Servidor de qué?
-De alguna funcionalidad o servicio (de ahí su nombre, se llama servidor porque
-provee un servicio...).</p>
-<p>Mientras que el resto de los nodos son considerados clientes: consumen y
-solicitan los servicios ofrecidos por el servidor.</p>
-<p>Lo importante es saber que la carga pesada de la aplicación la lleva el
-servidor, y que no hay colaboración directa entre los clientes al momento de
-ofrecer el servicio.</p>
-<p>Veamos un ejemplo: imaginate una aplicación como Instagram. Cada persona que
-tiene la aplicación descargada en su celular es un cliente. Cuando abrís la
-aplicación y empezás a... consumir contenido (o lo que sea), tu celular se
-comunica con un servidor y es el servidor el que responde con el contenido que
-estás viendo.</p>
-<p>Y si bien es posible que dos usuarios de Instagram se comuniquen, esta
-comunicación no es directa, no sucede "cliente a cliente". La misma "pasa" a
-través del servidor. Si se caen los servidores de Instagram, los clientes quedan
-inutilizables, incapaces de consumir cualquier servicio.</p>
-<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="peer-to-peer">Peer to Peer<a href="https://linternita.com/blog/blockchain#peer-to-peer" class="hash-link" aria-label="Enlace directo al Peer to Peer" title="Enlace directo al Peer to Peer" translate="no">​</a></h4>
-<div style="display:flex;justify-content:center"><p><img decoding="async" loading="lazy" alt="red-p2p" src="https://linternita.com/assets/images/red-p2p-fa24aefbf8409e1b7841279f13950422.png" width="266" height="275" class="img_ev3q"></p></div>
-<p>En este caso, cada computadora (nodo) perteneciente a la red contribuye a
-brindar el servicio. Los nodos actúan como clientes <em>y</em> proveedores. De esta
-forma, los mismos "comparten" una porción de sus recursos (memoria, espacio en
-disco, ancho de banda) con los otros miembros de la red.</p>
-<p>No existe un nodo "central" (o si lo hay, su importancia queda reducida), y ya
-no tenemos el problema de que si se cae el servidor nuestra aplicación queda
-inutilizable. Para que la aplicación deje de funcionar, se tendrían que caer
-<em>todos</em> los nodos de la red. Es decir, en comparación con la anterior, esta
-arquitectura es más resiliente ante fallos.</p>
-<p>Veamos un ejemplo: aplicaciones de
-<a href="https://linternita.com/blog/tecnologia-actual-torrents" target="_blank" rel="noopener noreferrer" class="">torrents</a>. Cuando
-descargás un archivo usando un cliente de torrents, no lo descargás desde un
-servidor central, si no de los diferentes nodos que hay en la red P2P que posean
-una copia del archivo. A su vez, a medida que lo vas descargando, tu computadora
-ahora se vuelve capaz de compartirlo a otros nodos. Es decir: no solo actuás
-como un cliente solicitando un archivo, si no que tambén actuás como servidor
-proveyendo ese archivo a otros.</p>
-<p>Qué tecnología impresionante, ¿no?</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="esquema-centralizado-vs-descentralizado">Esquema centralizado vs descentralizado<a href="https://linternita.com/blog/blockchain#esquema-centralizado-vs-descentralizado" class="hash-link" aria-label="Enlace directo al Esquema centralizado vs descentralizado" title="Enlace directo al Esquema centralizado vs descentralizado" translate="no">​</a></h3>
-<p>En términos de informática, la centralización/descentralización hace referencia
-a dónde están ubicados los recursos/quién es el que provee los servicios de una
-aplicación.</p>
-<p>En un esquema centralizado, la mayoría de los recursos se encuentran en una sola
-ubicación, y los servicios son ofrecidos por una sola computadora que actúa como
-servidor.</p>
-<p>En un esquema descentralizado, los recursos se encuentran desparramados en
-diferentes computadoras, y no hay una sola computadora de la cual dependa el
-servicio.</p>
-<p>O al menos, esto era así en los inicios de la computación. Hoy en día la
-definición no es tan literal.</p>
-<p>No es que Instagram (nuevamente como ejemplo) tenga solamente UNA computadora
-donde almacenan toda la información y que provee todos los recursos para brindar
-su servicio. Tiene varias (más de 2 seguramente), posicionadas en distintas
-ubicaciones geográficas incluso. Todas estas actúan como servidores de la
-aplicación.</p>
-<p>Es por eso que tenemos que alejarnos un poco y verlo de forma más abstracta: sí,
-tiene distintos servidores, pero aún así posee la forma de un esquema
-centralizado. Todo lo que pasa en la aplicación depende de los servidores, y los
-clientes no tienen injerencia alguna, y no pueden colaborar con sus recursos
-para ayudar a ofrecer el servicio.</p>
-<p>En temas relacionados a Blockchain, la descentralización es algo nombrado a
-menudo y con cierta relevancia. Tiene este aspecto tanto técnico que acabamos de
-mencionar, como también un aspecto filosófico/ideológico.</p>
-<p>EJERCICIO PARA EL LECTOR: ¿CUÁL DE LAS ARQUITECTURAS DE APLICACIONES
-DISTRIBUIDAS QUE VIMOS SE PRESTA MEJOR PARA CADA ESQUEMA? MANDÁ TUS RESPUESTAS A
-<a href="mailto:iluminame@linternita.com" target="_blank" rel="noopener noreferrer" class="">iluminame@linternita.com</a></p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="la-cadena-de-bloques"><a href="https://open.spotify.com/intl-es/track/5e9TFTbltYBg2xThimr0rU" target="_blank" rel="noopener noreferrer" class="">La cadena</a> de bloques<a href="https://linternita.com/blog/blockchain#la-cadena-de-bloques" class="hash-link" aria-label="Enlace directo al la-cadena-de-bloques" title="Enlace directo al la-cadena-de-bloques" translate="no">​</a></h3>
-<p>Bueno BASTA de preámbulos. ¿Qué es esto? ¿Por qué es tan importante? ¿Por qué
-todavía te sigo escuchando decir que nunca romperías la cadena?</p>
-<p>Es como un libro contable.</p>
-<p>Un libro contable digital.</p>
-<p>En un libro contable se registran las transacciones que ocurrieron en un período
-de tiempo. Por ejemplo, si tenés un emprendimiento de ropa, cada venta que
-realices es una transacción que será registrada en una nueva línea dentro de una
-página del libro contable.</p>
-<div style="display:flex;justify-content:center"><p><img decoding="async" loading="lazy" alt="libro-contable" src="https://linternita.com/assets/images/libro-contable-07fb3cd7cc3730be9b9fd235136e4833.png" width="407" height="229" class="img_ev3q"></p></div>
-<p>Con una blockchain podemos hacer prácticamente lo mismo: mantener un registro de
-sucesos que ocurrieron en un determinado tiempo y orden. Pero como estamos en el
-mundo digital, en vez de agrupar las transacciones en una página de un libro,
-las agrupamos en una estructura de datos que recibe el nombre de <strong>bloque</strong>.</p>
-<p>Y así como las páginas de un libro se siguen una con la otra, los bloques se
-enlazan uno con otro formando una <strong>cadena</strong>.</p>
-<p><strong>Lector/a de Linternita.com:</strong> Ok. Todo esto es llamativo. Pero sigo sin
-entender por qué tanto revuelo. Visa existe desde 1970 y ya en 1973 estaban
-usando un sistema computarizado para agilizar el procesamiento de transacciones
-de tarjetas de crédito. ¿Me estás queriendo decir que el mundo no tenía una
-forma de registrar transacciones digitalmente hasta que surgió todo esto de
-blockchain?</p>
-<p>No. Justamente, mantener un registro de digital transacciones era un problema
-resuelto hace mucho tiempo.</p>
-<p>Pero a diferencia del servicio ofrecido por Visa (o cualquier otra institución
-financiera), manejar transacciones usando blockchain tiene las siguientes
-ventajas:</p>
-<ul>
-<li class="">
-<p><strong>Inalterabilidad de la cadena:</strong> la forma en la que están enlazados los
-bloques hace que la cadena sea inalterable. Es decir: una vez que un bloque es
-agregado a la cadena, no hay forma de modificarlo, ni de añadirle o quitarle
-transacciones. El <strong>esfuerzo computacional</strong> que llevaría hacer esas
-modificaciones es tan grande que lo convierte en algo fútil.</p>
-<p>Esto <em>no</em> pasa con una tarjeta de crédito, donde las transacciones pueden ser
-disputadas/desconocidas, obligando a la institución financiera a mediar.
-Dependiendo del resultado de la mediación, la transacción puede ser alterada.
-Por lo tanto, el registro de transacciones no está escrito en piedra.</p>
-</li>
-<li class="">
-<p><strong>Descentralización:</strong> cuando hacés una compra con una tarjeta de crédito
-(Visa, Mastercard, etc) la misma es procesada por una institución financiera.
-Todas las transacciones pasan a través de sus servidores y son estos los que
-tienen la última palabra. Es decir: siguen un esquema centralizado.</p>
-<p>¿Cuál es el problema de esto? Que el manejo de tu transacción depende total y
-absolutamente de un único tercero. En cambio, en blockchain, las transacciones
-son manejadas por los distintos nodos de una red Peer to Peer. No hay una
-autoridad central, todos los nodos de la red trabajan para brindar el
-servicio.</p>
-</li>
-</ul>
-<p>No necesariamente usemos una cadena de bloques para registrar transacciones
-comerciales (compras, ventas, uso de tarjetas de crédito, etc). Podemos usarlas
-para registrar cualquier suceso. Pero torné el post para este lado para hablar
-de la primera aplicación que utilizó la tecnología blockchain...</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="bitcoin">Bitcoin<a href="https://linternita.com/blog/blockchain#bitcoin" class="hash-link" aria-label="Enlace directo al Bitcoin" title="Enlace directo al Bitcoin" translate="no">​</a></h2>
-<p>¿Existe alguna forma de crear un sistema de pagos electrónico que no dependa en
-depositar toda la confianza en un tercero?</p>
-<p><em>Esa</em> pregunta es la razón de existir de Bitcoin. Esa fue la razón por la cual
-surgió todo esto. O al menos eso es lo que dice el autor en el paper titulado
-<a href="https://bitcoin.org/bitcoin.pdf" target="_blank" rel="noopener noreferrer" class="">Bitcoin: A Peer-to-Peer Electronic Cash System</a>.</p>
-<p>Para crear este sistema de pagos, Bitcoin utiliza los conceptos que venimos
-viendo hasta el momento: hay una cadena de bloques inalterable donde se
-registran las transacciones, es una aplicación distribuida que sigue un esquema
-descentralizado, utiliza la arquitectura Peer to Peer...</p>
-<p>Pero un sistema de pagos involucra más cosas que solamente registrar que se
-realizó una transacción. Tiene que haber un movimiento de plata desde el pagador
-al pagado. También, al ser un sistema electrónico, hay que tener especial
-cuidado para no caer en el problema del
-<a href="https://es.wikipedia.org/wiki/Doble_gasto" target="_blank" rel="noopener noreferrer" class="">doble gasto</a> (cosa que no pasa con
-dinero físico porque no podés gastar el mismo billete dos veces).</p>
-<p>Si empezamos a hilar fino, surgen muchas preguntas: ¿cómo se valida que la
-persona que está pagando tiene los suficientes fondos para hacer el pago? ¿Qué
-evita que un nodo introduzca transacciones falsas en la cadena de bloques? ¿De
-dónde sale el incentivo para que alguien quiera poner una computadora como nodo
-de la red y ofrecer sus recursos para que el sistema funcione?</p>
-<p>Hagamos un recorrido top-down de los elementos que conforman Bitcoin para
-intentar responder estas preguntas.</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="bloques">Bloques<a href="https://linternita.com/blog/blockchain#bloques" class="hash-link" aria-label="Enlace directo al Bloques" title="Enlace directo al Bloques" translate="no">​</a></h3>
-<p>Los bloques agrupan transacciones y están encadenados uno con el otro.</p>
-<div style="display:flex;justify-content:center"><p><img decoding="async" loading="lazy" alt="bitcoin-blocks" src="https://linternita.com/assets/images/bitcoin-blocks-85b8626da3c4ec804f7a9a060a9858fc.png" width="1080" height="283" class="img_ev3q"></p></div>
-<p>Para "encadenar" los bloques se incluye una referencia al
-<a href="https://es.wikipedia.org/wiki/Funci%C3%B3n_hash" target="_blank" rel="noopener noreferrer" class="">hash</a> del bloque anterior.
-Para hacerlo simple, una <em>función hash</em> toma una entrada y devuelve un valor
-único que depende de esa entrada. De ahora en adelante cuando mencione "hash"
-voy a estar haciendo referencia al valor único que se obtiene.</p>
-<p>Y acá pasa algo importante: este hash no es cualquier hash. Al momento de crear
-un bloque nuevo, Bitcoin impone una restricción: <strong>el hash resultante de este
-bloque tiene que contener un número de bits que estén en cero</strong>.</p>
-<p>Recordemos que el valor del hash calculado <em>depende</em> de la entrada. Si nuestra
-entrada es siempre la misma, obtendremos el mismo valor.</p>
-<p>Los bloques en Bitcoin tienen un campo extra llamado <em>nonce</em>. Este campo es un
-número, y la idea es que este número puede ser incrementado/modificado cuantas
-veces queramos, con el objetivo de poder generar hashes distintos para el mismo
-bloque.</p>
-<p>Calcular <em>un</em> hash es algo que se puede hacer relativamente rápido. El problema
-acá es que no nos sirve cualquier hash, necesitamos obtener sí o sí uno que
-tenga N bits con valor cero. No hay forma fácil de hacer esto. No queda otra que
-hacerlo a "fuerza bruta": empezar con un nonce, calcular el hash, verificar si
-tiene N bits en 0, incrementar el nonce, calcular el hash, verificar si tiene N
-bits en 0, incrementar el nonce...</p>
-<p>Esto es un proceso <em>muy</em> lento. Comúnmente recibe el nombre de "minado" y hay
-nodos dentro de la red que solamente se encargan de <em>minar</em> el bloque, es decir,
-calcular un hash válido para que el bloque sea añadido a la cadena.</p>
-<p>Una vez que se obtiene un hash válido, el nodo que lo obtuvo difunde el bloque a
-toda la red, otros nodos verifican que este todo sea correcto, y ese bloque
-queda oficialmente añadido a la cadena.</p>
-<p>Supongamos que tenemos tres bloques A, B, y C en este orden:</p>
-<div style="display:flex;justify-content:center"><p>A --&gt; B --&gt; C</p></div>
-<p>Si un nodo "maligno" quisiera tomar ventaja del sistema y modificar el bloque A
-con transacciones que le sean favorables, debería volver a calcular el hash del
-bloque A.</p>
-<p>Y el hash del bloque B, porque el bloque B tiene una referencia al de A.</p>
-<p>Y el hash del bloque C, porque el bloque C tiene una referencia al de B.</p>
-<p>Ya de por sí es bastante complicado calcular el hash para <em>un</em> solo bloque, pero
-este nodo maligno está intentando calcular los hashes para 3 bloques distintos
-con el fin de modificar la "historia" de la blockchain.</p>
-<p>Y no solo eso: mientras este nodo está ocupado calculando esos 3 hashes, los
-otros nodos "honestos" están trabajando para expandir la cadena con nuevos
-bloques. En Bitcoin la cadena "verdadera" es aquella que sea la más larga. Así
-que el nodo maligno tendría que, de alguna forma, sobrepasar a los demás nodos
-honestos y tratar de crear una cadena más larga que ellos.</p>
-<p>Mientras la red de Bitcoin esté compuesta por una mayoría de nodos honestos, es
-efectivamente imposible que un nodo con malas intenciones introduzca cambios en
-la historia de la cadena.</p>
-<p>Por eso la cadena es inalterable.</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="el-incentivo-de-minar-bloques">El incentivo de "minar" bloques<a href="https://linternita.com/blog/blockchain#el-incentivo-de-minar-bloques" class="hash-link" aria-label="Enlace directo al El incentivo de &quot;minar&quot; bloques" title="Enlace directo al El incentivo de &quot;minar&quot; bloques" translate="no">​</a></h3>
-<p>Cada vez que un nodo calcula un hash válido y difunde el nuevo bloque, recibe
-"monedas".</p>
-<p>La primera transacción que se incluye en el nuevo bloque es una transacción que
-le atribuye monedas al nodo que lo está intentando minar.</p>
-<p>También existe otro incentivo, las <em>tarifas de transacción</em>, que también son
-atribuidas al nodo.</p>
-<p>De esta forma, un nodo gana "plata" haciendo su trabajo. Es recompensado por los
-recursos que está poniendo a disposición. Además, el incentivo monetario ayuda a
-que el nodo se mantenga honesto: es preferible hacer las cosas bien y ganar
-monedas que arriesgarse a rescribir la cadena de bloques, comprometiendo al
-sistema y la validez del mismo.</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="unspent-transaction-outputs-utxos">Unspent Transaction Outputs (UTXOs)<a href="https://linternita.com/blog/blockchain#unspent-transaction-outputs-utxos" class="hash-link" aria-label="Enlace directo al Unspent Transaction Outputs (UTXOs)" title="Enlace directo al Unspent Transaction Outputs (UTXOs)" translate="no">​</a></h3>
-<p>Los UTXOs son análogos a los billetes que usamos para pagar algo. Son
-efectivamente la "moneda" que se usa en Bitcoin al momento de realizar una
-transacción.</p>
-<p>Un UTXO es una estructura de datos que almacena un valor que representa una
-cantidad de monedas y cierta información que ayuda a identificar a quién le
-pertenecen esas monedas.</p>
-<p>Como su nombre lo indica, los UTXOs son la "salida" que se obtiene luego de
-realizar una transacción. Estas salidas permanecen "no gastadas" (unspent) hasta
-que... alguien las gasta en una transacción, generando nuevos UTXOs en el
-proceso (pero que tendrán distinto dueño).</p>
-<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="btc-bonafide" src="https://linternita.com/assets/images/btc-bonafide-64b90d99438309b8fac013808c537dd5.png" width="494" height="356" class="img_ev3q"></p><p><em>Figura 1: Probablemente el café más caro de la historia</em></p></div>
-<p>En el diagrama de arriba podemos ver un ejemplo donde Bob utiliza un UTXO con
-valor de 5 monedas para comprar un café que con valor de 3. Cuando la
-transacción se realiza, el UTXO de 5 monedas se convierte en un Spent
-Transaction Output (se gasta), y al mismo tiempo se generan dos nuevos UTXOs,
-uno de valor 3 del cual Bonafide pasa a ser dueño, y el vuelto con valor 2 que
-es de Bob.</p>
-<p>Todos los nodos que conforman la red Bitcoin mantienen una copia del conjunto de
-UTXOs en su totalidad, actualizándola a medida que suceden nuevas transacciones.
-Este conjunto de UTXOs es usado para verificar que una transacción sea válida
-(es decir: que los UTXOs no hayan sido ya gastados en otra transacción,
-incurriendo en doble gasto).</p>
-<p><strong>¿Cómo se genera el conjunto de UTXOs? ¿Cómo funciona la validación de una
-transacción?</strong> 📌</p>
-<p>Esas son muy buenas preguntas a las cuales les pondremos un "pin" y
-responderemos luego.</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="transacciones">Transacciones<a href="https://linternita.com/blog/blockchain#transacciones" class="hash-link" aria-label="Enlace directo al Transacciones" title="Enlace directo al Transacciones" translate="no">​</a></h3>
-<p>Las transacciones son un registro de los pagos dentro del sistema. Y al igual
-que los bloques, las transacciones <em>también</em> están enlazadas.</p>
-<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="transaction-overview" src="https://linternita.com/assets/images/transaction-overview-d182adb8f59e6b018e5330c7d2f68cb4.png" width="1600" height="900" class="img_ev3q"></p><p><em>Vista simplificada de las transacciones en Bitcoin</em></p></div>
-<p>Una transacción puede tener múltiples entradas y salidas. Las salidas de una
-transacción son los UTXOs (que acabamos de ver), y las entradas... son los UTXOs
-también.</p>
-<p>La estructura real de una transacción en Bitcoin es algo como esto:</p>
-<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="bitcoin-transaction" src="https://linternita.com/assets/images/bitcoin-transaction-99e693517c20640163dfaf91a4a4c0bd.png" width="491" height="388" class="img_ev3q"></p></div>
-<p>Un UTXO es identificado de forma única utilizando el <em>hash</em> de la transacción de
-donde surgió, y además, usando el <em>output index</em>, un número que indica cuál de
-las múltiples salidas de una transacción es esta.</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="cómo-se-genera-el-conjunto-de-utxos-cómo-se-valida-una-transacción">¿Cómo se genera el conjunto de UTXOs? ¿Cómo se valida una transacción?<a href="https://linternita.com/blog/blockchain#c%C3%B3mo-se-genera-el-conjunto-de-utxos-c%C3%B3mo-se-valida-una-transacci%C3%B3n" class="hash-link" aria-label="Enlace directo al ¿Cómo se genera el conjunto de UTXOs? ¿Cómo se valida una transacción?" title="Enlace directo al ¿Cómo se genera el conjunto de UTXOs? ¿Cómo se valida una transacción?" translate="no">​</a></h3>
-<p>Tiempo de sacar el pin y responder estas preguntas.</p>
-<p>Un nodo tiene acceso a toda la cadena de bloques, es decir, al historial
-completo de transacciones.</p>
-<p>Para generar el conjunto de UTXOs, un nodo recorre el historial de
-transacciones. A medida que avanza a través de cada bloque y transacción,
-realiza modificaciones en el conjunto. Cuando llega a la última transacción
-tendrá el conjunto de UTXOs final que representa el "estado actual".</p>
-<p>Este trabajo de recorrer toda la cadena de bloques se hace una sola vez. Después
-de eso, cuando se recibe un nuevo bloque, solo basta con analizar las
-transacciones dentro de ese bloque y actualizar el conjunto de UTXOs
-adecuadamente.</p>
-<p>Para saber si una nueva transacción es válida, el nodo tiene que verificar que
-los UTXOs que están siendo utilizados en las entradas de la misma se encuentren
-dentro del conjunto. Si no están, es posible que ya hayan sido gastados en una
-transacción previa, por lo que esta nueva transacción queda invalidada.</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="conclusiones">Conclusiones<a href="https://linternita.com/blog/blockchain#conclusiones" class="hash-link" aria-label="Enlace directo al Conclusiones" title="Enlace directo al Conclusiones" translate="no">​</a></h2>
-<p><strong>Lector/a de Linternita.com:</strong> ¿Eso es todo? ¿La gente se volvió loca por un
-sistema de pagos electrónico?</p>
-<p>Sí, más o menos.</p>
-<p>La verdad es que la tecnología y el concepto detrás de una blockchain <em>fue</em> algo
-innovador. Incluso impulsó y revitalizó el mundo de la criptografía (un tema que
-irónicamente evité lo más que pude en este post): una oleada de gente nueva se
-vio interesada en la criptografía, se crearon nuevos algoritmos y protocolos,
-algunos ideas y conceptos criptográficos que tenían poco uso práctico lo
-encontraron gracias a blockchain.</p>
-<p>Fuera de eso, no fue más que otra burbuja.</p>
-<p>Bitcoin y otras criptomonedas siguen existiendo y son utilizadas a día de hoy.
-Se pueden comprar cosas con criptomonedas, pero no es algo masivo y soportado
-por todos los comercios, ya que no se convirtió para nada en una moneda
-estándar.</p>
-<p>Pero más que nada las criptomonedas se terminaron usando como un activo
-financiero debido a la alta especulación y volatilidad del valor de las mismas.</p>
-<p>Se crearon otras cosas "interesantes" basadas en blockchain. Una de ellas fue la
-tan conocida estupidez de los NFTs. Otras fueron ideas un poco más inteligentes,
-como los <a href="https://es.wikipedia.org/wiki/Contrato_inteligente" target="_blank" rel="noopener noreferrer" class="">smart contracts</a>.</p>
-<p>Aún así, hoy (en 2025) el <em>hype</em> murió. No surgió ninguna aplicación o solución
-basada en blockchain que revolucionase al mundo (fuera de la locura financiera).
-Muchos se dieron cuenta que blockchain era "una solución sin problema", y con el
-tiempo, la industria la fue descartando y buscando algo nuevo en lo que
-centrarse.</p>
-<p>No es algo de lo que deberíamos sorprendernos. Después de todo, el mundo se
-mueve de burbuja en burbuja. Pasó en los 80s con la inteligencia artificial.
-Pasó en los 90s/00s con dot-com. Y pasó entre 2016 y 2021 (fechas aproximadas)
-con blockchain.</p>
-<p>Y en la actualidad estamos con mucho <em>hype</em> por la inteligencia artificial (de
-nuevo). Pero eso es un tema para otro post.</p>]]></content>
-        <author>
-            <name>Linter Nita</name>
-        </author>
-        <category label="linternita-enseña" term="linternita-enseña"/>
     </entry>
 </feed>
