@@ -68,7 +68,10 @@ const config: Config = {
         alt: "🔦",
         src: "img/logo.png",
       },
-      items: [{ to: "/blog", label: "Blog", position: "left" }],
+      items: [
+        { to: "/blog", label: "Blog", position: "left" },
+        { to: "/newsletter", label: "Newsletter", position: "left" },
+      ],
     },
     footer: {
       style: "dark",
