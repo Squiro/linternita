@@ -2,11 +2,493 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://linternita.com/blog</id>
     <title>Linternita Blog</title>
-    <updated>2026-08-13T00:00:00.000Z</updated>
+    <updated>2026-08-29T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://linternita.com/blog"/>
     <subtitle>Linternita Blog</subtitle>
     <icon>https://linternita.com/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[una gran TEMPESTad]]></title>
+        <id>https://linternita.com/blog/una-gran-tempestad</id>
+        <link href="https://linternita.com/blog/una-gran-tempestad"/>
+        <updated>2026-08-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Espiar las cosas que hacés es relativamente fácil. ¿Deberías estar preocupado?]]></summary>
+        <content type="html"><![CDATA[<p>Espiar las cosas que hacés es relativamente fácil. ¿Deberías estar preocupado?</p>
+<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="panoptico" src="https://linternita.com/assets/images/panoptico-2970ed1c5449036d61426c48347e2b14.png" width="600" height="594" class="img_ev3q"></p></div>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="la-cosa">La Cosa<a href="https://linternita.com/blog/una-gran-tempestad#la-cosa" class="hash-link" aria-label="Enlace directo al La Cosa" title="Enlace directo al La Cosa" translate="no">​</a></h2>
+<p>Agosto de 1945. La Segunda Guerra Mundial está llegando a su fin. Alemania,
+habiéndose rendido de forma incondicional, pasa a ser administrada por los
+Aliados según lo dictado por el Acuerdo de Postdam. A escasos días de comenzar
+el mes, el día 6 de agosto, Estados Unidos detonará una bomba que transportará
+el infierno a Japón...</p>
+<p>Pero dos días antes de que esto sucediese, ocurrió un simbolismo de menor
+importancia. El 4 de agosto de 1945 la Unión Soviética le regala al embajador
+americano W. Averell Harriman la siguiente placa conmemorativa:</p>
+<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="the-thing" src="https://linternita.com/assets/images/the-thing-cf240a2890df66d578f96fda4f2cdd19.jpg" width="1713" height="2001" class="img_ev3q"></p></div>
+<p>Esta placa contiene gravado en madera el
+<a href="https://es.wikipedia.org/wiki/Gran_sello_de_los_Estados_Unidos" target="_blank" rel="noopener noreferrer" class="">Gran Sello de los Estados Unidos</a>.</p>
+<p>Pese a ser presentado como un símbolo de amistad entre dos países aliados que
+lucharon a la par para finalizar la cruenta guerra, fue en realidad uno de los
+primeros dispositivos de espionaje basado en técnicas pasivas.</p>
+<p>Detrás del gravado se encontraba una cavidad que contenía un micrófono
+capacitivo muy simple y un pedazo de alambre que funcionaba como antena. No
+había ningún dispositivo eléctrico ni una fuente de alimentación que otorgase
+energía alguna.</p>
+<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="the-thing-open" src="https://linternita.com/assets/images/the-thing-open-1e7eff970f9264541699221ec1bf4796.jpg" width="960" height="720" class="img_ev3q"></p></div>
+<p>Durante 7 años los soviéticos espiaron las conversaciones que se tenían en la
+embajada estadounidense sin que nadie se enterase.</p>
+<p>Si sos un ávido lector de este blog, o si tenés una noción de cómo funcionan las
+antenas y los micrófonos, seguramente te estés preguntando cómo. ¿Cómo podían
+espiar las conversaciones si el aparato en sí no tenía energía ni partes
+eléctricas como para transmitir las ondas de sonido captadas por el micrófono?</p>
+<p>La energía necesaria para que La Cosa funcionase era transmitida a través de
+ondas de radio. Cuando los soviéticos querían escuchar una conversación,
+apuntaban un transmisor hacia la ubicación de la placa. La antena dentro de la
+misma captaba estas ondas emitidas por el transmisor, y al hacerlo, comenzaba a
+resonar y radiar sus propias ondas en forma de respuesta.</p>
+<p>Los sonidos capturados por el micrófono producían un cambio en la capacitancia,
+lo que alteraba las propiedades de las ondas de radio emitidas por la antena.
+Estos cambios pueden ser interpretados como una codificación del sonido
+capturado por el micrófono.</p>
+<p>Para finalizar el proceso, los soviéticos simplemente debían recibir las ondas
+emanadas por La Cosa y decodificar las alteraciones de las mismas en sonido.</p>
+<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="the-thing-schematic" src="https://linternita.com/assets/images/the-thing-schematic-4d4cdf3e344d6416e1b19591ee215056.png" width="1048" height="472" class="img_ev3q"></p></div>
+<p>Esto es, sin dudas, un aparato bastante ingenioso e increíblemente difícil de
+detectar. Dentro de la placa no había baterías, ningún mecanismo, nada pesado o
+algo que siquiera emitiera un sonido. Pasa completamente desapercibido a simple
+vista.</p>
+<p>Pero la característica que llevó a que el dispositivo fuera descubierto es la
+misma que lo hace algo tan ingenioso: podés esconder un micrófono y una antena,
+podés hacerlos funcionar sin ningún tipo de batería, pero no podés esconder las
+ondas de radio que estás emitiendo.</p>
+<p>Eventualmente, otra gente además de los soviéticos capturó en distintas
+ocasiones las emisiones producidas por La Cosa... Lo que llevo a que se
+realizaran inspecciones en la embajada hasta que descubrieron este aparato.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="radiación-electromagnética">Radiación electromagnética<a href="https://linternita.com/blog/una-gran-tempestad#radiaci%C3%B3n-electromagn%C3%A9tica" class="hash-link" aria-label="Enlace directo al Radiación electromagnética" title="Enlace directo al Radiación electromagnética" translate="no">​</a></h2>
+<p>Quiero resaltar esta parte de la anterior sección:</p>
+<blockquote>
+<p>no podés esconder las ondas de radio que estás emitiendo.</p>
+</blockquote>
+<p>Si sabés del tema es posible que estés diciendo "bueno, en realidad...", pero
+dejame usar esa frase como puntapié, ¿ok? Gracias.</p>
+<p>En el mundo moderno en el que vivimos estamos rodeados de radiación
+electromagnética creada por los dispositivos electrónicos que usamos a diario.
+Esta radiación no solo surge de aquellos dispositivos que cuentan con antenas,
+sino que básicamente <strong>cualquier dispositivo por el que pase una corriente
+eléctrica va a inducir un cambio en el campo
+electromagnético</strong>.<sup><a href="https://linternita.com/blog/una-gran-tempestad#note-1" class="">1</a></sup></p>
+<div id="note-1" style="scroll-margin:100px;background-color:lightgreen;position:relative;border-top-right-radius:20px;border-bottom-right-radius:20px;padding:0.5em 1em;margin-bottom:1em"><span><b><i>Linter-nota <!-- -->1<!-- -->:</i></b></span><details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>Nota larga pero importante</summary><div><div class="collapsibleContent_i85q"><p>Ateniéndonos a la mecánica clásica: una partícula cargada (como el electrón)
+genera un campo magnético sólo cuando está en movimiento. La generación de un
+campo magnético por sí solo no produce una onda electromagnética. Las ecuaciones
+de Maxwell establecen que un campo magnético <em>variable</em> en el tiempo actúa como
+fuente de campo eléctrico, y que un campo eléctrico que <em>varía</em> con el tiempo
+genera un campo magnético.</p><p>Supongamos que tenemos un cable por el que pasa corriente continua. Las cargas
+eléctricas que se muevan por el cable generarán un cambio en el campo magnético
+alrededor del mismo. Pero al ser corriente continua, no se produce ninguna
+variación en el movimiento de las cargas, por lo cual el campo magnético se
+mantendrá constante. De esta forma no podemos generar una onda electromagnética.</p><p>Para generar una onda electromagnética necesitamos que haya <em>cambios</em>, en el
+caso de cable podemos introducirlos al variar en el tiempo el voltaje o el
+amperaje de la energía que pasa a través del mismo.</p><p>En los dispositivos electrónicos que usamos a diario, a pesar de que muchos de
+ellos SON alimentados por corriente continua, los circuitos dentro de los mismos
+pueden provocar oscilaciones de corriente en el tiempo las cuales se traducirán
+en emisiones de ondas electromagnéticas.</p><p>Si algo de esto está mal quejate con Sears y Zemansky. O conmigo. Puede que me
+equivoque. Soy una linterna después de todo.</p></div></div></details></div>
+<p>Espero que hayas leído la nota porque es importante.</p>
+<p>A lo que quería ir con todo esto es que inevitablemente mucho de los
+dispositivos que usamos a diario emanan ondas electromagnéticas. Y estas ondas
+se esparcen libremente por el espacio, permitiendo a cualquiera (que cuente con
+una antena y algún que otro dispositivo) captarlas.</p>
+<p>Esto es un problema, porque las ondas emitidas por el dispositivo pueden llegar
+a revelar información acerca de lo que el mismo esté haciendo. Información que
+cualquiera podría captar. En criollo: el gobierno te está espiando y vigilando
+en este mismo momento.</p>
+<p>Estoy siendo bastante abstracto con lo de "cualquier dispositivo". Para darte
+una mejor idea, veamos algunos ejemplos que te pueden resultar cercanos.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="teclados">Teclados<a href="https://linternita.com/blog/una-gran-tempestad#teclados" class="hash-link" aria-label="Enlace directo al Teclados" title="Enlace directo al Teclados" translate="no">​</a></h3>
+<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="genius-keyboard" src="https://linternita.com/assets/images/genius-keyboard-213bb3e6122ea87dfef36549c94d19a5.jpg" width="2500" height="1313" class="img_ev3q"></p></div>
+<p>No voy a ahondar en profundidad acerca de cómo funciona un teclado de
+computadora contemporáneo. Pero en resumidas cuentas, cada vez que presionás una
+tecla, un conjunto de dígitos binario es enviado a la computadora. La
+computadora interpreta ese conjunto de dígitos como la tecla que presionaste y
+hace en consecuencia una acción, como, por ejemplo, imprimir por pantalla la
+letra correspondiente.</p>
+<p>Si tu teclado es inalámbrico no debería sorprenderte que el mismo emita ondas
+electromagnéticas en cada pulsación, ya que el mismo cuenta con un transmisor
+(generalmente Bluetooth) encargado de emitir esa cadena de dígitos binarios
+hacia un receptor que se encuentra conectado en (la mayoría de los casos) un
+puerto USB de tu computadora.</p>
+<p>Pero... los teclados con cable también emanan estas ondas en cada pulsación.
+Recordemos la breve clase de física que acabamos de tener: para generar ondas
+electromagnéticas necesitamos que exista una variación en el tiempo del campo
+eléctrico o del magnético. Cuando vos presionás una tecla, el teclado envía una
+serie de pulsos eléctricos que representan la codificación binaria de la tecla a
+través del cable.<sup><a href="https://linternita.com/blog/una-gran-tempestad#note-2" class="">2</a></sup></p>
+<div id="note-2" style="scroll-margin:100px;background-color:lightgreen;position:relative;border-top-right-radius:20px;border-bottom-right-radius:20px;padding:0.5em 1em;margin-bottom:1em"><span><b><i>Linter-nota <!-- -->2<!-- -->:</i></b></span><p>Supongamos que estás utilizando un teclado que sigue el código ASCII. Bajo
+esta codificación, la tecla A es representa en binario por los siguientes
+dígitos: 01000001.</p><p>Existen <em>múltiples</em> formas de enviar esta información a través de un cable, pero
+generalmente se utilizan variaciones en el voltaje que es transmitido para
+representar un 1 o un 0.</p><p>Por ejemplo, un 1 puede ser representado por un voltaje positivo, mientras que
+un 0 puede ser representado por un voltaje negativo.</p><div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="NRZcode" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQAAAACACAIAAABr1yBdAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA7CAAAOwgEVKEqAAAAAB3RJTUUH1QQQAS8UIrpQRAAAAnxJREFUeNrt3dFS6jAUQFHC9L/g09sviw84WNEZsKmcnmSt8cm5gaSXbQ1lbKm1nmBUZ4cAAYAAQAAgABAACOBFpZRSSssjLMtiuOHvH+4MwNDKLhfCbj/+Y6+oLfO8beDleg3/b9g8+Vi7HLrgtdc9fD5U7FfD7Gveydc6z3PY8PxrP+8b0+avZZ63Dzf5WJnXbg+Ad4FAACAAEAAIAAQAAgABgABAACAAEAAIAAQAAgABgABAACAAEAAIAAQAAgABgABAACAAEAAIAN5p+vmt9c2O3Eeesc4AD7f6arzzF2QK4P5yX9/3RQOMtQf4uuWR33+wCQYBQJ+m1//p081A1G6htj17zTz5WKmPvDMA/CWA5/cJDrrha+Ozp5587H2CUx/5f7hPMNgEQ+4A7psSl8AYK4D11d/1VWGHiVHOAA8vd69++jb9+m6P44JNMAgABAACAAGAAEAAIAAQAAgABAACAAGAAEAAIAAQAAgABAACAAGAAEAAIAAQAAgABAACAAGAAGB3Uz9LSX0/m4bJX9qe+TL22vcMYFmWkOGX4ScfK/fa6x7aHyrwXp+GjzzcHgCbYLAJbvw9yqHEGQAEAAIAAYAAQABwTG/6LFAp5dTwbukuw282PEgHk48dfuS1938GKN8/a1VSfWaucfKxw1Os/TzIq3/9maUsDTROPnZ4lrUPsQdYf1xvtMnHDj/+2m2CGZoAEAAIAAQAAgABgAA6cb8CUhL+6ZTGyccOP/7aOw9gfRVwfXVwhMnHDs+y9v7PAA/LznUxuHHyscNTrH0KWYzhhh9kuE0wNsEgABAACAAEAAIAAYAAoEvFXzbHGQAEAAIAAcAoPgApeKwcopjaewAAAABJRU5ErkJggo4C" width="256" height="128" class="img_ev3q"></p></div></div>
+<p>Las variaciones de corriente producidas por estos pulsos eléctricos generan
+ondas electromagnéticas a medida que viajan a través del cable.</p>
+<p>Así que, si alguien quisiera, podría realizar un "ataque" y captar dichas ondas
+para saber qué teclas estás pulsando.</p>
+<p>En 2009 se publicó el siguiente artículo titulado
+<a href="https://www.usenix.org/legacy/event/sec09/tech/full_papers/vuagnoux.pdf" target="_blank" rel="noopener noreferrer" class="">Compromising Electromagnetic Emanations of Wired and Wireless Keyboards</a>
+en el cual se muestran distintas técnicas que pueden ser utilizadas para
+reconocer teclas que son pulsadas en un teclado. En sí está mayormente enfocado
+en teclados que usan el antiguo puerto PS/2, aunque también incluye técnicas de
+ataque que podrían ser utilizadas en teclados USB e inalámbricos.</p>
+<p>Esto es lo que dice el resumen:</p>
+<blockquote>
+<p>Los teclados de ordenador se utilizan a menudo para transmitir datos
+confidenciales, como contraseñas. Dado que contienen componentes electrónicos,
+los teclados emiten ondas electromagnéticas. Estas emisiones podrían revelar
+información sensible, como las pulsaciones de teclas. La técnica que se suele
+utilizar para detectar estas emisiones comprometedoras se basa en un receptor
+de banda ancha, sintonizado a una frecuencia específica. Sin embargo, este
+método puede no ser óptimo, ya que se pierde una cantidad significativa de
+información durante la adquisición de la señal. Nuestro enfoque consiste en
+adquirir la señal en bruto directamente de la antena y procesar todo el
+espectro electromagnético capturado. Gracias a este método, detectamos cuatro
+tipos diferentes de emisiones electromagnéticas comprometedoras generadas por
+teclados con y sin cable. Estas emisiones permiten la recuperación total o
+parcial de las pulsaciones de teclas. Implementamos estos ataques de canal
+lateral y nuestro mejor ataque práctico recuperó el 95 % de las pulsaciones de
+un teclado PS/2 a una distancia de hasta 20 metros, incluso a través de
+paredes. Probamos 12 modelos de teclado diferentes, adquiridos entre 2001 y
+2008 (PS/2, USB, inalámbricos y para portátiles). Todos son vulnerables a al
+menos uno de los cuatro ataques. Concluimos que la mayoría de los teclados de
+ordenador modernos generan emisiones comprometedoras (principalmente debido a
+las presiones de costes del fabricante en el diseño). Por lo tanto, no son
+seguros para transmitir información confidencial.<sup><a href="https://linternita.com/blog/una-gran-tempestad#note-3" class="">3</a></sup></p>
+</blockquote>
+<div id="note-3" style="scroll-margin:100px;background-color:lightgreen;position:relative;border-top-right-radius:20px;border-bottom-right-radius:20px;padding:0.5em 1em;margin-bottom:1em"><span><b><i>Linter-nota <!-- -->3<!-- -->:</i></b></span><p>Perdón, esto esta traducido por el traductor de Google, no tenía ganas de
+traducirlo a mano. :-(</p></div>
+<p>Ahora, desconozco por qué el paper hace tanto enfoque en PS/2 siendo que ya en
+2009 estaba en vías de extinción. Asumo (y puedo estar totalmente equivocado)
+que el protocolo de intercambios de datos a través de PS/2 es mucho más simple y
+termina generando emisiones de radiofrecuencias que son más fáciles de
+descifrar, en comparación con las generadas por teclados USB.</p>
+<p>Esto no quiere decir que estemos seguros usando teclados USB. El problema de
+fondo (la emisión indeseada de radiofrecuencias) sigue estando, y una breve
+búsqueda en internet arroja los siguientes artículos relativamente recientes:</p>
+<ul>
+<li class=""><a href="https://www.mdpi.com/2079-9292/12/17/3647" target="_blank" rel="noopener noreferrer" class="">A Signal-Denoising Method for Electromagnetic Leakage from USB Keyboards</a></li>
+<li class=""><a href="https://ieeexplore.ieee.org/document/7601331" target="_blank" rel="noopener noreferrer" class="">Reconstruction of leaked signal from USB keyboards</a></li>
+<li class=""><a href="https://arxiv.org/abs/2509.00043" target="_blank" rel="noopener noreferrer" class="">Keystroke Detection by Exploiting Unintended RF Emission from Repaired USB Keyboards</a></li>
+<li class=""><a href="https://eudl.eu/pdf/10.1007/978-3-319-92213-3_6" target="_blank" rel="noopener noreferrer" class="">Compromising Electromagnetic Emanations of Wired USB Keyboards</a></li>
+</ul>
+<p>Si son buenos o malos artículos es algo que va más allá de este post. Lo que
+quiero mostrar es que la investigación alrededor de este tema no paró.</p>
+<p>Para finalizar esta parte, hay que recordar que no solo las computadoras
+utilizan teclados como fuente de entrada. Los cajeros de los bancos también los
+usan.<sup><a href="https://linternita.com/blog/una-gran-tempestad#note-4" class="">4</a></sup></p>
+<div id="note-4" style="scroll-margin:100px;background-color:lightgreen;position:relative;border-top-right-radius:20px;border-bottom-right-radius:20px;padding:0.5em 1em;margin-bottom:1em"><span><b><i>Linter-nota <!-- -->4<!-- -->:</i></b></span><p>Aunque siendo realistas hoy en día todo es una "touchscreen" y cada vez hay
+menos teclados físicos. Pero a que no adivinás qué es lo que pasa con las
+pantallas táctiles...</p></div>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="monitores">Monitores<a href="https://linternita.com/blog/una-gran-tempestad#monitores" class="hash-link" aria-label="Enlace directo al Monitores" title="Enlace directo al Monitores" translate="no">​</a></h3>
+<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="monitor" src="https://linternita.com/assets/images/monitor-e5cbc8de3b151f5fcb81be2e402c7895.jpg" width="4032" height="3024" class="img_ev3q"></p></div>
+<p>Si pensabas que alguien espiando lo que escribís en un teclado era algo bastante
+malo, las cosas se ponen PEOR.</p>
+<p>En 1985 Wim van Eck publica el siguiente artículo titulado
+<a href="http://www.tscm.com/vaneck85.pdf" target="_blank" rel="noopener noreferrer" class="">Electromagnetic Radiation from Video Display Units: An Eavesdropping Risk?</a>,
+en el cual explica cómo los monitores de esa época (los famosos "tubo de rayos
+catódicos") emitían "al aire libre" señales que al ser capturadas se podían usar
+para reconstruir la imagen que se estaba visualizando en el monitor.</p>
+<p>Acá una resumida explicación tomada directamente de la publicación hecha por Van
+Eck:</p>
+<blockquote>
+<p>A diferencia de otras señales de banda ancha dentro de un monitor, la señal de
+vídeo se amplifica desde el nivel de la unidad lógica transistor-transistor
+(TTL) hasta varios cientos de voltios antes de ser introducida en el tubo de
+rayos catódicos (CRT). Por lo tanto, la radiación originada por la señal de
+vídeo será el componente dominante del campo de banda ancha generado por el
+monitor en la mayoría de los casos. Cada armónico (radiado) de la señal de
+vídeo muestra una notable similitud con una señal de televisión, como se
+muestra en el apéndice técnico de este documento. Por consiguiente, es posible
+reconstruir la imagen mostrada en el monitor a partir de la emisión radiada
+mediante un receptor de televisión convencional.</p>
+</blockquote>
+<p>En la actualidad, no usamos más monitores de tubo. Tenemos "pantallas planas"
+que utilizan tecnología "liquid crystal display" con retroiluminación LED y vaya
+uno a saber qué otra cosa más, así que quizás no deberíamos estar tan
+preocupados por este problema.</p>
+<p>O quizás sí porque el problema <em>sigue</em> existiendo incluso para monitores
+modernos.</p>
+<p>En 2014, Martin Marinov presenta su tesis en la Universidad de Cambridge,
+titulada
+<a href="https://raw.githubusercontent.com/martinmarinov/TempestSDR/master/documentation/acs-dissertation.pdf" target="_blank" rel="noopener noreferrer" class="">Remote video eavesdropping using a software-defined radio platform</a>.
+En la misma explica cómo es posible capturar las emanaciones provocadas por
+cables de video modernos (como por ejemplo, HDMI) con el fin de reconstruir la
+imagen que se visualiza en los mismos, utilizando equipamiento de bajo costo
+como lo es un SDR.</p>
+<p>No solo eso, sino que también hace público un software de código abierto llamado
+<a href="https://github.com/martinmarinov/TempestSDR" target="_blank" rel="noopener noreferrer" class="">TempestSDR</a>, el cual automatiza la
+captura y decodificación de estas señales.</p>
+<blockquote>
+<p>El vídeo rasterizado se transmite normalmente línea por línea, codificado como
+una corriente variable. Esto genera una onda electromagnética que puede ser
+captada por un receptor SDR. El software asigna en tiempo real la intensidad
+del campo magnético recibido por cada píxel a un tono de gris. Esto crea una
+estimación en falso color de la señal de vídeo original.</p>
+</blockquote>
+<p>En teoría, es posible usar el software de Marinov a día de hoy, pero puede ser
+un poco complicado hacerlo andar en computadoras modernas. Debido a esto,
+surgieron alternativas como
+<a href="https://github.com/git-artes/gr-tempest" target="_blank" rel="noopener noreferrer" class="">gr-tempest</a> (hecho por gente de
+Uruguay, ¿qué loco, no?) que traslada parte de las funciones a GNU Radio.</p>
+<p>En fin, si querés ver una demostración de esto funcionando, mirate 2 minutos de
+este video de Cathode Ray Dude:</p>
+<div style="margin:0 auto;text-align:center"><iframe style="width:100%;height:315px" src="https://www.youtube.com/embed/9fGCQBGes20?start=2746" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></div>
+<p>Como es de esperarse, la investigación sobre este tema no se detuvo. En 2024 se
+publicó el artículo
+<a href="https://arxiv.org/html/2407.09717v1" target="_blank" rel="noopener noreferrer" class="">Deep-TEMPEST: Using Deep Learning to Eavesdrop on HDMI from its Unintended Electromagnetic Emanations</a>,
+nuevamente desde Uruguay, en el cual utilizan técnicas de deep learning para
+tratar de obtener una mejor imagen a partir de la señal capturada.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="wi-fi">Wi-Fi<a href="https://linternita.com/blog/una-gran-tempestad#wi-fi" class="hash-link" aria-label="Enlace directo al Wi-Fi" title="Enlace directo al Wi-Fi" translate="no">​</a></h3>
+<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="wifi-router" src="https://linternita.com/assets/images/wifi-router-8d54282cfcba8217bb8a93ac6ac9a1d7.jpg" width="590" height="590" class="img_ev3q"></p></div>
+<p>Los anteriores ejemplos se caracterizaban por ser dispositivos que, en su
+funcionamiento normal, fugan "sin querer" radiación electromagnética. En este
+caso, si tenés un dispositivo que está utilizando el protocolo Wi-Fi, que emita
+ondas de radio es algo esperable.</p>
+<p>¿Cómo podrían "espiarte" usando las ondas del Wi-Fi?</p>
+<p>Si sabés algo de cómo funciona el protocolo Wi-Fi, quizás pienses: <em>"bueno, la
+única forma de espiarme sería si alguien captura los paquetes de la red, pero
+para eso mi red tendría que ser abierta Y no tener ningún paquete encriptado,
+así que lo veo un poco difícil"</em></p>
+<p>Lo cual es válido, pero en este caso no nos estamos centrando en técnicas de
+packet sniffing o cosas así. Seguimos con la misma temática del post: espiar lo
+que hacés en base a las emisiones de radiofrecuencias.</p>
+<p>En 2015 se publica el artículo titulado
+<a href="https://sci-hub.box/https://dl.acm.org/doi/10.1145/2702123.2702200" target="_blank" rel="noopener noreferrer" class="">Smart Homes that Monitor Breathing and Heart Rate</a>,
+en el cual se demuestra el funcionamiento de un dispositivo capaz de detectar
+los movimientos causados por las respiraciones y los latidos del corazón:</p>
+<blockquote>
+<p>Presentamos Vital-Radio, una tecnología de detección inalámbrica que
+monitoriza la respiración y la frecuencia cardíaca sin contacto físico.
+Vital-Radio está basado en el hecho de que las señales inalámbricas se ven
+afectadas por el movimiento que suceda en el entorno de las mismas, incluyendo
+los movimientos del pecho al inhalar y exhalar, y las vibraciones de la piel
+causadas por los latidos del corazón. Describimos el funcionamiento de
+Vital-Radio y demostramos, mediante un estudio con usuarios, que puede
+registrar la respiración y la frecuencia cardíaca con una precisión media del
+99 %, incluso a 8 metros del dispositivo o en una habitación diferente.
+Además, permite monitorizar las constantes vitales de varias personas
+simultáneamente.</p>
+<p>[...]</p>
+<p>Vital-Radio transmite una señal inalámbrica de baja potencia y mide el tiempo
+que tarda en llegar al cuerpo humano y reflejarse de vuelta a sus antenas.
+Sabiendo que las señales inalámbricas viajan a la velocidad de la luz, podemos
+usar el tiempo de reflexión para calcular la distancia entre el dispositivo y
+el cuerpo humano. Esta distancia varía ligeramente y periódicamente a medida
+que el usuario inhala, exhala y late su corazón. Vital-Radio registra estos
+mínimos cambios de distancia y los utiliza para extraer los signos vitales del
+usuario.</p>
+<p>[...]</p>
+<p>El dispositivo genera una señal que varía de 5,46 GHz a 7,25 GHz cada 2,5
+milisegundos, transmitiendo una potencia inferior a 1 mW. Estos parámetros se
+seleccionan en [6] de manera que el sistema de transmisión cumple con las
+regulaciones de la FCC para dispositivos electrónicos de consumo.</p>
+</blockquote>
+<p>Si bien Vital-Radio no está basado en Wi-Fi, el dispositivo opera en un rango de
+frecuencias similar y a menor potencia que aquella manejada por, digamos, un
+router Wi-Fi.</p>
+<p>Así que no es de sorprender que un par de años después, circa 2019, surgiese
+<a href="https://wballiance.com/resource/wi-fi-sensing/" target="_blank" rel="noopener noreferrer" class="">Wi-Fi Sensing</a>:</p>
+<blockquote>
+<p>Wi-Fi Sensing es una nueva tecnología que permite la detección de movimiento,
+el reconocimiento de gestos y la medición biométrica mediante el uso de
+señales Wi-Fi existentes.</p>
+</blockquote>
+<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="wlan-sensing" src="https://linternita.com/assets/images/wlan-sensing-79fb90b562eae1c916d6fb943b3bc0f9.png" width="533" height="385" class="img_ev3q"></p></div>
+<p>Poco tiempo después, en 2020, la I Triple E (IEEE) aprobó el proyecto IEEE
+802.11bf, el cual busca estandarizar la tecnología de Wi-Fi Sensing e
+incorporarla al ya existente IEEE 802.11.</p>
+<blockquote>
+<p>cuando se finalice y se introduzca 802.11bf como estándar IEEE en septiembre
+de 2024, el Wi-Fi dejará de ser un estándar de comunicación únicamente y se
+convertirá legítimamente en un paradigma de detección completo</p>
+</blockquote>
+<p>Al final, terminó tardando un poco más, siendo aprobado por la IEEE en mayo
+de 2025.<sup><a href="https://linternita.com/blog/una-gran-tempestad#note-5" class="">5</a></sup></p>
+<div id="note-5" style="scroll-margin:100px;background-color:lightgreen;position:relative;border-top-right-radius:20px;border-bottom-right-radius:20px;padding:0.5em 1em;margin-bottom:1em"><span><b><i>Linter-nota <!-- -->5<!-- -->:</i></b></span><p>¿Importa que haya sido estandarizado por la IEEE? No. Incluso sin estar
+incorporado a un estándar, el concepto de "Wi-Fi Sensing" puede ser aplicado
+sin problemas. Que se haya estandarizado implica que aplicar tal tecnología no
+es algo difícil y se espera que surjan nuevos dispositivos que hagan uso de la
+misma.</p><p>Pero espiar te podrían espiar igual, esté o no esté estandarizado.</p></div>
+<p>En el mismo año, el Karlsruhe Institute of Technology (KIT) publica el
+comunicado de prensa
+<a href="https://www.kit.edu/kit/english/pi_2025_069_the-spy-who-came-in-from-the-wifi-beware-of-radio-network-surveillance.php" target="_blank" rel="noopener noreferrer" class="">"The Spy Who Came in from the WiFi: Beware of Radio Network Surveillance!"</a>,
+en el cual explican que, usando Wi-Fi, beamforming, y machine learning, resulta
+muy fácil espiar e identificar a las personas:</p>
+<blockquote>
+<p>A diferencia de los ataques con sensores LIDAR o los métodos anteriores
+basados ​​en Wi-Fi, que utilizan información del estado del canal (CSI,
+Channel State Information) —es decir, datos medidos que indican cómo cambia
+una señal de radio al reflejarse en paredes, muebles o personas—, los
+atacantes no necesitan ningún hardware especial. Este método solo requiere un
+dispositivo Wi-Fi estándar. Funciona explotando la comunicación de los
+usuarios legítimos de la WLAN, cuyos dispositivos están conectados a la red
+Wi-Fi. Estos envían regularmente señales de retroalimentación dentro de la
+red, también llamadas información de retroalimentación de formación de haces
+(BFI, Beamforming Feedback Information), al router, sin cifrar, de modo que
+cualquiera dentro del alcance puede leerlas. Esto crea imágenes desde
+diferentes perspectivas que pueden servir para identificar a las personas. Una
+vez entrenado el modelo de aprendizaje automático la identificación solo tarda
+unos segundos.</p>
+</blockquote>
+<p>El KIT publicó esto como un llamado de atención hacia el estándar IEEE 802.11bf,
+pidiendo que se agreguen medidas de protección de la privacidad al mismo.</p>
+<p>De todas las cosas que vimos hasta ahora, esta es quizás la más preocupante. Las
+técnicas que aplican a teclados y monitores funcionan, pero se ven derrotadas
+fácilmente con la distancia. Pero en el caso de Wi-Fi resulta imposible
+distanciarse. Ponele que en tu casa decidís no usar Wi-Fi en absoluto y tenés
+toda la red cableada. OK. ¿Pero cómo hacés con las casas de tus vecinos? ¿Y
+cuando salís a la calle? Hay señales Wi-Fi por todos lados.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="sonido">Sonido<a href="https://linternita.com/blog/una-gran-tempestad#sonido" class="hash-link" aria-label="Enlace directo al Sonido" title="Enlace directo al Sonido" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="teclados-1">Teclados<a href="https://linternita.com/blog/una-gran-tempestad#teclados-1" class="hash-link" aria-label="Enlace directo al Teclados" title="Enlace directo al Teclados" translate="no">​</a></h3>
+<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="ah-shit" src="https://linternita.com/assets/images/ah-shit-6a73f452087621b6c7ea0686a0a37503.jpg" width="775" height="433" class="img_ev3q"></p></div>
+<p>Olvidate de las ondas electromagnéticas producidas por los teclados. No hace
+falta nada de eso. El sonido que hacen las teclas a medida que las presionás es
+capaz de delatar lo que estás escribiendo, así lo demuestra este paper publicado
+en 2024:
+<a href="https://arxiv.org/pdf/2403.08740" target="_blank" rel="noopener noreferrer" class="">Acoustic Side Channel Attack on Keyboards Based on Typing Patterns</a></p>
+<p><a href="https://github.com/ggerganov/kbd-audio" target="_blank" rel="noopener noreferrer" class="">Keytap</a> es un proyecto open source de
+Georgi Gerganov. Lo podés abrir en tu celular yendo a
+<a href="https://keytap3-gui.ggerganov.com/" target="_blank" rel="noopener noreferrer" class="">https://keytap3-gui.ggerganov.com/</a> y
+comprobar si tu teclado es vulnerable o no.</p>
+<p>¿Lo bueno? Estas técnicas solo funcionan en teclados mecánicos. Así que si tenés
+un teclado de membrana podés estar tranquilo.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="fansmitter">Fansmitter<a href="https://linternita.com/blog/una-gran-tempestad#fansmitter" class="hash-link" aria-label="Enlace directo al Fansmitter" title="Enlace directo al Fansmitter" translate="no">​</a></h3>
+<p>Esto en sí no es un ataque que alguien puede realizar para espiarte, sino más
+bien para transmitir la información una vez que ya te están espiando.</p>
+<p>Supongamos que tenés una computadora totalmente aislada, sin conexión a
+internet, ni a ningún tipo de dispositivo inalámbrico. Podrías considerar que es
+la máxima expresión de seguridad: al estar desconectada de todo, nadie podría
+espiar lo que hagas en esa computadora.</p>
+<p>Bueno, en 2016, un grupo de investigadores israelitas publicaron el artículo
+titulado
+<a href="https://arxiv.org/pdf/1606.05915" target="_blank" rel="noopener noreferrer" class="">Fansmitter: Acoustic Data Exfiltration from (Speakerless) Air-Gapped Computers</a>,
+en el cual demuestran cómo transmitir información por medio de los "coolers" de
+tu computadora. Controlando la velocidad a la que giran los mismos es posible
+cambiar el sonido que produce tu computadora al andar, pudiéndose así codificar
+datos.</p>
+<p>Obviamente alguien debería poder captar ese sonido (con algún micrófono o algo),
+pero la idea se mantiene. Incluso aunque tu computadora esté desconectada de
+todo, alguien podría estar espiándote controlando... los ventiladores.</p>
+<p>¿Lo ves muy poco probable? Recordá que tanto Israel y Estados Unidos estuvieron
+detrás de cosas como <a href="https://en.wikipedia.org/wiki/Stuxnet" target="_blank" rel="noopener noreferrer" class="">Stuxnet</a>, un virus
+altamente sofisticado diseñado específicamente para atacar el programa nuclear
+iraní.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="otros">Otros<a href="https://linternita.com/blog/una-gran-tempestad#otros" class="hash-link" aria-label="Enlace directo al Otros" title="Enlace directo al Otros" translate="no">​</a></h3>
+<p>Este post se hizo más largo de lo que esperaba y la subcategoría de "sonido" es
+en realidad interminable. El siguiente video de Benn Jordan explica algunas
+técnicas novedosas:</p>
+<div style="margin:0 auto;text-align:center"><iframe style="width:100%;height:315px" src="https://www.youtube.com/embed/mEC6PM97IRI" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></div>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="tempest">TEMPEST<a href="https://linternita.com/blog/una-gran-tempestad#tempest" class="hash-link" aria-label="Enlace directo al TEMPEST" title="Enlace directo al TEMPEST" translate="no">​</a></h2>
+<p>¿Qué es <a href="https://en.wikipedia.org/wiki/Tempest_(codename)" target="_blank" rel="noopener noreferrer" class="">TEMPEST</a>? Es un
+código clave de la NSA y una certificación de la NATO que se usa para referirse
+a cualquier tipo de espionaje basado en las fugas de señales de radio, sonido, o
+vibraciones.</p>
+<p>O sea, todo lo que estuvimos viendo en este post.</p>
+<p>Si bien la mayor parte es información clasificada, existen estándares TEMPEST
+que especifican cómo tienen que estar protegidos los dispositivos para prevenir
+la fuga de información sensible a través de todos esos medios que mencionamos.</p>
+<p>Las técnicas de protección por lo general incluyen:</p>
+<ul>
+<li class=""><strong>Distancia:</strong> si bien cualquier dispositivo electrónico puede tener fugas de
+ondas de radio, las mismas tienen poca potencia y se vuelven imposibles de
+capturar a cierta distancia.</li>
+<li class=""><strong>Blindaje:</strong> podés prevenir que tu dispositivo emita ondas de radio si lo
+blindás completamente, pero esto suele ser bastante costoso.</li>
+<li class=""><strong>Filtrado:</strong> se pueden aplicar filtros en los cables para prevenir que se
+envíen ciertas frecuencias que podrían ser fácilmente capturadas.</li>
+<li class=""><strong>Enmascaramiento:</strong> podés generar "ruido" electromagnético para tapar las
+emisiones producidas por tus dispositivos.</li>
+</ul>
+<p>El vídeo de Cathode Ray Dude que está más arriba en este post muestra justamente
+una computadora (usada en alguna agencia del gobierno de Estados Unidos) que se
+encuentra totalmente blindada y que sigue los estándares
+TEMPEST.<sup><a href="https://linternita.com/blog/una-gran-tempestad#note-6" class="">6</a></sup></p>
+<div id="note-6" style="scroll-margin:100px;background-color:lightgreen;position:relative;border-top-right-radius:20px;border-bottom-right-radius:20px;padding:0.5em 1em;margin-bottom:1em"><span><b><i>Linter-nota <!-- -->6<!-- -->:</i></b></span><p>Dicho sea de paso, ese video fue el que inspiró este post. No conocía sobre
+TEMPEST hasta que lo vi.</p></div>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="deberías-estar-preocupado">¿Deberías estar preocupado?<a href="https://linternita.com/blog/una-gran-tempestad#deber%C3%ADas-estar-preocupado" class="hash-link" aria-label="Enlace directo al ¿Deberías estar preocupado?" title="Enlace directo al ¿Deberías estar preocupado?" translate="no">​</a></h2>
+<p>Depende. A menos que estés en la lista de más buscados del FBI, dudo que alguien
+haga todo el esfuerzo de espiarte usando algunas de las técnicas mencionadas en
+este post.</p>
+<p>Pero algunas de estas técnicas podrían ser utilizadas por gobiernos o grandes
+compañías para socavar información sobre vos, armar un perfil, y tenerte bien
+identificado. En especial esa de Wi-Fi Sensing. No me sorprendería que se
+empiece a usar para vigilar a la población, sino es que no está siendo usada
+actualmente.</p>
+<p>Si bien estas nuevas tecnologías y técnicas son interesantes, siempre deberíamos
+abogar por la privacidad.</p>
+<p>pero en fin la solución es muy simple te comprás un terreno en digamos la pampa
+construis una jaula de faraday gigante sobre tu casa y solo salis para hacer
+pastar a las ovejas y ordeñar las vacas, a ver si se anima google a espiarte asi</p>
+<p>momento... google tiene satelites y el coso de google earth... siempre estan un
+paso mas adelante!!!!!!!!</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="referencias">Referencias<a href="https://linternita.com/blog/una-gran-tempestad#referencias" class="hash-link" aria-label="Enlace directo al Referencias" title="Enlace directo al Referencias" translate="no">​</a></h2>
+<ul>
+<li class="">
+<p><a href="https://www.cryptomuseum.com/covert/bugs/thing/" target="_blank" rel="noopener noreferrer" class="">The Great Seal Bug</a></p>
+</li>
+<li class="">
+<p><a href="https://www.usenix.org/legacy/event/sec09/tech/full_papers/vuagnoux.pdf" target="_blank" rel="noopener noreferrer" class="">Compromising Electromagnetic Emanations of Wired and Wireless Keyboards</a></p>
+</li>
+<li class="">
+<p><a href="http://www.tscm.com/vaneck85.pdf" target="_blank" rel="noopener noreferrer" class="">Electromagnetic Radiation from Video Display Units: An Eavesdropping Risk?</a></p>
+</li>
+<li class="">
+<p><a href="https://arxiv.org/html/2407.09717v1" target="_blank" rel="noopener noreferrer" class="">Deep-TEMPEST: Using Deep Learning to Eavesdrop on HDMI from its Unintended Electromagnetic Emanations</a></p>
+</li>
+<li class="">
+<p><a href="https://github.com/martinmarinov/TempestSDR" target="_blank" rel="noopener noreferrer" class="">TempestSDR</a></p>
+</li>
+<li class="">
+<p><a href="https://raw.githubusercontent.com/martinmarinov/TempestSDR/master/documentation/acs-dissertation.pdf" target="_blank" rel="noopener noreferrer" class="">Remote video eavesdropping using a software-defined radio platform</a></p>
+</li>
+<li class="">
+<p><a href="https://sci-hub.box/https://dl.acm.org/doi/10.1145/2702123.2702200" target="_blank" rel="noopener noreferrer" class="">Smart Homes that Monitor Breathing and Heart Rate</a></p>
+</li>
+<li class="">
+<p><a href="https://www.technologyreview.com/2024/02/27/1088154/wifi-sensing-tracking-movements/" target="_blank" rel="noopener noreferrer" class="">How Wi-Fi sensing became usable tech</a></p>
+</li>
+<li class="">
+<p><a href="https://www.xataka.com/privacidad/wi-fi-802-11bf-asi-nuevo-estandar-que-podra-detectar-movimiento-medir-distancias-funcion-senal" target="_blank" rel="noopener noreferrer" class="">Wi-Fi 802.11bf: así es el nuevo estándar que podrá detectar el movimiento y medir distancias en función de la señal</a></p>
+</li>
+<li class="">
+<p><a href="https://arxiv.org/pdf/2103.14918" target="_blank" rel="noopener noreferrer" class="">IEEE 802.11bf: Toward Ubiquitous Wi-Fi Sensing</a></p>
+</li>
+<li class="">
+<p><a href="https://www.sciencedaily.com/releases/2026/08/260811052857.htm" target="_blank" rel="noopener noreferrer" class="">Ordinary WiFi can now identify you with near-perfect accuracy</a></p>
+</li>
+<li class="">
+<p><a href="https://www.kit.edu/kit/english/pi_2025_069_the-spy-who-came-in-from-the-wifi-beware-of-radio-network-surveillance.php" target="_blank" rel="noopener noreferrer" class="">The Spy Who Came in from the WiFi: Beware of Radio Network Surveillance!</a></p>
+</li>
+<li class="">
+<p><a href="https://arxiv.org/pdf/2403.08740" target="_blank" rel="noopener noreferrer" class="">Acoustic Side Channel Attack on Keyboards Based on Typing Patterns</a></p>
+</li>
+<li class="">
+<p><a href="https://github.com/ggerganov/kbd-audio" target="_blank" rel="noopener noreferrer" class="">Keytap</a></p>
+</li>
+<li class="">
+<p><a href="https://arxiv.org/pdf/1606.05915" target="_blank" rel="noopener noreferrer" class="">Fansmitter: Acoustic Data Exfiltration from (Speakerless) Air-Gapped Computers</a></p>
+</li>
+<li class="">
+<p><a href="https://www.youtube.com/watch?v=9fGCQBGes20" target="_blank" rel="noopener noreferrer" class="">A TEMPEST In AT-Cup: The IBM TPC</a></p>
+</li>
+<li class="">
+<p><a href="https://www.youtube.com/watch?v=mEC6PM97IRI" target="_blank" rel="noopener noreferrer" class="">7 Concerning Levels Of Acoustic Spying Techniques</a></p>
+</li>
+</ul>]]></content>
+        <author>
+            <name>Linter Nita</name>
+        </author>
+        <category label="ondas-de-radio" term="ondas-de-radio"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[la amnesia de Gell-Mann]]></title>
         <id>https://linternita.com/blog/gell-mann-amnesia</id>
@@ -1204,6 +1686,7 @@ hablando a través de un handy a 60 km de distancia de mi casa.</p>
             <name>Linter Nita</name>
         </author>
         <category label="diy" term="diy"/>
+        <category label="ondas-de-radio" term="ondas-de-radio"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[¿nos hizo la tecnología más tontos?]]></title>
@@ -3949,236 +4432,6 @@ lanzamiento le hayan dado soporte es increíble. Y a día de hoy podés jugar
 online porque todavía tienen un servidor levantado.</p>
 <p>Aprovecho para dejar lo que es capaz la mejor pieza cómica jamás realizada:</p>
 <div style="margin:0 auto;text-align:center"><iframe style="width:100%;height:315px" src="https://www.youtube.com/embed/WjvGtCo8RLE?si=CY2bTIbpZaXqvENS&amp;start=120" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></div>]]></content>
-        <author>
-            <name>Linter Nita</name>
-        </author>
-        <category label="random" term="random"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[¿Qué pasa cuando se rompen estos cables?]]></title>
-        <id>https://linternita.com/blog/cables-submarinos</id>
-        <link href="https://linternita.com/blog/cables-submarinos"/>
-        <updated>2025-09-12T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<div]]></summary>
-        <content type="html"><![CDATA[<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="oh-shit-the-economy" src="https://linternita.com/assets/images/oh-shit-the-economy-950806b36e9b982a106a356e7575d05f.jpg" width="653" height="453" class="img_ev3q"></p></div>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="hay-cables-en-el-fondo-del-mar">Hay cables en el fondo del mar<a href="https://linternita.com/blog/cables-submarinos#hay-cables-en-el-fondo-del-mar" class="hash-link" aria-label="Enlace directo al Hay cables en el fondo del mar" title="Enlace directo al Hay cables en el fondo del mar" translate="no">​</a></h2>
-<p>Hay muchas piezas de infraestructura que tendemos a ignorar. Nadie se para en la
-calle a ver un poste de cables eléctricos. Sabemos que están ahí pero <em>no nos
-importan</em>, es parte del escenario y no afectan en casi nada a nuestras vidas
-diarias.</p>
-<p>Por más que esos mismos cables sean gracias a los que tenemos electricidad en
-nuestras casas, trabajos, hospitales, etc.</p>
-<p>Pero al menos esos cables están ahí a simple vista. Los percibimos más a menudo
-que estos otros, que están sumergidos en el fondo del mar y que cumplen un rol
-tal vital como los cables que usamos para el suministro eléctrico.</p>
-<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="submarine-cable" src="https://linternita.com/assets/images/submarine-cable-a739edebc57f9a0c12adb29602e9620f.jpg" width="2560" height="1440" class="img_ev3q"></p></div>
-<p><strong>¿Qué son?</strong></p>
-<p>Cables de fibra óptica, un tipo de cable que transmite información utilizando a
-la luz como el medio, en vez de la electricidad como en el caso de un cable de
-cobre o similares.</p>
-<p><strong>¿Por qué... tiramos cables en el fondo del mar?</strong></p>
-<p>Para comunicarnos.</p>
-<p>Esto es algo que empezó con el telégrafo, como vimos en el post
-<a href="https://linternita.com/blog/monopolio-que-cambio-mundo" target="_blank" rel="noopener noreferrer" class="">más largo y aburrido</a>
-de este blog. Para comunicarte con un telégrafo necesitabas una conexión
-cableada. No existían medios inalámbricos, y no iban a existir hasta el fin del
-1800 cuando Marconi empezó a jugar con las ondas de radio.</p>
-<p>Pero la gente quería <em>telegrafiar</em> y querían hacerlo también con gente que
-viviese al otro lado del charco.</p>
-<p>Entonces decidieron embarcarse (ja ja) en una gran hazaña y en 1858 agarraron y
-tiraron un cable desde Irlanda hasta lo que hoy en día es Canadá.</p>
-<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="atlantic-cable" src="https://linternita.com/assets/images/atlantic-cable-3fd537953ec25f084e1f8684bdebe1c8.jpg" width="1275" height="600" class="img_ev3q"></p></div>
-<p>Cuando llegó el teléfono seguimos tirando cables al agua, incluso aunque ya en
-ese entonces existieran algunas formas de comunicación inalámbrica.</p>
-<p>Hoy en día tenemos internet como nuestra forma de comunicación estrella, que en
-sus inicios también fue una tecnología "alámbrica" (cable dependiente). Pero
-todo lo relacionado al mundo inalámbrico avanzó drásticamente. Tipo, tenemos
-Wi-Fi, Bluetooth, satélites, y en algunas partes del mundo hay antenas 5G (lo
-que sea que signifique eso). ¿Sigue estando la necesidad de tirar cables al
-agua?</p>
-<p>Sí.</p>
-<p>A pesar de contar con todas estas formas de comunicación inalámbrica, los cables
-les pasan el trapo (en la mayoría de los casos).</p>
-<p>Por ejemplo, la comunicación cableada en comparación con la satelital es:</p>
-<ul>
-<li class="">Más rápida: los satélites orbitan a alturas desde 2.000 Km a 36.000 Km, lo que
-introduce un retardo indeseable en las comunicaciones.</li>
-<li class="">Más eficiente: los cables de fibra óptica tienen un ancho de banda superior al
-de cualquier satélite. Básicamente: pueden transmitir información en mayores
-cantidades y más rápido.</li>
-<li class="">Más "barata": tirar cables al fondo del mar es algo increíblemente costoso,
-pero ¿construir y lanzar a órbita un satélite?</li>
-<li class="">Más fácil de mantener: si un cable se corta, arreglarlo es relativamente
-fácil. La única mantención para un satélite es lanzar otro nuevo que lo
-reemplace.</li>
-<li class="">Y un largo etcétera<sup><a href="https://linternita.com/blog/cables-submarinos#note-1" class="">1</a></sup>.</li>
-</ul>
-<p>Es por esto que el 99% del tráfico de internet <em>pasa</em> a través de los cables
-submarinos, lo que los convierte en una pieza de infraestructura global crítica.</p>
-<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="cable-map" src="https://linternita.com/assets/images/cable-map-6f298776ff29dd8374ba22f88483884c.png" width="1465" height="914" class="img_ev3q"></p><p><em>Figura 1: mapa de cables submarinos, cortesía de <a href="https://www.submarinecablemap.com/" target="_blank" rel="noopener noreferrer" class="">https://www.submarinecablemap.com/</a></em></p></div>
-<p>A día de hoy existen más de 600 cables submarinos activos, que, en conjunto,
-tienen un largo de más de 1.48 millones de kilómetros . Algunos son muy "cortos"
-con tan solo cientos de kilómetros de longitud, mientras que otros son
-increíblemente laaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaargos, como el cable
-<em><a href="https://www.submarinecablemap.com/submarine-cable/asia-america-gateway-aag-cable-system" target="_blank" rel="noopener noreferrer" class="">Asia-America Gateway</a></em>
-que cuenta con una longitud de 20.000 kilómetros .</p>
-<p><strong>¿Qué tanto nos afectaría si se cortasen estos cables?</strong></p>
-<p><em><sup><a name="note-1">1</a>:</sup> en realidad no conozco más ventajas, estoy
-usando la clásica técnica de poner "etc" para fingir que sé más cosas pero que
-las omito para no alargar el tema.</em></p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="cortes-en-los-cables-submarinos">Cortes en los cables submarinos<a href="https://linternita.com/blog/cables-submarinos#cortes-en-los-cables-submarinos" class="hash-link" aria-label="Enlace directo al Cortes en los cables submarinos" title="Enlace directo al Cortes en los cables submarinos" translate="no">​</a></h2>
-<p>Hay tres cosas que aterran al ser humano moderno:</p>
-<ol>
-<li class="">Que se corte la luz</li>
-<li class="">Que se corte internet</li>
-<li class="">Que pierda Boca<sup><a href="https://linternita.com/blog/cables-submarinos#note-2" class="">2</a></sup></li>
-</ol>
-<p>Es quizás una obviedad decir esto hoy en día, pero en mayor o menor medida,
-todos dependemos del internet. Incluso aunque tu trabajo no dependa de eso,
-aunque tus hobbies sean tocar pasto y mirar vacas... estás atado a que funcione
-ese servicio.</p>
-<p>No es una exageración. Por ejemplo, en 2022 uno de los principales proveedores
-de internet de Canadá (Rogers Communications)
-<a href="https://en.wikipedia.org/wiki/2022_Rogers_Communications_outage" target="_blank" rel="noopener noreferrer" class="">tuvo un corte masivo</a>
-de internet y telefonía celular que afectó a más de 12 millones de usuarios. No
-solo quedaron incomunicados, si no que en el país entero nadie podía usar
-tarjetas de débito, porque la empresa que maneja las transacciones quedó
-completamente fuera de servicio. Tampoco podías llamar al 911 en caso de
-emergencias... entre otras cosas divertidas como páginas del gobierno caídas y
-muchos canadienses enojados.</p>
-<p>Este corte masivo duró 15 horas y se estima que tuvo un impacto de $142 millones
-de dólares en la economía canadiense (oh shit! the economy!!).</p>
-<p>Es cierto que esta disrupción masiva no se produjo por que se haya cortado un
-cable submarino. Pero, ¿podría pasar algo así? Además, ¿cómo se cortarían? Están
-en el fondo del mar... ¿Qué va a venir, un buzo con un cuchillo Tramontina y
-empezar a serrucharlos?</p>
-<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="oh-no-not-again" src="https://linternita.com/assets/images/oh-no-not-again-42c4fa8c465a18d6cc5a2d69a15f2440.webp" width="700" height="382" class="img_ev3q"></p><p><em>Oh no, not again...</em></p></div>
-<p><em><sup><a name="note-2">2</a>:</sup> si pierde boquita... pierde la familia.</em></p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="desastres-naturales">Desastres naturales<a href="https://linternita.com/blog/cables-submarinos#desastres-naturales" class="hash-link" aria-label="Enlace directo al Desastres naturales" title="Enlace directo al Desastres naturales" translate="no">​</a></h3>
-<p>Una de las principales causas que hacen que se corten estos cables son los
-desastres naturales.</p>
-<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="2022-erupción-del-volcán-submarino-hunga-tongahunga-haʻapai">2022: erupción del volcán submarino Hunga Tonga–Hunga Haʻapai<a href="https://linternita.com/blog/cables-submarinos#2022-erupci%C3%B3n-del-volc%C3%A1n-submarino-hunga-tongahunga-ha%CA%BBapai" class="hash-link" aria-label="Enlace directo al 2022: erupción del volcán submarino Hunga Tonga–Hunga Haʻapai" title="Enlace directo al 2022: erupción del volcán submarino Hunga Tonga–Hunga Haʻapai" translate="no">​</a></h4>
-<p>Tonga es archipiélago de islas en el Océano Pacífico. También es un país. O un
-reino. No importa.</p>
-<p>En las cercanías de las islas de Tonga hay un volcán submarino (Hunga
-Tonga–Hunga Haʻapai) que el 15 de enero de 2022 explotó así:</p>
-<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Tonga_Volcano_Eruption_2022-01-15_0320Z_to_0610Z_Himawari-8_visible.gif/330px-Tonga_Volcano_Eruption_2022-01-15_0320Z_to_0610Z_Himawari-8_visible.gif" alt="tonga-volcano" class="img_ev3q"></p></div>
-<p>Esta erupción destrozó todos los cables submarinos de Tonga. Que no eran tantos,
-solo dos. Uno que los conecta con Fiji (y con el resto del mundo) y otro que
-utilizan de forma doméstica para comunicarse con otras islas.</p>
-<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="tonga-cable" src="https://linternita.com/assets/images/tonga-cable-a5b09bc9e4a9ea8e25421181d26d004f.png" width="942" height="557" class="img_ev3q"></p></div>
-<p>Las noticias sobre el estado de Tonga tardaron en llegar al resto del mundo
-porque simplemente no podían enviarlas. Al cortarse los cables, quedaron
-bastante incomunicados con el resto del mundo.</p>
-<p>Tardaron alrededor de 1 mes en arreglar la conexión con Fiji (y el resto del
-mundo), y, sorprendentemente, 18 meses para arreglar el cable doméstico.</p>
-<p>Obviamente en Tonga la estaban pasando demasiado mal (que el cable se haya
-cortado era malo, pero también estaban lidiando con el desastre causado por el
-volcán), pero el resto del mundo siguió como de costumbre.</p>
-<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="2006-terremoto-de-taiwán">2006: Terremoto de Taiwán<a href="https://linternita.com/blog/cables-submarinos#2006-terremoto-de-taiw%C3%A1n" class="hash-link" aria-label="Enlace directo al 2006: Terremoto de Taiwán" title="Enlace directo al 2006: Terremoto de Taiwán" translate="no">​</a></h4>
-<p>Un día después de la Navidad de 2006, Papá Noel les regaló un terremoto de
-magnitud 7.0 a Taiwán. Al menos 8 cables submarinos que conectan Taiwán con
-otros países asiáticos resultaron dañados.</p>
-<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="cable-failures-after-taiwan-earthquake" src="https://linternita.com/assets/images/cable-failures-after-taiwan-earthquake-617f56de16e9379b253ec5a67f82926e.jpg" width="599" height="474" class="img_ev3q"></p></div>
-<p>Si bien Taiwán fue el más afectado, muchos países de la región, como China, Hong
-Kong, Malasia, Singapur, Tailandia, y Filipinas reportaron tener serias
-disrupciones de los servicios de comunicación. Estuvieron días sin acceso a
-internet y con una degradación del servicio telefónico.</p>
-<p>También afectó a la timba local:</p>
-<blockquote>
-<p>Un terremoto dañó varios cables submarinos de fibra óptica que conectan con
-Taiwán, lo que provocó un caos en la red de telecomunicaciones de Asia
-Oriental y paralizó el centro de datos de Bloomberg, una plataforma popular
-para casas de bolsa y medios de comunicación de Hong Kong. El mercado
-cambiario de Corea del Sur quedó prácticamente paralizado, lo que lastró a las
-acciones coreanas, cuyo rendimiento fue significativamente inferior al de
-otros mercados de Asia-Pacífico. Los corredores de futuros de Singapur
-declararon que no pudieron realizar operaciones extrabursátiles de futuros de
-petróleo tras el cierre del mercado de Singapur debido a la falta de acceso al
-sistema informático de la Bolsa de Futuros de Materias Primas.</p>
-<p><a href="https://web.archive.org/web/20070518152250/http://hk.news.yahoo.com/061227/12/1yxbr.html" target="_blank" rel="noopener noreferrer" class="">https://web.archive.org/web/20070518152250/http://hk.news.yahoo.com/061227/12/1yxbr.html</a></p>
-</blockquote>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="desastres-no-naturales">Desastres... no naturales<a href="https://linternita.com/blog/cables-submarinos#desastres-no-naturales" class="hash-link" aria-label="Enlace directo al Desastres... no naturales" title="Enlace directo al Desastres... no naturales" translate="no">​</a></h3>
-<p>Pero la razón más frecuente de estos cortes es la actividad humana.</p>
-<p>Generalmente es culpa de barcos pesqueros y sus anclas, que a veces las
-arrastran por el fondo del mar y se llevan puesto uno (o varios) de estos
-cables.</p>
-<p>Es algo que pasa muy seguido, incluso pasó la semanada pasada:</p>
-<ul>
-<li class=""><strong>6 de septiembre de 2025:</strong>
-<a href="https://www.reuters.com/world/middle-east/red-sea-cable-cuts-disrupt-internet-across-asia-middle-east-2025-09-07/" target="_blank" rel="noopener noreferrer" class="">cortes en el Mar Rojo</a>
-producen disrupciones en el servicio en Asia y Medio Oriente</li>
-<li class=""><strong>17 de noviembre de 2024:</strong>
-<a href="https://www.newsweek.com/nato-baltic-sea-undersea-cables-sabotage-finland-germany-sweden-lithuania-1988002" target="_blank" rel="noopener noreferrer" class="">dos cables del Mar Báltico se cortan casi al mismo tiempo</a>,
-y dado el contexto mundial, se levantan sospechas de si se trató de cortes
-intencionales</li>
-</ul>
-<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="c-lion-cut" src="https://linternita.com/assets/images/c-lion-cut-b1bcd460844bac3368e6bba73cf28bae.jpg" width="815" height="671" class="img_ev3q"></p></div>
-<ul>
-<li class=""><strong>Abril de 2018:</strong>
-<a href="https://fortune.com/2018/04/09/mauritania-cable-break-internet/" target="_blank" rel="noopener noreferrer" class="">Mauritania se queda completamente sin conexión a internet</a>
-por dos días después de que se cortara un cable</li>
-<li class=""><strong>Marzo de 2013:</strong> un cable en el Mar Arábigo se corta, reduciendo la
-velocidad de internet en un 60% para varios países,
-<a href="https://www.bbc.com/news/world-middle-east-21963100" target="_blank" rel="noopener noreferrer" class="">tres tipos son arrestados en Egipto</a>
-al intentar cortar cables cerca de Alejandría (¿buzos con tramontinas? quién
-hubiera pensado que realmente existían)</li>
-<li class=""><strong>etc</strong></li>
-</ul>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="no-es-para-tanto-o-sí">No es para tanto... ¿o sí?<a href="https://linternita.com/blog/cables-submarinos#no-es-para-tanto-o-s%C3%AD" class="hash-link" aria-label="Enlace directo al No es para tanto... ¿o sí?" title="Enlace directo al No es para tanto... ¿o sí?" translate="no">​</a></h2>
-<p>Con estos ejemplos que mencioné queda claro que estos cortes son malos. En el
-mejor de los casos solamente se sufre una degradación del servicio. En el peor,
-tu país puede quedar incomunicado por días.</p>
-<p>La verdad es que internet está construido de forma resiliente. Se estima que hay
-entre 150 y 200 cortes de este tipo al año, y sin embargo el mundo entero navega
-a través de internet todo el año sin mayores problemas. Esto es porque el
-tráfico puede ser re-enrutado por otros cables en caso de una falla. O incluso a
-través de otros medios, como los satélites.</p>
-<p>Pero resulta interesante saber lo vulnerables que son. Todo el mundo depende de
-estos cables y la única protección que tienen es la confianza de que nadie va a
-cortarlos intencionalmente (porque sería malo... para la economía).</p>
-<p>El contexto mundial se está caldeando cada vez más y empiezan a surgir estas
-conspiraciones de sabotaje llevado a cabo por algunos países. Si bien es algo
-plausible, sería una estrategia cuestionable para usar en una guerra propiamente
-dicha. Después de todo, si se enteran que estuviste cortando cables de un país,
-lo más seguro es que en represalia vayan a cortarte los tuyos.</p>
-<p>También esto me hace pensar en los
-<a href="https://www.nbcnews.com/news/us-news/north-carolina-substation-attack-raises-security-concerns-us-electric-rcna60428" target="_blank" rel="noopener noreferrer" class="">ataques que hubo en algunas subestaciones eléctricas de Estados Unidos</a>
-hace algunos años. Estas subestaciones son una parte importante del suministro
-eléctrico, pero a diferencia de las centrales donde se genera la energía, no
-cuentan con seguridad o vigilancia. Lo único que tienen es una valla/cerco
-alrededor de las mismas.</p>
-<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="subestation" src="https://linternita.com/assets/images/subestation-d32e21046d68f5c3bd3ea133341635bb.jpg" width="838" height="628" class="img_ev3q"></p></div>
-<p>En este caso también la seguridad de las mismas está en la confianza de que la
-gente no rompería algo así, porque sería malo para todos (y para la
-economía...).</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="referencias">Referencias<a href="https://linternita.com/blog/cables-submarinos#referencias" class="hash-link" aria-label="Enlace directo al Referencias" title="Enlace directo al Referencias" translate="no">​</a></h2>
-<ul>
-<li class="">
-<p><a href="https://www.submarinecablemap.com/" target="_blank" rel="noopener noreferrer" class="">https://www.submarinecablemap.com/</a></p>
-</li>
-<li class="">
-<p><a href="https://blog.telegeography.com/" target="_blank" rel="noopener noreferrer" class="">https://blog.telegeography.com</a></p>
-</li>
-<li class="">
-<p><a href="https://en.wikipedia.org/wiki/2022_Rogers_Communications_outage" target="_blank" rel="noopener noreferrer" class="">https://en.wikipedia.org/wiki/2022_Rogers_Communications_outage</a></p>
-</li>
-<li class="">
-<p><a href="https://www.datacenterdynamics.com/en/news/tongas-domestic-submarine-cable-fixed-18-months-on-from-volcanic-eruption/" target="_blank" rel="noopener noreferrer" class="">https://www.datacenterdynamics.com/en/news/tongas-domestic-submarine-cable-fixed-18-months-on-from-volcanic-eruption/</a></p>
-</li>
-<li class="">
-<p><a href="https://en.wikipedia.org/wiki/2024_Baltic_Sea_submarine_cable_disruptions" target="_blank" rel="noopener noreferrer" class="">https://en.wikipedia.org/wiki/2024_Baltic_Sea_submarine_cable_disruptions</a></p>
-</li>
-<li class="">
-<p><a href="https://www.submarinenetworks.com/en/nv/news/cables-cut-after-taiwan-earthquake-2006" target="_blank" rel="noopener noreferrer" class="">https://www.submarinenetworks.com/en/nv/news/cables-cut-after-taiwan-earthquake-2006</a></p>
-</li>
-<li class="">
-<p><a href="https://www.kentik.com/blog/subsea-cables-parted-in-red-sea-again/" target="_blank" rel="noopener noreferrer" class="">https://www.kentik.com/blog/subsea-cables-parted-in-red-sea-again/</a></p>
-</li>
-<li class="">
-<p><a href="https://gulfnews.com/technology/red-sea-cable-chaos-why-the-internet-didnt-go-dark-1.500263896" target="_blank" rel="noopener noreferrer" class="">https://gulfnews.com/technology/red-sea-cable-chaos-why-the-internet-didnt-go-dark-1.500263896</a></p>
-</li>
-</ul>]]></content>
         <author>
             <name>Linter Nita</name>
         </author>
