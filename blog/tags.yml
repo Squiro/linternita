@@ -64,3 +64,8 @@ shorternita:
   label: shorternita
   permalink: /shorternita
   description: Posts cortos :)
+
+ondas-de-radio:
+  label: ondas-de-radio
+  permalink: /ondas-de-radio
+  description: cosas relacionadas a ondas de radio
