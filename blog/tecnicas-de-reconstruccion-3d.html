@@ -1,0 +1,421 @@
+<!doctype html>
+<html lang="es" dir="ltr" class="blog-wrapper blog-post-page plugin-blog plugin-id-default" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.10.1">
+<title data-rh="true">técnicas de reconstrucción 3D | Linternita</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://linternita.com/img/LED_Flashlights.jpg"><meta data-rh="true" name="twitter:image" content="https://linternita.com/img/LED_Flashlights.jpg"><meta data-rh="true" property="og:url" content="https://linternita.com/blog/tecnicas-de-reconstruccion-3d"><meta data-rh="true" property="og:locale" content="es"><meta data-rh="true" name="docusaurus_locale" content="es"><meta data-rh="true" name="docusaurus_tag" content="default"><meta data-rh="true" name="docsearch:language" content="es"><meta data-rh="true" name="docsearch:docusaurus_tag" content="default"><meta data-rh="true" property="og:title" content="técnicas de reconstrucción 3D | Linternita"><meta data-rh="true" name="description" content="&lt;div"><meta data-rh="true" property="og:description" content="&lt;div"><meta data-rh="true" property="og:type" content="article"><meta data-rh="true" property="article:published_time" content="2026-10-16T00:00:00.000Z"><meta data-rh="true" property="article:tag" content="vision-artificial"><link data-rh="true" rel="icon" href="/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://linternita.com/blog/tecnicas-de-reconstruccion-3d"><link data-rh="true" rel="alternate" href="https://linternita.com/blog/tecnicas-de-reconstruccion-3d" hreflang="es"><link data-rh="true" rel="alternate" href="https://linternita.com/blog/tecnicas-de-reconstruccion-3d" hreflang="x-default"><script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","@id":"https://linternita.com/blog/tecnicas-de-reconstruccion-3d","mainEntityOfPage":"https://linternita.com/blog/tecnicas-de-reconstruccion-3d","url":"https://linternita.com/blog/tecnicas-de-reconstruccion-3d","headline":"técnicas de reconstrucción 3D","name":"técnicas de reconstrucción 3D","description":"<div","datePublished":"2026-10-16T00:00:00.000Z","author":{"@type":"Person","name":"Linter Nita","description":"Una especialista en todo y nada","image":"/img/author.svg"},"keywords":[],"isPartOf":{"@type":"Blog","@id":"https://linternita.com/blog","name":"Linternita.com"}}</script><link rel="alternate" type="application/rss+xml" href="/blog/rss.xml" title="Linternita RSS Feed">
+<link rel="alternate" type="application/atom+xml" href="/blog/atom.xml" title="Linternita Atom Feed">
+
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css" integrity="sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM" crossorigin="anonymous"><link rel="stylesheet" href="/assets/css/styles.afaec75a.css">
+<script src="/assets/js/runtime~main.f5242e35.js" defer="defer"></script>
+<script src="/assets/js/main.56f6e14f.js" defer="defer"></script>
+</head>
+<body>
+<svg style="display: none;"><defs>
+<symbol id="theme-svg-external-link" viewBox="0 0 24 24"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/></symbol>
+</defs></svg>
+<script>!function(){var t=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();document.documentElement.setAttribute("data-theme",t||"light"),document.documentElement.setAttribute("data-theme-choice",t||"light")}(),function(){try{const c=new URLSearchParams(window.location.search).entries();for(var[t,e]of c)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><link rel="preload" as="image" href="/img/logo.png"><link rel="preload" as="image" href="/img/author.svg"><div role="region" aria-label="Saltar al contenido principal"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Saltar al contenido principal</a></div><nav aria-label="Principal" class="theme-layout-navbar navbar navbar--fixed-top"><div class="navbar__inner"><div class="theme-layout-navbar-left navbar__items"><button aria-label="Alternar barra lateral" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/"><div class="navbar__logo"><img src="/img/logo.png" alt="🔦" class="themedComponent_mlkZ themedComponent--light_NVdE"><img src="/img/logo.png" alt="🔦" class="themedComponent_mlkZ themedComponent--dark_xIcU"></div><b class="navbar__title text--truncate">Linternita</b></a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/blog">Blog</a><a class="navbar__item navbar__link" href="/newsletter">Newsletter</a></div><div class="theme-layout-navbar-right navbar__items navbar__items--right"><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type="button" disabled="" title="system mode" aria-label="Cambiar entre modo oscuro y claro (actualmente system mode)"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP systemToggleIcon_QzmC"><path fill="currentColor" d="m12 21c4.971 0 9-4.029 9-9s-4.029-9-9-9-9 4.029-9 9 4.029 9 9 9zm4.95-13.95c1.313 1.313 2.05 3.093 2.05 4.95s-0.738 3.637-2.05 4.95c-1.313 1.313-3.093 2.05-4.95 2.05v-14c1.857 0 3.637 0.737 4.95 2.05z"></path></svg></button></div><div class="navbarSearchContainer_Bca1"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="theme-layout-main main-wrapper mainWrapper_z2l0"><div class="container margin-vert--lg"><div class="row"><aside class="col col--3"><nav class="sidebar_re4s thin-scrollbar" aria-label="Navegación de publicaciones recientes"><div class="sidebarItemTitle_pO2u margin-bottom--md">Otros posts ↓ 🔦 ↓</div><div role="group"><h3 class="yearGroupHeading_rMGB">2026</h3><ul class="sidebarItemList_Yudw clean-list"><li class="sidebarItem__DBe"><a aria-current="page" class="sidebarItemLink_mo7H sidebarItemLinkActive_I1ZP" href="/blog/tecnicas-de-reconstruccion-3d">técnicas de reconstrucción 3D</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/blog/una-gran-tempestad">una gran TEMPESTad</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/blog/gell-mann-amnesia">la amnesia de Gell-Mann</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/blog/arreglando-un-reproductor-vhs">INTENTANDO arreglar un reproductor de vhs</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/blog/numeros-ilegales">números ilegales</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/blog/simbolos">SÍMBOLOS</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/blog/antenas-diy">armando antenas y escuchando ondas de radio</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/blog/tecnologia-hizo-tontos">¿nos hizo la tecnología más tontos?</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/blog/cosas-interesantes-animales">cosas interesantes sobre animales - parte 1</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/blog/por-que-esa-llama">¿por qué las refinerías de petróleo tienen esas llamas?</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/blog/que-tan-atras-espaniol">¿qué tan atrás podés ir y aún entender el español?</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/blog/linternita-fm">Linternita FM</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/blog/usando-calendar-como-almacenamiento">usando google calendar como medio de almacenamiento</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/blog/como-nos-van-a-encontrar">cuando ya no estemos, ¿cómo nos van a encontrar?</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/blog/recibi-carta-nasa">recibi una carta de la NASA</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/blog/lindo-dia-pesca">un lindo dia de pesca</a></li></ul></div><div role="group"><h3 class="yearGroupHeading_rMGB">2025</h3><ul class="sidebarItemList_Yudw clean-list"><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/blog/habra-que-esperar-comp-cuantica">Habrá que esperar: Computación Cuántica</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/blog/pensamientos-sobre-pensamiento">pensamientos sobre el pensamiento</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/blog/habra-que-esperar-ipv6">Habrá que esperar: IPv6</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/blog/granaderos-a-caballo">¿Por qué se llaman &quot;Granaderos&quot; a Caballo?</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/blog/windows-95-piloto">Algunas cosas sobre Windows 95 y el video &quot;piloto&quot;</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/blog/cables-submarinos">¿Qué pasa cuando se rompen estos cables?</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/blog/linternita-lo-fi">Linternita Lo-Fi</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/blog/monopolio-que-cambio-mundo">El monopolio que cambió al mundo</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/blog/que-tan-diferentes-homo-sapiens">¿qué tan diferentes somos a los primeros homo sapiens?</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/blog/reciclar-plastico">reciclar plástico no funciona</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/blog/blockchain">Sobre blockchain</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/blog/our-sun-is-gone">que pasaría si nuestro sol desapareciese</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/blog/creando-patrones-bullet-hell">aprendiendo a crear patrones bullet hell</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/blog/transmitiendo-datos-con-sonido">transmitiendo datos con sonido</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/blog/como-elegir-un-buen-auricular">¿Cómo elegir un buen auricular?</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/blog/mucho-mas-primera-programadora">Ada Lovelace: mucho más que la primera programadora</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/blog/accion-a-distancia-ebooks">El problema de la acción a distancia - Ebooks</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/blog/hackeando-mi-universidad">hackeando mi universidad</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/blog/ripeando-cds-repacks">ripeando CDs - Repacks</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/blog/internet-antes-de-la-triple-w">Internet antes de la triple W</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/blog/no-more-programmers-soulseek">en 2 o 3 años no va a haber más programadores - Spotify/Soulseek</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/blog/por-que-no-uso-herramientas-ia-plex">por qué no uso herramientas IA para mi trabajo - Plex</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/blog/tecnologia-actual-torrents">current technology sucks - qBittorrent</a></li></ul></div></nav></aside><main class="col col--7"><article class=""><header><h1 class="title_f1Hy">técnicas de reconstrucción 3D</h1><div class="container_mt6G margin-vert--md"><time datetime="2026-10-16T00:00:00.000Z">16 de octubre de 2026</time> · <!-- -->21 min de lectura</div><div class="margin-top--md margin-bottom--sm row"><div class="col col--12 authorCol_Hf19"><div class="avatar margin-bottom--sm"><a class="avatar__photo-link" href="/blog/authors/linternita"><img class="avatar__photo authorImage_XqGP" src="/img/author.svg" alt="Linter Nita"></a><div class="avatar__intro authorDetails_lV9A"><div class="avatar__name"><a href="/blog/authors/linternita"><span class="authorName_yefp" translate="no">Linter Nita</span></a></div><small class="authorTitle_nd0D" title="Una especialista en todo y nada">Una especialista en todo y nada</small><div class="authorSocials_rSDt"></div></div></div></div></div></header><div id="__blog-post-container" class="markdown"><div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="photogrammetry-camera-poses" src="/assets/images/photogrammetry-camera-poses-b2419841216c4fe969f57973cd9629e6.jpg" width="850" height="567" class="img_ev3q"></p></div>
+<p>Una larga clase de visión artificial.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="introducción">Introducción<a href="#introducción" class="hash-link" aria-label="Enlace directo al Introducción" title="Enlace directo al Introducción" translate="no">​</a></h2>
+<p>A los humanos nos gusta capturar y retratar el mundo que nos rodea. En
+<a href="https://linternita.com/blog/simbolos" target="_blank" rel="noopener noreferrer" class="">SIMBOLOS</a>, una anterior publicación de
+esta editorial, vimos como este pasatiempo es algo que venimos acarreando desde
+que nos resguardábamos en cuevas.</p>
+<p>Mucho hemos avanzado desde aquellas épocas. Dejamos atrás las paredes de una
+cueva y el uso de pigmentos que hallábamos tirados por ahí (como el ocre) para
+reemplazarlos por... papiros, murales, frescos, mosaicos, pinturas al óleo... un
+sinfín de medios y técnicas distintas.</p>
+<p>La progresión no fue lineal ni siempre significó un avance en nuestra habilidad
+de representar objetivamente nuestro mundo, ya que el arte humano nunca estuvo
+únicamente enfocado en ese objetivo. El arte transmite un significado, un
+mensaje que muchas veces no concuerda con la realidad percibida por nuestros
+ojos.</p>
+<p>Sin embargo, nos <em>gusta</em> retratar la realidad tal percibimos, tanto así que
+eventualmente surgió una corriente
+<a href="https://en.wikipedia.org/wiki/Realism_(arts)" target="_blank" rel="noopener noreferrer" class="">realista</a>, donde el arte se
+enfocaba en representar al sujeto/materia <em>tal cual</em> es, sin exagerarlo, ni
+añadir elementos artificiales.</p>
+<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="from_waters_edge" src="/assets/images/from_waters_edge-10dd65edfae5752112b764e6ce482998.jpeg" width="2473" height="3000" class="img_ev3q"></p><p><em>Figura 1: Matin à Villeneuve, Henri Biva, una pintura realista</em></p></div>
+<p>Hará unos doscientos años atrás, comenzamos a desarrollar un artefacto capaz de
+crear imágenes a través de la captura de rayos de luz: la cámara.</p>
+<p>Dicha habilidad provee a las cámaras de una cualidad fundamental: un verdadero
+realismo. La fotografía producida por una cámara describe la escena capturada de
+la forma más realista posible.<sup><a href="#note-1" class="">1</a></sup></p>
+<div id="note-1" style="scroll-margin:100px;background-color:lightgreen;position:relative;border-top-right-radius:20px;border-bottom-right-radius:20px;padding:0.5em 1em;margin-bottom:1em"><span style="margin-right:0.5em"><b><i>Linter-nota <!-- -->1<!-- -->:</i></b></span><p>La fotografía también es otro medio artístico, y como mencionamos
+anteriormente, el arte no siempre está enfocado en representar objetivamente
+al mundo que nos rodea. Más aún, existen distintos tipos de sensores, lentes y
+técnicas que alteran la forma en que una cámara captura rayos de luz,
+produciendo imágenes visualmente distintas de una misma escena, que quizás no
+correspondan con aquello que percibimos con nuestros dos ojos.</p></div>
+<p>Parece ser que las cualidades de la cámara calaron hondo en nuestra psiquis: nos
+<em>desvivimos</em> por capturar la realidad. Es un deseo tan embebido en nuestras
+mentes que, a día de hoy, uno de los dispositivos más vendidos hasta la fecha y
+que casi todo el mundo lleva en sus bolsillos cuentan no con una, sino con
+<em>múltiples</em> cámaras por defecto.</p>
+<p><em>Realmente</em> nos gusta capturar la realidad que nos rodea.</p>
+<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="buenos_aires" src="/assets/images/buenos_aires-e61f0ce28bf56305665e679b82758b45.png" width="1920" height="1440" class="img_ev3q"></p></div>
+<p>Pero... por mucho que las fotografías nos acerquen bastante a una representación
+objetiva de la realidad, tienen un gran problema: son imágenes bidimensionales,
+siendo nuestro mundo tridimensional.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="reconstruyendo-la-tridimensionalidad-en-base-a-fotografías">Reconstruyendo la tridimensionalidad en base a fotografías<a href="#reconstruyendo-la-tridimensionalidad-en-base-a-fotografías" class="hash-link" aria-label="Enlace directo al Reconstruyendo la tridimensionalidad en base a fotografías" title="Enlace directo al Reconstruyendo la tridimensionalidad en base a fotografías" translate="no">​</a></h2>
+<p>Si bien una fotografía puede transmitirte una sensación de profundidad, lo
+cierto es que no la tiene. Por ejemplo, la siguiente foto hace un buen uso de la
+perspectiva, haciéndonos sentir que los pedazos de hielo se encuentran bien
+cerca nuestro y que los árboles están bastante lejos en la distancia.</p>
+<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="photography-depth" src="/assets/images/photography-depth-d4a45553df89640fb94a328e35203091.jpg" width="674" height="900" class="img_ev3q"></p></div>
+<p>Pero es solo una sensación. La imagen en sí <em>no captura</em> ningún tipo de
+información relacionada a la distancia o profundidad de las cosas. Al ser un
+plano bidimensional esa información se pierde.</p>
+<p>Tangencialmente... nuestros ojos son solo capaces de &quot;capturar imágenes en 2D&quot;.
+Sin embargo, nuestro cerebro es capaz de utilizar distintas técnicas para
+&quot;reconstruir la tridimensionalidad&quot;, tales como la disparidad binocular
+(contamos con dos ojos frontales, levemente distanciados el uno del otro, lo que
+produce que se proyecten imágenes diferentes en nuestras retinas; en base a esas
+imágenes, nuestro cerebro es capaz de triangular con gran precisión qué tan
+distantes se encuentran los objetos que observamos), paralaje de movimiento
+(cuando te movés, los objetos cercanos aparentan moverse más rápido que aquellos
+que se encuentran muy lejos), diferencias de tamaño (los objetos cercanos
+aparentan ser más grandes), ocultamiento (si un objeto bloquea parcialmente a
+otro, percibimos que el objeto que bloquea es más cercano), sombras,
+perspectiva, entre muchas otras.</p>
+<p>Así como nuestro cerebro es capaz de reconstruir la tridimensionalidad, existen
+técnicas de
+<a href="https://es.wikipedia.org/wiki/Visi%C3%B3n_artificial" target="_blank" rel="noopener noreferrer" class="">visión artificial</a>
+capaces de generar un modelo tridimensional en base a imágenes bidimensionales.
+En las siguientes secciones vamos a ver algunas.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="fotogrametría">Fotogrametría<a href="#fotogrametría" class="hash-link" aria-label="Enlace directo al Fotogrametría" title="Enlace directo al Fotogrametría" translate="no">​</a></h2>
+<p>Citando al libro Introduction to Modern Photogrammetry, la fotogrametría:</p>
+<blockquote>
+<p>ha sido definida como el proceso de derivar información (usualmente) métrica
+acerca de un objeto, a través de las mediciones realizadas sobre fotografías
+del objeto.</p>
+<p>[...]</p>
+<p>La tarea fundamental de la fotogrametría consiste en establecer rigurosamente
+la relación geométrica entre la imagen y el objeto tal cual existía al momento
+de ser tomada la imagen. Una vez que esta relación es recuperada
+correctamente, uno puede derivar información acerca del objeto estrictamente
+desde la imagen capturada.</p>
+</blockquote>
+<p>La fotogrametría puede utilizarse para generar una reconstrucción tridimensional
+de un objeto utilizando fotografías del mismo. Pero antes de hablar de eso,
+quiero aclarecer lo siguiente: no es la única cosa que se puede hacer con &quot;la
+fotogrametría&quot;.</p>
+<p>¿Por qué esta aclaración? Porque si buscamos información en, digamos, Google,
+casi todas las páginas dicen que la fotogrametría es un método para reconstruir
+estructuras tridimensionales usando imágenes bidimensionales. <strong>NO.</strong> Eso es
+algo que podemos hacer con técnicas de fotogrametría moderna, pero no es lo
+único que se puede hacer, ni es a lo que la disciplina apunta de forma
+exclusiva.</p>
+<p>La fotogrametría tiene diversos productos, entre ellos:</p>
+<ul>
+<li class="">Creación de mapas que muestran la elevación de contornos, terrenos, y
+estructuras hechas por humanos</li>
+<li class="">Mapas ortomosaicos<sup><a href="#note-2" class="">2</a></sup> (mapas fotográficos en donde todos
+los elementos están en la misma escala, libre de errores y deformaciones)</li>
+<li class="">Información espacial para sistemas de información geográfica (GIS)</li>
+<li class="">Y por supuesto, la representación tridimensional de objetos, que es el
+producto más popular de la fotogrametría hoy en día</li>
+</ul>
+<div id="note-2" style="scroll-margin:100px;background-color:lightgreen;position:relative;border-top-right-radius:20px;border-bottom-right-radius:20px;padding:0.5em 1em;margin-bottom:1em"><span style="margin-right:0.5em"><b><i>Linter-nota <!-- -->2<!-- -->:</i></b></span>de qué te reís inmaduro</div>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="el-método-fotogramétrico-en-líneas-generales">El método fotogramétrico, en líneas generales<a href="#el-método-fotogramétrico-en-líneas-generales" class="hash-link" aria-label="Enlace directo al El método fotogramétrico, en líneas generales" title="Enlace directo al El método fotogramétrico, en líneas generales" translate="no">​</a></h3>
+<p>En la siguiente imagen de una caja encontramos resaltados dos puntos, P y Q.</p>
+<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="caja" src="/assets/images/caja-312bd05ccfa5e26f5d9a1601b231b37c.jpeg" width="640" height="640" class="img_ev3q"></p></div>
+<p>Esta imagen/fotografía es en términos geométricos un plano. Si posicionáramos un
+sistema de coordenadas en un punto arbitrario de la imagen, el mismo contaría
+con solo dos ejes (X e Y).</p>
+<p>Bajo este esquema, hallar las coordenadas de los puntos es algo trivial. P se
+encuentra en (Px, Py) y Q se encuentra en (Qx, Qy).</p>
+<p>Pero como aludimos anteriormente, con una sola imagen es imposible determinar la
+profundidad de los puntos, nos sería imposible obtener una coordenada Z.</p>
+<p>Para resolver esto necesitamos información extra. Esa información puede estar en
+la imagen misma (por ejemplo, posicionando la caja cerca de algún objeto de
+referencia que tenga dimensiones conocidas), o tomando múltiples fotografías de
+la caja desde posiciones distintas.</p>
+<p>Con tan solo contar con dos fotografías tomadas desde posiciones distintas ya
+poseemos la información necesaria para <em>triangular</em> la profundidad de un punto
+en relación con la cámara:</p>
+<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="camera-triangulation" src="/assets/images/camera-triangulation-cbcd3620ac1dc4a28ddb8d39b49f34a9.jpg" width="918" height="536" class="img_ev3q"></p></div>
+<p>De esta forma somos capaces de obtener las coordenadas 3D de cualquier punto que
+sea de nuestro interés.</p>
+<p>Una vez que obtenemos las coordenadas de varios puntos podemos representarlos en
+un modelo tridimensional. Por cuestiones relacionadas con los algoritmos
+involucrados y a las restricciones impuestas por cómo las imágenes son
+digitalizadas<sup><a href="#note-3" class="">3</a></sup>, <em>no hacemos</em> esto para los infinitos
+puntos que conforman nuestro objeto, lo que nos da como resultado una
+representación inexacta del mismo, conocida como <strong>nube de puntos dispersa</strong>.</p>
+<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="point-cloud-comparison" src="/assets/images/point-cloud-comparison-bdf8785ba5886321dadfb4ec6160544f.png" width="654" height="310" class="img_ev3q"></p></div>
+<div id="note-3" style="scroll-margin:100px;background-color:lightgreen;position:relative;border-top-right-radius:20px;border-bottom-right-radius:20px;padding:0.5em 1em;margin-bottom:1em"><span style="margin-right:0.5em"><b><i>Linter-nota <!-- -->3<!-- -->:</i></b></span><p>En la vida real, la caja está compuesta por &quot;infinitos&quot; puntos. Pero las
+imágenes que tomás con una cámara están atadas a la resolución de la misma. Una
+cámara que capture imágenes en Full HD produce una matriz de 1920 × 1080 =
+2.073.600 píxeles, siendo éste el máximo valor de &quot;puntos&quot; que podrías detectar.</p><p>Pero es complejo desarrollar un algoritmo de visión artificial que sea capaz de
+<em>detectar</em> todos los puntos pertenecientes a un objeto. La mayoría de los
+algoritmos de detección de puntos se enfocan en detectar cambios &quot;locales&quot;
+dentro de un área de píxeles (por ejemplo, una intersección en donde los píxeles
+cambien de color o intensidad drásticamente). Si tenés una zona donde no hay
+cambios notables (como lo sería en el caso de, no sé, sacarle una foto a una
+pared blanca impoluta), los algoritmos no van a ser capaces de detectar puntos.</p></div>
+<p>La nube de puntos dispersa nos da una idea de la geometría general del objeto,
+pero no tiene un gran nivel de detalle ni nos sirve para hacer una
+reconstrucción 3D del mismo. Por lo tanto, el siguiente paso consiste en generar
+todavía más puntos, para así obtener una <strong>nube de puntos densa</strong>.</p>
+<p>Esta nube sí cuenta con un alto nivel de detalle, pudiendo contener billones de
+puntos asociados al objeto. El problema es que sigue siendo solamente una
+representación basada en puntos desconectados. Para que sea realmente un modelo
+3D, los puntos tienen que estar conectados entre sí de alguna forma (utilizando
+triángulos, o líneas, o polígonos en general). Si quisiéramos hacer una
+impresión 3D del objeto en base a la nube de puntos densa, no podríamos.</p>
+<p>Así que para solucionar esto, conectamos los puntos (generalmente usando
+triángulos/polígonos), obteniendo como resultado una malla poligonal:</p>
+<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="dolphin_triangle_mesh" src="/assets/images/dolphin_triangle_mesh-ec5b6405961b502627e6ac2a2fee64bc.png" width="250" height="154" class="img_ev3q"></p></div>
+<p>El último paso consiste en &quot;pintar&quot; este modelo 3D. Hay varias formas de
+hacerlo, pero si queremos una representación &quot;foto-realística&quot;, lo que se hace
+es proyectar las fotografías que tomamos del objeto sobre la malla.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="estereofotogrametría">Estereofotogrametría<a href="#estereofotogrametría" class="hash-link" aria-label="Enlace directo al Estereofotogrametría" title="Enlace directo al Estereofotogrametría" translate="no">​</a></h3>
+<p>La estereofotogrametría es una técnica de triangulación de puntos/reconstrucción
+3D que utiliza cámaras estereoscópicas, que son, básicamente, cámaras que poseen
+dos lentes/sensores levemente separados.</p>
+<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="stereo-camera" src="/assets/images/stereo-camera-c25c4825ddd76ddfa82373e116f80c28.jpg" width="1500" height="1000" class="img_ev3q"></p></div>
+<p>El hecho de tener dos sensores separados significa que la cámara es capaz de
+simular la visión binocular que poseemos los humanos. La separación de cada
+sensor produce una disparidad binocular, es decir: el par de fotografías
+capturado por la cámara en un instante dado tiene diferencias entre sí.</p>
+<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="binocular-disparity" src="/assets/images/binocular-disparity-440a0493075d792111f65c34e8997736.png" width="849" height="601" class="img_ev3q"></p></div>
+<p>Además, esta disposición de los sensores es útil ya que sabemos:</p>
+<ul>
+<li class="">que ambos apuntan hacia la misma dirección,</li>
+<li class="">no existe rotación entre sensor y sensor,</li>
+<li class="">no hay diferencia de profundidad (Z) ni de altura (Y),</li>
+<li class="">solamente existe un desplazamiento horizontal (X) el cual conocemos/es
+fácilmente medible.</li>
+</ul>
+<p>Estas propiedades simplifican la triangulación, reduciendo el cálculo geométrico
+necesario a la siguiente ecuación:</p>
+<div style="display:flex;flex-direction:column;align-items:center"><p><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mtext> </mtext><mi>Z</mi><mo>=</mo><mfrac><mrow><mi>f</mi><mo>∗</mo><mi>B</mi></mrow><mi>d</mi></mfrac></mrow><annotation encoding="application/x-tex">\ Z = \frac{f * B}
+  {d}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em"></span><span class="mspace"> </span><span class="mord mathnormal" style="margin-right:0.0715em">Z</span><span class="mspace" style="margin-right:0.2778em"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em"></span></span><span class="base"><span class="strut" style="height:1.2772em;vertical-align:-0.345em"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.9322em"><span style="top:-2.655em"><span class="pstrut" style="height:3em"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight">d</span></span></span></span><span style="top:-3.23em"><span class="pstrut" style="height:3em"></span><span class="frac-line" style="border-bottom-width:0.04em"></span></span><span style="top:-3.4461em"><span class="pstrut" style="height:3em"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight" style="margin-right:0.1076em">f</span><span class="mbin mtight">∗</span><span class="mord mathnormal mtight" style="margin-right:0.0502em">B</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></p></div>
+<p>donde:</p>
+<ul>
+<li class="">f es la distancia focal de la cámara, obtenida a través de calibrar la
+cámara<sup><a href="#note-4" class="">4</a></sup></li>
+<li class="">B es la base, es la distancia entre &quot;sensor y sensor&quot;</li>
+<li class="">d es el valor de disparidad (la diferencia entre la coordenada X del punto en
+cada imagen)</li>
+</ul>
+<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="stereo-depth-calculation" src="/assets/images/stereo-depth-calculation-dba0095c40fbe961b25e2e4dd98f6a90.png" width="711" height="623" class="img_ev3q"></p></div>
+<div id="note-4" style="scroll-margin:100px;background-color:lightgreen;position:relative;border-top-right-radius:20px;border-bottom-right-radius:20px;padding:0.5em 1em;margin-bottom:1em"><span style="margin-right:0.5em"><b><i>Linter-nota <!-- -->4<!-- -->:</i></b></span><details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>¿Calibrar la cámara?</summary><div><div class="collapsibleContent_i85q"><p>Esto puede sonar como un proceso físico en el que le hacés <em>algo</em> a la cámara, a
+su lente, o sensor. En realidad, no, es un proceso matemático donde se calculan
+algunos parámetros conocidos como parámetros intrínsecos y extrínsecos de la
+cámara.</p><p>Los parámetros extrínsecos determinan la <em>pose</em> de la cámara (posición y
+orientación), mientras que los intrínsecos definen cómo el lente de la cámara
+distorsiona los rayos de luz, la distancia focal (separación entre el lente y el
+sensor), y el punto principal de la cámara (el &quot;centro&quot; de la imagen).</p></div></div></details></div>
+<p>Usando un setup estéreo, el proceso de calcular la profundidad de un punto de
+nuestro interés es fácil y rápido. No solo eso, sino que el resultado provisto
+por esta técnica se encuentra en una escala métrica (es decir, desde el vamos,
+en la nube de puntos las distancias corresponden con aquellas del mundo real).</p>
+<p>La gran desventaja que posee esta técnica es el hecho de tener que armar o
+conseguir una cámara estéreo y realizar la calibración de la misma previamente a
+obtener las coordenadas 3D de los puntos.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="structure-from-motion-sfm">Structure from Motion (SfM)<a href="#structure-from-motion-sfm" class="hash-link" aria-label="Enlace directo al Structure from Motion (SfM)" title="Enlace directo al Structure from Motion (SfM)" translate="no">​</a></h3>
+<p>La estereofotogrametría funciona y a día de hoy sigue siendo utilizada, pero...
+conseguir o armar una cámara estereoscópica es algo molesto. Hasta hace pocos
+años no era común disponer de dispositivos con más de un lente (hoy en día
+nuestros celulares poseen varios; aún así, son lentes/sensores con propiedades
+distintas).</p>
+<p>También nos demanda conocer ciertos parámetros de la cámara (intrínsecos y
+extrínsecos). En muchos casos disponemos de una gran colección de fotografías
+donde no sabemos nada acerca de la cámara que fue utilizada, por lo que no
+disponemos de dichos parámetros.</p>
+<p>En los años 70 surgieron algunas publicaciones en las que se proponían métodos y
+algoritmos para poder reconstruir una escena 3D utilizando fotografías tomadas
+con cámaras convencionales (es decir, de un solo lente, monoculares). A
+diferencia de la estereofotogrametría, que se basa en el concepto de visión
+binocular, estas técnicas se basan en la interpretación del movimiento en cada
+fotografía (más específicamente, en el efecto conocido como <em>paralaje de
+movimiento</em>):</p>
+<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="motion-parallax" src="/assets/images/motion-parallax-18f85089f0bfaa25ac52b848fb316f54.jpg" width="506" height="395" class="img_ev3q"></p></div>
+<p>De ahí surge el nombre &quot;Structure from Motion&quot;: a través de analizar el
+movimiento de la cámara alrededor de una escena se puede generar una estructura
+3D que la represente.</p>
+<p>Esto, en los años 70, era <em>posible</em> de hacer... con bastante dificultad. Un par
+de décadas después, llegando al nuevo milenio, hubo una explosión de métodos y
+técnicas relacionadas a visión artificial que resultaron ser bastante útiles
+para automatizar el proceso.</p>
+<p>¿Lo más interesante? Gracias a esas técnicas, <strong>SfM puede reconstruir una escena
+3D sin conocer la pose de la cámara ni ninguno de sus parámetros.</strong></p>
+<p>El siguiente gráfico muestra los pasos asociados al método SfM moderno, los
+cuales iremos explicando a continuación.</p>
+<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="sfm-pipeline" src="/assets/images/sfm-pipeline-6a48b3d8b33e818787e2f92ad4d15060.png" width="1429" height="294" class="img_ev3q"></p></div>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="1-tomado-de-fotografías">1. Tomado de fotografías<a href="#1-tomado-de-fotografías" class="hash-link" aria-label="Enlace directo al 1. Tomado de fotografías" title="Enlace directo al 1. Tomado de fotografías" translate="no">​</a></h4>
+<p>Si bien SfM levanta el requeimiento de tener una cámara estereoscópica, esto no
+quiere decir que pueda reconstruir una escena 3D a partir de una sola imagen.
+Uno de los pasos involucrados dentro del método es la triangulación (¿de qué
+otra forma, si no?), por lo que necesitamos muchas imágenes desde distintos
+puntos de vista.</p>
+<p>Estas imágenes tienen que tener <em>bastante</em> solapamiento entre sí. Con
+solapamiento nos referimos a que, entre dos pares de imágenes consecutivas, lo
+que se &quot;ve&quot; en cada una de ellas debe ser <em>bastante</em> similar (no exactamente lo
+mismo, porque si no no agregamos información nueva, pero no pueden ser imágenes
+totalmente distintas).</p>
+<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="sfm-overlap" src="/assets/images/sfm-overlap-e2e3d40a87d9ea0acd866e6da0671ac1.png" width="850" height="640" class="img_ev3q"></p><p><img decoding="async" loading="lazy" alt="structure-from-motion" src="/assets/images/structure-from-motion-19b6ee58b42b63e91eea0d9f5c4f1405.jpg" width="371" height="319" class="img_ev3q"></p></div>
+<p>No es necesario que tomemos las fotos en un orden específico o que las ordenemos
+previamente a ejecutar SfM. El método se encarga de detectar pares de imágenes
+con alto solapamiento y luego los utiliza para estimar las coordenadas 3D de los
+puntos visualizados en esos pares.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="2-el-problema-de-la-correspondencia-de-puntos">2. El problema de la correspondencia de puntos<a href="#2-el-problema-de-la-correspondencia-de-puntos" class="hash-link" aria-label="Enlace directo al 2. El problema de la correspondencia de puntos" title="Enlace directo al 2. El problema de la correspondencia de puntos" translate="no">​</a></h4>
+<p>En este post venimos hablando hace rato de puntos. No debería sorprender que uno
+de los pilares fundamentales del funcionamiento de SfM gire en torno a ellos.</p>
+<p>El primer paso que realiza el método es la extracción de características de las
+imágenes.</p>
+<p><em>¿Qué es una característica?</em></p>
+<p>Buenísima pregunta. No hay una definición concreta.</p>
+<p>En sí, las características de una imagen son partes &quot;interesantes&quot;. Por ejemplo,
+un área donde tengas la intersección de píxeles de distintos colores. Una imagen
+totalmente blanca carece de características (o puntos notables, o keypoints, se
+usan distintos nombres de forma intercambiable para referirse a lo mismo; en
+esta publicación voy a usar estos tres indistintamente).</p>
+<p>Hay <em>varios</em> algoritmos para detectar características (keypoints) en una imagen,
+<a href="https://en.wikipedia.org/wiki/Scale-invariant_feature_transform" target="_blank" rel="noopener noreferrer" class="">SIFT</a>,
+<a href="https://en.wikipedia.org/wiki/Features_from_accelerated_segment_test" target="_blank" rel="noopener noreferrer" class="">FAST</a>,
+<a href="https://en.wikipedia.org/wiki/Oriented_FAST_and_rotated_BRIEF" target="_blank" rel="noopener noreferrer" class="">ORB</a>, entre
+otros. No todos funcionan de la misma forma y algunos son bastante enrevesados.</p>
+<p>El siguiente gráfico es una comparativa de los resultados que producen distintos
+algoritmos sobre la misma imagen:</p>
+<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="keypoint-detection-algorithms" src="/assets/images/keypoint-detection-algorithms-bdcac7141716f2eab1dc3be8d1c2e0f6.png" width="2851" height="2400" class="img_ev3q"></p></div>
+<p>Para no dejar totalmente en el aire cómo funcionan estos algoritmos, vamos a
+explicar muy por encima FAST. FAST, <em>muy por encima</em>, se centra en detectar
+esquinas. Cada esquina detectada es guardada como un keypoint.</p>
+<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="corner-detection" src="/assets/images/corner-detection-81172d48af1986fee2e9a2c1b3736d0c.png" width="1024" height="754" class="img_ev3q"></p><p><img decoding="async" loading="lazy" alt="fast-keypoints" src="/assets/images/fast-keypoints-fa2fbb7cbab00a83ab0ecf80e7f59382.jpg" width="1420" height="1050" class="img_ev3q"></p></div>
+<p>Una vez que han sido detectadas todas las características en las imágenes, se
+empieza a &quot;resolver&quot; el problema de la correspondencia de puntos. En sí, el
+problema de puntos se puede entender en base al siguiente enunciado:</p>
+<p><strong>Dadas dos imágenes A y B con sus respectivos puntos notables, ¿qué puntos de A
+encontramos en B?</strong></p>
+<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="feature-matching" src="/assets/images/feature-matching-0bc5dda4d601a6c3957a1e6c3c70d405.png" width="1400" height="937" class="img_ev3q"></p></div>
+<p>SfM realiza este proceso para identificar imágenes que estén viendo la misma
+escena/área. Como resultado obtenemos un conjunto de pares de imágenes
+<em>potencialmente</em> se solapan.</p>
+<p>Luego se debe validar que dichos pares de imágenes realmente estén viendo la
+misma escena. Esto es porque el paso anterior solamente se fija en la apariencia
+de los keypoints para decir que dos puntos en imágenes distintas son en realidad
+el mismo, lo cual puede ser erróneo. Para eliminar outliers y correspondencias
+incorrectas, se utiliza el método RANSAC.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="reconstrucción-incremental-inicialización-triangulación-registro-de-imágenes">Reconstrucción incremental: inicialización, triangulación, registro de imágenes<a href="#reconstrucción-incremental-inicialización-triangulación-registro-de-imágenes" class="hash-link" aria-label="Enlace directo al Reconstrucción incremental: inicialización, triangulación, registro de imágenes" title="Enlace directo al Reconstrucción incremental: inicialización, triangulación, registro de imágenes" translate="no">​</a></h4>
+<p>Hablamos bastante de la detección de puntos, pero, ¿de qué nos sirve conocer la
+ubicación del mismo punto en diferentes imágenes?</p>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>Pista</summary><div><div class="collapsibleContent_i85q"><div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="triangulo" src="/assets/images/triangulo-b939a41bd419f806fec9d1c2b9f63409.png" width="537" height="475" class="img_ev3q"></p></div></div></div></details>
+<p>Otra vez caemos en triangulación, pero hay un problema grave: <strong>¿cómo carajo
+triangulamos si no conocemos las posiciones de la cámara en cada foto tomada?</strong></p>
+<p>Recordemos que SfM no necesita ningún tipo de información previa, solo las
+fotos. Resolver el problema de la correspondencia nos indica que estamos
+observando el mismo punto desde vistas distintas. Pero no tenemos ningún marco
+de referencia que nos diga dónde estaba ubicada la cámara en cada una de esas
+vistas.</p>
+<p>En una cámara estéreo, conocemos de antemano la posición de una cámara respecto
+a la otra: sabemos que se encuentran únicamente desplazadas en un solo eje. En
+SfM, entre foto y foto, la cámara puede haberse desplazado de cualquier forma
+(varios ejes, rotación incluida), o incluso puede que estés lidiando con
+fotografías tomadas con cámaras diferentes (distintos parámetros intrínsecos).</p>
+<p>Para resolver este problema, SfM estima la pose de la cámara. Existen diferentes
+algoritmos para lograr este cometido, todos ellos utilizan las correspondencias
+detectadas en el paso anterior:</p>
+<ul>
+<li class="">El algoritmo de Nistér (conocido como
+<a href="https://hyunlibro.com/en/posts/academic/5point-algorithm" target="_blank" rel="noopener noreferrer" class="">five point algorithm</a>)</li>
+<li class=""><a href="https://en.wikipedia.org/wiki/Eight-point_algorithm" target="_blank" rel="noopener noreferrer" class="">Eight point algorithm</a></li>
+<li class="">Estimación de pose basada en homografía</li>
+</ul>
+<p>Me encantaría explicar estos algoritmos, pero van más allá de esta publicación
+(y de mi conocimiento). En definitiva, nos ayudan a obtener la posición de la
+cámara solo utilizando puntos 2D.</p>
+<p>Para empezar a triangular, se elige un par de imágenes iniciales (que, por
+ejemplo, tengan bastantes correspondencias 2D entre sí), se ejecuta alguno de
+los algoritmos previamente mencionados para estimar la pose de la cámara, y por
+último, se triangula, obteniendo así un conjunto de puntos 3D iniciales.</p>
+<p>Una vez obtenidos los puntos 3D iniciales, podemos comenzar a procesar nuevas
+imágenes para incluirlas en nuestro modelo. Este proceso se llama &quot;registro&quot; de
+imágenes. Para registrar nuevas imágenes no hace falta que ejecutemos nuevamente
+algoritmos como el de Nistér. Todavía <em>necesitamos</em> estimar la pose de la
+cámara, pero podemos hacerlo resolviendo el problema de &quot;Perspectiva desde n
+Puntos&quot;. Este problema estima la pose de la cámara utilizando <em>n</em> puntos 3D y
+sus correspondientes proyecciones 2D en una imagen.</p>
+<p>Al añadir nuevas imágenes podemos nuevamente triangular para obtener la posición
+3D de otros puntos notables (que quizás no eran visibles en el par de imágenes
+iniciales), expandiendo así el modelo tridimensional.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="bundle-adjustment">Bundle adjustment<a href="#bundle-adjustment" class="hash-link" aria-label="Enlace directo al Bundle adjustment" title="Enlace directo al Bundle adjustment" translate="no">​</a></h4>
+<p>El último paso (de este ciclo iterativo) es realizar lo que se conoce como
+<a href="https://en.wikipedia.org/wiki/Bundle_adjustment" target="_blank" rel="noopener noreferrer" class=""><em>bundle adjustment</em></a>. Esta
+técnica refina los parámetros (intrínsecos y extrínsecos) de la cámara y las
+coordenadas 3D de los puntos obtenidos.</p>
+<p>En sí, es un problema de
+<a href="https://es.wikipedia.org/wiki/Optimizaci%C3%B3n_(matem%C3%A1tica)" target="_blank" rel="noopener noreferrer" class=""><em>optimización matemática</em></a>
+donde se intenta minimizar el error de reproyección.</p>
+<p><em>¿Qué es el error de reproyección?</em></p>
+<p>Supongamos que en una imagen nos centramos en un punto notable <em>q</em>. Disponemos
+para esa misma imagen los parámetros estimados de la cámara C, y un punto X que
+representan las coordenadas 3D del punto <em>q</em>.</p>
+<p>Usando la matriz de la cámara C y el punto X, podemos obtener una ecuación de
+proyección. Esta ecuación de proyección arroja un punto <em>p</em> 2D en nuestra
+imagen.</p>
+<p>El error de reproyección es la diferencia entre el punto <em>q</em> y el punto <em>p</em>. Si
+la estimación fuese buena, la diferencia entre ambos puntos debería ser mínima.
+Caso contrario tenemos que refinar los parámetros a fin de minimizar el
+error.<sup><a href="#note-5" class="">5</a></sup></p>
+<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="reprojection-error" src="/assets/images/reprojection-error-233d5149390b4c6d5ac46a53e4a9b57d.png" width="846" height="501" class="img_ev3q"></p></div>
+<div id="note-5" style="scroll-margin:100px;background-color:lightgreen;position:relative;border-top-right-radius:20px;border-bottom-right-radius:20px;padding:0.5em 1em;margin-bottom:1em"><span style="margin-right:0.5em"><b><i>Linter-nota <!-- -->5<!-- -->:</i></b></span><p>En el
+<a href="https://www.cs.cornell.edu/~snavely/publications/thesis/thesis.pdf" target="_blank" rel="noopener noreferrer" class="">capítulo 3.2 de esta tésis</a>
+se explica más a fondo cómo se obtiene la ecuación de proyección y qué función se optimiza.</p><p>No te preocupes si no entendés esto. Yo tampoco. Para entenderlo completamente
+no solo necesitás tener conocimiento de álgebra, geometría, óptica de cámaras...
+sino también de un montón de algoritmos relacionados a visión artificial.</p></div>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="el-resultado">El resultado<a href="#el-resultado" class="hash-link" aria-label="Enlace directo al El resultado" title="Enlace directo al El resultado" translate="no">​</a></h4>
+<p>Al final de todo este proceso, obtenemos una nube de puntos dispersa con la
+estimación de las distintas poses la cámara en la escena.</p>
+<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="sfm-output" src="/assets/images/sfm-output-3beb48766c68d560d421085b750bea2c.jpg" width="761" height="403" class="img_ev3q"></p></div>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="multi-view-stereo-mvs">Multi-View Stereo (MVS)<a href="#multi-view-stereo-mvs" class="hash-link" aria-label="Enlace directo al Multi-View Stereo (MVS)" title="Enlace directo al Multi-View Stereo (MVS)" translate="no">​</a></h3>
+<p>El siguiente paso es obtener la nube de puntos densa. Para esto se utiliza una
+técnica conocida como Multi-View Stereo (MVS).</p>
+<p>MVS utiliza los resultados producidos por SfM: la nube de puntos y las
+estimaciones intrínsecas e extrínsecas de la cámara para cada imagen.</p>
+<p>A diferencia de SfM donde solo nos centrábamos en hallar coordenadas 3D para las
+características (puntos notables), MVS calcula la profundidad para casi todos de
+los píxeles de la imagen.</p>
+<p>El resultado que obtenemos de MVS es la nube de puntos
+densa.<sup><a href="#note-6" class="">6</a></sup></p>
+<div id="note-6" style="scroll-margin:100px;background-color:lightgreen;position:relative;border-top-right-radius:20px;border-bottom-right-radius:20px;padding:0.5em 1em;margin-bottom:1em"><span style="margin-right:0.5em"><b><i>Linter-nota <!-- -->6<!-- -->:</i></b></span><p>Voy a ser sincero. Mi idea era explicar cada paso involucrado hasta la creación del modelo 3D final. Pobre de mí, tan ingenuo.</p><p>No es tan fácil como parece y me cuesta bastante entender y destilar el
+conocimiento. Probablemente lo siga explicando en futuras publicaciones, pero
+por ahora terminamos el tema acá.</p><p>Lo que sigue después de la línea de puntos densa es generar la malla poligonal y
+pintarla, y ahí tenés el modelo 3D resultante.</p></div>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="nerf-y-gaussian-splatting">NeRF y Gaussian Splatting<a href="#nerf-y-gaussian-splatting" class="hash-link" aria-label="Enlace directo al NeRF y Gaussian Splatting" title="Enlace directo al NeRF y Gaussian Splatting" translate="no">​</a></h2>
+<p>NeRF (Neural radiance field) y Gaussian Splatting son técnicas relativamente
+nuevas que pueden reconstruir una escena 3D a partir de imágenes.</p>
+<p>NeRF apareció en 2020 impulsado por los avances en deep learning y redes
+neuronales. Si bien funciona, debido a que está basado en redes neuronales
+resulta bastante lento.</p>
+<p>Gaussian Splatting apareció en 2023 y le pasó el trapo a NeRF en cuanto a
+velocidad, principalmente porque no utiliza redes neuronales sino que está
+basado en &quot;gaussian blobs&quot;.</p>
+<p>Ambas técnicas se benefician de SfM, ya que necesitan la estimación de
+parámetros de la cámara para funcionar.</p>
+<p>Mi intención es explicar estas dos técnicas en siguientes publicaciones, pero si
+no podés esperar, mira estos videos de Computerphile:</p>
+<div style="margin:0 auto;text-align:center"><iframe style="width:100%;height:315px" src="https://www.youtube.com/embed/wKsoGiENBHU" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></div>
+<div style="margin:0 auto;text-align:center"><iframe style="width:100%;height:315px" src="https://www.youtube.com/embed/VkIJbpdTujE" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></div>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="referencias">Referencias<a href="#referencias" class="hash-link" aria-label="Enlace directo al Referencias" title="Enlace directo al Referencias" translate="no">​</a></h2>
+<ul>
+<li class=""><a href="https://books.google.com.ar/books/about/Introduction_to_Modern_Photogrammetry.html?id=D4h8EAAAQBAJ&amp;redir_esc=y" target="_blank" rel="noopener noreferrer" class="">Introduction to Modern Photogrammetry - Edward M. Mikhail</a></li>
+<li class=""><a href="https://doc.esri.com/en/arcgis-pro/latest/help/data/imagery/introduction-to-ortho-mapping.html" target="_blank" rel="noopener noreferrer" class="">Introduction to ortho mapping - Arcgis</a></li>
+<li class=""><a href="https://oceanexplorer.noaa.gov/technology/photogrammetry/" target="_blank" rel="noopener noreferrer" class="">Photogrammetry - Ocean Explorer NOAA</a></li>
+<li class=""><a href="https://dl1.icdst.org/pdfs/files/1a3dacb48e4ca6bbc936ce9eaf029a36.pdf" target="_blank" rel="noopener noreferrer" class="">Introduction to Photogrammetry - T. Schenk</a></li>
+<li class=""><a href="https://ecampusontario.pressbooks.pub/remotesensing/chapter/chapter-10-photogrammetry-and-structure-from-motion/" target="_blank" rel="noopener noreferrer" class="">Photogrammetry and Structure-from-Motion</a></li>
+<li class=""><a href="https://www.sciencedirect.com/science/article/pii/S0169555X12004217" target="_blank" rel="noopener noreferrer" class="">‘Structure-from-Motion’ photogrammetry: A low-cost, effective tool for geoscience applications</a></li>
+<li class=""><a href="https://www.sciencedirect.com/science/chapter/bookseries/abs/pii/B9780444641779000011" target="_blank" rel="noopener noreferrer" class="">Chapter 1 - Structure from motion photogrammetric technique</a></li>
+<li class=""><a href="https://openaccess.thecvf.com/content_cvpr_2016/papers/Schonberger_Structure-From-Motion_Revisited_CVPR_2016_paper.pdf" target="_blank" rel="noopener noreferrer" class="">Structure-From-Motion Revisited</a></li>
+<li class=""><a href="https://www.cs.cornell.edu/~snavely/publications/thesis/thesis.pdf" target="_blank" rel="noopener noreferrer" class="">Scene reconstruction and visualization from internet photo collections</a></li>
+<li class=""><a href="https://www.3dflow.net/elementsCV/S4.xhtml" target="_blank" rel="noopener noreferrer" class="">Two-View Geometry</a></li>
+<li class=""><a href="https://computervisiononline.com/explains/multi-view-stereo/" target="_blank" rel="noopener noreferrer" class="">Multi-View Stereo</a></li>
+</ul></div><footer class="docusaurus-mt-lg"><div class="row margin-top--sm theme-blog-footer-edit-meta-row"><div class="col"><b>Etiquetas:</b><ul class="tags_jXut padding--none margin-left--sm"><li class="tag_QGVx"><a rel="tag" title="cosas relacionadas a vision artificial" class="tag_zVej tagRegular_sFm0" href="/blog/tags/vision-artificial">vision-artificial</a></li></ul></div></div></footer></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="Barra de paginación de publicaciones del blog"><a class="pagination-nav__link pagination-nav__link--next" href="/blog/una-gran-tempestad"><div class="pagination-nav__sublabel">Publicación más antigua</div><div class="pagination-nav__label">una gran TEMPESTad</div></a></nav></main><div class="col col--2"><div class="tableOfContents_bqdL thin-scrollbar"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#introducción" class="table-of-contents__link toc-highlight">Introducción</a></li><li><a href="#reconstruyendo-la-tridimensionalidad-en-base-a-fotografías" class="table-of-contents__link toc-highlight">Reconstruyendo la tridimensionalidad en base a fotografías</a></li><li><a href="#fotogrametría" class="table-of-contents__link toc-highlight">Fotogrametría</a><ul><li><a href="#el-método-fotogramétrico-en-líneas-generales" class="table-of-contents__link toc-highlight">El método fotogramétrico, en líneas generales</a></li><li><a href="#estereofotogrametría" class="table-of-contents__link toc-highlight">Estereofotogrametría</a></li><li><a href="#structure-from-motion-sfm" class="table-of-contents__link toc-highlight">Structure from Motion (SfM)</a></li><li><a href="#multi-view-stereo-mvs" class="table-of-contents__link toc-highlight">Multi-View Stereo (MVS)</a></li></ul></li><li><a href="#nerf-y-gaussian-splatting" class="table-of-contents__link toc-highlight">NeRF y Gaussian Splatting</a></li><li><a href="#referencias" class="table-of-contents__link toc-highlight">Referencias</a></li></ul></div></div></div></div></div><footer class="theme-layout-footer footer footer--dark"><div class="container container-fluid"><div class="footer__bottom text--center"><div class="footer__copyright">FELICIDADES SOS EL VISTANTE NUMERO 1 MILLON</div></div></div></footer></div>
+</body>
+</html>

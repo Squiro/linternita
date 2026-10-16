@@ -2,11 +2,422 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://linternita.com/blog</id>
     <title>Linternita Blog</title>
-    <updated>2026-08-29T00:00:00.000Z</updated>
+    <updated>2026-10-16T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://linternita.com/blog"/>
     <subtitle>Linternita Blog</subtitle>
     <icon>https://linternita.com/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[técnicas de reconstrucción 3D]]></title>
+        <id>https://linternita.com/blog/tecnicas-de-reconstruccion-3d</id>
+        <link href="https://linternita.com/blog/tecnicas-de-reconstruccion-3d"/>
+        <updated>2026-10-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<div]]></summary>
+        <content type="html"><![CDATA[<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="photogrammetry-camera-poses" src="https://linternita.com/assets/images/photogrammetry-camera-poses-b2419841216c4fe969f57973cd9629e6.jpg" width="850" height="567" class="img_ev3q"></p></div>
+<p>Una larga clase de visión artificial.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="introducción">Introducción<a href="https://linternita.com/blog/tecnicas-de-reconstruccion-3d#introducci%C3%B3n" class="hash-link" aria-label="Enlace directo al Introducción" title="Enlace directo al Introducción" translate="no">​</a></h2>
+<p>A los humanos nos gusta capturar y retratar el mundo que nos rodea. En
+<a href="https://linternita.com/blog/simbolos" target="_blank" rel="noopener noreferrer" class="">SIMBOLOS</a>, una anterior publicación de
+esta editorial, vimos como este pasatiempo es algo que venimos acarreando desde
+que nos resguardábamos en cuevas.</p>
+<p>Mucho hemos avanzado desde aquellas épocas. Dejamos atrás las paredes de una
+cueva y el uso de pigmentos que hallábamos tirados por ahí (como el ocre) para
+reemplazarlos por... papiros, murales, frescos, mosaicos, pinturas al óleo... un
+sinfín de medios y técnicas distintas.</p>
+<p>La progresión no fue lineal ni siempre significó un avance en nuestra habilidad
+de representar objetivamente nuestro mundo, ya que el arte humano nunca estuvo
+únicamente enfocado en ese objetivo. El arte transmite un significado, un
+mensaje que muchas veces no concuerda con la realidad percibida por nuestros
+ojos.</p>
+<p>Sin embargo, nos <em>gusta</em> retratar la realidad tal percibimos, tanto así que
+eventualmente surgió una corriente
+<a href="https://en.wikipedia.org/wiki/Realism_(arts)" target="_blank" rel="noopener noreferrer" class="">realista</a>, donde el arte se
+enfocaba en representar al sujeto/materia <em>tal cual</em> es, sin exagerarlo, ni
+añadir elementos artificiales.</p>
+<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="from_waters_edge" src="https://linternita.com/assets/images/from_waters_edge-10dd65edfae5752112b764e6ce482998.jpeg" width="2473" height="3000" class="img_ev3q"></p><p><em>Figura 1: Matin à Villeneuve, Henri Biva, una pintura realista</em></p></div>
+<p>Hará unos doscientos años atrás, comenzamos a desarrollar un artefacto capaz de
+crear imágenes a través de la captura de rayos de luz: la cámara.</p>
+<p>Dicha habilidad provee a las cámaras de una cualidad fundamental: un verdadero
+realismo. La fotografía producida por una cámara describe la escena capturada de
+la forma más realista posible.<sup><a href="https://linternita.com/blog/tecnicas-de-reconstruccion-3d#note-1" class="">1</a></sup></p>
+<div id="note-1" style="scroll-margin:100px;background-color:lightgreen;position:relative;border-top-right-radius:20px;border-bottom-right-radius:20px;padding:0.5em 1em;margin-bottom:1em"><span style="margin-right:0.5em"><b><i>Linter-nota <!-- -->1<!-- -->:</i></b></span><p>La fotografía también es otro medio artístico, y como mencionamos
+anteriormente, el arte no siempre está enfocado en representar objetivamente
+al mundo que nos rodea. Más aún, existen distintos tipos de sensores, lentes y
+técnicas que alteran la forma en que una cámara captura rayos de luz,
+produciendo imágenes visualmente distintas de una misma escena, que quizás no
+correspondan con aquello que percibimos con nuestros dos ojos.</p></div>
+<p>Parece ser que las cualidades de la cámara calaron hondo en nuestra psiquis: nos
+<em>desvivimos</em> por capturar la realidad. Es un deseo tan embebido en nuestras
+mentes que, a día de hoy, uno de los dispositivos más vendidos hasta la fecha y
+que casi todo el mundo lleva en sus bolsillos cuentan no con una, sino con
+<em>múltiples</em> cámaras por defecto.</p>
+<p><em>Realmente</em> nos gusta capturar la realidad que nos rodea.</p>
+<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="buenos_aires" src="https://linternita.com/assets/images/buenos_aires-e61f0ce28bf56305665e679b82758b45.png" width="1920" height="1440" class="img_ev3q"></p></div>
+<p>Pero... por mucho que las fotografías nos acerquen bastante a una representación
+objetiva de la realidad, tienen un gran problema: son imágenes bidimensionales,
+siendo nuestro mundo tridimensional.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="reconstruyendo-la-tridimensionalidad-en-base-a-fotografías">Reconstruyendo la tridimensionalidad en base a fotografías<a href="https://linternita.com/blog/tecnicas-de-reconstruccion-3d#reconstruyendo-la-tridimensionalidad-en-base-a-fotograf%C3%ADas" class="hash-link" aria-label="Enlace directo al Reconstruyendo la tridimensionalidad en base a fotografías" title="Enlace directo al Reconstruyendo la tridimensionalidad en base a fotografías" translate="no">​</a></h2>
+<p>Si bien una fotografía puede transmitirte una sensación de profundidad, lo
+cierto es que no la tiene. Por ejemplo, la siguiente foto hace un buen uso de la
+perspectiva, haciéndonos sentir que los pedazos de hielo se encuentran bien
+cerca nuestro y que los árboles están bastante lejos en la distancia.</p>
+<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="photography-depth" src="https://linternita.com/assets/images/photography-depth-d4a45553df89640fb94a328e35203091.jpg" width="674" height="900" class="img_ev3q"></p></div>
+<p>Pero es solo una sensación. La imagen en sí <em>no captura</em> ningún tipo de
+información relacionada a la distancia o profundidad de las cosas. Al ser un
+plano bidimensional esa información se pierde.</p>
+<p>Tangencialmente... nuestros ojos son solo capaces de "capturar imágenes en 2D".
+Sin embargo, nuestro cerebro es capaz de utilizar distintas técnicas para
+"reconstruir la tridimensionalidad", tales como la disparidad binocular
+(contamos con dos ojos frontales, levemente distanciados el uno del otro, lo que
+produce que se proyecten imágenes diferentes en nuestras retinas; en base a esas
+imágenes, nuestro cerebro es capaz de triangular con gran precisión qué tan
+distantes se encuentran los objetos que observamos), paralaje de movimiento
+(cuando te movés, los objetos cercanos aparentan moverse más rápido que aquellos
+que se encuentran muy lejos), diferencias de tamaño (los objetos cercanos
+aparentan ser más grandes), ocultamiento (si un objeto bloquea parcialmente a
+otro, percibimos que el objeto que bloquea es más cercano), sombras,
+perspectiva, entre muchas otras.</p>
+<p>Así como nuestro cerebro es capaz de reconstruir la tridimensionalidad, existen
+técnicas de
+<a href="https://es.wikipedia.org/wiki/Visi%C3%B3n_artificial" target="_blank" rel="noopener noreferrer" class="">visión artificial</a>
+capaces de generar un modelo tridimensional en base a imágenes bidimensionales.
+En las siguientes secciones vamos a ver algunas.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="fotogrametría">Fotogrametría<a href="https://linternita.com/blog/tecnicas-de-reconstruccion-3d#fotogrametr%C3%ADa" class="hash-link" aria-label="Enlace directo al Fotogrametría" title="Enlace directo al Fotogrametría" translate="no">​</a></h2>
+<p>Citando al libro Introduction to Modern Photogrammetry, la fotogrametría:</p>
+<blockquote>
+<p>ha sido definida como el proceso de derivar información (usualmente) métrica
+acerca de un objeto, a través de las mediciones realizadas sobre fotografías
+del objeto.</p>
+<p>[...]</p>
+<p>La tarea fundamental de la fotogrametría consiste en establecer rigurosamente
+la relación geométrica entre la imagen y el objeto tal cual existía al momento
+de ser tomada la imagen. Una vez que esta relación es recuperada
+correctamente, uno puede derivar información acerca del objeto estrictamente
+desde la imagen capturada.</p>
+</blockquote>
+<p>La fotogrametría puede utilizarse para generar una reconstrucción tridimensional
+de un objeto utilizando fotografías del mismo. Pero antes de hablar de eso,
+quiero aclarecer lo siguiente: no es la única cosa que se puede hacer con "la
+fotogrametría".</p>
+<p>¿Por qué esta aclaración? Porque si buscamos información en, digamos, Google,
+casi todas las páginas dicen que la fotogrametría es un método para reconstruir
+estructuras tridimensionales usando imágenes bidimensionales. <strong>NO.</strong> Eso es
+algo que podemos hacer con técnicas de fotogrametría moderna, pero no es lo
+único que se puede hacer, ni es a lo que la disciplina apunta de forma
+exclusiva.</p>
+<p>La fotogrametría tiene diversos productos, entre ellos:</p>
+<ul>
+<li class="">Creación de mapas que muestran la elevación de contornos, terrenos, y
+estructuras hechas por humanos</li>
+<li class="">Mapas ortomosaicos<sup><a href="https://linternita.com/blog/tecnicas-de-reconstruccion-3d#note-2" class="">2</a></sup> (mapas fotográficos en donde todos
+los elementos están en la misma escala, libre de errores y deformaciones)</li>
+<li class="">Información espacial para sistemas de información geográfica (GIS)</li>
+<li class="">Y por supuesto, la representación tridimensional de objetos, que es el
+producto más popular de la fotogrametría hoy en día</li>
+</ul>
+<div id="note-2" style="scroll-margin:100px;background-color:lightgreen;position:relative;border-top-right-radius:20px;border-bottom-right-radius:20px;padding:0.5em 1em;margin-bottom:1em"><span style="margin-right:0.5em"><b><i>Linter-nota <!-- -->2<!-- -->:</i></b></span>de qué te reís inmaduro</div>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="el-método-fotogramétrico-en-líneas-generales">El método fotogramétrico, en líneas generales<a href="https://linternita.com/blog/tecnicas-de-reconstruccion-3d#el-m%C3%A9todo-fotogram%C3%A9trico-en-l%C3%ADneas-generales" class="hash-link" aria-label="Enlace directo al El método fotogramétrico, en líneas generales" title="Enlace directo al El método fotogramétrico, en líneas generales" translate="no">​</a></h3>
+<p>En la siguiente imagen de una caja encontramos resaltados dos puntos, P y Q.</p>
+<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="caja" src="https://linternita.com/assets/images/caja-312bd05ccfa5e26f5d9a1601b231b37c.jpeg" width="640" height="640" class="img_ev3q"></p></div>
+<p>Esta imagen/fotografía es en términos geométricos un plano. Si posicionáramos un
+sistema de coordenadas en un punto arbitrario de la imagen, el mismo contaría
+con solo dos ejes (X e Y).</p>
+<p>Bajo este esquema, hallar las coordenadas de los puntos es algo trivial. P se
+encuentra en (Px, Py) y Q se encuentra en (Qx, Qy).</p>
+<p>Pero como aludimos anteriormente, con una sola imagen es imposible determinar la
+profundidad de los puntos, nos sería imposible obtener una coordenada Z.</p>
+<p>Para resolver esto necesitamos información extra. Esa información puede estar en
+la imagen misma (por ejemplo, posicionando la caja cerca de algún objeto de
+referencia que tenga dimensiones conocidas), o tomando múltiples fotografías de
+la caja desde posiciones distintas.</p>
+<p>Con tan solo contar con dos fotografías tomadas desde posiciones distintas ya
+poseemos la información necesaria para <em>triangular</em> la profundidad de un punto
+en relación con la cámara:</p>
+<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="camera-triangulation" src="https://linternita.com/assets/images/camera-triangulation-cbcd3620ac1dc4a28ddb8d39b49f34a9.jpg" width="918" height="536" class="img_ev3q"></p></div>
+<p>De esta forma somos capaces de obtener las coordenadas 3D de cualquier punto que
+sea de nuestro interés.</p>
+<p>Una vez que obtenemos las coordenadas de varios puntos podemos representarlos en
+un modelo tridimensional. Por cuestiones relacionadas con los algoritmos
+involucrados y a las restricciones impuestas por cómo las imágenes son
+digitalizadas<sup><a href="https://linternita.com/blog/tecnicas-de-reconstruccion-3d#note-3" class="">3</a></sup>, <em>no hacemos</em> esto para los infinitos
+puntos que conforman nuestro objeto, lo que nos da como resultado una
+representación inexacta del mismo, conocida como <strong>nube de puntos dispersa</strong>.</p>
+<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="point-cloud-comparison" src="https://linternita.com/assets/images/point-cloud-comparison-bdf8785ba5886321dadfb4ec6160544f.png" width="654" height="310" class="img_ev3q"></p></div>
+<div id="note-3" style="scroll-margin:100px;background-color:lightgreen;position:relative;border-top-right-radius:20px;border-bottom-right-radius:20px;padding:0.5em 1em;margin-bottom:1em"><span style="margin-right:0.5em"><b><i>Linter-nota <!-- -->3<!-- -->:</i></b></span><p>En la vida real, la caja está compuesta por "infinitos" puntos. Pero las
+imágenes que tomás con una cámara están atadas a la resolución de la misma. Una
+cámara que capture imágenes en Full HD produce una matriz de 1920 × 1080 =
+2.073.600 píxeles, siendo éste el máximo valor de "puntos" que podrías detectar.</p><p>Pero es complejo desarrollar un algoritmo de visión artificial que sea capaz de
+<em>detectar</em> todos los puntos pertenecientes a un objeto. La mayoría de los
+algoritmos de detección de puntos se enfocan en detectar cambios "locales"
+dentro de un área de píxeles (por ejemplo, una intersección en donde los píxeles
+cambien de color o intensidad drásticamente). Si tenés una zona donde no hay
+cambios notables (como lo sería en el caso de, no sé, sacarle una foto a una
+pared blanca impoluta), los algoritmos no van a ser capaces de detectar puntos.</p></div>
+<p>La nube de puntos dispersa nos da una idea de la geometría general del objeto,
+pero no tiene un gran nivel de detalle ni nos sirve para hacer una
+reconstrucción 3D del mismo. Por lo tanto, el siguiente paso consiste en generar
+todavía más puntos, para así obtener una <strong>nube de puntos densa</strong>.</p>
+<p>Esta nube sí cuenta con un alto nivel de detalle, pudiendo contener billones de
+puntos asociados al objeto. El problema es que sigue siendo solamente una
+representación basada en puntos desconectados. Para que sea realmente un modelo
+3D, los puntos tienen que estar conectados entre sí de alguna forma (utilizando
+triángulos, o líneas, o polígonos en general). Si quisiéramos hacer una
+impresión 3D del objeto en base a la nube de puntos densa, no podríamos.</p>
+<p>Así que para solucionar esto, conectamos los puntos (generalmente usando
+triángulos/polígonos), obteniendo como resultado una malla poligonal:</p>
+<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="dolphin_triangle_mesh" src="https://linternita.com/assets/images/dolphin_triangle_mesh-ec5b6405961b502627e6ac2a2fee64bc.png" width="250" height="154" class="img_ev3q"></p></div>
+<p>El último paso consiste en "pintar" este modelo 3D. Hay varias formas de
+hacerlo, pero si queremos una representación "foto-realística", lo que se hace
+es proyectar las fotografías que tomamos del objeto sobre la malla.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="estereofotogrametría">Estereofotogrametría<a href="https://linternita.com/blog/tecnicas-de-reconstruccion-3d#estereofotogrametr%C3%ADa" class="hash-link" aria-label="Enlace directo al Estereofotogrametría" title="Enlace directo al Estereofotogrametría" translate="no">​</a></h3>
+<p>La estereofotogrametría es una técnica de triangulación de puntos/reconstrucción
+3D que utiliza cámaras estereoscópicas, que son, básicamente, cámaras que poseen
+dos lentes/sensores levemente separados.</p>
+<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="stereo-camera" src="https://linternita.com/assets/images/stereo-camera-c25c4825ddd76ddfa82373e116f80c28.jpg" width="1500" height="1000" class="img_ev3q"></p></div>
+<p>El hecho de tener dos sensores separados significa que la cámara es capaz de
+simular la visión binocular que poseemos los humanos. La separación de cada
+sensor produce una disparidad binocular, es decir: el par de fotografías
+capturado por la cámara en un instante dado tiene diferencias entre sí.</p>
+<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="binocular-disparity" src="https://linternita.com/assets/images/binocular-disparity-440a0493075d792111f65c34e8997736.png" width="849" height="601" class="img_ev3q"></p></div>
+<p>Además, esta disposición de los sensores es útil ya que sabemos:</p>
+<ul>
+<li class="">que ambos apuntan hacia la misma dirección,</li>
+<li class="">no existe rotación entre sensor y sensor,</li>
+<li class="">no hay diferencia de profundidad (Z) ni de altura (Y),</li>
+<li class="">solamente existe un desplazamiento horizontal (X) el cual conocemos/es
+fácilmente medible.</li>
+</ul>
+<p>Estas propiedades simplifican la triangulación, reduciendo el cálculo geométrico
+necesario a la siguiente ecuación:</p>
+<div style="display:flex;flex-direction:column;align-items:center"><p><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mtext>&nbsp;</mtext><mi>Z</mi><mo>=</mo><mfrac><mrow><mi>f</mi><mo>∗</mo><mi>B</mi></mrow><mi>d</mi></mfrac></mrow><annotation encoding="application/x-tex">\ Z = \frac{f * B}
+  {d}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em"></span><span class="mspace">&nbsp;</span><span class="mord mathnormal" style="margin-right:0.0715em">Z</span><span class="mspace" style="margin-right:0.2778em"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em"></span></span><span class="base"><span class="strut" style="height:1.2772em;vertical-align:-0.345em"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.9322em"><span style="top:-2.655em"><span class="pstrut" style="height:3em"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight">d</span></span></span></span><span style="top:-3.23em"><span class="pstrut" style="height:3em"></span><span class="frac-line" style="border-bottom-width:0.04em"></span></span><span style="top:-3.4461em"><span class="pstrut" style="height:3em"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight" style="margin-right:0.1076em">f</span><span class="mbin mtight">∗</span><span class="mord mathnormal mtight" style="margin-right:0.0502em">B</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></p></div>
+<p>donde:</p>
+<ul>
+<li class="">f es la distancia focal de la cámara, obtenida a través de calibrar la
+cámara<sup><a href="https://linternita.com/blog/tecnicas-de-reconstruccion-3d#note-4" class="">4</a></sup></li>
+<li class="">B es la base, es la distancia entre "sensor y sensor"</li>
+<li class="">d es el valor de disparidad (la diferencia entre la coordenada X del punto en
+cada imagen)</li>
+</ul>
+<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="stereo-depth-calculation" src="https://linternita.com/assets/images/stereo-depth-calculation-dba0095c40fbe961b25e2e4dd98f6a90.png" width="711" height="623" class="img_ev3q"></p></div>
+<div id="note-4" style="scroll-margin:100px;background-color:lightgreen;position:relative;border-top-right-radius:20px;border-bottom-right-radius:20px;padding:0.5em 1em;margin-bottom:1em"><span style="margin-right:0.5em"><b><i>Linter-nota <!-- -->4<!-- -->:</i></b></span><details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>¿Calibrar la cámara?</summary><div><div class="collapsibleContent_i85q"><p>Esto puede sonar como un proceso físico en el que le hacés <em>algo</em> a la cámara, a
+su lente, o sensor. En realidad, no, es un proceso matemático donde se calculan
+algunos parámetros conocidos como parámetros intrínsecos y extrínsecos de la
+cámara.</p><p>Los parámetros extrínsecos determinan la <em>pose</em> de la cámara (posición y
+orientación), mientras que los intrínsecos definen cómo el lente de la cámara
+distorsiona los rayos de luz, la distancia focal (separación entre el lente y el
+sensor), y el punto principal de la cámara (el "centro" de la imagen).</p></div></div></details></div>
+<p>Usando un setup estéreo, el proceso de calcular la profundidad de un punto de
+nuestro interés es fácil y rápido. No solo eso, sino que el resultado provisto
+por esta técnica se encuentra en una escala métrica (es decir, desde el vamos,
+en la nube de puntos las distancias corresponden con aquellas del mundo real).</p>
+<p>La gran desventaja que posee esta técnica es el hecho de tener que armar o
+conseguir una cámara estéreo y realizar la calibración de la misma previamente a
+obtener las coordenadas 3D de los puntos.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="structure-from-motion-sfm">Structure from Motion (SfM)<a href="https://linternita.com/blog/tecnicas-de-reconstruccion-3d#structure-from-motion-sfm" class="hash-link" aria-label="Enlace directo al Structure from Motion (SfM)" title="Enlace directo al Structure from Motion (SfM)" translate="no">​</a></h3>
+<p>La estereofotogrametría funciona y a día de hoy sigue siendo utilizada, pero...
+conseguir o armar una cámara estereoscópica es algo molesto. Hasta hace pocos
+años no era común disponer de dispositivos con más de un lente (hoy en día
+nuestros celulares poseen varios; aún así, son lentes/sensores con propiedades
+distintas).</p>
+<p>También nos demanda conocer ciertos parámetros de la cámara (intrínsecos y
+extrínsecos). En muchos casos disponemos de una gran colección de fotografías
+donde no sabemos nada acerca de la cámara que fue utilizada, por lo que no
+disponemos de dichos parámetros.</p>
+<p>En los años 70 surgieron algunas publicaciones en las que se proponían métodos y
+algoritmos para poder reconstruir una escena 3D utilizando fotografías tomadas
+con cámaras convencionales (es decir, de un solo lente, monoculares). A
+diferencia de la estereofotogrametría, que se basa en el concepto de visión
+binocular, estas técnicas se basan en la interpretación del movimiento en cada
+fotografía (más específicamente, en el efecto conocido como <em>paralaje de
+movimiento</em>):</p>
+<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="motion-parallax" src="https://linternita.com/assets/images/motion-parallax-18f85089f0bfaa25ac52b848fb316f54.jpg" width="506" height="395" class="img_ev3q"></p></div>
+<p>De ahí surge el nombre "Structure from Motion": a través de analizar el
+movimiento de la cámara alrededor de una escena se puede generar una estructura
+3D que la represente.</p>
+<p>Esto, en los años 70, era <em>posible</em> de hacer... con bastante dificultad. Un par
+de décadas después, llegando al nuevo milenio, hubo una explosión de métodos y
+técnicas relacionadas a visión artificial que resultaron ser bastante útiles
+para automatizar el proceso.</p>
+<p>¿Lo más interesante? Gracias a esas técnicas, <strong>SfM puede reconstruir una escena
+3D sin conocer la pose de la cámara ni ninguno de sus parámetros.</strong></p>
+<p>El siguiente gráfico muestra los pasos asociados al método SfM moderno, los
+cuales iremos explicando a continuación.</p>
+<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="sfm-pipeline" src="https://linternita.com/assets/images/sfm-pipeline-6a48b3d8b33e818787e2f92ad4d15060.png" width="1429" height="294" class="img_ev3q"></p></div>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="1-tomado-de-fotografías">1. Tomado de fotografías<a href="https://linternita.com/blog/tecnicas-de-reconstruccion-3d#1-tomado-de-fotograf%C3%ADas" class="hash-link" aria-label="Enlace directo al 1. Tomado de fotografías" title="Enlace directo al 1. Tomado de fotografías" translate="no">​</a></h4>
+<p>Si bien SfM levanta el requeimiento de tener una cámara estereoscópica, esto no
+quiere decir que pueda reconstruir una escena 3D a partir de una sola imagen.
+Uno de los pasos involucrados dentro del método es la triangulación (¿de qué
+otra forma, si no?), por lo que necesitamos muchas imágenes desde distintos
+puntos de vista.</p>
+<p>Estas imágenes tienen que tener <em>bastante</em> solapamiento entre sí. Con
+solapamiento nos referimos a que, entre dos pares de imágenes consecutivas, lo
+que se "ve" en cada una de ellas debe ser <em>bastante</em> similar (no exactamente lo
+mismo, porque si no no agregamos información nueva, pero no pueden ser imágenes
+totalmente distintas).</p>
+<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="sfm-overlap" src="https://linternita.com/assets/images/sfm-overlap-e2e3d40a87d9ea0acd866e6da0671ac1.png" width="850" height="640" class="img_ev3q"></p><p><img decoding="async" loading="lazy" alt="structure-from-motion" src="https://linternita.com/assets/images/structure-from-motion-19b6ee58b42b63e91eea0d9f5c4f1405.jpg" width="371" height="319" class="img_ev3q"></p></div>
+<p>No es necesario que tomemos las fotos en un orden específico o que las ordenemos
+previamente a ejecutar SfM. El método se encarga de detectar pares de imágenes
+con alto solapamiento y luego los utiliza para estimar las coordenadas 3D de los
+puntos visualizados en esos pares.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="2-el-problema-de-la-correspondencia-de-puntos">2. El problema de la correspondencia de puntos<a href="https://linternita.com/blog/tecnicas-de-reconstruccion-3d#2-el-problema-de-la-correspondencia-de-puntos" class="hash-link" aria-label="Enlace directo al 2. El problema de la correspondencia de puntos" title="Enlace directo al 2. El problema de la correspondencia de puntos" translate="no">​</a></h4>
+<p>En este post venimos hablando hace rato de puntos. No debería sorprender que uno
+de los pilares fundamentales del funcionamiento de SfM gire en torno a ellos.</p>
+<p>El primer paso que realiza el método es la extracción de características de las
+imágenes.</p>
+<p><em>¿Qué es una característica?</em></p>
+<p>Buenísima pregunta. No hay una definición concreta.</p>
+<p>En sí, las características de una imagen son partes "interesantes". Por ejemplo,
+un área donde tengas la intersección de píxeles de distintos colores. Una imagen
+totalmente blanca carece de características (o puntos notables, o keypoints, se
+usan distintos nombres de forma intercambiable para referirse a lo mismo; en
+esta publicación voy a usar estos tres indistintamente).</p>
+<p>Hay <em>varios</em> algoritmos para detectar características (keypoints) en una imagen,
+<a href="https://en.wikipedia.org/wiki/Scale-invariant_feature_transform" target="_blank" rel="noopener noreferrer" class="">SIFT</a>,
+<a href="https://en.wikipedia.org/wiki/Features_from_accelerated_segment_test" target="_blank" rel="noopener noreferrer" class="">FAST</a>,
+<a href="https://en.wikipedia.org/wiki/Oriented_FAST_and_rotated_BRIEF" target="_blank" rel="noopener noreferrer" class="">ORB</a>, entre
+otros. No todos funcionan de la misma forma y algunos son bastante enrevesados.</p>
+<p>El siguiente gráfico es una comparativa de los resultados que producen distintos
+algoritmos sobre la misma imagen:</p>
+<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="keypoint-detection-algorithms" src="https://linternita.com/assets/images/keypoint-detection-algorithms-bdcac7141716f2eab1dc3be8d1c2e0f6.png" width="2851" height="2400" class="img_ev3q"></p></div>
+<p>Para no dejar totalmente en el aire cómo funcionan estos algoritmos, vamos a
+explicar muy por encima FAST. FAST, <em>muy por encima</em>, se centra en detectar
+esquinas. Cada esquina detectada es guardada como un keypoint.</p>
+<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="corner-detection" src="https://linternita.com/assets/images/corner-detection-81172d48af1986fee2e9a2c1b3736d0c.png" width="1024" height="754" class="img_ev3q"></p><p><img decoding="async" loading="lazy" alt="fast-keypoints" src="https://linternita.com/assets/images/fast-keypoints-fa2fbb7cbab00a83ab0ecf80e7f59382.jpg" width="1420" height="1050" class="img_ev3q"></p></div>
+<p>Una vez que han sido detectadas todas las características en las imágenes, se
+empieza a "resolver" el problema de la correspondencia de puntos. En sí, el
+problema de puntos se puede entender en base al siguiente enunciado:</p>
+<p><strong>Dadas dos imágenes A y B con sus respectivos puntos notables, ¿qué puntos de A
+encontramos en B?</strong></p>
+<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="feature-matching" src="https://linternita.com/assets/images/feature-matching-0bc5dda4d601a6c3957a1e6c3c70d405.png" width="1400" height="937" class="img_ev3q"></p></div>
+<p>SfM realiza este proceso para identificar imágenes que estén viendo la misma
+escena/área. Como resultado obtenemos un conjunto de pares de imágenes
+<em>potencialmente</em> se solapan.</p>
+<p>Luego se debe validar que dichos pares de imágenes realmente estén viendo la
+misma escena. Esto es porque el paso anterior solamente se fija en la apariencia
+de los keypoints para decir que dos puntos en imágenes distintas son en realidad
+el mismo, lo cual puede ser erróneo. Para eliminar outliers y correspondencias
+incorrectas, se utiliza el método RANSAC.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="reconstrucción-incremental-inicialización-triangulación-registro-de-imágenes">Reconstrucción incremental: inicialización, triangulación, registro de imágenes<a href="https://linternita.com/blog/tecnicas-de-reconstruccion-3d#reconstrucci%C3%B3n-incremental-inicializaci%C3%B3n-triangulaci%C3%B3n-registro-de-im%C3%A1genes" class="hash-link" aria-label="Enlace directo al Reconstrucción incremental: inicialización, triangulación, registro de imágenes" title="Enlace directo al Reconstrucción incremental: inicialización, triangulación, registro de imágenes" translate="no">​</a></h4>
+<p>Hablamos bastante de la detección de puntos, pero, ¿de qué nos sirve conocer la
+ubicación del mismo punto en diferentes imágenes?</p>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>Pista</summary><div><div class="collapsibleContent_i85q"><div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="triangulo" src="https://linternita.com/assets/images/triangulo-b939a41bd419f806fec9d1c2b9f63409.png" width="537" height="475" class="img_ev3q"></p></div></div></div></details>
+<p>Otra vez caemos en triangulación, pero hay un problema grave: <strong>¿cómo carajo
+triangulamos si no conocemos las posiciones de la cámara en cada foto tomada?</strong></p>
+<p>Recordemos que SfM no necesita ningún tipo de información previa, solo las
+fotos. Resolver el problema de la correspondencia nos indica que estamos
+observando el mismo punto desde vistas distintas. Pero no tenemos ningún marco
+de referencia que nos diga dónde estaba ubicada la cámara en cada una de esas
+vistas.</p>
+<p>En una cámara estéreo, conocemos de antemano la posición de una cámara respecto
+a la otra: sabemos que se encuentran únicamente desplazadas en un solo eje. En
+SfM, entre foto y foto, la cámara puede haberse desplazado de cualquier forma
+(varios ejes, rotación incluida), o incluso puede que estés lidiando con
+fotografías tomadas con cámaras diferentes (distintos parámetros intrínsecos).</p>
+<p>Para resolver este problema, SfM estima la pose de la cámara. Existen diferentes
+algoritmos para lograr este cometido, todos ellos utilizan las correspondencias
+detectadas en el paso anterior:</p>
+<ul>
+<li class="">El algoritmo de Nistér (conocido como
+<a href="https://hyunlibro.com/en/posts/academic/5point-algorithm" target="_blank" rel="noopener noreferrer" class="">five point algorithm</a>)</li>
+<li class=""><a href="https://en.wikipedia.org/wiki/Eight-point_algorithm" target="_blank" rel="noopener noreferrer" class="">Eight point algorithm</a></li>
+<li class="">Estimación de pose basada en homografía</li>
+</ul>
+<p>Me encantaría explicar estos algoritmos, pero van más allá de esta publicación
+(y de mi conocimiento). En definitiva, nos ayudan a obtener la posición de la
+cámara solo utilizando puntos 2D.</p>
+<p>Para empezar a triangular, se elige un par de imágenes iniciales (que, por
+ejemplo, tengan bastantes correspondencias 2D entre sí), se ejecuta alguno de
+los algoritmos previamente mencionados para estimar la pose de la cámara, y por
+último, se triangula, obteniendo así un conjunto de puntos 3D iniciales.</p>
+<p>Una vez obtenidos los puntos 3D iniciales, podemos comenzar a procesar nuevas
+imágenes para incluirlas en nuestro modelo. Este proceso se llama "registro" de
+imágenes. Para registrar nuevas imágenes no hace falta que ejecutemos nuevamente
+algoritmos como el de Nistér. Todavía <em>necesitamos</em> estimar la pose de la
+cámara, pero podemos hacerlo resolviendo el problema de "Perspectiva desde n
+Puntos". Este problema estima la pose de la cámara utilizando <em>n</em> puntos 3D y
+sus correspondientes proyecciones 2D en una imagen.</p>
+<p>Al añadir nuevas imágenes podemos nuevamente triangular para obtener la posición
+3D de otros puntos notables (que quizás no eran visibles en el par de imágenes
+iniciales), expandiendo así el modelo tridimensional.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="bundle-adjustment">Bundle adjustment<a href="https://linternita.com/blog/tecnicas-de-reconstruccion-3d#bundle-adjustment" class="hash-link" aria-label="Enlace directo al Bundle adjustment" title="Enlace directo al Bundle adjustment" translate="no">​</a></h4>
+<p>El último paso (de este ciclo iterativo) es realizar lo que se conoce como
+<a href="https://en.wikipedia.org/wiki/Bundle_adjustment" target="_blank" rel="noopener noreferrer" class=""><em>bundle adjustment</em></a>. Esta
+técnica refina los parámetros (intrínsecos y extrínsecos) de la cámara y las
+coordenadas 3D de los puntos obtenidos.</p>
+<p>En sí, es un problema de
+<a href="https://es.wikipedia.org/wiki/Optimizaci%C3%B3n_(matem%C3%A1tica)" target="_blank" rel="noopener noreferrer" class=""><em>optimización matemática</em></a>
+donde se intenta minimizar el error de reproyección.</p>
+<p><em>¿Qué es el error de reproyección?</em></p>
+<p>Supongamos que en una imagen nos centramos en un punto notable <em>q</em>. Disponemos
+para esa misma imagen los parámetros estimados de la cámara C, y un punto X que
+representan las coordenadas 3D del punto <em>q</em>.</p>
+<p>Usando la matriz de la cámara C y el punto X, podemos obtener una ecuación de
+proyección. Esta ecuación de proyección arroja un punto <em>p</em> 2D en nuestra
+imagen.</p>
+<p>El error de reproyección es la diferencia entre el punto <em>q</em> y el punto <em>p</em>. Si
+la estimación fuese buena, la diferencia entre ambos puntos debería ser mínima.
+Caso contrario tenemos que refinar los parámetros a fin de minimizar el
+error.<sup><a href="https://linternita.com/blog/tecnicas-de-reconstruccion-3d#note-5" class="">5</a></sup></p>
+<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="reprojection-error" src="https://linternita.com/assets/images/reprojection-error-233d5149390b4c6d5ac46a53e4a9b57d.png" width="846" height="501" class="img_ev3q"></p></div>
+<div id="note-5" style="scroll-margin:100px;background-color:lightgreen;position:relative;border-top-right-radius:20px;border-bottom-right-radius:20px;padding:0.5em 1em;margin-bottom:1em"><span style="margin-right:0.5em"><b><i>Linter-nota <!-- -->5<!-- -->:</i></b></span><p>En el
+<a href="https://www.cs.cornell.edu/~snavely/publications/thesis/thesis.pdf" target="_blank" rel="noopener noreferrer" class="">capítulo 3.2 de esta tésis</a>
+se explica más a fondo cómo se obtiene la ecuación de proyección y qué función se optimiza.</p><p>No te preocupes si no entendés esto. Yo tampoco. Para entenderlo completamente
+no solo necesitás tener conocimiento de álgebra, geometría, óptica de cámaras...
+sino también de un montón de algoritmos relacionados a visión artificial.</p></div>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="el-resultado">El resultado<a href="https://linternita.com/blog/tecnicas-de-reconstruccion-3d#el-resultado" class="hash-link" aria-label="Enlace directo al El resultado" title="Enlace directo al El resultado" translate="no">​</a></h4>
+<p>Al final de todo este proceso, obtenemos una nube de puntos dispersa con la
+estimación de las distintas poses la cámara en la escena.</p>
+<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="sfm-output" src="https://linternita.com/assets/images/sfm-output-3beb48766c68d560d421085b750bea2c.jpg" width="761" height="403" class="img_ev3q"></p></div>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="multi-view-stereo-mvs">Multi-View Stereo (MVS)<a href="https://linternita.com/blog/tecnicas-de-reconstruccion-3d#multi-view-stereo-mvs" class="hash-link" aria-label="Enlace directo al Multi-View Stereo (MVS)" title="Enlace directo al Multi-View Stereo (MVS)" translate="no">​</a></h3>
+<p>El siguiente paso es obtener la nube de puntos densa. Para esto se utiliza una
+técnica conocida como Multi-View Stereo (MVS).</p>
+<p>MVS utiliza los resultados producidos por SfM: la nube de puntos y las
+estimaciones intrínsecas e extrínsecas de la cámara para cada imagen.</p>
+<p>A diferencia de SfM donde solo nos centrábamos en hallar coordenadas 3D para las
+características (puntos notables), MVS calcula la profundidad para casi todos de
+los píxeles de la imagen.</p>
+<p>El resultado que obtenemos de MVS es la nube de puntos
+densa.<sup><a href="https://linternita.com/blog/tecnicas-de-reconstruccion-3d#note-6" class="">6</a></sup></p>
+<div id="note-6" style="scroll-margin:100px;background-color:lightgreen;position:relative;border-top-right-radius:20px;border-bottom-right-radius:20px;padding:0.5em 1em;margin-bottom:1em"><span style="margin-right:0.5em"><b><i>Linter-nota <!-- -->6<!-- -->:</i></b></span><p>Voy a ser sincero. Mi idea era explicar cada paso involucrado hasta la creación del modelo 3D final. Pobre de mí, tan ingenuo.</p><p>No es tan fácil como parece y me cuesta bastante entender y destilar el
+conocimiento. Probablemente lo siga explicando en futuras publicaciones, pero
+por ahora terminamos el tema acá.</p><p>Lo que sigue después de la línea de puntos densa es generar la malla poligonal y
+pintarla, y ahí tenés el modelo 3D resultante.</p></div>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="nerf-y-gaussian-splatting">NeRF y Gaussian Splatting<a href="https://linternita.com/blog/tecnicas-de-reconstruccion-3d#nerf-y-gaussian-splatting" class="hash-link" aria-label="Enlace directo al NeRF y Gaussian Splatting" title="Enlace directo al NeRF y Gaussian Splatting" translate="no">​</a></h2>
+<p>NeRF (Neural radiance field) y Gaussian Splatting son técnicas relativamente
+nuevas que pueden reconstruir una escena 3D a partir de imágenes.</p>
+<p>NeRF apareció en 2020 impulsado por los avances en deep learning y redes
+neuronales. Si bien funciona, debido a que está basado en redes neuronales
+resulta bastante lento.</p>
+<p>Gaussian Splatting apareció en 2023 y le pasó el trapo a NeRF en cuanto a
+velocidad, principalmente porque no utiliza redes neuronales sino que está
+basado en "gaussian blobs".</p>
+<p>Ambas técnicas se benefician de SfM, ya que necesitan la estimación de
+parámetros de la cámara para funcionar.</p>
+<p>Mi intención es explicar estas dos técnicas en siguientes publicaciones, pero si
+no podés esperar, mira estos videos de Computerphile:</p>
+<div style="margin:0 auto;text-align:center"><iframe style="width:100%;height:315px" src="https://www.youtube.com/embed/wKsoGiENBHU" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></div>
+<div style="margin:0 auto;text-align:center"><iframe style="width:100%;height:315px" src="https://www.youtube.com/embed/VkIJbpdTujE" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></div>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="referencias">Referencias<a href="https://linternita.com/blog/tecnicas-de-reconstruccion-3d#referencias" class="hash-link" aria-label="Enlace directo al Referencias" title="Enlace directo al Referencias" translate="no">​</a></h2>
+<ul>
+<li class=""><a href="https://books.google.com.ar/books/about/Introduction_to_Modern_Photogrammetry.html?id=D4h8EAAAQBAJ&amp;redir_esc=y" target="_blank" rel="noopener noreferrer" class="">Introduction to Modern Photogrammetry - Edward M. Mikhail</a></li>
+<li class=""><a href="https://doc.esri.com/en/arcgis-pro/latest/help/data/imagery/introduction-to-ortho-mapping.html" target="_blank" rel="noopener noreferrer" class="">Introduction to ortho mapping - Arcgis</a></li>
+<li class=""><a href="https://oceanexplorer.noaa.gov/technology/photogrammetry/" target="_blank" rel="noopener noreferrer" class="">Photogrammetry - Ocean Explorer NOAA</a></li>
+<li class=""><a href="https://dl1.icdst.org/pdfs/files/1a3dacb48e4ca6bbc936ce9eaf029a36.pdf" target="_blank" rel="noopener noreferrer" class="">Introduction to Photogrammetry - T. Schenk</a></li>
+<li class=""><a href="https://ecampusontario.pressbooks.pub/remotesensing/chapter/chapter-10-photogrammetry-and-structure-from-motion/" target="_blank" rel="noopener noreferrer" class="">Photogrammetry and Structure-from-Motion</a></li>
+<li class=""><a href="https://www.sciencedirect.com/science/article/pii/S0169555X12004217" target="_blank" rel="noopener noreferrer" class="">‘Structure-from-Motion’ photogrammetry: A low-cost, effective tool for geoscience applications</a></li>
+<li class=""><a href="https://www.sciencedirect.com/science/chapter/bookseries/abs/pii/B9780444641779000011" target="_blank" rel="noopener noreferrer" class="">Chapter 1 - Structure from motion photogrammetric technique</a></li>
+<li class=""><a href="https://openaccess.thecvf.com/content_cvpr_2016/papers/Schonberger_Structure-From-Motion_Revisited_CVPR_2016_paper.pdf" target="_blank" rel="noopener noreferrer" class="">Structure-From-Motion Revisited</a></li>
+<li class=""><a href="https://www.cs.cornell.edu/~snavely/publications/thesis/thesis.pdf" target="_blank" rel="noopener noreferrer" class="">Scene reconstruction and visualization from internet photo collections</a></li>
+<li class=""><a href="https://www.3dflow.net/elementsCV/S4.xhtml" target="_blank" rel="noopener noreferrer" class="">Two-View Geometry</a></li>
+<li class=""><a href="https://computervisiononline.com/explains/multi-view-stereo/" target="_blank" rel="noopener noreferrer" class="">Multi-View Stereo</a></li>
+</ul>]]></content>
+        <author>
+            <name>Linter Nita</name>
+        </author>
+        <category label="vision-artificial" term="vision-artificial"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[una gran TEMPESTad]]></title>
         <id>https://linternita.com/blog/una-gran-tempestad</id>
@@ -78,7 +489,7 @@ Esta radiación no solo surge de aquellos dispositivos que cuentan con antenas,
 sino que básicamente <strong>cualquier dispositivo por el que pase una corriente
 eléctrica va a inducir un cambio en el campo
 electromagnético</strong>.<sup><a href="https://linternita.com/blog/una-gran-tempestad#note-1" class="">1</a></sup></p>
-<div id="note-1" style="scroll-margin:100px;background-color:lightgreen;position:relative;border-top-right-radius:20px;border-bottom-right-radius:20px;padding:0.5em 1em;margin-bottom:1em"><span><b><i>Linter-nota <!-- -->1<!-- -->:</i></b></span><details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>Nota larga pero importante</summary><div><div class="collapsibleContent_i85q"><p>Ateniéndonos a la mecánica clásica: una partícula cargada (como el electrón)
+<div id="note-1" style="scroll-margin:100px;background-color:lightgreen;position:relative;border-top-right-radius:20px;border-bottom-right-radius:20px;padding:0.5em 1em;margin-bottom:1em"><span style="margin-right:0.5em"><b><i>Linter-nota <!-- -->1<!-- -->:</i></b></span><details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>Nota larga pero importante</summary><div><div class="collapsibleContent_i85q"><p>Ateniéndonos a la mecánica clásica: una partícula cargada (como el electrón)
 genera un campo magnético sólo cuando está en movimiento. La generación de un
 campo magnético por sí solo no produce una onda electromagnética. Las ecuaciones
 de Maxwell establecen que un campo magnético <em>variable</em> en el tiempo actúa como
@@ -124,7 +535,7 @@ electromagnéticas necesitamos que exista una variación en el tiempo del campo
 eléctrico o del magnético. Cuando vos presionás una tecla, el teclado envía una
 serie de pulsos eléctricos que representan la codificación binaria de la tecla a
 través del cable.<sup><a href="https://linternita.com/blog/una-gran-tempestad#note-2" class="">2</a></sup></p>
-<div id="note-2" style="scroll-margin:100px;background-color:lightgreen;position:relative;border-top-right-radius:20px;border-bottom-right-radius:20px;padding:0.5em 1em;margin-bottom:1em"><span><b><i>Linter-nota <!-- -->2<!-- -->:</i></b></span><p>Supongamos que estás utilizando un teclado que sigue el código ASCII. Bajo
+<div id="note-2" style="scroll-margin:100px;background-color:lightgreen;position:relative;border-top-right-radius:20px;border-bottom-right-radius:20px;padding:0.5em 1em;margin-bottom:1em"><span style="margin-right:0.5em"><b><i>Linter-nota <!-- -->2<!-- -->:</i></b></span><p>Supongamos que estás utilizando un teclado que sigue el código ASCII. Bajo
 esta codificación, la tecla A es representa en binario por los siguientes
 dígitos: 01000001.</p><p>Existen <em>múltiples</em> formas de enviar esta información a través de un cable, pero
 generalmente se utilizan variaciones en el voltaje que es transmitido para
@@ -164,7 +575,7 @@ ordenador modernos generan emisiones comprometedoras (principalmente debido a
 las presiones de costes del fabricante en el diseño). Por lo tanto, no son
 seguros para transmitir información confidencial.<sup><a href="https://linternita.com/blog/una-gran-tempestad#note-3" class="">3</a></sup></p>
 </blockquote>
-<div id="note-3" style="scroll-margin:100px;background-color:lightgreen;position:relative;border-top-right-radius:20px;border-bottom-right-radius:20px;padding:0.5em 1em;margin-bottom:1em"><span><b><i>Linter-nota <!-- -->3<!-- -->:</i></b></span><p>Perdón, esto esta traducido por el traductor de Google, no tenía ganas de
+<div id="note-3" style="scroll-margin:100px;background-color:lightgreen;position:relative;border-top-right-radius:20px;border-bottom-right-radius:20px;padding:0.5em 1em;margin-bottom:1em"><span style="margin-right:0.5em"><b><i>Linter-nota <!-- -->3<!-- -->:</i></b></span><p>Perdón, esto esta traducido por el traductor de Google, no tenía ganas de
 traducirlo a mano. :-(</p></div>
 <p>Ahora, desconozco por qué el paper hace tanto enfoque en PS/2 siendo que ya en
 2009 estaba en vías de extinción. Asumo (y puedo estar totalmente equivocado)
@@ -185,7 +596,7 @@ quiero mostrar es que la investigación alrededor de este tema no paró.</p>
 <p>Para finalizar esta parte, hay que recordar que no solo las computadoras
 utilizan teclados como fuente de entrada. Los cajeros de los bancos también los
 usan.<sup><a href="https://linternita.com/blog/una-gran-tempestad#note-4" class="">4</a></sup></p>
-<div id="note-4" style="scroll-margin:100px;background-color:lightgreen;position:relative;border-top-right-radius:20px;border-bottom-right-radius:20px;padding:0.5em 1em;margin-bottom:1em"><span><b><i>Linter-nota <!-- -->4<!-- -->:</i></b></span><p>Aunque siendo realistas hoy en día todo es una "touchscreen" y cada vez hay
+<div id="note-4" style="scroll-margin:100px;background-color:lightgreen;position:relative;border-top-right-radius:20px;border-bottom-right-radius:20px;padding:0.5em 1em;margin-bottom:1em"><span style="margin-right:0.5em"><b><i>Linter-nota <!-- -->4<!-- -->:</i></b></span><p>Aunque siendo realistas hoy en día todo es una "touchscreen" y cada vez hay
 menos teclados físicos. Pero a que no adivinás qué es lo que pasa con las
 pantallas táctiles...</p></div>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="monitores">Monitores<a href="https://linternita.com/blog/una-gran-tempestad#monitores" class="hash-link" aria-label="Enlace directo al Monitores" title="Enlace directo al Monitores" translate="no">​</a></h3>
@@ -313,7 +724,7 @@ convertirá legítimamente en un paradigma de detección completo</p>
 </blockquote>
 <p>Al final, terminó tardando un poco más, siendo aprobado por la IEEE en mayo
 de 2025.<sup><a href="https://linternita.com/blog/una-gran-tempestad#note-5" class="">5</a></sup></p>
-<div id="note-5" style="scroll-margin:100px;background-color:lightgreen;position:relative;border-top-right-radius:20px;border-bottom-right-radius:20px;padding:0.5em 1em;margin-bottom:1em"><span><b><i>Linter-nota <!-- -->5<!-- -->:</i></b></span><p>¿Importa que haya sido estandarizado por la IEEE? No. Incluso sin estar
+<div id="note-5" style="scroll-margin:100px;background-color:lightgreen;position:relative;border-top-right-radius:20px;border-bottom-right-radius:20px;padding:0.5em 1em;margin-bottom:1em"><span style="margin-right:0.5em"><b><i>Linter-nota <!-- -->5<!-- -->:</i></b></span><p>¿Importa que haya sido estandarizado por la IEEE? No. Incluso sin estar
 incorporado a un estándar, el concepto de "Wi-Fi Sensing" puede ser aplicado
 sin problemas. Que se haya estandarizado implica que aplicar tal tecnología no
 es algo difícil y se espera que surjan nuevos dispositivos que hagan uso de la
@@ -412,7 +823,7 @@ emisiones producidas por tus dispositivos.</li>
 una computadora (usada en alguna agencia del gobierno de Estados Unidos) que se
 encuentra totalmente blindada y que sigue los estándares
 TEMPEST.<sup><a href="https://linternita.com/blog/una-gran-tempestad#note-6" class="">6</a></sup></p>
-<div id="note-6" style="scroll-margin:100px;background-color:lightgreen;position:relative;border-top-right-radius:20px;border-bottom-right-radius:20px;padding:0.5em 1em;margin-bottom:1em"><span><b><i>Linter-nota <!-- -->6<!-- -->:</i></b></span><p>Dicho sea de paso, ese video fue el que inspiró este post. No conocía sobre
+<div id="note-6" style="scroll-margin:100px;background-color:lightgreen;position:relative;border-top-right-radius:20px;border-bottom-right-radius:20px;padding:0.5em 1em;margin-bottom:1em"><span style="margin-right:0.5em"><b><i>Linter-nota <!-- -->6<!-- -->:</i></b></span><p>Dicho sea de paso, ese video fue el que inspiró este post. No conocía sobre
 TEMPEST hasta que lo vi.</p></div>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="deberías-estar-preocupado">¿Deberías estar preocupado?<a href="https://linternita.com/blog/una-gran-tempestad#deber%C3%ADas-estar-preocupado" class="hash-link" aria-label="Enlace directo al ¿Deberías estar preocupado?" title="Enlace directo al ¿Deberías estar preocupado?" translate="no">​</a></h2>
 <p>Depende. A menos que estés en la lista de más buscados del FBI, dudo que alguien
@@ -838,7 +1249,7 @@ como el nuestro?</p>
 funcionar. Dentro de una computadora tenés muchos componentes electrónicos que
 trabajan de forma binaria<sup><a href="https://linternita.com/blog/numeros-ilegales#note-1" class="">1</a></sup>, es decir: la presencia de
 corriente es interpretada como un "1" y la ausencia como un "0".</p>
-<div id="note-1" style="scroll-margin:100px;background-color:lightgreen;position:relative;border-top-right-radius:20px;border-bottom-right-radius:20px;padding:0.5em 1em;margin-bottom:1em"><span><b><i>Linter-nota <!-- -->1<!-- -->:</i></b></span><p>¿Por qué solo unos y ceros? ¿A nadie se le ocurrió hacer una computadora
+<div id="note-1" style="scroll-margin:100px;background-color:lightgreen;position:relative;border-top-right-radius:20px;border-bottom-right-radius:20px;padding:0.5em 1em;margin-bottom:1em"><span style="margin-right:0.5em"><b><i>Linter-nota <!-- -->1<!-- -->:</i></b></span><p>¿Por qué solo unos y ceros? ¿A nadie se le ocurrió hacer una computadora
 ternaria o cuaternaria? En realidad, sí, se experimentó con <a href="https://en.wikipedia.org/wiki/Ternary_computer" target="_blank" rel="noopener noreferrer" class="">computadoras
 ternarias</a> en los 60's y 70's.
 No es que estemos atados a usar electrónica binaria, pero como todo, es un
@@ -861,7 +1272,7 @@ secuencia de números <code>100 0001</code>, la interprete como la letra A.</p>
 como el <a href="https://en.wikipedia.org/wiki/ASCII" target="_blank" rel="noopener noreferrer" class="">código ASCII</a>.</p>
 <div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="ascii-table" src="https://linternita.com/assets/images/ascii-table-f77e3ff603f0547cd96446768343dac1.webp" width="480" height="407" class="img_ev3q"></p><p><em>Tabla ASCII, donde el código para cada símbolo se muestra en Decimal y
 Hexadecimal<sup><a href="https://linternita.com/blog/numeros-ilegales#note-2" class="">2</a></sup></em></p></div>
-<div id="note-2" style="scroll-margin:100px;background-color:lightgreen;position:relative;border-top-right-radius:20px;border-bottom-right-radius:20px;padding:0.5em 1em;margin-bottom:1em"><span><b><i>Linter-nota <!-- -->2<!-- -->:</i></b></span><p>Hay que recordar que las computadoras trabajan en binario, pero para no estar
+<div id="note-2" style="scroll-margin:100px;background-color:lightgreen;position:relative;border-top-right-radius:20px;border-bottom-right-radius:20px;padding:0.5em 1em;margin-bottom:1em"><span style="margin-right:0.5em"><b><i>Linter-nota <!-- -->2<!-- -->:</i></b></span><p>Hay que recordar que las computadoras trabajan en binario, pero para no estar
 escribiendo chillones de unos y ceros, muchas veces se representan los números
 binarios en otras bases numéricas, como decimal y hexadecimal.</p></div>
 <p>La conclusión de todo esto es que <strong>toda información puede ser representada como
@@ -879,7 +1290,7 @@ de DVDs posibles.</p>
 <p>Para evitar esto, se inventaron mecanismos de protección que impedían que un
 usuario común pudiese copiar el contenido de un DVD, o incluso reproducirlo si
 no contabas con el dispositivo/software adecuado<sup><a href="https://linternita.com/blog/numeros-ilegales#note-3" class="">3</a></sup>.</p>
-<div id="note-3" style="scroll-margin:100px;background-color:lightgreen;position:relative;border-top-right-radius:20px;border-bottom-right-radius:20px;padding:0.5em 1em;margin-bottom:1em"><span><b><i>Linter-nota <!-- -->3<!-- -->:</i></b></span><p>Esto significaba que sí o sí necesitabas contar con un reproductor de DVD
+<div id="note-3" style="scroll-margin:100px;background-color:lightgreen;position:relative;border-top-right-radius:20px;border-bottom-right-radius:20px;padding:0.5em 1em;margin-bottom:1em"><span style="margin-right:0.5em"><b><i>Linter-nota <!-- -->3<!-- -->:</i></b></span><p>Esto significaba que sí o sí necesitabas contar con un reproductor de DVD
 "autorizado", o si estabas en una computadora, tenías que tener un software que
 haya pagado la licencia correspondiente para poder reproducir de forma
 autorizada el contenido del disco.</p><p>Pero por más que pudieras reproducirlo con un software de esos, existían trabas
@@ -1000,7 +1411,7 @@ recta numérica.</p>
 <p>Así que quizás no sea un delito publicar o conocer el número en sí. Peeero...
 ¿vos te animarías a ser demandado por Sony por publicar un
 número?<sup><a href="https://linternita.com/blog/numeros-ilegales#note-4" class="">4</a></sup></p>
-<div id="note-4" style="scroll-margin:100px;background-color:lightgreen;position:relative;border-top-right-radius:20px;border-bottom-right-radius:20px;padding:0.5em 1em;margin-bottom:1em"><span><b><i>Linter-nota <!-- -->4<!-- -->:</i></b></span><p>Si la PS5 tuviera juegos, podrías jugarlos pirateados con el siguiente número:
+<div id="note-4" style="scroll-margin:100px;background-color:lightgreen;position:relative;border-top-right-radius:20px;border-bottom-right-radius:20px;padding:0.5em 1em;margin-bottom:1em"><span style="margin-right:0.5em"><b><i>Linter-nota <!-- -->4<!-- -->:</i></b></span><p>Si la PS5 tuviera juegos, podrías jugarlos pirateados con el siguiente número:
 718281828459045235360287471352662497757247093699959574966
 967627724076630353547594571382178525166427427466391932003059
 921817413596629043572900334295260595630738132328627943490763
@@ -1147,7 +1558,7 @@ puramente decorativo que no transmite ningún mensaje al verlo.</p>
 <p>Lo que muestran estos hallazgos de la Cueva de Blombos es que ya veníamos
 dejando marcas intencionalmente hace, al menos, 73.000 años
 atrás.<sup><a href="https://linternita.com/blog/simbolos#note-1" class="">1</a></sup></p>
-<div id="note-1" style="scroll-margin:100px;background-color:lightgreen;position:relative;border-top-right-radius:20px;border-bottom-right-radius:20px;padding:0.5em 1em;margin-bottom:1em"><span><b><i>Linter-nota <!-- -->1<!-- -->:</i></b></span><p>Como todo lo relacionado a la arqueología, es muy difícil encontrar evidencia.
+<div id="note-1" style="scroll-margin:100px;background-color:lightgreen;position:relative;border-top-right-radius:20px;border-bottom-right-radius:20px;padding:0.5em 1em;margin-bottom:1em"><span style="margin-right:0.5em"><b><i>Linter-nota <!-- -->1<!-- -->:</i></b></span><p>Como todo lo relacionado a la arqueología, es muy difícil encontrar evidencia.
 Es posible que hiciéramos esas cosas incluso mucho antes, en otro tipo de
 materiales o medios que no tienen la misma permanencia que la piedra. Quizás
 hacíamos dibujos en la arena de las playas, solo para que sean borrados al
@@ -1156,7 +1567,7 @@ descompone sin dejar rastro alguno.</p></div>
 <p>Algunos años después (aproximadamente 68.000 años en el pasado) se ve que
 empezamos a hacer dibujitos como estos en las paredes de algunas cuevas:</p>
 <div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="sulawesi-cave-painting" src="https://linternita.com/assets/images/sulawesi-cave-painting-00948085a5b4680b77ca48bb81584f58.jpg" width="680" height="510" class="img_ev3q"></p><p><em>Pinturas en la isla de Sulawesi</em></p><p><img decoding="async" loading="lazy" alt="Lubang_Jeriji_Saléh_cave_painting_of_Bull" src="https://linternita.com/assets/images/Lubang_Jeriji_Sal%C3%A9h_cave_painting_of_Bull-f4a10873ebe91bd9da65e337d8c81197.jpg" width="1814" height="1155" class="img_ev3q"></p><p><em>Un ¿toro? pintado en la cueva Lubang Jeriji Saléh en Indonesia</em></p><p><img decoding="async" loading="lazy" alt="mano-maltravieso-cave" src="https://linternita.com/assets/images/mano-maltravieso-cave-9ccef4e896b7208d61dc282d4c5a5f58.jpg" width="810" height="608" class="img_ev3q"></p><p><em>Manos en la cueva de Maltravieso en España</em></p><p><img decoding="async" loading="lazy" alt="cueva-de-las-manos-santa-cruz" src="https://linternita.com/assets/images/cueva-de-las-manos-santa-cruz-b262cb4165ab59c6266e19dc25907257.jpg" width="1600" height="1200" class="img_ev3q"></p><p><em>Manos en la Cueva de las Manos en Argentina<sup><a href="https://linternita.com/blog/simbolos#note-2" class="">2</a></sup></em></p></div>
-<div id="note-2" style="scroll-margin:100px;background-color:lightgreen;position:relative;border-top-right-radius:20px;border-bottom-right-radius:20px;padding:0.5em 1em;margin-bottom:1em"><span><b><i>Linter-nota <!-- -->2<!-- -->:</i></b></span><p>ok lo admito, la última foto es de algo <em>mucho</em> más reciente (9000 años
+<div id="note-2" style="scroll-margin:100px;background-color:lightgreen;position:relative;border-top-right-radius:20px;border-bottom-right-radius:20px;padding:0.5em 1em;margin-bottom:1em"><span style="margin-right:0.5em"><b><i>Linter-nota <!-- -->2<!-- -->:</i></b></span><p>ok lo admito, la última foto es de algo <em>mucho</em> más reciente (9000 años
 atrás), pero, ¿cómo no voy a poner a la Cueva de las Manos como ejemplo?
 ❤️🇦🇷❤️</p></div>
 <p>Que no solo demuestran un claro avance en nuestras habilidades simbólicas, sino
@@ -1178,7 +1589,7 @@ final de un enfrentamiento, que decidieron retratar a modo conmemorativo
 un graffiti sobre el cuerpo del muerto y escribías por chat "al lobby
 pt"<sup><a href="https://linternita.com/blog/simbolos#note-3" class="">3</a></sup>). Quizás era una señal de advertencia, un aviso de
 peligro.</p>
-<div id="note-3" style="scroll-margin:100px;background-color:lightgreen;position:relative;border-top-right-radius:20px;border-bottom-right-radius:20px;padding:0.5em 1em;margin-bottom:1em"><span><b><i>Linter-nota <!-- -->3<!-- -->:</i></b></span><div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="al-lobby-pt" src="https://linternita.com/assets/images/al-lobby-pt-ad7c173c128b57fc13082e551f3b009f.png" width="1906" height="1046" class="img_ev3q"></p><p>al lobby pt</p></div></div>
+<div id="note-3" style="scroll-margin:100px;background-color:lightgreen;position:relative;border-top-right-radius:20px;border-bottom-right-radius:20px;padding:0.5em 1em;margin-bottom:1em"><span style="margin-right:0.5em"><b><i>Linter-nota <!-- -->3<!-- -->:</i></b></span><div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="al-lobby-pt" src="https://linternita.com/assets/images/al-lobby-pt-ad7c173c128b57fc13082e551f3b009f.png" width="1906" height="1046" class="img_ev3q"></p><p>al lobby pt</p></div></div>
 <p>El uso de símbolos para transmitir ideas, conceptos o mensajes siguió
 evolucionando con el tiempo, llegando a crearse sistemas de "proto-escritura".
 La proto-escritura se diferencia de los "verdaderos" sistemas de escritura en
@@ -1357,7 +1768,7 @@ para indicar que se estaba transmitiendo en vivo.</p>
 surgió basándose en el símbolo
 <a href="https://en.wikipedia.org/wiki/Caesura" target="_blank" rel="noopener noreferrer" class="">caesura (//)</a>, que en la teoría musical
 representa una pausa silenciosa.</p>
-<div id="note-4" style="scroll-margin:100px;background-color:lightgreen;position:relative;border-top-right-radius:20px;border-bottom-right-radius:20px;padding:0.5em 1em;margin-bottom:1em"><span><b><i>Linter-nota <!-- -->4<!-- -->:</i></b></span><p>Hace unos meses me surgió la pregunta "¿de dónde salieron los símbolos play y
+<div id="note-4" style="scroll-margin:100px;background-color:lightgreen;position:relative;border-top-right-radius:20px;border-bottom-right-radius:20px;padding:0.5em 1em;margin-bottom:1em"><span style="margin-right:0.5em"><b><i>Linter-nota <!-- -->4<!-- -->:</i></b></span><p>Hace unos meses me surgió la pregunta "¿de dónde salieron los símbolos play y
 pausa?" y pensé que era un tema interesante para hacer un post. Cuando busqué
 información para responder la pregunta, me pareció medio aburrido y que no
 daba para hacer un post solo sobre eso. Eventualmente esa pregunta me llevó a
@@ -1534,7 +1945,7 @@ al conductor núcleo.<sup><a href="https://linternita.com/blog/antenas-diy#note-
 <div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="dipole-diagram" src="https://linternita.com/assets/images/dipole-diagram-baa9f1118936939844ea71abeeb0b947.jpg" width="1000" height="550" class="img_ev3q"></p></div>
 <p>Después conectás el cable coaxial a tu SDR y tirás la antena en algún lugar alto
 y listo. Tu primer dipolo.</p>
-<div id="note-1" style="scroll-margin:100px;background-color:lightgreen;position:relative;border-top-right-radius:20px;border-bottom-right-radius:20px;padding:0.5em 1em;margin-bottom:1em"><span><b><i>Linter-nota <!-- -->1<!-- -->:</i></b></span><p>Es la primera vez que menciono un cable coaxial en este post. Como dije antes,
+<div id="note-1" style="scroll-margin:100px;background-color:lightgreen;position:relative;border-top-right-radius:20px;border-bottom-right-radius:20px;padding:0.5em 1em;margin-bottom:1em"><span style="margin-right:0.5em"><b><i>Linter-nota <!-- -->1<!-- -->:</i></b></span><p>Es la primera vez que menciono un cable coaxial en este post. Como dije antes,
 no voy a ahondar demasiado, pero básicamente lo podés pensar como el cable que
 transmite la señal capturada por la antena hacia el SDR.</p></div>
 <p>Para esta antena disponía de los siguientes materiales:</p>
@@ -1571,7 +1982,7 @@ transmitidos de forma digital... Mientras que lo que recibí acá es claramente
 una señal analógica.</p>
 <p>La TDA existe desde 2008 en Argentina, a esta altura no debería haber canales de
 televisión que transmitan de forma analógica. <sup><a href="https://linternita.com/blog/antenas-diy#note-2" class="">2</a></sup></p>
-<div id="note-2" style="scroll-margin:100px;background-color:lightgreen;position:relative;border-top-right-radius:20px;border-bottom-right-radius:20px;padding:0.5em 1em;margin-bottom:1em"><span><b><i>Linter-nota <!-- -->2<!-- -->:</i></b></span><p>Aparentemente el apagón de las transmisiones analógicas algo que se viene
+<div id="note-2" style="scroll-margin:100px;background-color:lightgreen;position:relative;border-top-right-radius:20px;border-bottom-right-radius:20px;padding:0.5em 1em;margin-bottom:1em"><span style="margin-right:0.5em"><b><i>Linter-nota <!-- -->2<!-- -->:</i></b></span><p>Aparentemente el apagón de las transmisiones analógicas algo que se viene
 postergando y en 2 meses va a dejar de existir:</p><div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="transicion-progreso" src="https://linternita.com/assets/images/transicion-progreso-cad4e7ec074102360ca6474f6668684d.png" width="965" height="117" class="img_ev3q"></p></div></div>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="antena-de-bucle-magnético">Antena de bucle magnético<a href="https://linternita.com/blog/antenas-diy#antena-de-bucle-magn%C3%A9tico" class="hash-link" aria-label="Enlace directo al Antena de bucle magnético" title="Enlace directo al Antena de bucle magnético" translate="no">​</a></h2>
 <p>Las antenas de bucle magnético o "magnetic loop antenas" son totalmente
@@ -1620,7 +2031,7 @@ Se ven así:</p>
 mundo. Digo esto porque al armar un balun tenés que tener en cuenta las
 dimensiones del toroide y las cantidad de vueltas que le das con el cable. Yo no
 tuve en cuenta nada.</p>
-<div id="note-3" style="scroll-margin:100px;background-color:lightgreen;position:relative;border-top-right-radius:20px;border-bottom-right-radius:20px;padding:0.5em 1em;margin-bottom:1em"><span><b><i>Linter-nota <!-- -->3<!-- -->:</i></b></span><p>Después de toda esta explicación, estarás pensando: "wow sí o sí necesito un
+<div id="note-3" style="scroll-margin:100px;background-color:lightgreen;position:relative;border-top-right-radius:20px;border-bottom-right-radius:20px;padding:0.5em 1em;margin-bottom:1em"><span style="margin-right:0.5em"><b><i>Linter-nota <!-- -->3<!-- -->:</i></b></span><p>Después de toda esta explicación, estarás pensando: "wow sí o sí necesito un
 balun si quiero recibir señales".</p><p>No. Las diferencias de impedancia afectan más a la transmisión de señales que a
 la recepción. Las pérdidas que tengas por no usar un balun al recibir señales
 son negligibles. Así que no te preocupes y no gastes tiempo en construir o
@@ -1703,7 +2114,7 @@ para discutir sobre tecnología. No cambies de canal. Por favor.</p>
 <p>Pero antes de responder, analicemos la pregunta de cerca:</p>
 <div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="analisis-sintactico" src="https://linternita.com/assets/images/analisis-sintactico-be538c1b2ed4fcb3520376c8f4519738.png" width="544" height="163" class="img_ev3q"></p></div>
 <p>Es joda, en realidad, quiero centrarme en la palabra "tecnología".</p>
-<div id="note-1" style="scroll-margin:100px;background-color:lightgreen;position:relative;border-top-right-radius:20px;border-bottom-right-radius:20px;padding:0.5em 1em;margin-bottom:1em"><span><b><i>Linter-nota <!-- -->1<!-- -->:</i></b></span><div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="it-depends" src="https://linternita.com/assets/images/it-depends-4180b3be89adde4d17e2cf5d8f77fb7d.webp" width="828" height="311" class="img_ev3q"></p></div></div>
+<div id="note-1" style="scroll-margin:100px;background-color:lightgreen;position:relative;border-top-right-radius:20px;border-bottom-right-radius:20px;padding:0.5em 1em;margin-bottom:1em"><span style="margin-right:0.5em"><b><i>Linter-nota <!-- -->1<!-- -->:</i></b></span><div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="it-depends" src="https://linternita.com/assets/images/it-depends-4180b3be89adde4d17e2cf5d8f77fb7d.webp" width="828" height="311" class="img_ev3q"></p></div></div>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="tecnología">Tecnología<a href="https://linternita.com/blog/tecnologia-hizo-tontos#tecnolog%C3%ADa" class="hash-link" aria-label="Enlace directo al Tecnología" title="Enlace directo al Tecnología" translate="no">​</a></h2>
 <p>Esta es una palabra que, al menos en la modernidad contemporánea, repetimos
 incesantemente. Hablamos de tecnología en nuestros trabajos. Probablemente
@@ -1820,7 +2231,7 @@ information itself and enhanced recall instead for where to access it</p>
 <p>Si querés encontrar o leer más estudios como estos, este paper recolecta y
 menciona varios:
 <a href="https://www.frontiersin.org/journals/cognition/articles/10.3389/fcogn.2023.1203077/full" target="_blank" rel="noopener noreferrer" class="">The impact of digital technology, social media, and artificial intelligence on cognitive functions: a review</a></p>
-<div id="note-2" style="scroll-margin:100px;background-color:lightgreen;position:relative;border-top-right-radius:20px;border-bottom-right-radius:20px;padding:0.5em 1em;margin-bottom:1em"><span><b><i>Linter-nota <!-- -->2<!-- -->:</i></b></span><p>En realidad, esto es algo más profundo que "libros = malo", ya que Sócrates
+<div id="note-2" style="scroll-margin:100px;background-color:lightgreen;position:relative;border-top-right-radius:20px;border-bottom-right-radius:20px;padding:0.5em 1em;margin-bottom:1em"><span style="margin-right:0.5em"><b><i>Linter-nota <!-- -->2<!-- -->:</i></b></span><p>En realidad, esto es algo más profundo que "libros = malo", ya que Sócrates
 estaba haciendo un análisis de las cosas que veía en su época, donde muy pocos
 eran capaces de leer y escribir. Además hay toda una cuestión filosófica de
 fondo acerca de cómo se llega a la verdad a través del dialógo y blablabla a
@@ -2037,7 +2448,7 @@ a breath and they sink to the bottom. They don't take the next breath</p>
 </blockquote>
 <p>Referencia:
 <a href="https://www.theguardian.com/environment/2014/jun/08/the-dolphin-who-loved-me" target="_blank" rel="noopener noreferrer" class="">The dolphin who loved me: the Nasa-funded project that went wrong</a></p>
-<div id="note-1" style="scroll-margin:100px;background-color:lightgreen;position:relative;border-top-right-radius:20px;border-bottom-right-radius:20px;padding:0.5em 1em;margin-bottom:1em"><span><b><i>Linter-nota <!-- -->1<!-- -->:</i></b></span> is there a difference...?</div>
+<div id="note-1" style="scroll-margin:100px;background-color:lightgreen;position:relative;border-top-right-radius:20px;border-bottom-right-radius:20px;padding:0.5em 1em;margin-bottom:1em"><span style="margin-right:0.5em"><b><i>Linter-nota <!-- -->1<!-- -->:</i></b></span> is there a difference...?</div>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="delfines-salvajes-aprendiendo-a-caminar-sobre-el-agua">Delfines salvajes aprendiendo a caminar sobre el agua<a href="https://linternita.com/blog/cosas-interesantes-animales#delfines-salvajes-aprendiendo-a-caminar-sobre-el-agua" class="hash-link" aria-label="Enlace directo al Delfines salvajes aprendiendo a caminar sobre el agua" title="Enlace directo al Delfines salvajes aprendiendo a caminar sobre el agua" translate="no">​</a></h3>
 <p>En mundo marino, o como se llamen esos lugares donde torturan animales acuáticos
 para el entretenimiento de los espectadores, les enseñan a los delfines a
@@ -2124,7 +2535,7 @@ que hacer otra cosa.</p>
 <p>¿Pero por qué? ¿Qué función cumplen? ¿No es algo derrochador y contaminante? ¿No
 se podría usar esa llama para, no sé, calentar agua y generar
 energía<sup><a href="https://linternita.com/blog/por-que-esa-llama#note-1" class="">1</a></sup>?</p>
-<div id="note-1" style="scroll-margin:100px;background-color:lightgreen;position:relative;border-top-right-radius:20px;border-bottom-right-radius:20px;padding:0.5em 1em;margin-bottom:1em"><span><b><i>Linter-nota <!-- -->1<!-- -->:</i></b></span><p>La mayoría de las formas en las que generamos energía para consumo consisten
+<div id="note-1" style="scroll-margin:100px;background-color:lightgreen;position:relative;border-top-right-radius:20px;border-bottom-right-radius:20px;padding:0.5em 1em;margin-bottom:1em"><span style="margin-right:0.5em"><b><i>Linter-nota <!-- -->1<!-- -->:</i></b></span><p>La mayoría de las formas en las que generamos energía para consumo consisten
 en esto. Incluso las plantas nucleares "simplemente" calientan agua que se usa
 para girar turbinas usando vapor.</p></div>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="gases">Gases<a href="https://linternita.com/blog/por-que-esa-llama#gases" class="hash-link" aria-label="Enlace directo al Gases" title="Enlace directo al Gases" translate="no">​</a></h2>
@@ -2173,7 +2584,7 @@ anteriormente mencionados.</p>
 tóxico, al menos no es asesino.</p>
 <p>El metano se convierte en el tan conocido dióxido de carbono, que es menos
 contaminante para el medioambiente.</p>
-<div id="note-2" style="scroll-margin:100px;background-color:lightgreen;position:relative;border-top-right-radius:20px;border-bottom-right-radius:20px;padding:0.5em 1em;margin-bottom:1em"><span><b><i>Linter-nota <!-- -->2<!-- -->:</i></b></span><p>Esta llama tiene que estar prendida siempre, bajo toda condición. No solo para
+<div id="note-2" style="scroll-margin:100px;background-color:lightgreen;position:relative;border-top-right-radius:20px;border-bottom-right-radius:20px;padding:0.5em 1em;margin-bottom:1em"><span style="margin-right:0.5em"><b><i>Linter-nota <!-- -->2<!-- -->:</i></b></span><p>Esta llama tiene que estar prendida siempre, bajo toda condición. No solo para
 evitar que la planta industrial vuele por los aires por acumulación de
 presión, sino para evitar que estos gases peligrosos y más pesados que el aire
 caigan al piso, contaminen todo y nos maten.</p></div>
@@ -2268,7 +2679,7 @@ pesar de eso los habitantes cristianos de Hispania (conocidos como mozárabes)
 mantuvieron vivas las lenguas romances: utilizaban el árabe para lo social,
 comercial y cultural; y las lenguas romances entre familiares y otros
 mozárabes.<sup><a href="https://linternita.com/blog/que-tan-atras-espaniol#note-1" class="">1</a></sup></p>
-<div id="note-1" style="scroll-margin:100px;background-color:lightgreen;position:relative;border-top-right-radius:20px;border-bottom-right-radius:20px;padding:0.5em 1em;margin-bottom:1em"><span><b><i>Linter-nota <!-- -->1<!-- -->:</i></b></span><p>El dominio árabe sobre la región tuvo gran influencia sobre las lenguas romances, que terminaron adoptando términos o palabras del árabe. Por ejemplo:</p><ul>
+<div id="note-1" style="scroll-margin:100px;background-color:lightgreen;position:relative;border-top-right-radius:20px;border-bottom-right-radius:20px;padding:0.5em 1em;margin-bottom:1em"><span style="margin-right:0.5em"><b><i>Linter-nota <!-- -->1<!-- -->:</i></b></span><p>El dominio árabe sobre la región tuvo gran influencia sobre las lenguas romances, que terminaron adoptando términos o palabras del árabe. Por ejemplo:</p><ul>
 <li class="">Aceite (az-zayt)</li>
 <li class="">Alhaja (al-ḥāja)</li>
 <li class="">Almanaque (al-manāŷ)</li>
@@ -2406,7 +2817,7 @@ en el. Era todo lo mas que rezaua por mesoneras, y por bodegoneras y
 turroneras, y rameras, y ansi por semejantes mugercillas, que por hombre casi
 nunca le vi dezir oracion. Reyme entre mi...</p>
 </blockquote>
-<div id="note-2" style="scroll-margin:100px;background-color:lightgreen;position:relative;border-top-right-radius:20px;border-bottom-right-radius:20px;padding:0.5em 1em;margin-bottom:1em"><span><b><i>Linter-nota <!-- -->2<!-- -->:</i></b></span><p>A día de hoy se conversvan 4 ediciones principales del Lazarillo de Tormes publicadas en 1554. Libros que tienen casi 500 años de antiguedad!!</p><div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="lazarillo-de-tormes" src="https://linternita.com/assets/images/lazarillo-de-tormes-a9b32a8c14e332acfc1b85d1767b8d9b.jpg" width="668" height="936" class="img_ev3q"></p></div></div>
+<div id="note-2" style="scroll-margin:100px;background-color:lightgreen;position:relative;border-top-right-radius:20px;border-bottom-right-radius:20px;padding:0.5em 1em;margin-bottom:1em"><span style="margin-right:0.5em"><b><i>Linter-nota <!-- -->2<!-- -->:</i></b></span><p>A día de hoy se conversvan 4 ediciones principales del Lazarillo de Tormes publicadas en 1554. Libros que tienen casi 500 años de antiguedad!!</p><div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="lazarillo-de-tormes" src="https://linternita.com/assets/images/lazarillo-de-tormes-a9b32a8c14e332acfc1b85d1767b8d9b.jpg" width="668" height="936" class="img_ev3q"></p></div></div>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="castellano-medieval">Castellano medieval<a href="https://linternita.com/blog/que-tan-atras-espaniol#castellano-medieval" class="hash-link" aria-label="Enlace directo al Castellano medieval" title="Enlace directo al Castellano medieval" translate="no">​</a></h3>
 <details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>Detalles</summary><div><div class="collapsibleContent_i85q"><p>Comprende la lengua hablada entre los siglos IX y XV.</p></div></div></details>
 <p>Fragmento de El Cantar de Mio Cid, ca. 1300:</p>
@@ -2604,7 +3015,7 @@ internet para que pueda ser escuchada por... gente.</p>
 <details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>Caso contrario...</summary><div><div class="collapsibleContent_i85q"><p>Si no llegaste a ver la radio en vivo, acá tenés unas imágenes de cómo se ve la
 página:</p><p><img decoding="async" loading="lazy" alt="linternita-fm-1" src="https://linternita.com/assets/images/linternita-fm-1-fb11b675c253923fd3929c4a265c0b82.png" width="917" height="833" class="img_ev3q"></p><p><img decoding="async" loading="lazy" alt="linternita-fm-2" src="https://linternita.com/assets/images/linternita-fm-2-1ffc577344b2c9f9ef943a731d36f5c7.png" width="611" height="793" class="img_ev3q"></p><p>Obviamente te estás perdiendo toda la gracia de escuchar un vinilo
 reproduciéndose y siendo transmitido por internet. Usá tu imaginación.</p></div></div></details>
-<div id="note-1" style="scroll-margin:100px;background-color:lightgreen;position:relative;border-top-right-radius:20px;border-bottom-right-radius:20px;padding:0.5em 1em;margin-bottom:1em"><span><b><i>Linter-nota <!-- -->1<!-- -->:</i></b></span><p>Sí, el subodminio es CS porque originalmente esto iba a ser un servidor de
+<div id="note-1" style="scroll-margin:100px;background-color:lightgreen;position:relative;border-top-right-radius:20px;border-bottom-right-radius:20px;padding:0.5em 1em;margin-bottom:1em"><span style="margin-right:0.5em"><b><i>Linter-nota <!-- -->1<!-- -->:</i></b></span><p>Sí, el subodminio es CS porque originalmente esto iba a ser un servidor de
 Counter-Strike 1.6, pool_day 24/7.</p></div>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="making-of">Making-of<a href="https://linternita.com/blog/linternita-fm#making-of" class="hash-link" aria-label="Enlace directo al Making-of" title="Enlace directo al Making-of" translate="no">​</a></h2>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="conectando-el-tocadiscos-a-la-computadora">Conectando el tocadiscos a la computadora<a href="https://linternita.com/blog/linternita-fm#conectando-el-tocadiscos-a-la-computadora" class="hash-link" aria-label="Enlace directo al Conectando el tocadiscos a la computadora" title="Enlace directo al Conectando el tocadiscos a la computadora" translate="no">​</a></h3>
@@ -2700,7 +3111,7 @@ ocurra.</p>
 bien me encanta la idea de tener una radio donde se reproduzcan mis vinilos, el
 setup que tengo es bastante incómodo. Además ni que fuese a tener oyentes.</p>
 <p>En fin, eso es todo por hoy. Las luces se apagan.<sup><a href="https://linternita.com/blog/linternita-fm#note-2" class="">2</a></sup></p>
-<div id="note-2" style="scroll-margin:100px;background-color:lightgreen;position:relative;border-top-right-radius:20px;border-bottom-right-radius:20px;padding:0.5em 1em;margin-bottom:1em"><span><b><i>Linter-nota <!-- -->2<!-- -->:</i></b></span><p>¿Sabías que...? El primer albúm transmitido por Linternita FM es Discovery, de
+<div id="note-2" style="scroll-margin:100px;background-color:lightgreen;position:relative;border-top-right-radius:20px;border-bottom-right-radius:20px;padding:0.5em 1em;margin-bottom:1em"><span style="margin-right:0.5em"><b><i>Linter-nota <!-- -->2<!-- -->:</i></b></span><p>¿Sabías que...? El primer albúm transmitido por Linternita FM es Discovery, de
 Daft Punk, que cumplió 25 años el 12 de marzo de 2026.</p></div>]]></content>
         <author>
             <name>Linter Nita</name>
@@ -2814,7 +3225,7 @@ como un <a href="https://en.wikipedia.org/wiki/Light-year" target="_blank" rel="
 señales escucharíamos a medida que nos vamos alejando de la Tierra (si
 reproducís esto bajá el volumen porque empieza fuerte):</p>
 <div style="margin:0 auto;text-align:center"><iframe style="width:100%;height:315px" src="https://www.youtube.com/embed/s4XbnJvtqGU" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></div>
-<div id="note-1" style="scroll-margin:100px;background-color:lightgreen;position:relative;border-top-right-radius:20px;border-bottom-right-radius:20px;padding:0.5em 1em;margin-bottom:1em"><span><b><i>Linter-nota <!-- -->1<!-- -->:</i></b></span> me encanta esta peli!!! </div>
+<div id="note-1" style="scroll-margin:100px;background-color:lightgreen;position:relative;border-top-right-radius:20px;border-bottom-right-radius:20px;padding:0.5em 1em;margin-bottom:1em"><span style="margin-right:0.5em"><b><i>Linter-nota <!-- -->1<!-- -->:</i></b></span> me encanta esta peli!!! </div>
 <p>No solamente es "de forma ficticia" porque sea una película, sino porque hay dos
 cosas que están mal en esa escena:</p>
 <p>La primera es un detalle menor... Las cosas que se escuchan cambian muy rápido
@@ -2822,7 +3233,7 @@ en base a la distancia que se muestra. Ya a distancia de Marte la música cambi�
 un par de décadas... pero Marte se encuentra entre 3 a 20 minutos luz de
 distancia de la Tierra. No debería haber un salto tan
 grande.<sup><a href="https://linternita.com/blog/como-nos-van-a-encontrar#note-2" class="">2</a></sup></p>
-<div id="note-2" style="scroll-margin:100px;background-color:lightgreen;position:relative;border-top-right-radius:20px;border-bottom-right-radius:20px;padding:0.5em 1em;margin-bottom:1em"><span><b><i>Linter-nota <!-- -->2<!-- -->:</i></b></span><p>La página <a href="https://lightyear.fm/" target="_blank" rel="noopener noreferrer" class="">LightYear.fm</a> está inspirada en esa escena,
+<div id="note-2" style="scroll-margin:100px;background-color:lightgreen;position:relative;border-top-right-radius:20px;border-bottom-right-radius:20px;padding:0.5em 1em;margin-bottom:1em"><span style="margin-right:0.5em"><b><i>Linter-nota <!-- -->2<!-- -->:</i></b></span><p>La página <a href="https://lightyear.fm/" target="_blank" rel="noopener noreferrer" class="">LightYear.fm</a> está inspirada en esa escena,
 pero arreglando el problema de la distancia.</p></div>
 <p>La segunda es la que realmente importa: las señales pierden potencia a medida
 que se propagan por el espacio, siguiendo la
@@ -2844,7 +3255,7 @@ va a transmitir con la suficiente potencia como para escuchar música estando en
 Aldebarán.</p>
 <p>Pero, ¿y si decidiéramos transmitir con la suficiente potencia como para que nos
 escuchen desde otras estrellas?</p>
-<div id="note-3" style="scroll-margin:100px;background-color:lightgreen;position:relative;border-top-right-radius:20px;border-bottom-right-radius:20px;padding:0.5em 1em;margin-bottom:1em"><span><b><i>Linter-nota <!-- -->3<!-- -->:</i></b></span><p>Además... así de lejos llegaron nuestras señales en comparación con nuestra galaxia.</p><div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="extent-human-broadcast" src="https://linternita.com/assets/images/extent-human-broadcast-0d1aca5c4dd85bc82ebbc3559a8322ae.webp" width="2400" height="2400" class="img_ev3q"></p><p><em>Tomado de <a href="https://www.planetary.org/articles/3390" target="_blank" rel="noopener noreferrer" class="">https://www.planetary.org/articles/3390</a></em></p></div></div>
+<div id="note-3" style="scroll-margin:100px;background-color:lightgreen;position:relative;border-top-right-radius:20px;border-bottom-right-radius:20px;padding:0.5em 1em;margin-bottom:1em"><span style="margin-right:0.5em"><b><i>Linter-nota <!-- -->3<!-- -->:</i></b></span><p>Además... así de lejos llegaron nuestras señales en comparación con nuestra galaxia.</p><div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="extent-human-broadcast" src="https://linternita.com/assets/images/extent-human-broadcast-0d1aca5c4dd85bc82ebbc3559a8322ae.webp" width="2400" height="2400" class="img_ev3q"></p><p><em>Tomado de <a href="https://www.planetary.org/articles/3390" target="_blank" rel="noopener noreferrer" class="">https://www.planetary.org/articles/3390</a></em></p></div></div>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="seti">SETI<a href="https://linternita.com/blog/como-nos-van-a-encontrar#seti" class="hash-link" aria-label="Enlace directo al SETI" title="Enlace directo al SETI" translate="no">​</a></h3>
 <p>Poco después de que surgiese la revolución electromagnética, algunos se pusieron
 a pensar en lo siguiente: nosotros somos inteligentes y usamos señales
@@ -2879,7 +3290,7 @@ llegue en el año 25974.</p>
 elementos que componen el ADN, algunas cosas relacionadas al ADN, la altura
 promedio de un ser humano, un dibujito de un ser humano... entre otras cosas.</p>
 <div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="arecibo-message" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPoAAALuCAMAAACw6vurAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAQlBMVEW0tLkAAAASEhKRkZH///8aGhpZWVlEHktoGXWsD8YaeRkeTR0Qzg4dNlkZS5EOcv9THCCFFR7mBxhXWR6OkRr4/xE9CwxpAAAAAWJLR0QEj2jZUQAAAAd0SU1FB+kLGQYkLo7tWTUAAAhsSURBVHja7d3Ncpw4FAbQARzbacdOMnHe/1Vng9MbhkhGXAT3aKVqm59DiaoPIYl//lEURVEURVEuUYaPMo7VtelhLlOb33arDejo6Ojo6OgXp48f5cuX6trjNJfHNr/tVhuL6a1PNYK+ur+xuMG3bqARDX51fwM6Ojo6OnoOeuJIMxWewmPo/61frOptl+kPhQ1vCv2/9VuketsBHR0dHR09Bz1xpJkady3u11W54a/laW7q6Lcmfx3Q0dHR0dFz0BNHmnH/V7zH18bmQwtOUxvQ0dHR0dFz0BNHmqPoT89zebrXkqS5569zeb7Xktzr6Ojo6Ojol0tzHUSa8XDmpdPceuO+9L2Ojo6Ojo5+uTTXaaSR5tzr6Ojo6Ojo0pw0tw6u/+3kaa60cV/wXkdHR0dHR79cmus+0oyh8XW9dsE0V1q74L2Ojo6Ojo5+uTTXaaQxp9WMJ3R0dHR09MGc1hNHmttHeXn5Uyvd9cvCtqV7eWl83E/Qv32U2+1PrbRB3Ra2Ld3LrfFxP9Hg0dHR0dHRL0dPHGlu1Qfer1ZKqr5Yf0tzxz9ulDbk6ltkQEdHR0dHz0FPHGnWg+x+sXS/ILvw22f65vZ7GNnv8WXhtwEdHR0dHT0HPXGkua12LZYepPNtb8UNvrST+XaWbb+ho6Ojo6PnoCeONGZBGCOLjo6Ojo5uFsR1v+z10tEr6PpOy01prr6juKcBCpvudXR0dHR09BPSE0cafXOe3NDR0dHR0fXNXbdv7iKR9rapwZ/6QeYbOjo6Ojp6DnriSLNlyGBP036DZ0H0NNk7eIwsOjo6Ojp6l/TEkcabVv3w6Ojo6Ojo3rT6FkTniy7HfAuiy6W2B3R0dHR09Bz0xJGm9cLJEd2XnX4LIqLTutOVwtHR0dHR0Q+nJ440bRZObr2EculnMDr4FkTrhbNLP37SwUrh6Ojo6OjoHdETRxrfgrBSODo6Ojo6+gXovgVhFoQxsujo6Ojo6GZB+BbE/9Qep7k83mtJvgUxPcxluteSrBSOjo6Ojo4eSk8caSKCbCy9q7652Abf1ZMbOjo6Ojr65frmOo00EQsnH0Xv4FsQRzX4DlYKR0dHR0dHD6UnjjQRCye3pp/oWxCtG/yJVgpHR0dHR0cPpSeONN606odHR0dHR0f3pvVqb1pf3+byut9FaL3n1XMuT3Nv3+fytl/Tb73n1XMe0NHR0dHRc9ATR5rx8zvsIMgWnt9n+ubaNP39Hl8Kz29AR0dHR0fPQU8cacbqg9Rfjtb06jPY9qb13rTqb4LWDb76DAZ0dHR0dPQc9MSRZmxyCqUnU0/fcsl3HDdXfxPUN/gtN9qOoyrQ0dHR0dG7pCeOND0NGWzCPOcsiCaN+5xjZNHR0dHR0Q9PcyePNPrmPLmho6Ojo6Prm8vQN2fcnFEV6Ojo6Ojoxs2db9xc6wkgoZN4+5rTGjp1u68ZT+jo6Ojo6AH0xJEmYnGWiKX2Ol1vLmKBxU5XI0JHR0dHRw+lJ440Y+gCe52muYhlFTu919HR0dHR0S+X5tJFmgj6fh2Ujd607tfg9+uWbtQPj46Ojo6OfhF64kgT2y0ZCu7rTWtoM++rHx4dHR0dHT2AnjjSRAwZbMMMXqEk4pGm0/nr6Ojo6OjoJ6QnjjRj5CkcdYzjVigZjz7GgI6Ojo6OnoOeONJs6ZZcOtWlbX/8nMuP2Eu545vWpQa6tO3Pf+fyM/YG2rEfHh0dHR0dvUt64kgT8ZJ5iR5aO27c3FKDD60N6Ojo6OjoOeiJI01r+p1ZWrtMmrs37tLaZe51dHR0dHT0w+mJI00b+hKkFLx+EZYmj6wv9rLw12nHBr/UfEub+XrTX5oytL7Ez8JfH9DR0dHR0XPQE0eacbfuxvr4WnoRqmvTpoGi9Z3M9Q8tpU2/uvaAjo6Ojo6eg5440kyFQbF+gZXWnZHV8fVv9IfCx4P6ZXVad0FXP7T8rcGjo6Ojo6Nfjp440oy7veKt74Kspzd/07rf8NDWDb55Pzw6Ojo6Ovqp6YkjzX4TQGLpjd60tpn2E9vgG/XDo6Ojo6Ojn5qeONKcm97pCiURDb7T+evo6Ojo6OgH0RNHmojpvKV/veAKJaV/veD8dXR0dHR09FB64kgz7n/g42tj8NCCjmoDOjo6Ojp6DnriSLNE//U+l19LtfpT2LJtcJp7/z2X96VafcPbsm3wvY6Ojo6Ojn5qeuJIs4Ve+lvp5djtt/fmDb70t9KbYLfffqOjo6Ojo+egJ440EUF2S+BtcsmP65vb8pjT5EYb0NHR0dHRc9ATR5qeXjJvCcYnHze35XHo5KMq0NHR0dHRLzduLjjStKY/Pc/lqbR2mVkQz1/n8lxau8wYWXR0dHR09MPpiSPNGMo86HK0T3P1jfugm2BAR0dHR0fPQU8cacYmzIgQfFiai2igux1jQEdHR0dHz0FPHGnG6pOJffHc5Aw+k+YO6jxufQYDOjo6Ojp6DnriSDNWHy7iIqwft/oMytPceiOLaPrrx60+gwEdHR0dHT0HPXGkGat3Hdst2eQM/pbmShtUbGd0kzMY0NHR0dHRc9ATR5qxOqC2Drdb9tc8zW15tGj9qFK/7aZ7HR0dHR0d/dT0xJFmbHy4nvYSkubGLvcScq+jo6Ojo6N3RE8cacYmwfOggBq9QknEY07jbu4BHR0dHR09Bz1xpNmPHrtFV2kudouu7nV0dHR0dPTLpbnuI00E/cvRxzguzY1HH2NAR0dHR0fPQU8cadp8BuNxmstj6V/XtzjRl72mh7lMpX9d3+JE331BR0dHR0fviJ440tzpr29zeV2vreNKa6UXYctZFae5t+9zeVuvrTfp0lpp099yVsX3Ojo6Ojo6OvrZ6YqiKIqiKMrpyn9o5TXodkQ4ZwAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyNS0xMS0yNVQwNjozNjo0NSswMDowMLmejzsAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjUtMTEtMjVUMDY6MzY6NDUrMDA6MDDIwzeHAAAAAElFTkSuQmCC" width="250" height="750" class="img_ev3q"></p><p><em>Contenidos codificados del mensaje de Arecibo</em></p></div>
-<div id="note-4" style="scroll-margin:100px;background-color:lightgreen;position:relative;border-top-right-radius:20px;border-bottom-right-radius:20px;padding:0.5em 1em;margin-bottom:1em"><span><b><i>Linter-nota <!-- -->4<!-- -->:</i></b></span><p>El telescopio de Arecibo fue por mucho tiempo el radiotelescopio más grande del
+<div id="note-4" style="scroll-margin:100px;background-color:lightgreen;position:relative;border-top-right-radius:20px;border-bottom-right-radius:20px;padding:0.5em 1em;margin-bottom:1em"><span style="margin-right:0.5em"><b><i>Linter-nota <!-- -->4<!-- -->:</i></b></span><p>El telescopio de Arecibo fue por mucho tiempo el radiotelescopio más grande del
 mundo (desde 1963 hasta 2016). Consistía de un platillo gigante de 305 metros de
 diámetro ubicado en una cavidad natural (un agujero gigante) en Puerto Rico.</p><p>Lamentablemente el telescopio colapsó catastróficamente en diciembre 2020.</p><div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="we-still-talk-arecibo" src="https://linternita.com/assets/images/we-still-talk-arecibo-5a8f9866fe848b4b130c9cc138050a39.png" width="499" height="675" class="img_ev3q"></p></div></div>
 <h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="otras-transmisiones">Otras transmisiones<a href="https://linternita.com/blog/como-nos-van-a-encontrar#otras-transmisiones" class="hash-link" aria-label="Enlace directo al Otras transmisiones" title="Enlace directo al Otras transmisiones" translate="no">​</a></h4>
@@ -2979,7 +3390,7 @@ otros diagramas que muestran la deriva continental a lo largo del tiempo
 <p>Más o menos. Al igual que las Voyager, sería imposible de detectar para alguien
 fuera de este planeta. Pero quizás si alguna especie inteligente está con vida
 en la Tierra dentro de 8 millones de años...<sup><a href="https://linternita.com/blog/como-nos-van-a-encontrar#note-5" class="">5</a></sup></p>
-<div id="note-5" style="scroll-margin:100px;background-color:lightgreen;position:relative;border-top-right-radius:20px;border-bottom-right-radius:20px;padding:0.5em 1em;margin-bottom:1em"><span><b><i>Linter-nota <!-- -->5<!-- -->:</i></b></span><p>Honestamente, si ese fuera el caso, tendrían mil formas más fáciles de saber
+<div id="note-5" style="scroll-margin:100px;background-color:lightgreen;position:relative;border-top-right-radius:20px;border-bottom-right-radius:20px;padding:0.5em 1em;margin-bottom:1em"><span style="margin-right:0.5em"><b><i>Linter-nota <!-- -->5<!-- -->:</i></b></span><p>Honestamente, si ese fuera el caso, tendrían mil formas más fáciles de saber
 sobre nosotros, y seguramente ya sabrían de nuestra existencia... más sobre
 esto al final del post!!!</p></div>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="la-luna">La Luna<a href="https://linternita.com/blog/como-nos-van-a-encontrar#la-luna" class="hash-link" aria-label="Enlace directo al La Luna" title="Enlace directo al La Luna" translate="no">​</a></h2>
@@ -3035,7 +3446,7 @@ fosilizados, al igual que nosotros al investigar el pasado de nuestro planeta.</
 <p>Quizás al hallar esos restos fósiles lleguen a la conclusión de que en este
 planeta habitaban tres posibles especies inteligentes: nosotros, los perros, y
 los gatos.</p>
-<div id="note-6" style="scroll-margin:100px;background-color:lightgreen;position:relative;border-top-right-radius:20px;border-bottom-right-radius:20px;padding:0.5em 1em;margin-bottom:1em"><span><b><i>Linter-nota <!-- -->6<!-- -->:</i></b></span><p>En unos 6 mil millones de años nuestro sol se va a convertir en una estrella
+<div id="note-6" style="scroll-margin:100px;background-color:lightgreen;position:relative;border-top-right-radius:20px;border-bottom-right-radius:20px;padding:0.5em 1em;margin-bottom:1em"><span style="margin-right:0.5em"><b><i>Linter-nota <!-- -->6<!-- -->:</i></b></span><p>En unos 6 mil millones de años nuestro sol se va a convertir en una estrella
 gigante roja, devorando a su paso a Mercurio, Venus, la Tierra y la Luna.
 Realmente nos tenemos que poner a trabajar en esto de dejar un rastro, nos
 queda poco tiempo.</p></div>]]></content>
@@ -4263,175 +4674,6 @@ obvio.</p>
 </ul>
 <p>(sé lo que vas a decir, ¿Reddit como fuente de información? ¿¿qué clase de blog
 es este?? en mi defensa... tiene buenas citas bibliográficas :/)</p>]]></content>
-        <author>
-            <name>Linter Nita</name>
-        </author>
-        <category label="random" term="random"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Algunas cosas sobre Windows 95 y el video "piloto"]]></title>
-        <id>https://linternita.com/blog/windows-95-piloto</id>
-        <link href="https://linternita.com/blog/windows-95-piloto"/>
-        <updated>2025-09-29T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[¿Por dios esta linterna alguna vez se va a callar y dejar de hablar de Windows]]></summary>
-        <content type="html"><![CDATA[<p>¿Por dios esta linterna alguna vez se va a callar y dejar de hablar de Windows
-95?</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="sobre-el-piloto">Sobre el piloto<a href="https://linternita.com/blog/windows-95-piloto#sobre-el-piloto" class="hash-link" aria-label="Enlace directo al Sobre el piloto" title="Enlace directo al Sobre el piloto" translate="no">​</a></h2>
-<p>Hace unos días subí un video sobre Windows 95 y qué tan obsoleto es en 2025.
-Contrario a lo que podrías asumir, se pueden hacer bastantes cosas que hacés a
-diario en ese sistema operativo, a pesar de tener 30 años y estar casi
-completamente olvidado.</p>
-<p>Si todavía no lo viste, lo podés ver acá:</p>
-<div style="margin:0 auto;text-align:center"><iframe style="width:100%;height:315px" src="https://www.youtube.com/embed/U1_P8C0PxiA" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></div>
-<p>Escribir es lo que se me da mejor y me es relativamente fácil (ojo, no estoy
-diciendo que lo que escriba sea bueno, o que vaya a ganar el próximo Pulitzer,
-solamente que me es mucho más fácil escupir texto), pero hay dos grandes
-realidades que no puedo ignorar:</p>
-<ol>
-<li class="">
-<p>Para mucha gente leer es aburrido y no es su formato preferido para consumir
-contenido.</p>
-</li>
-<li class="">
-<p>Algunos temas de los cuales me gustaría hablar son difíciles o no funcionan
-bien en formato texto. Por ejemplo, en vez de haber hecho ese video sobre
-WIndows 95 podría haber escrito un artículo, pero siento que perdería mucho
-la gracia. Parte de lo que hace interesante ese video es ver cómo las cosas
-funcionan "en vivo".</p>
-</li>
-</ol>
-<p>Y quizás una tercera realidad es que hacer un video es algo que siempre me
-interesó, pero que nunca me digné a hacer por el esfuerzo que conlleva.</p>
-<p>Es interesante la curva de aprendizaje que existe para hacer un video. Acá hay
-una lista desordenada de cosas que me sorprendieron:</p>
-<ul>
-<li class="">
-<p>Premiere Pro funciona, pero no es lo más amigable del mundo: tengo un
-conocimiento rudimentario de este programa, pero aún así, algunas cosas
-muestran el poco... diseño amigable al usuario que tiene. Por ejemplo, al
-menos en la versión que tengo, si arrastrás una pista de audio y ésta se
-superpone sobre otra, la otra pista desaparece. Linda forma de perder
-progreso.</p>
-</li>
-<li class="">
-<p>Me costó horrores improvisar: mi idea era hacer algo más natural y hablar
-sobre la marcha explicando lo que hacía. No me salió y tuve que grabar "voice
-overs" y después ajustarlos para que concuerden con el video grabado. Creo que
-al estar consciente de que estaba grabando me auto-impuse una presión y me
-ponía nervioso.</p>
-</li>
-<li class="">
-<p>La edición de sonido no es fácil: salvo una parte donde tardé como una hora
-censurando una dirección de correo electrónico (y otras cosas), la edición del
-video fue fácil. Un par de "fade-ins" y "fade-outs", texto blanco sobre un
-fondo negro, y no mucho más. ¿Pero el sonido? Mamita... asegurarme que se
-escuche bien mi voz, que no haya ruido en la grabación, que haya música de
-fondo (sabiendo que no puedo poner nada que tenga copyright), nivelar a mano
-el volumen de cada tema para que no tape mi voz (quizás haya una mejor forma,
-no lo sé)...</p>
-</li>
-</ul>
-<p>Capaz muchas de estas cosas me pasaron por intentar perseguir el "estándar" de
-calidad de YouTube.</p>
-<p>Dejame aclarar, sé que no hay un estándar de calidad de YouTube, justamente
-tenés videos de todo tipo de calidad. Pero en mi caso estaba apuntando a lograr
-algo similar a los videos que veo yo, de canales como
-<a href="https://www.youtube.com/channel/UCS-WzPVpAAli-1IfEG2lN8A" target="_blank" rel="noopener noreferrer" class="">Michael MJD</a> o cosas
-por el estilo. No me pareció para nada fácil.</p>
-<p>Aunque también es cierto que todo esto que comento me llevó menos de 8 horas
-(sin contar toda la preparación de Windows 95) y que mi objetivo era probar y
-ver qué salía (de ahí que lo llame "piloto"). Así que capaz estoy quejándome
-demasiado.</p>
-<p>En fin, la mejor forma de convertirse bueno en algo es haciéndolo.</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="sobre-windows-95">Sobre Windows 95<a href="https://linternita.com/blog/windows-95-piloto#sobre-windows-95" class="hash-link" aria-label="Enlace directo al Sobre Windows 95" title="Enlace directo al Sobre Windows 95" translate="no">​</a></h2>
-<p>Hay muchas cosas que no incluí en el video pero que me hubieran gustado
-mencionar. Podés considerar esta parte del post como un complemento al mismo.</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="seguridad">Seguridad<a href="https://linternita.com/blog/windows-95-piloto#seguridad" class="hash-link" aria-label="Enlace directo al Seguridad" title="Enlace directo al Seguridad" translate="no">​</a></h3>
-<p>Esto es algo que sí o sí debería haber mencionado en el video:</p>
-<p><strong>WINDOWS 95 NO ES SEGURO NI DEBERÍAS HACER NADA MINIMAMENTE IMPORTANTE EN ESE
-SISTEMA OPERATIVO</strong></p>
-<p>Es un sistema operativo de 30 años que no recibe parches desde... 1997 o andá a
-saber cuándo. Es total y completamente vulnerable.</p>
-<p>Pero...</p>
-<p>También es cierto que ya no hay virus dando vuelta que ataquen específicamente a
-esa versión de Windows. Los que hay dando vuelta atacan versiones recientes de
-Windows, porque eso es lo que la mayoría de la gente está usando.</p>
-<p>Y además, hoy en día casi todos nos conectamos a internet a través de un router
-que usa NAT (Network Address Translation). La NAT rechaza cualquier conexión
-entrante que no esté incluida en la tabla de port-forwarding. También algunos
-routers bloquean ciertos puertos por defecto. Así que es muy poco probable que
-una computadora con Windows 95 se infecte con tan solo conectarse a internet.</p>
-<p>En mi caso estuve horas conectado a internet, descargué software desde una
-página dudosa, e incluso me conecté a mi cuenta de Gmail (con una contraseña de
-aplicación de Google) y no me pasó nada.</p>
-<p>BUY LTN THE BEST NEW CRYPTO CURRENCY IN THE WORLD BUY LTN 🔦 BUY LTN 🔦 BUY LTN
-🔦 BUY LTN 🔦 🔦 🔦 🔦!!!!</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="emulando-windows-95">Emulando Windows 95<a href="https://linternita.com/blog/windows-95-piloto#emulando-windows-95" class="hash-link" aria-label="Enlace directo al Emulando Windows 95" title="Enlace directo al Emulando Windows 95" translate="no">​</a></h3>
-<p>Cuando empecé a hacer este video mi primera idea era crear una máquina virtual
-con VirtualBox e intentar hacer todo ahí.</p>
-<p>Si bien es posible, no es la mejor forma. Esto es porque VirtualBox es un
-hipervisor. Las máquinas virtuales que crees con un hipervisor se ejecutan sobre
-el hardware que tengas en tu computadora.</p>
-<p>El problema con esto es que Windows 95 es viejo y en algunos casos no sabe qué
-hacer con el hardware moderno. Por ejemplo, si tu procesador tiene más de
-2.1GHz, te vas a encontrar con un mensaje como este cuando intentés arrancar el
-sistema operativo:</p>
-<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="windows-protection-error" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAk8AAAGlCAYAAADj8BIXAAAInUlEQVR42u3d0W6jOhRAUVLlG/lIfrJ9qhRFIRzbB7Bhraer3kwgtjE7nbTzmKbpdwIAIOTHEAAAiCcAAPEEACCeAADEEwCAeAIAEE+GAABAPAEAiCcAAPEEACCeAADEEwCAeDIEAADiCQBAPAEAiCcAAPEEACCeAADEkyEAABBPAADiCQBAPAEAiCcAAPEEACCeDAEAwIHxtCzLtCxL89drj5vxXFd05LhEjmWuxlgze16zo41D62u+6pj1trdwz7UxfDydZZ5nK9XmBl3uLcLJ3uK+c21P0YN5B4C4xzRNvxm1+X5z/PT11zL99vjI477dmLceEz3nyLFKxmftda095tv4Rf//3mMYGZ9v81k6X1vPVfPuqHQusudr63nOePf46bXWXl9r11vGtZO1nrOv9yOP1boO99xbovv81r7bOj7R+1Ltes68lo+6x5Xem0rGr/Wce9kPu4mnrY10a6JKF3HpZr62sCLnnnlD+nT8kvMpGeOWcS0Zk5rIzr4h12ymW2uhdb4ixzoroKKbcs11mnXtZK3nzHPOuAZr5qp2He5xvUeeY2vN7zEHe66NjGs5+5yjX2u552au+R73wzXPidVq/v/Q6P/EHTGBRx6r5rzutga2XnvWfPU0771vWuSun8y9ruRzL73udb3t4a3PM+JnkUZYG6nxNOKG++2cXzeVq13kd/4wpg+i3nNOrflYQNXudZGPPXDuG6Gz5+RKa+K5x6CMMkCRc37dCF7fmV3l3dGd36Vzrzm15mOPudpe59qYncsOfrIHZrTBWTvn99/zMuq7qazfwRR9zIjvyEc4b78nK3esjhzP3ubt/bXX7nW9/9qC99cx6t8gjHjt7/27/3oYk9N+2i7yZzI+zPvpWEf+tF3J+Wwdo+R8Ih/ei8xF67FK5r11bRw1F1nzVfITJUdu/Jnz9e06rdlfaq73o8856xpsnaczrvfoB9ijrzlj3bf+tO8er6tljzr6HldyXbSs+V73w93iibZNFAD7r7EZi3/bDgBxAOKpv4v3/b8BEE7uTWPy13YAAAV85wkAQDwBAIgnAADxBAAgngAAxBMAAOIJAEA8AQCIJwAA8QQAIJ4AAMQTAADiCQBAPAEAiCcAAPEEACCeAADEEwAA4gkAQDwBAIgnAADxBAAgngAAxBMAAOIJAEA8AQCIJwAA8QQAIJ4AAC7q2foEy7JsPmaeZyMNAFyC7zwBABR4TNP0axgAAGJ85wkAQDwBAIgnAADxBAAgngAAxBMAAOIJAEA8AQCIJwAA8QQAIJ4AAMQTAADiCQBAPAEAiCcAAPEEACCeAADEEwAA4gkAQDwBAIgnAADxBAAgngAAxBMAAOIJAEA8AQCIJwAA8QQAIJ4AAMQTAADiCQBAPAEAiCcAAPEEACCeAADEEwAA4gkAQDwBAIgnAADxBAAgngAAxBMAAOIJAEA8AQCIJwAA8QQAIJ4AAMQTAADiCQBAPAEAiCcAAPEEACCeAADEEwAA4gkAQDwBAIgnAADxBAAgngAAxBMAAOIJAEA8AQCIJwAA8QQAIJ4AAMQTAADiCQBAPAEAiCcAAPEEACCeAADEEwAA4gkAQDwBAIgnAADxBAAgngAAxBMAAOIJAEA8AQCIJwAA8QQAIJ4AAMQTAADiCQBAPAEAiCcAAPEEACCeAADEEwAA4gkAQDwBAIgnAADxBAAgngAAxBMAAOIJAEA8AQCIJwAA8QQAIJ4AAMQTAADiCQBAPAEAiCcAAPEEACCeAADEEwAA4gkAQDwBAIgnAADxBAAgngAAxBMAAOIJAEA8AQCIJwAA8QQAIJ4AAMQTAADiCQBAPAEAiCcAAPEEACCeAADEEwAA4gkAQDwBAIgnAADxBAAgngAAxBMAAOIJAEA8AQCIJwAA8QQAIJ4AAMQTAADiCQBAPAEAiCcAAPEEACCeAADEEwAA4gkAQDwBAIgnAADxBAAgngAAxBMAAOIJAEA8AQCIJwAA8QQAIJ4AAMQTAADiCQBAPAEAiCcAAPEEACCeAADEEwAA4gkAQDwBAIgnAADxBAAgngAAxBMAAOIJAEA8AQCIJwAA8QQAIJ4AAMQTAADiCQBAPAEAiCcAAPEEACCeAADEEwAA4gkAQDwBAIgnAADxBAAgngAAxBMAAOIJAEA8AQCIJwAA8QQAIJ4AAMQTAADiCQBAPAEAiCcAAPEEACCeAADEEwAA4gkAQDwBAIgnAADxBAAgngAAxBMAAOIJAEA8AQCIJwAA8QQAIJ4AAMQTAADiCQBAPAEAiCcAAPEEACCeAADEEwAA4gkAQDwBAIgnAADxBAAgngAAxBMAAOIJAEA8AQCIJwAA8QQAIJ4AAMQTAADiCQBAPAEAiCcAAPEEACCeAADEEwAA4gkAQDwBAIgnAADxBAAgngAAxBMAAOIJAEA8AQCIJwAA8QQAIJ4AAMQTAADiCQBAPAEAiCcAAPEEACCeAADEEwAA4gkAQDwBAIgnAADxBAAgngAAxBMAAOIJAEA8AQCIJwAA8QQAIJ4AAMQTAADiCQBAPAEAiCcAAPEEACCeAADEEwAA4gkAQDwBAIgnAADxBAAgngAAxBMAAOIJAEA8AQCIJwAA8QQAIJ4AAMQTAADiCQBAPAEAiCcAAPEEACCeAADEEwAA4gkAQDwBAIgnAADxBAAgngAAxBMAAOIJAEA8AQCIJwAA8QQAIJ4AAMQTAADiCQBAPAEAiCcAAPEEACCeAADEEwAA4gkAQDwBAIgnAADxBAAgngAAxBMAAOIJAEA8AQCIJwAA8QQAIJ4AAMQTAADiCQBAPAEAiCcAAPEEACCeAADEEwAA4gkAQDwBAIgnAADxBAAgngAAxBMAAOIJAEA8AQCIJwAA8QQAIJ4AAMQTAADiCQBAPAEAiCcAAPEEACCeAADEEwAA4gkAQDwBAIgnAADxBAAgngAAxBMAAOIJAKDAHxo1vyKFrfzUAAAAAElFTkSuQmCC" width="591" height="421" class="img_ev3q"></p><p><em>Figura 1: un error de Windows</em></p></div>
-<p>El cual se puede solucionar pero tenés que instalar un parche
-(<a href="https://archive.org/details/fix-95-cpu-v3-final" target="_blank" rel="noopener noreferrer" class="">https://archive.org/details/fix-95-cpu-v3-final</a>).</p>
-<p>Además de eso, se complica ajustar cosas como la resolución de la pantalla. Si
-vas por la ruta de VirtualBox, vas a ver que te recomiendan instalar un driver
-extraño para el video, y que en mi caso me rompía Windows 95.</p>
-<p>La mejor forma que existe hoy en día es usando <a href="https://86box.net/" target="_blank" rel="noopener noreferrer" class="">86Box</a>, un
-emulador.</p>
-<p>A diferencia de los hipervisores, los emuladores se toman el trabajo de "imitar"
-el hardware de la época en el que corrían estos programas. Por ejemplo, 86Box es
-capaz de emular distintos tipos de procesadores, placas de video, lectoras de
-CDs, etc, etc.</p>
-<p>Lo cual te da mucho mejor control del ambiente virtualizado y hace que el
-software que corras tenga mejor estabilidad y funcione... como funcionaba en ese
-entonces.</p>
-<p>A primera vista 86Box da un poco de miedo. Hay muchas opciones y cosas para
-configurar. Afortunadamente hay...
-¿<a href="https://steamcommunity.com/sharedfiles/filedetails/?l=english&amp;id=2526174088" target="_blank" rel="noopener noreferrer" class="">una guía en Steam</a>?</p>
-<p>Es uno de los primeros resultados que me salió cuando busqué un tutorial en
-Google y es una increíblemente buena guía.</p>
-<p>Puede parecer raro que esté en algo como Steam, pero tiene sentido: mucha gente
-utiliza este emulador para poder jugar juegos de la época sin tener problemas de
-compatibilidad o errores raros.</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="oldversioncom">Oldversion.com<a href="https://linternita.com/blog/windows-95-piloto#oldversioncom" class="hash-link" aria-label="Enlace directo al Oldversion.com" title="Enlace directo al Oldversion.com" translate="no">​</a></h3>
-<p>Un poco más arriba mencioné que había descargado software de una página dudosa.
-Estaba haciendo referencia a oldversion.com.</p>
-<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="oldversion" src="https://linternita.com/assets/images/oldversion-2ff4b555cafa34650bffb3ba48381441.jpg" width="607" height="257" class="img_ev3q"></p></div>
-<p>Realmente no sé si sea "dudosa" o no, lo que sí sé es que no puedo acceder a
-esta página desde ningún navegador moderno... pero sí pude desde Windows 95 y
-con RetroZilla.</p>
-<p>Esta página guarda versiones antiguas de varios softwares, y la verdad que fue
-bastante útil para conseguir algunos programas que no estaban archivados en
-archive.org.</p>
-<p>Por ejemplo, desde OldVersion descargué Winamp y Notepad++, y ambos terminaron
-funcionando bien y sin problemas.</p>
-<p>Ojalá que la página siga funcionando y que arreglen el problema de no poder
-ingresar con un navegador moderno. El archivo de versiones de software que tiene
-es bastante interesante y sería una lástima que se pierda.</p>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="winworld">WinWorld<a href="https://linternita.com/blog/windows-95-piloto#winworld" class="hash-link" aria-label="Enlace directo al WinWorld" title="Enlace directo al WinWorld" translate="no">​</a></h3>
-<p>Archive.org es un buen lugar para encontrar software e imágenes ISO de sistemas
-operativos. Pero al meterme en todo esto descubrí
-<a href="https://winworldpc.com/" target="_blank" rel="noopener noreferrer" class="">WinWorld</a>, que si no me equivoco debe ser el mejor
-archivo de imágenes ISO de Windows y otros sistemas operativos. No solo te dejan
-descargarlas, si no que también te algo de contexto, mencionan las diferencias
-entre cada versión, te dan instrucciones sobre como instalarlas...</p>
-<div style="display:flex;flex-direction:column;align-items:center"><p><img decoding="async" loading="lazy" alt="winworld" src="https://linternita.com/assets/images/winworld-6d26ddb487feb8c47cea9c0c942f36b3.png" width="1174" height="827" class="img_ev3q"></p></div>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="worms-armageddon">Worms Armageddon<a href="https://linternita.com/blog/windows-95-piloto#worms-armageddon" class="hash-link" aria-label="Enlace directo al Worms Armageddon" title="Enlace directo al Worms Armageddon" translate="no">​</a></h3>
-<p>Increíble. Juegazo. GOTY of the year.</p>
-<p>Este juego salió en 1998 y todavía lo siguen actualizando/manteniendo. O bueno,
-más o menos, hace 5 años fue la última actualización, y antes de eso habían
-pasado 8 años sin actualizaciones.</p>
-<p>Pero estamos hablando de un juego de 1998... que 22 años después de su
-lanzamiento le hayan dado soporte es increíble. Y a día de hoy podés jugar
-online porque todavía tienen un servidor levantado.</p>
-<p>Aprovecho para dejar lo que es capaz la mejor pieza cómica jamás realizada:</p>
-<div style="margin:0 auto;text-align:center"><iframe style="width:100%;height:315px" src="https://www.youtube.com/embed/WjvGtCo8RLE?si=CY2bTIbpZaXqvENS&amp;start=120" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe></div>]]></content>
         <author>
             <name>Linter Nita</name>
         </author>
