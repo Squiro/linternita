@@ -21,7 +21,7 @@ export const Note = ({ noteIndex, children }: Props) => {
         marginBottom: "1em",
       }}
     >
-      <span>
+      <span style={{ marginRight: "0.5em" }}>
         <b>
           <i>Linter-nota {noteIndex}:</i>
         </b>

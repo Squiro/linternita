@@ -69,3 +69,8 @@ ondas-de-radio:
   label: ondas-de-radio
   permalink: /ondas-de-radio
   description: cosas relacionadas a ondas de radio
+
+vision-artificial:
+  label: vision-artificial
+  permalink: /vision-artificial
+  description: cosas relacionadas a vision artificial
